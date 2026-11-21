@@ -1,0 +1,1499 @@
+# Croatian translations for AnduinOS YubiKey Security Center.
+# Hrvatski prijevod za AnduinOS YubiKey Security Center.
+# Copyright (C) 2026 AnduinOS Team
+# This file is distributed under the same license as the AnduinOS YubiKey Security Center package.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: anduinos-yubikey-manager\n"
+"Report-Msgid-Bugs-To: https://github.com/AiursoftWeb/AnduinOS-Packages/issues\n"
+"PO-Revision-Date: 2026-11-21 14:30+0100\n"
+"Last-Translator: Local translation\n"
+"Language-Team: Croatian\n"
+"Language: hr_HR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+
+msgid "1 identity is currently available to SSH applications."
+msgstr "SSH aplikacijama trenutačno je dostupan 1 identitet."
+
+msgid "1 resident SSH key is available from your connected YubiKey."
+msgstr "S povezanog YubiKeya dostupan je 1 rezidentni SSH ključ."
+
+#, python-brace-format
+msgid "1 resident SSH key · {0}"
+msgstr "1 rezidentni SSH ključ · {0}"
+
+#, python-brace-format
+msgid "A file already exists at the managed SSH configuration path: {0}"
+msgstr "Datoteka već postoji na putanji upravljane SSH konfiguracije: {0}"
+
+msgid "A key must be connected before it can be enrolled."
+msgstr "Prije registracije potrebno je povezati ključ."
+
+msgid "About"
+msgstr "O aplikaciji"
+
+msgid "Account password"
+msgstr "Lozinka računa"
+
+msgid "Add another SSH key"
+msgstr "Dodaj drugi SSH ključ"
+
+msgid "Add this public key to GitHub as a Signing Key."
+msgstr "Dodajte ovaj javni ključ na GitHub kao ključ za potpisivanje."
+
+msgid "Administrator access"
+msgstr "Administratorski pristup"
+
+msgid "Advanced options"
+msgstr "Napredne mogućnosti"
+
+msgid ""
+"After the first YubiKey authentication, later SSH sessions can reuse the "
+"connection. The last session remains available in the background for 10 "
+"minutes."
+msgstr ""
+"Nakon prve autentifikacije putem YubiKeya, naredne SSH sesije mogu ponovno "
+"upotrijebiti vezu. Posljednja sesija ostaje dostupna u pozadini 10 minuta."
+
+msgid "Algorithm"
+msgstr "Algoritam"
+
+msgid "Allow sudo without authentication"
+msgstr "Dopusti sudo bez autentifikacije"
+
+msgid "Allowed for sudo · not currently connected"
+msgstr "Dopušteno za sudo · trenutačno nije povezano"
+
+msgid "Allowed to authorize sudo"
+msgstr "Dopuštena je autorizacija sudo naredbi"
+
+msgid "Allowed to unlock this user"
+msgstr "Dopušteno je otključavanje ovog korisnika"
+
+msgid "Allowed to unlock this user · not currently connected"
+msgstr "Dopušteno je otključavanje ovog korisnika · trenutačno nije povezano"
+
+msgid "Already loaded"
+msgstr "Već učitano"
+
+msgid "An enrolled YubiKey or the account password can authorize sudo."
+msgstr "Sudo se može autorizirati registriranim YubiKeyem ili lozinkom računa."
+
+msgid "AnduinOS Team"
+msgstr "Tim AnduinOS-a"
+
+msgid "AnduinOS YubiKey Security Center"
+msgstr "AnduinOS Centar sigurnosti YubiKeya"
+
+msgid "AnduinOS works more securely with a YubiKey"
+msgstr "AnduinOS je sigurniji uz YubiKey"
+
+msgid "Application"
+msgstr "Aplikacija"
+
+msgid ""
+"Application must begin with ssh:, contain no whitespace, and be at most 253 "
+"bytes."
+msgstr ""
+"Naziv aplikacije mora počinjati s ssh:, ne smije sadržavati razmake i smije "
+"imati najviše 253 bajta."
+
+msgid "Available"
+msgstr "Dostupno"
+
+msgid "Available through SSH agent"
+msgstr "Dostupno putem SSH agenta"
+
+msgid "Available through local key handle"
+msgstr "Dostupno putem lokalne datoteke ključa"
+
+msgid "Buy a YubiKey"
+msgstr "Kupite YubiKey"
+
+msgid "Cancel"
+msgstr "Odustani"
+
+msgid "Checking Passkeys support…"
+msgstr "Provjerava se podrška za pristupne ključeve…"
+
+msgid "Checking SSH keys…"
+msgstr "Provjeravaju se SSH ključevi…"
+
+msgid "Checking SSH support…"
+msgstr "Provjerava se podrška za SSH…"
+
+msgid "Checking connected YubiKeys"
+msgstr "Provjeravaju se povezani YubiKey uređaji"
+
+msgid "Choose a YubiKey-backed SSH key"
+msgstr "Odaberite SSH ključ pohranjen na YubiKeyu"
+
+msgid "Choose a local key-handle file"
+msgstr "Odaberite lokalnu datoteku ključa"
+
+msgid "Choose a supported OpenSSH security-key algorithm."
+msgstr "Odaberite podržani algoritam OpenSSH sigurnosnog ključa."
+
+msgid "Choose a valid /dev/hidrawN FIDO device."
+msgstr "Odaberite valjani FIDO uređaj /dev/hidrawN."
+
+msgid "Choose a valid output folder."
+msgstr "Odaberite valjanu izlaznu mapu."
+
+msgid "Choose an SSH key for Git signing."
+msgstr "Odaberite SSH ključ za potpisivanje u Gitu."
+
+msgid "Choose local SSH key-handle path"
+msgstr "Odaberite putanju lokalne datoteke SSH ključa"
+
+msgid ""
+"Choose one SSH key. The selection takes effect immediately for this user's "
+"Git commits."
+msgstr ""
+"Odaberite jedan SSH ključ. Odabir odmah stupa na snagu za Gitove predaje "
+"ovog korisnika."
+
+msgid ""
+"Choose the passkey option and follow the prompt to use the same YubiKey."
+msgstr ""
+"Odaberite mogućnost pristupnog ključa i slijedite upute za upotrebu istog "
+"YubiKeya."
+
+#, python-brace-format
+msgid ""
+"Choose which YubiKeys may unlock {0}. Password sign-in remains available."
+msgstr ""
+"Odaberite koji YubiKey uređaji mogu otključati {0}. Prijava lozinkom i dalje "
+"je dostupna."
+
+msgid "Close"
+msgstr "Zatvori"
+
+msgid "Command exited with"
+msgstr "Naredba je završila s kodom"
+
+#, python-brace-format
+msgid "Command exited with {0}"
+msgstr "Naredba je završila s kodom {0}"
+
+msgid "Commit signing"
+msgstr "Potpisivanje predaja"
+
+msgid "Configured YubiKeys"
+msgstr "Konfigurirani YubiKey uređaji"
+
+#, python-brace-format
+msgid "Configured for {0} · Not connected"
+msgstr "Konfigurirano za {0} · Nije povezano"
+
+msgid "Confirm it is you"
+msgstr "Potvrdite svoj identitet"
+
+msgid "Connect a FIDO security key first"
+msgstr "Najprije povežite FIDO sigurnosni ključ"
+
+msgid "Connect a YubiKey"
+msgstr "Povežite YubiKey"
+
+msgid "Connect a YubiKey to get started"
+msgstr "Za početak povežite YubiKey"
+
+msgid "Connect your YubiKey"
+msgstr "Povežite svoj YubiKey"
+
+msgid "Connected"
+msgstr "Povezano"
+
+msgid "Connected YubiKeys"
+msgstr "Povezani YubiKey uređaji"
+
+msgid "Continue"
+msgstr "Nastavi"
+
+msgid "Continue to PIN"
+msgstr "Nastavi na unos PIN-a"
+
+msgid "Copy public key"
+msgstr "Kopiraj javni ključ"
+
+msgid "Could not check SSH keys"
+msgstr "Nije moguće provjeriti SSH ključeve"
+
+#, python-brace-format
+msgid "Could not create a temporary file in {0}: {1}"
+msgstr "Nije moguće stvoriti privremenu datoteku u {0}: {1}"
+
+#, python-brace-format
+msgid "Could not create a temporary public-key file: {0}"
+msgstr "Nije moguće stvoriti privremenu datoteku javnog ključa: {0}"
+
+#, python-brace-format
+msgid "Could not create temporary Git signing data: {0}"
+msgstr "Nije moguće stvoriti privremene podatke za Gitovo potpisivanje: {0}"
+
+#, python-brace-format
+msgid "Could not create {0}: {1}"
+msgstr "Nije moguće stvoriti {0}: {1}"
+
+#, python-brace-format
+msgid "Could not export the public key: {0}"
+msgstr "Nije moguće izvesti javni ključ: {0}"
+
+msgid "Could not find security keys"
+msgstr "Nije moguće pronaći sigurnosne ključeve"
+
+#, python-brace-format
+msgid "Could not flush the temporary public key: {0}"
+msgstr "Nije moguće zapisati privremeni javni ključ: {0}"
+
+#, python-brace-format
+msgid "Could not inspect USB devices: {0}"
+msgstr "Nije moguće pregledati USB uređaje: {0}"
+
+msgid "Could not inspect this YubiKey"
+msgstr "Nije moguće pregledati ovaj YubiKey"
+
+#, python-brace-format
+msgid "Could not inspect {0}: {1}"
+msgstr "Nije moguće pregledati {0}: {1}"
+
+msgid "Could not list YubiKeys"
+msgstr "Nije moguće prikazati popis YubiKey uređaja"
+
+#, python-brace-format
+msgid "Could not locate the secure PIN helper: {0}"
+msgstr "Nije moguće pronaći sigurni pomoćni program za PIN: {0}"
+
+msgid "Could not open Yubico Authenticator"
+msgstr "Nije moguće otvoriti Yubico Authenticator"
+
+#, python-brace-format
+msgid "Could not prepare the Git signing test: {0}"
+msgstr "Nije moguće pripremiti test Gitova potpisivanja: {0}"
+
+#, python-brace-format
+msgid "Could not protect the temporary SSH configuration in {0}: {1}"
+msgstr "Nije moguće zaštititi privremenu SSH konfiguraciju u {0}: {1}"
+
+#, python-brace-format
+msgid "Could not protect {0}: {1}"
+msgstr "Nije moguće zaštititi {0}: {1}"
+
+#, python-brace-format
+msgid "Could not provide the FIDO PIN: {0}"
+msgstr "Nije moguće poslati FIDO PIN: {0}"
+
+#, python-brace-format
+msgid "Could not read {0}: {1}"
+msgstr "Nije moguće pročitati {0}: {1}"
+
+#, python-brace-format
+msgid "Could not remove {0}: {1}"
+msgstr "Nije moguće ukloniti {0}: {1}"
+
+#, python-brace-format
+msgid "Could not replace {0}: {1}"
+msgstr "Nije moguće zamijeniti {0}: {1}"
+
+#, python-brace-format
+msgid "Could not request administrator access: {0}"
+msgstr "Nije moguće zatražiti administratorski pristup: {0}"
+
+#, python-brace-format
+msgid "Could not run {0}: {1}"
+msgstr "Nije moguće pokrenuti {0}: {1}"
+
+#, python-brace-format
+msgid "Could not start {0}: {1}"
+msgstr "Nije moguće pokrenuti {0}: {1}"
+
+#, python-brace-format
+msgid "Could not synchronize {0}: {1}"
+msgstr "Nije moguće sinkronizirati {0}: {1}"
+
+msgid "Could not update SSH connection persistence"
+msgstr "Nije moguće ažurirati trajnost SSH veza"
+
+msgid "Could not update security keys"
+msgstr "Nije moguće ažurirati sigurnosne ključeve"
+
+#, python-brace-format
+msgid "Could not validate the SSH configuration: {0}"
+msgstr "Nije moguće provjeriti valjanost SSH konfiguracije: {0}"
+
+#, python-brace-format
+msgid "Could not write the temporary SSH configuration in {0}: {1}"
+msgstr "Nije moguće zapisati privremenu SSH konfiguraciju u {0}: {1}"
+
+#, python-brace-format
+msgid "Could not write the temporary public key: {0}"
+msgstr "Nije moguće zapisati privremeni javni ključ: {0}"
+
+msgid "Create"
+msgstr "Stvori"
+
+msgid "Create a resident SSH credential on a selected device"
+msgstr "Stvorite rezidentnu SSH vjerodajnicu na odabranom uređaju"
+
+msgid "Create a resident SSH key"
+msgstr "Stvori rezidentni SSH ključ"
+
+msgid "Create…"
+msgstr "Stvori…"
+
+msgid "Deletion result is unknown"
+msgstr "Ishod brisanja nije poznat"
+
+msgid "Disabled · each new connection authenticates separately"
+msgstr "Onemogućeno · svaka nova veza zasebno se autentificira"
+
+msgid "Disabled · sudo must authenticate with a YubiKey or account password"
+msgstr "Onemogućeno · sudo se mora autentificirati YubiKeyem ili lozinkom računa"
+
+msgid "Discover SSH keys on your YubiKeys"
+msgstr "Pronađi SSH ključeve na YubiKey uređajima"
+
+msgid ""
+"Display label must be at most 200 bytes and contain no control characters."
+msgstr "Oznaka smije sadržavati najviše 200 bajtova i ne smije sadržavati kontrolne znakove."
+
+msgid "Do not sign new commits by default"
+msgstr "Zadano nemoj potpisivati nove predaje"
+
+msgid ""
+"During enrollment, disconnect all other security keys. The selected key will "
+"blink; touch it to continue. Multiple keys can be enrolled one at a time."
+msgstr ""
+"Tijekom registracije odspojite sve ostale sigurnosne ključeve. Odabrani će "
+"ključ treperiti; dodirnite ga za nastavak. Više ključeva možete registrirati "
+"jedan po jedan."
+
+msgid "ECDSA-SK (recommended compatibility)"
+msgstr "ECDSA-SK (preporučena kompatibilnost)"
+
+msgid "ECDSA-SK works with the widest range of YubiKeys"
+msgstr "ECDSA-SK radi s najvećim brojem YubiKey uređaja"
+
+msgid "ECDSA-SK · resident · touch required · safe compatibility defaults"
+msgstr "ECDSA-SK · rezidentni ključ · potreban je dodir · sigurne zadane postavke kompatibilnosti"
+
+msgid "Ed25519-SK (newer YubiKeys)"
+msgstr "Ed25519-SK (noviji YubiKey uređaji)"
+
+msgid "Enabled"
+msgstr "Omogućeno"
+
+msgid "Enabled · idle connections remain available for 10 minutes"
+msgstr "Omogućeno · neaktivne veze ostaju dostupne 10 minuta"
+
+msgid ""
+"Enabled · programs can obtain administrator privileges without confirmation"
+msgstr "Omogućeno · programi mogu dobiti administratorske ovlasti bez potvrde"
+
+msgid "Enabling passwordless sudo…"
+msgstr "Omogućuje se sudo bez lozinke…"
+
+msgid "Enabling sudo authentication…"
+msgstr "Omogućuje se autentifikacija za sudo…"
+
+msgid "Enrolled · inactive while sudo authentication is bypassed"
+msgstr "Registrirano · neaktivno dok se zaobilazi autentifikacija za sudo"
+
+msgid "Enrollment safety"
+msgstr "Sigurnost registracije"
+
+#, python-brace-format
+msgid ""
+"Enter the FIDO PIN for {0}. Touch it if it flashes. The PIN is never stored."
+msgstr ""
+"Unesite FIDO PIN za {0}. Dodirnite ga ako počne treperiti. PIN se nikad ne "
+"pohranjuje."
+
+msgid ""
+"Enter the FIDO PIN, then touch the selected YubiKey when it flashes. No "
+"commit will be created."
+msgstr ""
+"Unesite FIDO PIN, a zatim dodirnite odabrani YubiKey kada počne treperiti. "
+"Predaja se neće stvoriti."
+
+msgid "Enter the FIDO PIN. Touch the YubiKey if it flashes."
+msgstr "Unesite FIDO PIN. Dodirnite YubiKey ako počne treperiti."
+
+msgid "Enter the YubiKey FIDO PIN to test this local key handle."
+msgstr "Unesite FIDO PIN za YubiKey da biste testirali ovu lokalnu datoteku ključa."
+
+msgid "Enter the selected YubiKey FIDO PIN"
+msgstr "Unesite FIDO PIN za odabrani YubiKey"
+
+msgid "Export .pub"
+msgstr "Izvezi .pub"
+
+msgid "Export SSH public key"
+msgstr "Izvezi javni SSH ključ"
+
+msgid "FIDO PIN"
+msgstr "FIDO PIN"
+
+msgid "FIDO device discovery is unavailable"
+msgstr "Otkrivanje FIDO uređaja nije dostupno"
+
+msgid "FIDO security key"
+msgstr "FIDO sigurnosni ključ"
+
+msgid "Finish inspecting your YubiKeys"
+msgstr "Dovršite pregled YubiKey uređaja"
+
+#, python-brace-format
+msgid "Firmware {0}"
+msgstr "Firmver {0}"
+
+msgid ""
+"For safe enrollment, disconnect every other security key and leave only the "
+"selected YubiKey connected."
+msgstr ""
+"Za sigurnu registraciju odspojite sve ostale sigurnosne ključeve i ostavite "
+"povezan samo odabrani YubiKey."
+
+msgid "Git is not installed"
+msgstr "Git nije instaliran"
+
+msgid "Git is required for commit signing. Install it to continue."
+msgstr "Za potpisivanje predaja potreban je Git. Instalirajte ga za nastavak."
+
+msgid "Git signing"
+msgstr "Gitovo potpisivanje"
+
+msgid "Git signing is enabled"
+msgstr "Gitovo potpisivanje je omogućeno"
+
+#, python-brace-format
+msgid ""
+"Git signing test failed:\n"
+"{0}"
+msgstr ""
+"Test Gitova potpisivanja nije uspio:\n"
+"{0}"
+
+msgid "Git signing test passed"
+msgstr "Test Gitova potpisivanja uspješan je"
+
+#, python-brace-format
+msgid "HOME does not point to a valid folder: {0}"
+msgstr "Varijabla HOME ne upućuje na valjanu mapu: {0}"
+
+msgid "HOME is not set. The SSH configuration cannot be located."
+msgstr "Varijabla HOME nije postavljena. Nije moguće pronaći SSH konfiguraciju."
+
+msgid "Home"
+msgstr "Početna"
+
+msgid "How to use"
+msgstr "Upute za upotrebu"
+
+msgid "Insert a YubiKey"
+msgstr "Umetnite YubiKey"
+
+msgid "Insert a YubiKey, then press Refresh."
+msgstr "Umetnite YubiKey, a zatim kliknite „Osvježi”."
+
+msgid "Insert a YubiKey. This page will detect it when you refresh."
+msgstr "Umetnite YubiKey. Ova će ga stranica prepoznati kada je osvježite."
+
+msgid "Insert your YubiKey, enter its FIDO PIN when asked, then touch the key."
+msgstr "Umetnite YubiKey, unesite njegov FIDO PIN kada se to zatraži, a zatim dodirnite ključ."
+
+msgid "Inspect"
+msgstr "Pregledaj"
+
+msgid "Inspect YubiKey"
+msgstr "Pregledaj YubiKey"
+
+#, python-brace-format
+msgid "Inspect YubiKey {0} of {1}"
+msgstr "Pregledaj YubiKey {0} od {1}"
+
+msgid ""
+"Inspect a connected YubiKey to reveal its resident SSH keys and available "
+"actions."
+msgstr ""
+"Pregledajte povezani YubiKey da biste prikazali njegove rezidentne SSH "
+"ključeve i dostupne radnje."
+
+msgid "Inspect again"
+msgstr "Ponovno pregledaj"
+
+msgid "Inspect all keys"
+msgstr "Pregledaj sve ključeve"
+
+msgid "Inspect this YubiKey"
+msgstr "Pregledaj ovaj YubiKey"
+
+msgid "Inspected"
+msgstr "Pregledano"
+
+#, python-brace-format
+msgid "Inspection needs attention · {0}"
+msgstr "Pregled zahtijeva pozornost · {0}"
+
+msgid "Install Git"
+msgstr "Instaliraj Git"
+
+msgid ""
+"Install the official Yubico Authenticator first. When installation is "
+"complete, return here and refresh this page."
+msgstr ""
+"Najprije instalirajte službeni Yubico Authenticator. Po dovršetku instalacije "
+"vratite se ovamo i osvježite ovu stranicu."
+
+msgid "Installing Git…"
+msgstr "Instalira se Git…"
+
+msgid "Invalid FIDO device path."
+msgstr "Putanja FIDO uređaja nije valjana."
+
+msgid "Keep a recovery method or a backup security key for important accounts."
+msgstr "Za važne račune osigurajte način oporavka ili pričuvni sigurnosni ključ."
+
+msgid "Keys stored on your YubiKeys"
+msgstr "Ključevi pohranjeni na YubiKey uređajima"
+
+msgid "Load"
+msgstr "Učitaj"
+
+msgid "Load SSH keys"
+msgstr "Učitaj SSH ključeve"
+
+msgid "Load all"
+msgstr "Učitaj sve"
+
+msgid "Load keys"
+msgstr "Učitaj ključeve"
+
+msgid "Load resident SSH keys"
+msgstr "Učitaj rezidentne SSH ključeve"
+
+msgid "Load this YubiKey's resident SSH keys into the agent"
+msgstr "Učitaj rezidentne SSH ključeve ovog YubiKeya u agenta"
+
+msgid "Load this resident key into the SSH agent before signing"
+msgstr "Prije potpisivanja učitaj ovaj rezidentni ključ u SSH agenta"
+
+msgid "Loaded"
+msgstr "Učitano"
+
+msgid "Loading SSH keys… Touch the YubiKey if it flashes."
+msgstr "Učitavaju se SSH ključevi… Dodirnite YubiKey ako počne treperiti."
+
+msgid "Local key handle path"
+msgstr "Putanja lokalne datoteke ključa"
+
+msgid "Local key label"
+msgstr "Oznaka lokalnog ključa"
+
+msgid "Looking for your SSH agent and connected YubiKeys."
+msgstr "Traži se SSH agent i povezani YubiKey uređaji."
+
+msgid "Main SSH configuration unavailable"
+msgstr "Glavna SSH konfiguracija nije dostupna"
+
+msgid "Manage passkeys"
+msgstr "Upravljaj pristupnim ključevima"
+
+msgid "Managed SSH configuration unavailable"
+msgstr "Upravljana SSH konfiguracija nije dostupna"
+
+msgid "Managed configuration preview"
+msgstr "Pretpregled upravljane konfiguracije"
+
+msgid "Manual review required"
+msgstr "Potreban je ručni pregled"
+
+msgid "Needs attention"
+msgstr "Potrebna je pozornost"
+
+msgid "Needs attention · review the SSH configuration before continuing"
+msgstr "Potrebna je pozornost · prije nastavka pregledajte SSH konfiguraciju"
+
+msgid "Needs attention · the SSH configuration could not be located"
+msgstr "Potrebna je pozornost · nije moguće pronaći SSH konfiguraciju"
+
+msgid "New hardware-backed SSH key"
+msgstr "Novi SSH ključ zaštićen hardverom"
+
+msgid "No FIDO security key detected"
+msgstr "Nije otkriven FIDO sigurnosni ključ"
+
+msgid "No SSH agent was detected"
+msgstr "Nije otkriven SSH agent"
+
+msgid "No YubiKey connected"
+msgstr "Nijedan YubiKey nije povezan"
+
+msgid "No hardware serial"
+msgstr "Nema hardverskog serijskog broja"
+
+msgid "No resident SSH keys"
+msgstr "Nema rezidentnih SSH ključeva"
+
+msgid "No resident SSH keys found"
+msgstr "Nisu pronađeni rezidentni SSH ključevi"
+
+#, python-brace-format
+msgid "No resident SSH keys found · {0}"
+msgstr "Nisu pronađeni rezidentni SSH ključevi · {0}"
+
+msgid "No resident SSH keys were found on the connected YubiKeys."
+msgstr "Na povezanim YubiKey uređajima nisu pronađeni rezidentni SSH ključevi."
+
+msgid "No signing"
+msgstr "Bez potpisivanja"
+
+msgid "Not configured"
+msgstr "Nije konfigurirano"
+
+msgid "Not inspected"
+msgstr "Nije pregledano"
+
+#, python-brace-format
+msgid "Not inspected yet · {0}"
+msgstr "Još nije pregledano · {0}"
+
+msgid ""
+"On a supported website or app, choose to create a passkey and select your "
+"security key."
+msgstr ""
+"Na podržanoj web-stranici ili u aplikaciji odaberite stvaranje pristupnog "
+"ključa i svoj sigurnosni ključ."
+
+msgid ""
+"Only new SSH connections are affected. Turning this off does not stop "
+"existing background connections. Earlier host-specific OpenSSH settings "
+"still take priority."
+msgstr ""
+"To utječe samo na nove SSH veze. Isključivanje ove postavke neće prekinuti "
+"postojeće veze u pozadini. Ranije postavke OpenSSH-a za pojedinačne "
+"poslužitelje i dalje imaju prednost."
+
+msgid "Open Yubico Authenticator"
+msgstr "Otvori Yubico Authenticator"
+
+msgid "Open the official Yubico Store"
+msgstr "Otvori službenu trgovinu Yubico"
+
+msgid ""
+"OpenSSH could not load resident keys. The SSH agent contains no newly loaded "
+"identity."
+msgstr ""
+"OpenSSH nije mogao učitati rezidentne ključeve. SSH agent ne sadrži nijedan "
+"novo učitani identitet."
+
+#, python-brace-format
+msgid ""
+"OpenSSH could not load resident keys:\n"
+"{0}"
+msgstr ""
+"OpenSSH nije mogao učitati rezidentne ključeve:\n"
+"{0}"
+
+#, python-brace-format
+msgid ""
+"OpenSSH did not create a resident key:\n"
+"{0}"
+msgstr ""
+"OpenSSH nije stvorio rezidentni ključ:\n"
+"{0}"
+
+#, python-brace-format
+msgid ""
+"OpenSSH finished creating the key, but the YubiKey could not be verified "
+"afterward: {0}\n"
+"Do not immediately retry; inspect the key first to avoid creating a "
+"duplicate."
+msgstr ""
+"OpenSSH je dovršio stvaranje ključa, ali naknadna provjera YubiKeya nije "
+"uspjela: {0}\n"
+"Nemojte odmah pokušati ponovno; najprije pregledajte ključ kako biste "
+"izbjegli stvaranje duplikata."
+
+msgid "OpenSSH rejected the generated configuration."
+msgstr "OpenSSH je odbio generiranu konfiguraciju."
+
+#, python-brace-format
+msgid "OpenSSH rejected the generated configuration: {0}"
+msgstr "OpenSSH je odbio generiranu konfiguraciju: {0}"
+
+msgid ""
+"OpenSSH reported success, but no new resident credential was detected. Do "
+"not retry until you inspect the YubiKey."
+msgstr ""
+"OpenSSH je prijavio uspjeh, ali nije otkrivena nova rezidentna vjerodajnica. "
+"Nemojte pokušati ponovno prije nego što pregledate YubiKey."
+
+msgid "OpenSSH/FIDO credential metadata and local file location"
+msgstr "Metapodaci OpenSSH/FIDO vjerodajnice i lokacija lokalne datoteke"
+
+msgid ""
+"Optional: create a new resident key only when you need another SSH identity. "
+"Its private key never leaves the selected YubiKey."
+msgstr ""
+"Neobavezno: stvorite novi rezidentni ključ samo ako vam treba dodatni SSH "
+"identitet. Njegov privatni ključ nikad ne napušta odabrani YubiKey."
+
+msgid "Passkeys"
+msgstr "Pristupni ključevi"
+
+msgid ""
+"Passkeys are passwordless sign-in credentials stored on compatible security "
+"keys. Registration and sign-in begin in a supported website or app; follow "
+"its prompts to insert your YubiKey, enter the FIDO PIN, and touch the key."
+msgstr ""
+"Pristupni ključevi vjerodajnice su za prijavu bez lozinke pohranjene na "
+"kompatibilnim sigurnosnim ključevima. Registracija i prijava započinju na "
+"podržanoj web-stranici ili u aplikaciji; slijedite upute za umetanje "
+"YubiKeya, unos FIDO PIN-a i dodir ključa."
+
+msgid "Passwordless"
+msgstr "Bez lozinke"
+
+msgid "Permanently delete"
+msgstr "Trajno izbriši"
+
+msgid "Permanently delete from YubiKey…"
+msgstr "Trajno izbriši s YubiKeya…"
+
+msgid "Permanently delete this resident SSH credential?"
+msgstr "Trajno izbrisati ovu rezidentnu SSH vjerodajnicu?"
+
+msgid "Protect authentication and commit signing"
+msgstr "Zaštitite autentifikaciju i potpisivanje predaja"
+
+msgid "Protect passkeys with your YubiKey"
+msgstr "Zaštitite pristupne ključeve YubiKeyem"
+
+#, python-brace-format
+msgid "Protection for {0}"
+msgstr "Zaštita za {0}"
+
+msgid ""
+"Read the resident SSH keys already stored on your YubiKeys. You will enter "
+"each key's FIDO PIN and may need to touch it."
+msgstr ""
+"Pročitajte rezidentne SSH ključeve koji su već pohranjeni na YubiKey "
+"uređajima. Morat ćete unijeti FIDO PIN za svaki ključ, a možda ćete ga "
+"morati i dodirnuti."
+
+#, python-brace-format
+msgid "Reading SSH keys from {0}… Touch it if it flashes."
+msgstr "Čitaju se SSH ključevi s uređaja {0}… Dodirnite ga ako počne treperiti."
+
+msgid "Reading account security settings…"
+msgstr "Čitaju se sigurnosne postavke računa…"
+
+msgid "Ready"
+msgstr "Spremno"
+
+msgid "Ready to inspect"
+msgstr "Spremno za pregled"
+
+#, python-brace-format
+msgid "Ready to protect {0}"
+msgstr "Spremno za zaštitu stavke {0}"
+
+msgid "Refresh connected YubiKeys"
+msgstr "Osvježi popis povezanih YubiKey uređaja"
+
+msgid "Register a passkey"
+msgstr "Registriraj pristupni ključ"
+
+msgid "Remove from agent"
+msgstr "Ukloni iz agenta"
+
+msgid "Removing this key from the SSH agent…"
+msgstr "Uklanja se ovaj ključ iz SSH agenta…"
+
+msgid "Require verification for every signature"
+msgstr "Zahtijevaj provjeru svakog potpisa"
+
+msgid "Requires the FIDO PIN each time this key signs"
+msgstr "Zahtijeva FIDO PIN pri svakom potpisivanju ovim ključem"
+
+msgid "Resident SSH key created"
+msgstr "Rezidentni SSH ključ je stvoren"
+
+msgid "Resident credential permanently deleted"
+msgstr "Rezidentna vjerodajnica trajno je izbrisana"
+
+msgid "Resident keys loaded"
+msgstr "Rezidentni ključevi su učitani"
+
+msgid "Resident username"
+msgstr "Rezidentno korisničko ime"
+
+msgid "Resident username must contain 1–64 bytes and no control characters."
+msgstr "Rezidentno korisničko ime mora sadržavati 1–64 bajta i ne smije sadržavati kontrolne znakove."
+
+msgid "Reuse SSH connections in the background"
+msgstr "Ponovno upotrijebi SSH veze u pozadini"
+
+msgid "SSH & Git"
+msgstr "SSH i Git"
+
+msgid "SSH agent"
+msgstr "SSH agent"
+
+msgid "SSH agent is ready"
+msgstr "SSH agent je spreman"
+
+msgid "SSH agent unavailable"
+msgstr "SSH agent nije dostupan"
+
+msgid "SSH commit signing"
+msgstr "Potpisivanje SSH predaja"
+
+msgid "SSH connection persistence"
+msgstr "Trajnost SSH veza"
+
+msgid "SSH key actions"
+msgstr "Radnje sa SSH ključevima"
+
+#, python-brace-format
+msgid "SSH key for {0}"
+msgstr "SSH ključ za {0}"
+
+msgid "SSH keys"
+msgstr "SSH ključevi"
+
+msgid "SSH_AUTH_SOCK is not set"
+msgstr "Varijabla SSH_AUTH_SOCK nije postavljena"
+
+msgid ""
+"Safe defaults use ECDSA-SK, require touch, and store a discoverable "
+"credential on the selected YubiKey."
+msgstr ""
+"Sigurne zadane postavke koriste ECDSA-SK, zahtijevaju dodir i pohranjuju "
+"vjerodajnicu koju je moguće pronaći na odabranom YubiKeyu."
+
+msgid "Secure sudo authorization"
+msgstr "Sigurna autorizacija za sudo"
+
+msgid "Security Center"
+msgstr "Centar sigurnosti"
+
+#, python-brace-format
+msgid "Serial {0}"
+msgstr "Serijski broj {0}"
+
+msgid "Sign in next time"
+msgstr "Prijavi se sljedeći put"
+
+msgid ""
+"Sign in, authorize sudo, and protect SSH and Git identities with a physical "
+"touch."
+msgstr ""
+"Prijavite se, autorizirajte sudo i zaštitite SSH i Git identitete fizičkim "
+"dodirom."
+
+msgid "Sign-in"
+msgstr "Prijava"
+
+msgid "Signing test passed"
+msgstr "Test potpisivanja uspješno je prošao"
+
+msgid "Temporary public-key path is invalid."
+msgstr "Putanja privremenog javnog ključa nije valjana."
+
+msgid "Test"
+msgstr "Testiraj"
+
+msgid "Test Git signing"
+msgstr "Testiraj Gitovo potpisivanje"
+
+msgid "Test signing"
+msgstr "Testiraj potpisivanje"
+
+msgid ""
+"The FIDO enrollment tool is not installed. Install the libpam-u2f package, "
+"then try again."
+msgstr ""
+"Alat za registraciju FIDO uređaja nije instaliran. Instalirajte paket "
+"libpam-u2f i pokušajte ponovno."
+
+msgid "The Git installation task stopped unexpectedly."
+msgstr "Zadatak instalacije Gita neočekivano je prekinut."
+
+msgid "The PIN is sent directly to ssh-add and is never stored."
+msgstr "PIN se izravno šalje naredbi ssh-add i nikad se ne pohranjuje."
+
+msgid ""
+"The PIN is sent through a private pipe to OpenSSH. It is never stored or "
+"placed in command arguments."
+msgstr ""
+"PIN se šalje OpenSSH-u putem privatnog cjevovoda. Nikad se ne pohranjuje niti "
+"se dodaje argumentima naredbe."
+
+msgid ""
+"The SSH agent makes selected keys available to SSH applications during this "
+"session."
+msgstr "SSH agent omogućuje SSH aplikacijama pristup odabranim ključevima tijekom ove sesije."
+
+msgid "The SSH agent successfully signed and verified data with this key."
+msgstr "SSH agent uspješno je potpisao i provjerio podatke ovim ključem."
+
+msgid ""
+"The SSH configuration changed during rollback. No further changes were made."
+msgstr "SSH konfiguracija promijenila se tijekom vraćanja. Nisu napravljene daljnje promjene."
+
+msgid ""
+"The SSH configuration changed while it was being updated. Refresh and try "
+"again."
+msgstr "SSH konfiguracija promijenila se tijekom ažuriranja. Osvježite i pokušajte ponovno."
+
+msgid ""
+"The SSH configuration contains duplicate or incomplete application markers. "
+"Remove or repair the marked block manually."
+msgstr ""
+"SSH konfiguracija sadrži duplicirane ili nepotpune oznake aplikacije. Ručno "
+"uklonite ili popravite označeni blok."
+
+#, python-brace-format
+msgid ""
+"The SSH configuration is not valid UTF-8 and cannot be safely managed: {0}"
+msgstr "SSH konfiguracija nije valjano kodirana u UTF-8 pa se njome ne može sigurno upravljati: {0}"
+
+#, python-brace-format
+msgid "The SSH configuration is writable by another user: {0}"
+msgstr "Drugi korisnik može pisati u SSH konfiguraciju: {0}"
+
+msgid "The SSH configuration path is invalid."
+msgstr "Putanja SSH konfiguracije nije valjana."
+
+#, python-brace-format
+msgid "The SSH configuration path is not a safe, regular file: {0}"
+msgstr "Putanja SSH konfiguracije ne upućuje na sigurnu običnu datoteku: {0}"
+
+#, python-brace-format
+msgid "The SSH directory is writable by another user: {0}"
+msgstr "Drugi korisnik može pisati u SSH mapu: {0}"
+
+#, python-brace-format
+msgid "The SSH path is not a safe, regular directory: {0}"
+msgstr "SSH putanja ne upućuje na sigurnu običnu mapu: {0}"
+
+#, python-brace-format
+msgid "The SSH path is not owned by the current user: {0}"
+msgstr "Trenutačni korisnik nije vlasnik SSH putanje: {0}"
+
+msgid "The SSH persistence update stopped unexpectedly."
+msgstr "Ažuriranje trajnosti SSH veza neočekivano je prekinuto."
+
+msgid "The YubiKey operation stopped unexpectedly."
+msgstr "Radnja s YubiKeyom neočekivano je prekinuta."
+
+msgid ""
+"The application-managed block in the SSH configuration was changed. Restore "
+"or remove the marked block manually."
+msgstr ""
+"Blok SSH konfiguracije kojim upravlja aplikacija promijenjen je. Ručno "
+"vratite ili uklonite označeni blok."
+
+msgid "The credential will be created only on this exact device"
+msgstr "Vjerodajnica će biti stvorena samo na ovom konkretnom uređaju"
+
+#, python-brace-format
+msgid ""
+"The deletion command finished, but the selected YubiKey could not be "
+"inspected afterward: {0}\n"
+"The credential may or may not have been deleted. Do not retry. Reconnect and "
+"inspect the YubiKey first."
+msgstr ""
+"Naredba za brisanje završila je, ali odabrani YubiKey nakon toga nije bilo "
+"moguće pregledati: {0}\n"
+"Vjerodajnica je možda izbrisana, a možda nije. Nemojte pokušati ponovno. "
+"Najprije ponovno povežite i pregledajte YubiKey."
+
+msgid "The enrollment task failed."
+msgstr "Zadatak registracije nije uspio."
+
+msgid ""
+"The exact resident credential is no longer present on the selected YubiKey. "
+"Local .pub or key-handle files and any SSH-agent entry were not removed."
+msgstr ""
+"Odabrani YubiKey više ne sadrži navedenu rezidentnu vjerodajnicu. Lokalne "
+"datoteke .pub ili ključa te zapisi u SSH agentu nisu uklonjeni."
+
+msgid ""
+"The generated SSH persistence configuration did not match the expected "
+"preset."
+msgstr "Generirana konfiguracija trajnosti SSH veza ne odgovara očekivanom predlošku."
+
+msgid ""
+"The inspected resident SSH credentials are already available in this agent."
+msgstr "Pregledane rezidentne SSH vjerodajnice već su dostupne u ovom agentu."
+
+msgid "The local SSH key-handle path is invalid."
+msgstr "Putanja lokalne datoteke SSH ključa nije valjana."
+
+msgid "The local SSH key-handle path is not valid UTF-8."
+msgstr "Putanja lokalne datoteke SSH ključa nije valjano kodirana u UTF-8."
+
+msgid "The local key path must be absolute."
+msgstr "Putanja lokalnog ključa mora biti apsolutna."
+
+#, python-brace-format
+msgid "The managed SSH block exists but the main configuration is missing: {0}"
+msgstr "Upravljani SSH blok postoji, ali nedostaje glavna konfiguracija: {0}"
+
+msgid "The managed SSH block is no longer present. Refresh and try again."
+msgstr "Upravljani SSH blok više ne postoji. Osvježite i pokušajte ponovno."
+
+#, python-brace-format
+msgid "The managed SSH configuration changed while it was being removed: {0}"
+msgstr "Upravljana SSH konfiguracija promijenila se tijekom uklanjanja: {0}"
+
+#, python-brace-format
+msgid "The managed SSH configuration is missing: {0}"
+msgstr "Nedostaje upravljana SSH konfiguracija: {0}"
+
+#, python-brace-format
+msgid "The managed SSH configuration was changed outside this application: {0}"
+msgstr "Upravljana SSH konfiguracija promijenjena je izvan ove aplikacije: {0}"
+
+msgid ""
+"The managed SSH file is also referenced outside the application-managed "
+"block. Remove the extra Include before using this setting."
+msgstr ""
+"Upravljana SSH datoteka navedena je i izvan bloka kojim upravlja aplikacija. "
+"Prije upotrebe ove postavke uklonite dodatnu direktivu Include."
+
+msgid ""
+"The managed SSH file is referenced outside the application-managed block. "
+"Remove that Include before using this setting."
+msgstr ""
+"Upravljana SSH datoteka navedena je izvan bloka kojim upravlja aplikacija. "
+"Prije upotrebe ove postavke uklonite tu direktivu Include."
+
+#, python-brace-format
+msgid ""
+"The non-exportable private key remains protected by the selected YubiKey.\n"
+"\n"
+"Algorithm: {0}\n"
+"Application: {1}\n"
+"Resident username: {2}\n"
+"Fingerprint: {3}\n"
+"\n"
+"Local key handle: {4}\n"
+"Public key: {5}\n"
+"\n"
+"The key is not automatically loaded into the SSH agent."
+msgstr ""
+"Privatni ključ koji se ne može izvesti i dalje je zaštićen odabranim "
+"YubiKeyem.\n"
+"\n"
+"Algoritam: {0}\n"
+"Aplikacija: {1}\n"
+"Rezidentno korisničko ime: {2}\n"
+"Otisak: {3}\n"
+"\n"
+"Lokalna datoteka ključa: {4}\n"
+"Javni ključ: {5}\n"
+"\n"
+"Ključ se ne učitava automatski u SSH agenta."
+
+msgid "The operation was cancelled or denied."
+msgstr "Radnja je otkazana ili odbijena."
+
+#, python-brace-format
+msgid "The output folder does not exist: {0}"
+msgstr "Izlazna mapa ne postoji: {0}"
+
+msgid "The resident credential ID is invalid. Refresh before deleting."
+msgstr "ID rezidentne vjerodajnice nije valjan. Prije brisanja osvježite prikaz."
+
+msgid "The resident credential did not return a public key."
+msgstr "Rezidentna vjerodajnica nije vratila javni ključ."
+
+#, python-brace-format
+msgid ""
+"The resident credential is still present. Deletion was not completed: {0}"
+msgstr "Rezidentna vjerodajnica i dalje postoji. Brisanje nije dovršeno: {0}"
+
+msgid "The resident credential returned an incomplete public key."
+msgstr "Rezidentna vjerodajnica vratila je nepotpun javni ključ."
+
+msgid "The resident credential returned malformed PEM data."
+msgstr "Rezidentna vjerodajnica vratila je neispravne PEM podatke."
+
+#, python-brace-format
+msgid ""
+"The resident credential {0} exists on the YubiKey, but its local handle "
+"files are incomplete. Do not retry creation."
+msgstr ""
+"Rezidentna vjerodajnica {0} postoji na YubiKeyu, ali njezine lokalne "
+"datoteke ključa nisu potpune. Nemojte pokušati ponovno stvoriti vjerodajnicu."
+
+#, python-brace-format
+msgid ""
+"The resident credential {0} was created on the YubiKey, but OpenSSH did not "
+"complete successfully:\n"
+"{1}\n"
+"Do not retry creation. Inspect the key and preserve any local files that "
+"were written."
+msgstr ""
+"Rezidentna vjerodajnica {0} stvorena je na YubiKeyu, ali OpenSSH nije "
+"uspješno dovršio radnju:\n"
+"{1}\n"
+"Nemojte pokušati ponovno stvoriti vjerodajnicu. Pregledajte ključ i sačuvajte "
+"sve zapisane lokalne datoteke."
+
+msgid "The security key returned an invalid PAM credential."
+msgstr "Sigurnosni ključ vratio je nevaljanu PAM vjerodajnicu."
+
+msgid ""
+"The selected FIDO device is no longer connected. Refresh and inspect it "
+"again."
+msgstr "Odabrani FIDO uređaj više nije povezan. Osvježite prikaz i ponovno ga pregledajte."
+
+msgid "The selected FIDO device is no longer connected. Refresh and try again."
+msgstr "Odabrani FIDO uređaj više nije povezan. Osvježite prikaz i pokušajte ponovno."
+
+msgid ""
+"The selected credential created a valid Git-format SSH signature. No "
+"repository or commit was changed."
+msgstr ""
+"Odabrana vjerodajnica stvorila je valjani SSH potpis u Gitovu formatu. "
+"Repozitorij ni predaja nisu promijenjeni."
+
+msgid ""
+"The selected private-key or .pub file already exists. Choose another name."
+msgstr "Odabrana datoteka privatnog ključa ili .pub već postoji. Odaberite drugi naziv."
+
+msgid ""
+"The selected resident credential changed since it was inspected. Nothing was "
+"deleted; refresh and verify the key."
+msgstr ""
+"Odabrana rezidentna vjerodajnica promijenila se nakon pregleda. Ništa nije "
+"izbrisano; osvježite prikaz i provjerite ključ."
+
+msgid ""
+"The selected resident credential is no longer present on this YubiKey. "
+"Nothing was deleted."
+msgstr "Odabrani YubiKey više ne sadrži rezidentnu vjerodajnicu. Ništa nije izbrisano."
+
+#, python-brace-format
+msgid "The signature was created but could not be verified: {0}"
+msgstr "Potpis je stvoren, ali nije ga bilo moguće provjeriti: {0}"
+
+msgid "The sudo policy task failed."
+msgstr "Zadatak pravila za sudo nije uspio."
+
+msgid "The temporary Git signature path is invalid."
+msgstr "Putanja privremenog Git potpisa nije valjana."
+
+msgid "The temporary Git signing path is invalid."
+msgstr "Putanja privremenog Gitova potpisivanja nije valjana."
+
+msgid "These keys are trusted by this account but are not currently connected."
+msgstr "Ovaj račun smatra te ključeve pouzdanima, ali trenutačno nisu povezani."
+
+msgid ""
+"This PIN authorizes permanent deletion of the exact credential shown in the "
+"previous step. It is never stored."
+msgstr ""
+"Ovaj PIN autorizira trajno brisanje točno određene vjerodajnice prikazane u "
+"prethodnom koraku. PIN se nikad ne pohranjuje."
+
+msgid "This YubiKey has no discoverable ssh:* credentials."
+msgstr "Ovaj YubiKey ne sadrži vjerodajnice ssh:* koje je moguće pronaći."
+
+msgid "This is not a supported OpenSSH security-key public key."
+msgstr "Ovo nije podržani javni ključ OpenSSH sigurnosnog ključa."
+
+msgid ""
+"This removes the private credential from the selected YubiKey and cannot be "
+"undone. It does not remove local files or an identity already loaded in the "
+"SSH agent."
+msgstr ""
+"Time se privatna vjerodajnica uklanja s odabranog YubiKeya i radnju nije "
+"moguće poništiti. Lokalne datoteke ni identitet koji je već učitan u SSH "
+"agenta neće biti uklonjeni."
+
+msgid "This setting applies only to the current user."
+msgstr "Ova se postavka odnosi samo na trenutačnog korisnika."
+
+msgid "This will only take a moment."
+msgstr "Ovo će potrajati samo trenutak."
+
+msgid ""
+"Touch the YubiKey when prompted. Loading resident keys into the SSH agent…"
+msgstr "Kada se to zatraži, dodirnite YubiKey. Učitavaju se rezidentni ključevi u SSH agenta…"
+
+msgid ""
+"Touch the YubiKey. Creating and verifying a temporary Git-format SSH "
+"signature…"
+msgstr "Dodirnite YubiKey. Stvara se i provjerava privremeni SSH potpis u Gitovu formatu…"
+
+msgid "Touch the YubiKey. Testing SSH signing and verification…"
+msgstr "Dodirnite YubiKey. Testira se potpisivanje i provjera SSH potpisa…"
+
+#, python-brace-format
+msgid ""
+"Touch the selected YubiKey. Creating an SSH resident key on {0}… Do not "
+"remove the key."
+msgstr "Dodirnite odabrani YubiKey. Stvara se rezidentni SSH ključ na uređaju {0}… Nemojte uklanjati ključ."
+
+msgid "Touch this key when prompted to enroll it"
+msgstr "Kada se to zatraži, dodirnite ovaj ključ za registraciju"
+
+msgid "Touch this key when prompted to enroll it for sudo"
+msgstr "Kada se to zatraži, dodirnite ovaj ključ za registraciju za sudo"
+
+msgid "Touch your security key to continue."
+msgstr "Dodirnite sigurnosni ključ za nastavak."
+
+msgid "Try Again"
+msgstr "Pokušaj ponovno"
+
+#, python-brace-format
+msgid "Type {0} to confirm"
+msgstr "Upišite {0} za potvrdu"
+
+msgid "Unavailable"
+msgstr "Nedostupno"
+
+msgid "Unknown authentication purpose."
+msgstr "Nepoznata svrha autentifikacije."
+
+msgid "Unlock GDM"
+msgstr "Otključaj GDM"
+
+msgid "Unlock sudo"
+msgstr "Otključaj sudo"
+
+msgid "Unlock the current user"
+msgstr "Otključaj trenutačnog korisnika"
+
+msgid "Unlock your account with a touch"
+msgstr "Otključajte račun dodirom"
+
+msgid "Unnamed SSH credential"
+msgstr "Neimenovana SSH vjerodajnica"
+
+msgid "Unsupported resident SSH public-key algorithm."
+msgstr "Nepodržani algoritam javnog ključa za rezidentni SSH ključ."
+
+msgid "Updating Git commit signing…"
+msgstr "Ažurira se potpisivanje Gitovih predaja…"
+
+msgid "Updating sign-in settings…"
+msgstr "Ažuriraju se postavke prijave…"
+
+msgid "Updating sudo settings…"
+msgstr "Ažuriraju se postavke za sudo…"
+
+msgid "Use YubiKey to unlock sudo"
+msgstr "Upotrijebi YubiKey za otključavanje sudo naredbi"
+
+msgid ""
+"Verifying and permanently deleting the selected resident credential. Do not "
+"unplug the YubiKey…"
+msgstr ""
+"Provjerava se i trajno briše odabrana rezidentna vjerodajnica. Nemojte "
+"odspojiti YubiKey…"
+
+msgid "View in App Store"
+msgstr "Prikaži u trgovini aplikacija"
+
+msgid "Waiting"
+msgstr "Čeka se"
+
+msgid "Waiting for a configured YubiKey"
+msgstr "Čeka se konfigurirani YubiKey"
+
+msgid "What this setting changes"
+msgstr "Što ova postavka mijenja"
+
+msgid ""
+"You may enroll keys now, but sudo bypasses PAM while passwordless access is "
+"enabled."
+msgstr ""
+"Sada možete registrirati ključeve, ali sudo zaobilazi PAM dok je omogućen "
+"pristup bez lozinke."
+
+msgid "Your YubiKeys are inspected"
+msgstr "YubiKey uređaji su pregledani"
+
+msgid "Your hardware-backed SSH keys"
+msgstr "Vaši SSH ključevi zaštićeni hardverom"
+
+msgid ""
+"Your resident SSH keys stay on the security key. Insert it to view and use "
+"them."
+msgstr "Rezidentni SSH ključevi ostaju na sigurnosnom ključu. Umetnite ga da biste ih pregledali i upotrijebili."
+
+msgid ""
+"Your security settings are ready. Connect a configured YubiKey when you need "
+"it."
+msgstr "Sigurnosne postavke su spremne. Povežite konfigurirani YubiKey kada vam zatreba."
+
+msgid "YubiKey"
+msgstr "YubiKey"
+
+msgid "YubiKey configuration failed"
+msgstr "Konfiguriranje YubiKeya nije uspjelo"
+
+msgid "YubiKey connected"
+msgstr "YubiKey je povezan"
+
+msgid "YubiKey or account password"
+msgstr "YubiKey ili lozinka računa"
+
+msgid "YubiKey without hardware serial"
+msgstr "YubiKey bez hardverskog serijskog broja"
+
+#, python-brace-format
+msgid "YubiKey · Serial {0}"
+msgstr "YubiKey · serijski broj {0}"
+
+#, python-brace-format
+msgid ""
+"YubiKey: {0}\n"
+"Device: {1}\n"
+"Application: {2}\n"
+"Resident username: {3}\n"
+"Algorithm: {4}\n"
+"Fingerprint: {5}"
+msgstr ""
+"YubiKey: {0}\n"
+"Uređaj: {1}\n"
+"Aplikacija: {2}\n"
+"Rezidentno korisničko ime: {3}\n"
+"Algoritam: {4}\n"
+"Otisak: {5}"
+
+msgid "YubiKeys"
+msgstr "YubiKey uređaji"
+
+msgid "Yubico Authenticator is installed"
+msgstr "Yubico Authenticator je instaliran"
+
+msgid "Yubico Authenticator is not installed"
+msgstr "Yubico Authenticator nije instaliran"
+
+msgid ""
+"Yubico Authenticator lets you view and manage passkeys stored on your "
+"YubiKey. This security center does not read, create, or delete passkeys; it "
+"only opens the installed app."
+msgstr ""
+"Yubico Authenticator omogućuje pregled i upravljanje pristupnim ključevima "
+"pohranjenima na YubiKeyu. Ovaj centar sigurnosti ne čita, ne stvara niti "
+"briše pristupne ključeve; samo otvara instaliranu aplikaciju."
+
+msgid "agent"
+msgstr "agent"
+
+msgid ""
+"fido2-token reported success, but the resident credential is still present. "
+"Do not retry until you refresh and inspect the YubiKey."
+msgstr ""
+"fido2-token prijavio je uspjeh, ali rezidentna vjerodajnica i dalje postoji. "
+"Nemojte pokušati ponovno prije nego što osvježite prikaz i pregledate "
+"YubiKey."
+
+msgid "sudo authentication is bypassed"
+msgstr "Autentifikacija za sudo zaobilazi se"
+
+msgid "sudo authentication policy"
+msgstr "Pravilo autentifikacije za sudo"
+
+msgid "unknown"
+msgstr "nepoznato"
+
+msgid "user"
+msgstr "korisnik"
+
+#, python-brace-format
+msgid "{0} SSH keys loaded"
+msgstr "Učitano je {0} SSH ključeva"
+
+#, python-brace-format
+msgid "{0} YubiKeys connected"
+msgstr "Povezano je {0} YubiKey uređaja"
+
+#, python-brace-format
+msgid "{0} exited with {1}"
+msgstr "{0} završio je s kodom {1}"
+
+#, python-brace-format
+msgid "{0} failed: {1}"
+msgstr "Radnja {0} nije uspjela: {1}"
+
+#, python-brace-format
+msgid "{0} identities are currently available to SSH applications."
+msgstr "Broj SSH identiteta trenutačno dostupnih SSH aplikacijama: {0}."
+
+#, python-brace-format
+msgid "{0} includes {1}"
+msgstr "{0} uključuje {1}"
+
+#, python-brace-format
+msgid "{0} is enabled for this YubiKey"
+msgstr "{0} je omogućen za ovaj YubiKey"
+
+#, python-brace-format
+msgid "{0} is not configured for this YubiKey"
+msgstr "{0} nije konfiguriran za ovaj YubiKey"
+
+#, python-brace-format
+msgid "{0} new SSH identities were added to the agent."
+msgstr "Novi SSH identiteti dodani agentu: {0}"
+
+#, python-brace-format
+msgid "{0} new SSH identity was added to the agent."
+msgstr "U agenta je dodan {0} novi SSH identitet."
+
+#, python-brace-format
+msgid "{0} resident SSH keys are available from your connected YubiKeys."
+msgstr "Broj dostupnih rezidentnih SSH ključeva s povezanih YubiKey uređaja: {0}."
+
+#, python-brace-format
+msgid "{0} resident SSH keys · {1}"
+msgstr "{0} rezidentnih SSH ključeva · {1}"
+
+#, python-brace-format
+msgid "{0} resident credentials inspected"
+msgstr "Broj pregledanih rezidentnih vjerodajnica: {0}"
+
+#, python-brace-format
+msgid "{0} to inspect"
+msgstr "Za pregled: {0}"
+
+#, python-brace-format
+msgid "{0} · no hardware serial"
+msgstr "{0} · nema hardverskog serijskog broja"
+
+#, python-brace-format
+msgid "{0} · {1}"
+msgstr "{0} · {1}"
+
+msgid "YubiKey Security Center"
+msgstr "Centar sigurnosti YubiKeya"
+
+msgid "Security Key Settings"
+msgstr "Postavke sigurnosnog ključa"
+
+msgid "Protect sign-in, sudo, SSH, and Git with YubiKeys"
+msgstr "Zaštitite prijavu, sudo, SSH i Git pomoću YubiKey uređaja"
+
+msgid "YubiKey;FIDO2;U2F;security;login;GDM;"
+msgstr "YubiKey;FIDO2;U2F;sigurnost;prijava;GDM;"
+
+msgid "Manage YubiKey security settings"
+msgstr "Upravljajte sigurnosnim postavkama YubiKeya"
+
+msgid "Authentication is required to change security settings or install Git"
+msgstr "Za promjenu sigurnosnih postavki ili instalaciju Gita potrebna je autentifikacija."

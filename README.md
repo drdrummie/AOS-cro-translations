@@ -31,6 +31,11 @@ firewall/
   anduinos-firewall.sh
   deploy.sh
   hr_HR.po
+yubikey-security-center/
+  anduinos-yubikey-manager.pot
+  anduinos-yubikey-manager.sh
+  deploy.sh
+  hr_HR.po
 ```
 
 The POT file is the message template; the PO file contains the Croatian
@@ -49,6 +54,9 @@ The Appearance template was extracted from the installed AnduinOS Appearance
 The Offline Updater template was extracted from its installed Python UI,
 desktop entry, and PolicyKit action. The desktop-entry and PolicyKit messages
 are included for upstream contribution.
+The YubiKey Security Center template was extracted from its installed English
+gettext catalog, desktop entry, and PolicyKit action. The desktop-entry and
+PolicyKit messages are included for upstream contribution.
 
 `swap-control/` follows the same layout but has no `run.py`: Swap Control is a
 compiled GTK application, so its launcher only selects the language and points
@@ -211,3 +219,19 @@ The desktop entry and PolicyKit prompts remain system-provided and are not
 changed by this user-local test setup. Close any running Firewall instance
 before testing, because the application may otherwise reuse its existing
 window.
+
+## Testing AnduinOS YubiKey Security Center
+
+```bash
+bash yubikey-security-center/deploy.sh
+LANGUAGE=hr_HR bash yubikey-security-center/anduinos-yubikey-manager.sh
+```
+
+The Security Center uses the `anduinos-yubikey-manager` gettext domain. Its
+launcher adds the user-local catalog directory to `XDG_DATA_DIRS` and selects
+Croatian. Deployment validates and builds the catalog before placing it in
+`~/.local/share/anduinos-yubikey-manager/locale/`; it does not modify system
+files. The desktop entry and PolicyKit prompt remain system-provided and are
+not changed by this user-local test setup. Close any running Security Center
+instance before testing, because the application may otherwise reuse its
+existing window.
