@@ -13,12 +13,26 @@ DOMAINS = (
     "anduinos-control-panel",
     "anduinos-driver-center",
     "anduinos-exe-runner",
+    "flatseal",
     "anduinos-offline-updater",
     "anduinos-oobe",
     "anduinos-yubikey-manager",
     "swapcontrol-gtk",
     "ufwall-gtk",
 )
+
+APP_PACKAGES = {
+    "appearance": "anduinos-appearance",
+    "control-panel": "anduinos-control-panel",
+    "driver-center": "anduinos-driver-center",
+    "exe-runner": "anduinos-exe-runner",
+    "flatseal": "flatseal",
+    "firewall": "anduinos-ufwall-gtk",
+    "offline-updater": "anduinos-offline-updater",
+    "swap-control": "anduinos-swapcontrol-gtk",
+    "welcome": "anduinos-oobe",
+    "yubikey-security-center": "anduinos-yubikey-manager",
+}
 
 
 def translated_components():
@@ -45,6 +59,28 @@ class SystemInstallTest(unittest.TestCase):
             for template in (ROOT / name).glob("*.pot"):
                 shutil.copy(template, component)
             shutil.copy(ROOT / name / "hr_HR.po", component)
+        self.stub_dir = self.root / "stubs"
+        self.stub_dir.mkdir()
+        self.installed_packages = self.root / "installed-packages"
+        self.installed_packages.write_text(
+            "\n".join(APP_PACKAGES.values()) + "\n",
+            encoding="utf-8",
+        )
+        (self.stub_dir / "dpkg-query").write_text(
+            "#!/usr/bin/env bash\n"
+            "set -euo pipefail\n"
+            "package=\"\"\n"
+            "for argument in \"$@\"; do\n"
+            "    if [[ $argument != -* ]]; then package=$argument; fi\n"
+            "done\n"
+            "if grep -Fqx -- \"$package\" \"$INSTALLED_PACKAGES_FILE\"; then\n"
+            "    printf 'installed'\n"
+            "else\n"
+            "    exit 1\n"
+            "fi\n",
+            encoding="utf-8",
+        )
+        (self.stub_dir / "dpkg-query").chmod(0o755)
         self.destdir = self.root / "stage"
         self.locale_dir = self.destdir / "usr/share/locale/hr/LC_MESSAGES"
         self.manifest = (
@@ -62,6 +98,11 @@ class SystemInstallTest(unittest.TestCase):
             ],
             capture_output=True,
             text=True,
+            env={
+                **os.environ,
+                "PATH": f"{self.stub_dir}:{os.environ['PATH']}",
+                "INSTALLED_PACKAGES_FILE": str(self.installed_packages),
+            },
         )
 
     def test_installs_all_catalogs_into_language_directory(self):
@@ -75,10 +116,44 @@ class SystemInstallTest(unittest.TestCase):
         self.assertEqual(
             catalog.gettext("AnduinOS Appearance"), "Izgled AnduinOS-a"
         )
+        with (self.locale_dir / "flatseal.mo").open("rb") as stream:
+            catalog = gettext.GNUTranslations(stream)
+        self.assertEqual(catalog.gettext("Flatpak Version"), "Verzija Flatpaka")
         self.assertIn(
             "usr/share/locale/hr/LC_MESSAGES/ufwall-gtk.mo",
             self.manifest.read_text(encoding="utf-8"),
         )
+
+    def test_skips_catalog_when_application_package_is_missing(self):
+        packages = self.installed_packages.read_text(encoding="utf-8")
+        packages = packages.replace("anduinos-ufwall-gtk\n", "")
+        self.installed_packages.write_text(packages, encoding="utf-8")
+
+        result = self.run_script("--package", "firewall")
+
+        self.assertEqual(result.returncode, 0, result.stderr)
+        self.assertIn("Skipping firewall", result.stdout)
+        self.assertFalse((self.locale_dir / "ufwall-gtk.mo").exists())
+        self.assertFalse(self.manifest.exists())
+
+    def test_installs_flatseal_catalog_when_debian_package_is_present(self):
+        result = self.run_script("--package", "flatseal")
+
+        self.assertEqual(result.returncode, 0, result.stderr)
+        self.assertTrue((self.locale_dir / "flatseal.mo").is_file())
+
+    def test_skips_flatseal_when_not_installed_as_debian_package(self):
+        packages = self.installed_packages.read_text(encoding="utf-8")
+        self.installed_packages.write_text(
+            packages.replace("flatseal\n", ""),
+            encoding="utf-8",
+        )
+
+        result = self.run_script("--package", "flatseal")
+
+        self.assertEqual(result.returncode, 0, result.stderr)
+        self.assertIn("Skipping flatseal", result.stdout)
+        self.assertFalse((self.locale_dir / "flatseal.mo").exists())
 
     def test_second_run_leaves_catalogs_untouched(self):
         self.assertEqual(self.run_script().returncode, 0)
@@ -128,10 +203,22 @@ class SystemInstallTest(unittest.TestCase):
     def test_list_reports_install_state(self):
         before = self.run_script("--list")
         self.assertEqual(before.returncode, 0, before.stderr)
-        self.assertIn("not installed", before.stdout)
+        self.assertIn("catalog missing", before.stdout)
+        packages = self.installed_packages.read_text(encoding="utf-8")
+        self.installed_packages.write_text(
+            packages.replace("anduinos-ufwall-gtk\n", ""),
+            encoding="utf-8",
+        )
+        missing_application = self.run_script("--list", "--package", "firewall")
+        self.assertEqual(
+            missing_application.returncode, 0, missing_application.stderr
+        )
+        self.assertIn("application missing", missing_application.stdout)
+
+        self.installed_packages.write_text(packages, encoding="utf-8")
         self.assertEqual(self.run_script().returncode, 0)
         after = self.run_script("--list")
-        self.assertNotIn("not installed", after.stdout)
+        self.assertNotIn("catalog missing", after.stdout)
         self.assertIn("firewall", after.stdout)
 
     def test_dry_run_changes_nothing(self):

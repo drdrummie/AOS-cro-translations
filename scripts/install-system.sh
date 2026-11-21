@@ -17,11 +17,25 @@ components=(
     control-panel
     driver-center
     exe-runner
+    flatseal
     firewall
     offline-updater
     swap-control
     welcome
     yubikey-security-center
+)
+
+declare -A app_packages=(
+    [appearance]="anduinos-appearance"
+    [control-panel]="anduinos-control-panel"
+    [driver-center]="anduinos-driver-center"
+    [exe-runner]="anduinos-exe-runner"
+    [flatseal]="flatseal"
+    [firewall]="anduinos-ufwall-gtk"
+    [offline-updater]="anduinos-offline-updater"
+    [swap-control]="anduinos-swapcontrol-gtk"
+    [welcome]="anduinos-oobe"
+    [yubikey-security-center]="anduinos-yubikey-manager"
 )
 
 # The language-only directory is deliberate. glibc only falls back from
@@ -33,17 +47,17 @@ install_locale="hr"
 
 usage() {
     cat <<'EOF'
-Install the Croatian gettext catalogs of the AnduinOS components system-wide so
-that the applications use them when started outside this checkout, for example
-from the GNOME application grid. The user-local deploy.sh scripts remain
-available for isolated testing.
+Install Croatian gettext catalogs system-wide so installed applications use
+them when started outside this checkout, for example from the GNOME application
+grid. Only applications installed as Debian packages are processed. The
+user-local deploy.sh scripts remain available for isolated testing.
 
 Usage: sudo bash scripts/install-system.sh [OPTIONS]
 
 Options:
   --package NAME  Restrict the action to one component (repeatable).
   --uninstall     Remove the catalogs this script installed.
-  --list          Show each component and whether its catalog is installed.
+  --list          Show each component's application and catalog status.
   --dry-run       Print the planned actions without changing the filesystem.
   --force         Replace or remove a catalog this script did not install.
   --destdir DIR   Prepend DIR to every path. Intended for staging and tests;
@@ -187,15 +201,42 @@ relative_for() {
     printf '%s/%s/LC_MESSAGES/%s.mo' "$locale_root" "$install_locale" "$1"
 }
 
+require_dpkg_query() {
+    command -v dpkg-query >/dev/null ||
+        fail "dpkg-query is required to detect installed AnduinOS applications."
+}
+
+application_installed() {
+    local component=$1
+    local package_name=${app_packages[$component]}
+    local status
+    local result
+
+    if status="$(dpkg-query -W -f='${db:Status-Status}' "$package_name" 2>/dev/null)"; then
+        [[ $status == installed ]]
+        return
+    else
+        result=$?
+    fi
+
+    if (( result == 1 )); then
+        return 1
+    fi
+    fail "dpkg-query failed while checking package $package_name (exit $result)."
+}
+
 if (( list_only )); then
+    require_dpkg_query
     for package in "${packages[@]}"; do
         relative="$(relative_for "$(package_domain "$package")")"
-        if [[ -f $destdir$relative ]]; then
-            state="installed"
+        if ! application_installed "$package"; then
+            state="application missing"
+        elif [[ -f $destdir$relative ]]; then
+            state="catalog installed"
         else
-            state="not installed"
+            state="catalog missing"
         fi
-        printf '%-24s %-14s %s%s\n' "$package" "$state" "$destdir" "$relative"
+        printf '%-24s %-20s %s%s\n' "$package" "$state" "$destdir" "$relative"
     done
     exit 0
 fi
@@ -276,6 +317,21 @@ if (( uninstall )); then
     fi
     exit 0
 fi
+
+require_dpkg_query
+available_packages=()
+for package in "${packages[@]}"; do
+    if application_installed "$package"; then
+        available_packages+=("$package")
+    else
+        echo "Skipping $package: package ${app_packages[$package]} is not installed."
+    fi
+done
+if (( ${#available_packages[@]} == 0 )); then
+    echo "No selected AnduinOS applications are installed; no catalogs were changed."
+    exit 0
+fi
+packages=("${available_packages[@]}")
 
 command -v msgfmt >/dev/null || fail "msgfmt is required (install the gettext package)."
 

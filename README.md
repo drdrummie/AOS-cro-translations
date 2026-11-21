@@ -373,13 +373,13 @@ bash flatseal/deploy.sh
 bash flatseal/flatseal.sh
 ```
 
-The deployment builds the catalog and places it under
-`~/.local/share/flatseal/`; it does not modify the Flatpak installation or
-install the catalog system-wide. The test launcher starts Flatseal's GJS
-application resources from the installed Flatpak and binds gettext to that
-user-local catalog. It grants the sandbox read-only access to the translation
-directory only. To verify that the catalog is visible inside the Flatpak
-without opening the window, run:
+This is an isolated test path for Flatseal installed as a Flatpak. Deployment
+builds the catalog and places it under `~/.local/share/flatseal/`; it does not
+modify the Flatpak installation or install the catalog system-wide. The test
+launcher starts Flatseal's GJS application resources from the installed
+Flatpak and binds gettext to that user-local catalog. It grants the sandbox
+read-only access to the translation directory only. To verify that the catalog
+is visible inside the Flatpak without opening the window, run:
 
 ```bash
 bash flatseal/flatseal.sh --check-translation
@@ -538,20 +538,26 @@ application grid, install the compiled catalogs system-wide:
 sudo bash scripts/install-system.sh
 ```
 
-The script builds and checks every listed component with
-`scripts/translate.sh`, then installs the resulting `.mo` files into
-`/usr/share/locale/hr/LC_MESSAGES/`, which is the directory those applications
-read. The language-only `hr` directory is intentional: glibc only falls back
-from `hr_HR` to `hr` and never the other way round, and AnduinOS ships
-`LANGUAGE=hr:en_US:en` by default. A `hr_HR`-only catalog would therefore be
-invisible in a stock desktop session. Python's gettext and the gettext-rs
-crate used by the GTK applications both resolve the `hr` directory for a `hr`
-or `hr_HR` selection.
+The script checks the installed status of each application's AnduinOS Debian
+package with `dpkg-query`, then builds and installs catalogs only for
+applications present on the system. Missing applications are skipped. The
+resulting `.mo` files go into `/usr/share/locale/hr/LC_MESSAGES/`, which those
+applications read. The language-only `hr` directory is intentional: glibc
+only falls back from `hr_HR` to `hr` and never the other way round, and
+AnduinOS ships `LANGUAGE=hr:en_US:en` by default. A `hr_HR`-only catalog would
+therefore be invisible in a stock desktop session. Python's gettext and the
+gettext-rs crate used by the GTK applications both resolve the `hr` directory
+for a `hr` or `hr_HR` selection.
 
 Every installed path is recorded with its checksum in
 `/var/lib/anduinos-hr-translations/manifest.tsv`, so the installer never
 overwrites a catalog it does not own (another distribution package, for
-example) without `--force`, and `--uninstall` removes only its own files:
+example) without `--force`, and `--uninstall` removes only its own files.
+`--list` reports application and catalog status separately. The optional
+native Debian Flatseal package (`flatseal`) is handled by this installer like
+the other applications. A Flatseal installed only as a Flatpak is not changed;
+the user-local Flatpak test setup in [`flatseal/deploy.sh`](./flatseal/deploy.sh)
+uses the dedicated [`flatseal/flatseal.sh`](./flatseal/flatseal.sh) launcher.
 
 ```bash
 bash scripts/install-system.sh --list
