@@ -1,0 +1,415 @@
+# Croatian translations for AnduinOS Offline Updater.
+# Hrvatski prijevod za AnduinOS Offline Updater.
+# Copyright (C) 2026 AnduinOS Team
+# This file is distributed under the same license as the AnduinOS Offline Updater package.
+# Automatically generated, 2026.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: AnduinOS Offline Updater 2.1.0-14\n"
+"Report-Msgid-Bugs-To: https://github.com/AiursoftWeb/AnduinOS-Packages/"
+"issues\n"
+"POT-Creation-Date: 2026-11-21 14:23+0100\n"
+"PO-Revision-Date: 2026-11-21 14:20+0100\n"
+"Last-Translator: Local translation\n"
+"Language-Team: Croatian\n"
+"Language: hr_HR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<12 || n%100>14) ? 1 : 2);\n"
+
+#: /usr/lib/python3/dist-packages/anduinos_offline_updater/gui.py:39
+#: /usr/lib/python3/dist-packages/anduinos_offline_updater/gui.py:54
+msgid "Offline Updater"
+msgstr "Izvanmrežno ažuriranje"
+
+#: /usr/lib/python3/dist-packages/anduinos_offline_updater/gui.py:55
+#: /usr/lib/python3/dist-packages/anduinos_offline_updater/gui.py:229
+#: /usr/lib/python3/dist-packages/anduinos_offline_updater/gui.py:309
+msgid "Choose another file"
+msgstr "Odaberi drugu datoteku"
+
+#: /usr/lib/python3/dist-packages/anduinos_offline_updater/gui.py:65
+msgid "Keep an independent backup of important files."
+msgstr "Izradite zasebnu sigurnosnu kopiju važnih datoteka."
+
+#: /usr/lib/python3/dist-packages/anduinos_offline_updater/gui.py:81
+msgid "Reconnecting to your update…"
+msgstr "Ponovno se povezujete s ažuriranjem…"
+
+#: /usr/lib/python3/dist-packages/anduinos_offline_updater/gui.py:111
+msgid "Update from a file"
+msgstr "Ažuriranje iz datoteke"
+
+#: /usr/lib/python3/dist-packages/anduinos_offline_updater/gui.py:112
+msgid ""
+"Choose an AnduinOS update package.\n"
+"No internet connection needed to check the file."
+msgstr ""
+"Odaberite paket ažuriranja AnduinOS-a.\n"
+"Za provjeru datoteke nije potrebna internetska veza."
+
+#: /usr/lib/python3/dist-packages/anduinos_offline_updater/gui.py:114
+#: /usr/lib/python3/dist-packages/anduinos_offline_updater/gui.py:153
+msgid "Choose Update File"
+msgstr "Odaberi datoteku ažuriranja"
+
+#: /usr/lib/python3/dist-packages/anduinos_offline_updater/gui.py:121
+msgid "or drop an .atgz file here"
+msgstr "ili ovdje ispustite datoteku .atgz"
+
+#: /usr/lib/python3/dist-packages/anduinos_offline_updater/gui.py:122
+msgid "Official .atgz update packages are a paid AnduinOS Pro benefit."
+msgstr "Službeni paketi ažuriranja .atgz plaćena su pogodnost AnduinOS Pro-a."
+
+#: /usr/lib/python3/dist-packages/anduinos_offline_updater/gui.py:125
+msgid "Get updates from your Pro benefits center"
+msgstr "Preuzmite ažuriranja iz centra pogodnosti Pro"
+
+#: /usr/lib/python3/dist-packages/anduinos_offline_updater/gui.py:142
+msgid "Could not open the website"
+msgstr "Nije moguće otvoriti web-stranicu"
+
+#: /usr/lib/python3/dist-packages/anduinos_offline_updater/gui.py:143
+#: /usr/lib/python3/dist-packages/anduinos_offline_updater/gui.py:230
+#: /usr/lib/python3/dist-packages/anduinos_offline_updater/gui.py:310
+#: /usr/lib/python3/dist-packages/anduinos_offline_updater/gui.py:558
+msgid "Close"
+msgstr "Zatvori"
+
+#: /usr/lib/python3/dist-packages/anduinos_offline_updater/gui.py:150
+msgid "AnduinOS update packages"
+msgstr "Paketi ažuriranja AnduinOS-a"
+
+#: /usr/lib/python3/dist-packages/anduinos_offline_updater/gui.py:161
+msgid "Could not open the file"
+msgstr "Nije moguće otvoriti datoteku"
+
+#: /usr/lib/python3/dist-packages/anduinos_offline_updater/gui.py:173
+#: /usr/lib/python3/dist-packages/anduinos_offline_updater/gui.py:177
+msgid "Choose one local .atgz file."
+msgstr "Odaberite jednu lokalnu datoteku .atgz."
+
+#: /usr/lib/python3/dist-packages/anduinos_offline_updater/gui.py:181
+msgid "Checking your update…"
+msgstr "Provjerava se ažuriranje…"
+
+#: /usr/lib/python3/dist-packages/anduinos_offline_updater/gui.py:181
+msgid ""
+"Verifying the signature and checking your system. This may take a few "
+"minutes."
+msgstr ""
+"Provjerava se potpis i sustav. To može potrajati nekoliko minuta."
+
+#: /usr/lib/python3/dist-packages/anduinos_offline_updater/gui.py:209
+#: /usr/lib/python3/dist-packages/anduinos_offline_updater/gui.py:212
+#: /usr/lib/python3/dist-packages/anduinos_offline_updater/gui.py:300
+msgid "The update could not be checked. Try choosing the file again."
+msgstr "Nije moguće provjeriti ažuriranje. Pokušajte ponovno odabrati datoteku."
+
+#: /usr/lib/python3/dist-packages/anduinos_offline_updater/gui.py:224
+msgid "Cannot preview this update"
+msgstr "Nije moguće pregledati ovo ažuriranje"
+
+#: /usr/lib/python3/dist-packages/anduinos_offline_updater/gui.py:224
+msgid "No system packages were changed."
+msgstr "Nijedan sistemski paket nije promijenjen."
+
+#: /usr/lib/python3/dist-packages/anduinos_offline_updater/gui.py:236
+msgid "This computer"
+msgstr "Ovo računalo"
+
+#: /usr/lib/python3/dist-packages/anduinos_offline_updater/gui.py:237
+msgid "Update package"
+msgstr "Paket ažuriranja"
+
+#: /usr/lib/python3/dist-packages/anduinos_offline_updater/gui.py:240
+#: /usr/lib/python3/dist-packages/anduinos_offline_updater/gui.py:242
+#: /usr/lib/python3/dist-packages/anduinos_offline_updater/gui.py:270
+#: /usr/lib/python3/dist-packages/anduinos_offline_updater/gui.py:272
+#: /usr/lib/python3/dist-packages/anduinos_offline_updater/gui.py:274
+#: /usr/lib/python3/dist-packages/anduinos_offline_updater/gui.py:320
+msgid "Unknown"
+msgstr "Nepoznato"
+
+#: /usr/lib/python3/dist-packages/anduinos_offline_updater/gui.py:256
+msgid "Built (UTC)"
+msgstr "Izrađeno (UTC)"
+
+#: /usr/lib/python3/dist-packages/anduinos_offline_updater/gui.py:257
+msgid "File size"
+msgstr "Veličina datoteke"
+
+#: /usr/lib/python3/dist-packages/anduinos_offline_updater/gui.py:258
+msgid "Signature"
+msgstr "Potpis"
+
+#: /usr/lib/python3/dist-packages/anduinos_offline_updater/gui.py:258
+msgid "Verified"
+msgstr "Potvrđeno"
+
+#: /usr/lib/python3/dist-packages/anduinos_offline_updater/gui.py:269
+#, python-brace-format
+msgid ""
+"Your system is newer than this update. Choose an update for {version} or "
+"later."
+msgstr "Vaš je sustav noviji od ovog ažuriranja. Odaberite ažuriranje za verziju {version} ili noviju."
+
+#: /usr/lib/python3/dist-packages/anduinos_offline_updater/gui.py:271
+#, python-brace-format
+msgid ""
+"This package is for a different architecture. Choose a package for "
+"{architecture}."
+msgstr "Ovaj je paket namijenjen drugoj arhitekturi. Odaberite paket za arhitekturu {architecture}."
+
+#: /usr/lib/python3/dist-packages/anduinos_offline_updater/gui.py:273
+#, python-brace-format
+msgid ""
+"This package is for a different system branch. Choose an update for {suite}."
+msgstr "Ovaj je paket namijenjen drugoj grani sustava. Odaberite ažuriranje za {suite}."
+
+#: /usr/lib/python3/dist-packages/anduinos_offline_updater/gui.py:275
+msgid ""
+"This package is for a different AnduinOS series. Choose an update for your "
+"system version."
+msgstr "Ovaj je paket namijenjen drugom izdanju AnduinOS-a. Odaberite ažuriranje za verziju svojeg sustava."
+
+#: /usr/lib/python3/dist-packages/anduinos_offline_updater/gui.py:276
+msgid "This update requires AnduinOS."
+msgstr "Ovo ažuriranje zahtijeva AnduinOS."
+
+#: /usr/lib/python3/dist-packages/anduinos_offline_updater/gui.py:277
+msgid ""
+"The current system version could not be determined. Check your system before "
+"updating."
+msgstr "Nije moguće odrediti trenutačnu verziju sustava. Provjerite sustav prije ažuriranja."
+
+#: /usr/lib/python3/dist-packages/anduinos_offline_updater/gui.py:293
+msgid "This file has not passed verification."
+msgstr "Ova datoteka nije prošla provjeru."
+
+#: /usr/lib/python3/dist-packages/anduinos_offline_updater/gui.py:295
+msgid "Review your update"
+msgstr "Pregledajte ažuriranje"
+
+#: /usr/lib/python3/dist-packages/anduinos_offline_updater/gui.py:296
+#: /usr/lib/python3/dist-packages/anduinos_offline_updater/gui.py:542
+msgid "You already have this update"
+msgstr "Već imate ovo ažuriranje"
+
+#: /usr/lib/python3/dist-packages/anduinos_offline_updater/gui.py:297
+msgid "A newer updater is required"
+msgstr "Potrebna je novija verzija ažurirača"
+
+#: /usr/lib/python3/dist-packages/anduinos_offline_updater/gui.py:298
+msgid "Cannot install this update"
+msgstr "Nije moguće instalirati ovo ažuriranje"
+
+#: /usr/lib/python3/dist-packages/anduinos_offline_updater/gui.py:317
+msgid "Disabled"
+msgstr "Onemogućeno"
+
+#: /usr/lib/python3/dist-packages/anduinos_offline_updater/gui.py:317
+msgid "Unavailable"
+msgstr "Nedostupno"
+
+#: /usr/lib/python3/dist-packages/anduinos_offline_updater/gui.py:317
+msgid "Check required"
+msgstr "Potrebna je provjera"
+
+#: /usr/lib/python3/dist-packages/anduinos_offline_updater/gui.py:321
+msgid "Package changes"
+msgstr "Promjene paketa"
+
+#: /usr/lib/python3/dist-packages/anduinos_offline_updater/gui.py:322
+msgid "Temporary storage"
+msgstr "Privremena pohrana"
+
+#: /usr/lib/python3/dist-packages/anduinos_offline_updater/gui.py:323
+msgid "Package expansion estimate"
+msgstr "Procjena prostora za raspakirane pakete"
+
+#: /usr/lib/python3/dist-packages/anduinos_offline_updater/gui.py:324
+msgid "System snapshot"
+msgstr "Snimka sustava"
+
+#: /usr/lib/python3/dist-packages/anduinos_offline_updater/gui.py:331
+msgid ""
+"Installation space and snapshot availability must be checked again before "
+"installing."
+msgstr "Prije instalacije potrebno je ponovno provjeriti prostor za instalaciju i dostupnost snimke sustava."
+
+#: /usr/lib/python3/dist-packages/anduinos_offline_updater/gui.py:333
+#: /usr/lib/python3/dist-packages/anduinos_offline_updater/gui.py:418
+msgid "Continue"
+msgstr "Nastavi"
+
+#: /usr/lib/python3/dist-packages/anduinos_offline_updater/gui.py:370
+msgid "The request did not complete. Authorization may have been cancelled."
+msgstr "Zahtjev nije dovršen. Autorizacija je možda otkazana."
+
+#: /usr/lib/python3/dist-packages/anduinos_offline_updater/gui.py:373
+msgid "Unexpected update response."
+msgstr "Neočekivan odgovor ažuriranja."
+
+#: /usr/lib/python3/dist-packages/anduinos_offline_updater/gui.py:388
+msgid "Preparing your update…"
+msgstr "Priprema se ažuriranje…"
+
+#: /usr/lib/python3/dist-packages/anduinos_offline_updater/gui.py:389
+msgid ""
+"Authorize importing the file and checking the installation plan. No packages "
+"are installed yet."
+msgstr "Odobrite uvoz datoteke i provjeru plana instalacije. Paketi još nisu instalirani."
+
+#: /usr/lib/python3/dist-packages/anduinos_offline_updater/gui.py:416
+msgid "Could not save the update session"
+msgstr "Nije moguće spremiti sesiju ažuriranja"
+
+#: /usr/lib/python3/dist-packages/anduinos_offline_updater/gui.py:417
+msgid "Keep this job ID to reconnect from the command line."
+msgstr "Sačuvajte ID ovog zadatka da biste se ponovno povezali iz naredbenog retka."
+
+#: /usr/lib/python3/dist-packages/anduinos_offline_updater/gui.py:427
+msgid "Starting your update…"
+msgstr "Pokreće se ažuriranje…"
+
+#: /usr/lib/python3/dist-packages/anduinos_offline_updater/gui.py:460
+msgid "Cannot read the update status"
+msgstr "Nije moguće pročitati status ažuriranja"
+
+#: /usr/lib/python3/dist-packages/anduinos_offline_updater/gui.py:461
+msgid ""
+"The update may still be running. Reconnect to check it; do not start another "
+"installation."
+msgstr "Ažuriranje je možda još u tijeku. Ponovno se povežite da biste provjerili njegov status; nemojte pokretati drugu instalaciju."
+
+#: /usr/lib/python3/dist-packages/anduinos_offline_updater/gui.py:465
+msgid "Reconnect"
+msgstr "Ponovno se poveži"
+
+#: /usr/lib/python3/dist-packages/anduinos_offline_updater/gui.py:471
+msgid "Removing the imported file…"
+msgstr "Uklanja se uvezena datoteka…"
+
+#: /usr/lib/python3/dist-packages/anduinos_offline_updater/gui.py:500
+msgid "This update needs review"
+msgstr "Ovo ažuriranje treba pregledati"
+
+#: /usr/lib/python3/dist-packages/anduinos_offline_updater/gui.py:501
+msgid ""
+"Use the command line to review this older update session, or remove its "
+"imported file and choose it again."
+msgstr "Pregledajte ovu stariju sesiju ažuriranja u naredbenom retku ili uklonite njezinu uvezenu datoteku i ponovno je odaberite."
+
+#: /usr/lib/python3/dist-packages/anduinos_offline_updater/gui.py:507
+msgid "The updater has been upgraded. Review and confirm the remaining update."
+msgstr "Ažurirač je nadograđen. Pregledajte i potvrdite preostalo ažuriranje."
+
+#: /usr/lib/python3/dist-packages/anduinos_offline_updater/gui.py:509
+msgid "Start Update"
+msgstr "Pokreni ažuriranje"
+
+#: /usr/lib/python3/dist-packages/anduinos_offline_updater/gui.py:510
+msgid ""
+"Keep your computer connected to power. You can close this window and return "
+"to check progress."
+msgstr "Držite računalo priključeno na napajanje. Možete zatvoriti ovaj prozor i vratiti se da biste provjerili napredak."
+
+#: /usr/lib/python3/dist-packages/anduinos_offline_updater/gui.py:511
+#: /usr/lib/python3/dist-packages/anduinos_offline_updater/gui.py:570
+msgid "Remove Imported File"
+msgstr "Ukloni uvezenu datoteku"
+
+#: /usr/lib/python3/dist-packages/anduinos_offline_updater/gui.py:514
+msgid "Installing your update…"
+msgstr "Instalira se ažuriranje…"
+
+#: /usr/lib/python3/dist-packages/anduinos_offline_updater/gui.py:514
+msgid "Checking the installation…"
+msgstr "Provjerava se instalacija…"
+
+#: /usr/lib/python3/dist-packages/anduinos_offline_updater/gui.py:516
+msgid "Restarting the updater…"
+msgstr "Ponovno se pokreće ažurirač…"
+
+#: /usr/lib/python3/dist-packages/anduinos_offline_updater/gui.py:518
+msgid ""
+"Keep your computer connected to power. Closing this window will not stop the "
+"update."
+msgstr "Držite računalo priključeno na napajanje. Zatvaranje ovog prozora neće zaustaviti ažuriranje."
+
+#: /usr/lib/python3/dist-packages/anduinos_offline_updater/gui.py:531
+#, python-brace-format
+msgid "Stage {current} of {total}"
+msgstr "Faza {current} od {total}"
+
+#: /usr/lib/python3/dist-packages/anduinos_offline_updater/gui.py:533
+msgid "Working…"
+msgstr "Obrada…"
+
+#: /usr/lib/python3/dist-packages/anduinos_offline_updater/gui.py:541
+msgid "Update complete"
+msgstr "Ažuriranje je dovršeno"
+
+#: /usr/lib/python3/dist-packages/anduinos_offline_updater/gui.py:543
+msgid "Update could not start"
+msgstr "Ažuriranje nije moguće pokrenuti"
+
+#: /usr/lib/python3/dist-packages/anduinos_offline_updater/gui.py:543
+msgid "Update failed"
+msgstr "Ažuriranje nije uspjelo"
+
+#: /usr/lib/python3/dist-packages/anduinos_offline_updater/gui.py:550
+#, python-brace-format
+msgid "AnduinOS {source} → {target}"
+msgstr "AnduinOS {source} → {target}"
+
+#: /usr/lib/python3/dist-packages/anduinos_offline_updater/gui.py:551
+#, python-brace-format
+msgid "Planned update: {source} → {target}"
+msgstr "Planirano ažuriranje: {source} → {target}"
+
+#: /usr/lib/python3/dist-packages/anduinos_offline_updater/gui.py:554
+#, python-brace-format
+msgid "AnduinOS {version}"
+msgstr "AnduinOS {version}"
+
+#: /usr/lib/python3/dist-packages/anduinos_offline_updater/gui.py:555
+msgid "Restart your computer to finish applying the update."
+msgstr "Ponovno pokrenite računalo da biste dovršili primjenu ažuriranja."
+
+#: /usr/lib/python3/dist-packages/anduinos_offline_updater/gui.py:556
+msgid "You can keep using your computer."
+msgstr "Možete nastaviti upotrebljavati računalo."
+
+#: /usr/lib/python3/dist-packages/anduinos_offline_updater/gui.py:556
+msgid "Check the details before trying again."
+msgstr "Provjerite pojedinosti prije ponovnog pokušaja."
+
+#: /usr/lib/python3/dist-packages/anduinos_offline_updater/gui.py:558
+msgid "Done"
+msgstr "Gotovo"
+
+#: /usr/lib/python3/dist-packages/anduinos_offline_updater/gui.py:562
+msgid "Technical details"
+msgstr "Tehnički detalji"
+
+#: /usr/lib/python3/dist-packages/anduinos_offline_updater/gui.py:573
+msgid ""
+"This removes the imported copy and job history, not your original download."
+msgstr "Time se uklanjaju uvezena kopija i povijest zadatka, a ne izvorno preuzeta datoteka."
+
+#: /usr/share/applications/com.anduinos.offlineupdater.desktop:4
+msgid "Check an AnduinOS offline update package"
+msgstr "Provjeri paket izvanmrežnog ažuriranja AnduinOS-a"
+
+#: /usr/share/polkit-1/actions/com.anduinos.OfflineUpdater.policy
+msgid "Install a signed AnduinOS offline update"
+msgstr "Instaliraj potpisano izvanmrežno ažuriranje AnduinOS-a"
+
+#: /usr/share/polkit-1/actions/com.anduinos.OfflineUpdater.policy
+msgid "Authentication is required to prepare or install an offline update"
+msgstr "Za pripremu ili instalaciju izvanmrežnog ažuriranja potrebna je autentifikacija."

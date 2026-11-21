@@ -8,6 +8,12 @@ appearance/
   anduinos-appearance.sh
   deploy.sh
   hr_HR.po
+offline-updater/
+  anduinos-offline-updater.pot
+  anduinos-offline-updater.sh
+  deploy.sh
+  hr_HR.po
+  run.py
 control-panel/
   anduinos-control-panel.pot
   anduinos-control-panel.sh
@@ -40,6 +46,9 @@ The Firewall template was extracted from the installed AnduinOS Firewall
 strings already present in the application's catalog for upstream contribution.
 The Appearance template was extracted from the installed AnduinOS Appearance
 2.1.0 Python UI and desktop entry.
+The Offline Updater template was extracted from its installed Python UI,
+desktop entry, and PolicyKit action. The desktop-entry and PolicyKit messages
+are included for upstream contribution.
 
 `swap-control/` follows the same layout but has no `run.py`: Swap Control is a
 compiled GTK application, so its launcher only selects the language and points
@@ -111,6 +120,20 @@ installed application at that user-local catalog and selects Croatian.
 Deployment does not modify system files; the system desktop entry remains
 unchanged. Close any running Appearance instance before testing, because the
 application may otherwise reuse its existing window.
+
+## Testing AnduinOS Offline Updater
+
+```bash
+bash offline-updater/deploy.sh
+bash offline-updater/anduinos-offline-updater.sh
+```
+
+Deployment validates and builds the catalog before placing it in
+`~/.local/share/anduinos-offline-updater/locale/`. The test launcher opens the
+installed updater with the user-local Croatian catalog. Deployment does not
+modify system files; the system desktop entry and PolicyKit prompt remain
+unchanged. Close any running Offline Updater instance before testing, because
+the application may otherwise reuse its existing window.
 
 ## Testing AnduinOS Welcome
 

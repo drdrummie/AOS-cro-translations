@@ -1,0 +1,409 @@
+# Croatian translations for AnduinOS Offline Updater.
+# Copyright (C) 2026 AnduinOS Team
+# This file is distributed under the same license as the AnduinOS Offline Updater package.
+# Translation template for AnduinOS Offline Updater.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: AnduinOS Offline Updater 2.1.0-14\n"
+"Report-Msgid-Bugs-To: https://github.com/AiursoftWeb/AnduinOS-Packages/"
+"issues\n"
+"POT-Creation-Date: 2026-11-21 14:23+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: /usr/lib/python3/dist-packages/anduinos_offline_updater/gui.py:39
+#: /usr/lib/python3/dist-packages/anduinos_offline_updater/gui.py:54
+msgid "Offline Updater"
+msgstr ""
+
+#: /usr/lib/python3/dist-packages/anduinos_offline_updater/gui.py:55
+#: /usr/lib/python3/dist-packages/anduinos_offline_updater/gui.py:229
+#: /usr/lib/python3/dist-packages/anduinos_offline_updater/gui.py:309
+msgid "Choose another file"
+msgstr ""
+
+#: /usr/lib/python3/dist-packages/anduinos_offline_updater/gui.py:65
+msgid "Keep an independent backup of important files."
+msgstr ""
+
+#: /usr/lib/python3/dist-packages/anduinos_offline_updater/gui.py:81
+msgid "Reconnecting to your update…"
+msgstr ""
+
+#: /usr/lib/python3/dist-packages/anduinos_offline_updater/gui.py:111
+msgid "Update from a file"
+msgstr ""
+
+#: /usr/lib/python3/dist-packages/anduinos_offline_updater/gui.py:112
+msgid ""
+"Choose an AnduinOS update package.\n"
+"No internet connection needed to check the file."
+msgstr ""
+
+#: /usr/lib/python3/dist-packages/anduinos_offline_updater/gui.py:114
+#: /usr/lib/python3/dist-packages/anduinos_offline_updater/gui.py:153
+msgid "Choose Update File"
+msgstr ""
+
+#: /usr/lib/python3/dist-packages/anduinos_offline_updater/gui.py:121
+msgid "or drop an .atgz file here"
+msgstr ""
+
+#: /usr/lib/python3/dist-packages/anduinos_offline_updater/gui.py:122
+msgid "Official .atgz update packages are a paid AnduinOS Pro benefit."
+msgstr ""
+
+#: /usr/lib/python3/dist-packages/anduinos_offline_updater/gui.py:125
+msgid "Get updates from your Pro benefits center"
+msgstr ""
+
+#: /usr/lib/python3/dist-packages/anduinos_offline_updater/gui.py:142
+msgid "Could not open the website"
+msgstr ""
+
+#: /usr/lib/python3/dist-packages/anduinos_offline_updater/gui.py:143
+#: /usr/lib/python3/dist-packages/anduinos_offline_updater/gui.py:230
+#: /usr/lib/python3/dist-packages/anduinos_offline_updater/gui.py:310
+#: /usr/lib/python3/dist-packages/anduinos_offline_updater/gui.py:558
+msgid "Close"
+msgstr ""
+
+#: /usr/lib/python3/dist-packages/anduinos_offline_updater/gui.py:150
+msgid "AnduinOS update packages"
+msgstr ""
+
+#: /usr/lib/python3/dist-packages/anduinos_offline_updater/gui.py:161
+msgid "Could not open the file"
+msgstr ""
+
+#: /usr/lib/python3/dist-packages/anduinos_offline_updater/gui.py:173
+#: /usr/lib/python3/dist-packages/anduinos_offline_updater/gui.py:177
+msgid "Choose one local .atgz file."
+msgstr ""
+
+#: /usr/lib/python3/dist-packages/anduinos_offline_updater/gui.py:181
+msgid "Checking your update…"
+msgstr ""
+
+#: /usr/lib/python3/dist-packages/anduinos_offline_updater/gui.py:181
+msgid ""
+"Verifying the signature and checking your system. This may take a few "
+"minutes."
+msgstr ""
+
+#: /usr/lib/python3/dist-packages/anduinos_offline_updater/gui.py:209
+#: /usr/lib/python3/dist-packages/anduinos_offline_updater/gui.py:212
+#: /usr/lib/python3/dist-packages/anduinos_offline_updater/gui.py:300
+msgid "The update could not be checked. Try choosing the file again."
+msgstr ""
+
+#: /usr/lib/python3/dist-packages/anduinos_offline_updater/gui.py:224
+msgid "Cannot preview this update"
+msgstr ""
+
+#: /usr/lib/python3/dist-packages/anduinos_offline_updater/gui.py:224
+msgid "No system packages were changed."
+msgstr ""
+
+#: /usr/lib/python3/dist-packages/anduinos_offline_updater/gui.py:236
+msgid "This computer"
+msgstr ""
+
+#: /usr/lib/python3/dist-packages/anduinos_offline_updater/gui.py:237
+msgid "Update package"
+msgstr ""
+
+#: /usr/lib/python3/dist-packages/anduinos_offline_updater/gui.py:240
+#: /usr/lib/python3/dist-packages/anduinos_offline_updater/gui.py:242
+#: /usr/lib/python3/dist-packages/anduinos_offline_updater/gui.py:270
+#: /usr/lib/python3/dist-packages/anduinos_offline_updater/gui.py:272
+#: /usr/lib/python3/dist-packages/anduinos_offline_updater/gui.py:274
+#: /usr/lib/python3/dist-packages/anduinos_offline_updater/gui.py:320
+msgid "Unknown"
+msgstr ""
+
+#: /usr/lib/python3/dist-packages/anduinos_offline_updater/gui.py:256
+msgid "Built (UTC)"
+msgstr ""
+
+#: /usr/lib/python3/dist-packages/anduinos_offline_updater/gui.py:257
+msgid "File size"
+msgstr ""
+
+#: /usr/lib/python3/dist-packages/anduinos_offline_updater/gui.py:258
+msgid "Signature"
+msgstr ""
+
+#: /usr/lib/python3/dist-packages/anduinos_offline_updater/gui.py:258
+msgid "Verified"
+msgstr ""
+
+#: /usr/lib/python3/dist-packages/anduinos_offline_updater/gui.py:269
+#, python-brace-format
+msgid ""
+"Your system is newer than this update. Choose an update for {version} or "
+"later."
+msgstr ""
+
+#: /usr/lib/python3/dist-packages/anduinos_offline_updater/gui.py:271
+#, python-brace-format
+msgid ""
+"This package is for a different architecture. Choose a package for "
+"{architecture}."
+msgstr ""
+
+#: /usr/lib/python3/dist-packages/anduinos_offline_updater/gui.py:273
+#, python-brace-format
+msgid ""
+"This package is for a different system branch. Choose an update for {suite}."
+msgstr ""
+
+#: /usr/lib/python3/dist-packages/anduinos_offline_updater/gui.py:275
+msgid ""
+"This package is for a different AnduinOS series. Choose an update for your "
+"system version."
+msgstr ""
+
+#: /usr/lib/python3/dist-packages/anduinos_offline_updater/gui.py:276
+msgid "This update requires AnduinOS."
+msgstr ""
+
+#: /usr/lib/python3/dist-packages/anduinos_offline_updater/gui.py:277
+msgid ""
+"The current system version could not be determined. Check your system before "
+"updating."
+msgstr ""
+
+#: /usr/lib/python3/dist-packages/anduinos_offline_updater/gui.py:293
+msgid "This file has not passed verification."
+msgstr ""
+
+#: /usr/lib/python3/dist-packages/anduinos_offline_updater/gui.py:295
+msgid "Review your update"
+msgstr ""
+
+#: /usr/lib/python3/dist-packages/anduinos_offline_updater/gui.py:296
+#: /usr/lib/python3/dist-packages/anduinos_offline_updater/gui.py:542
+msgid "You already have this update"
+msgstr ""
+
+#: /usr/lib/python3/dist-packages/anduinos_offline_updater/gui.py:297
+msgid "A newer updater is required"
+msgstr ""
+
+#: /usr/lib/python3/dist-packages/anduinos_offline_updater/gui.py:298
+msgid "Cannot install this update"
+msgstr ""
+
+#: /usr/lib/python3/dist-packages/anduinos_offline_updater/gui.py:317
+msgid "Disabled"
+msgstr ""
+
+#: /usr/lib/python3/dist-packages/anduinos_offline_updater/gui.py:317
+msgid "Unavailable"
+msgstr ""
+
+#: /usr/lib/python3/dist-packages/anduinos_offline_updater/gui.py:317
+msgid "Check required"
+msgstr ""
+
+#: /usr/lib/python3/dist-packages/anduinos_offline_updater/gui.py:321
+msgid "Package changes"
+msgstr ""
+
+#: /usr/lib/python3/dist-packages/anduinos_offline_updater/gui.py:322
+msgid "Temporary storage"
+msgstr ""
+
+#: /usr/lib/python3/dist-packages/anduinos_offline_updater/gui.py:323
+msgid "Package expansion estimate"
+msgstr ""
+
+#: /usr/lib/python3/dist-packages/anduinos_offline_updater/gui.py:324
+msgid "System snapshot"
+msgstr ""
+
+#: /usr/lib/python3/dist-packages/anduinos_offline_updater/gui.py:331
+msgid ""
+"Installation space and snapshot availability must be checked again before "
+"installing."
+msgstr ""
+
+#: /usr/lib/python3/dist-packages/anduinos_offline_updater/gui.py:333
+#: /usr/lib/python3/dist-packages/anduinos_offline_updater/gui.py:418
+msgid "Continue"
+msgstr ""
+
+#: /usr/lib/python3/dist-packages/anduinos_offline_updater/gui.py:370
+msgid "The request did not complete. Authorization may have been cancelled."
+msgstr ""
+
+#: /usr/lib/python3/dist-packages/anduinos_offline_updater/gui.py:373
+msgid "Unexpected update response."
+msgstr ""
+
+#: /usr/lib/python3/dist-packages/anduinos_offline_updater/gui.py:388
+msgid "Preparing your update…"
+msgstr ""
+
+#: /usr/lib/python3/dist-packages/anduinos_offline_updater/gui.py:389
+msgid ""
+"Authorize importing the file and checking the installation plan. No packages "
+"are installed yet."
+msgstr ""
+
+#: /usr/lib/python3/dist-packages/anduinos_offline_updater/gui.py:416
+msgid "Could not save the update session"
+msgstr ""
+
+#: /usr/lib/python3/dist-packages/anduinos_offline_updater/gui.py:417
+msgid "Keep this job ID to reconnect from the command line."
+msgstr ""
+
+#: /usr/lib/python3/dist-packages/anduinos_offline_updater/gui.py:427
+msgid "Starting your update…"
+msgstr ""
+
+#: /usr/lib/python3/dist-packages/anduinos_offline_updater/gui.py:460
+msgid "Cannot read the update status"
+msgstr ""
+
+#: /usr/lib/python3/dist-packages/anduinos_offline_updater/gui.py:461
+msgid ""
+"The update may still be running. Reconnect to check it; do not start another "
+"installation."
+msgstr ""
+
+#: /usr/lib/python3/dist-packages/anduinos_offline_updater/gui.py:465
+msgid "Reconnect"
+msgstr ""
+
+#: /usr/lib/python3/dist-packages/anduinos_offline_updater/gui.py:471
+msgid "Removing the imported file…"
+msgstr ""
+
+#: /usr/lib/python3/dist-packages/anduinos_offline_updater/gui.py:500
+msgid "This update needs review"
+msgstr ""
+
+#: /usr/lib/python3/dist-packages/anduinos_offline_updater/gui.py:501
+msgid ""
+"Use the command line to review this older update session, or remove its "
+"imported file and choose it again."
+msgstr ""
+
+#: /usr/lib/python3/dist-packages/anduinos_offline_updater/gui.py:507
+msgid "The updater has been upgraded. Review and confirm the remaining update."
+msgstr ""
+
+#: /usr/lib/python3/dist-packages/anduinos_offline_updater/gui.py:509
+msgid "Start Update"
+msgstr ""
+
+#: /usr/lib/python3/dist-packages/anduinos_offline_updater/gui.py:510
+msgid ""
+"Keep your computer connected to power. You can close this window and return "
+"to check progress."
+msgstr ""
+
+#: /usr/lib/python3/dist-packages/anduinos_offline_updater/gui.py:511
+#: /usr/lib/python3/dist-packages/anduinos_offline_updater/gui.py:570
+msgid "Remove Imported File"
+msgstr ""
+
+#: /usr/lib/python3/dist-packages/anduinos_offline_updater/gui.py:514
+msgid "Installing your update…"
+msgstr ""
+
+#: /usr/lib/python3/dist-packages/anduinos_offline_updater/gui.py:514
+msgid "Checking the installation…"
+msgstr ""
+
+#: /usr/lib/python3/dist-packages/anduinos_offline_updater/gui.py:516
+msgid "Restarting the updater…"
+msgstr ""
+
+#: /usr/lib/python3/dist-packages/anduinos_offline_updater/gui.py:518
+msgid ""
+"Keep your computer connected to power. Closing this window will not stop the "
+"update."
+msgstr ""
+
+#: /usr/lib/python3/dist-packages/anduinos_offline_updater/gui.py:531
+#, python-brace-format
+msgid "Stage {current} of {total}"
+msgstr ""
+
+#: /usr/lib/python3/dist-packages/anduinos_offline_updater/gui.py:533
+msgid "Working…"
+msgstr ""
+
+#: /usr/lib/python3/dist-packages/anduinos_offline_updater/gui.py:541
+msgid "Update complete"
+msgstr ""
+
+#: /usr/lib/python3/dist-packages/anduinos_offline_updater/gui.py:543
+msgid "Update could not start"
+msgstr ""
+
+#: /usr/lib/python3/dist-packages/anduinos_offline_updater/gui.py:543
+msgid "Update failed"
+msgstr ""
+
+#: /usr/lib/python3/dist-packages/anduinos_offline_updater/gui.py:550
+#, python-brace-format
+msgid "AnduinOS {source} → {target}"
+msgstr ""
+
+#: /usr/lib/python3/dist-packages/anduinos_offline_updater/gui.py:551
+#, python-brace-format
+msgid "Planned update: {source} → {target}"
+msgstr ""
+
+#: /usr/lib/python3/dist-packages/anduinos_offline_updater/gui.py:554
+#, python-brace-format
+msgid "AnduinOS {version}"
+msgstr ""
+
+#: /usr/lib/python3/dist-packages/anduinos_offline_updater/gui.py:555
+msgid "Restart your computer to finish applying the update."
+msgstr ""
+
+#: /usr/lib/python3/dist-packages/anduinos_offline_updater/gui.py:556
+msgid "You can keep using your computer."
+msgstr ""
+
+#: /usr/lib/python3/dist-packages/anduinos_offline_updater/gui.py:556
+msgid "Check the details before trying again."
+msgstr ""
+
+#: /usr/lib/python3/dist-packages/anduinos_offline_updater/gui.py:558
+msgid "Done"
+msgstr ""
+
+#: /usr/lib/python3/dist-packages/anduinos_offline_updater/gui.py:562
+msgid "Technical details"
+msgstr ""
+
+#: /usr/lib/python3/dist-packages/anduinos_offline_updater/gui.py:573
+msgid ""
+"This removes the imported copy and job history, not your original download."
+msgstr ""
+
+#: /usr/share/applications/com.anduinos.offlineupdater.desktop:4
+msgid "Check an AnduinOS offline update package"
+msgstr ""
+
+#: /usr/share/polkit-1/actions/com.anduinos.OfflineUpdater.policy
+msgid "Install a signed AnduinOS offline update"
+msgstr ""
+
+#: /usr/share/polkit-1/actions/com.anduinos.OfflineUpdater.policy
+msgid "Authentication is required to prepare or install an offline update"
+msgstr ""
