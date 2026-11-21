@@ -1,0 +1,754 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: anduinos-oobe\n"
+"PO-Revision-Date: 2026-11-21 12:34+0100\n"
+"Last-Translator: Local translation\n"
+"Language-Team: Croatian\n"
+"Language: hr_HR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<12 || n%100>14) ? 1 : 2);\n"
+
+msgid "NetworkManager could not scan Wi-Fi."
+msgstr "NetworkManager nije mogao pretražiti Wi-Fi mreže."
+
+msgid "Could not inspect network adapters."
+msgstr "Nije moguće pregledati mrežne prilagodnike."
+
+msgid "Could not read the Wi-Fi radio state."
+msgstr "Nije moguće očitati stanje Wi-Fi veze."
+
+#, python-brace-format
+msgid "Unknown Wi-Fi radio state: {}"
+msgstr "Nepoznato stanje Wi-Fi veze: {}"
+
+msgid "empty"
+msgstr "prazno"
+
+msgid "Could not change the Wi-Fi radio state."
+msgstr "Nije moguće promijeniti stanje Wi-Fi veze."
+
+msgid "Welcome Home."
+msgstr "Dobro došli kući."
+
+msgid "AnduinOS is ready. Just a few steps to shape it"
+msgstr "AnduinOS je spreman. Još samo nekoliko koraka"
+
+msgid "into the perfect system tailored to your habits."
+msgstr "do sustava prilagođenog vašim navikama."
+
+msgid "  Start Setup  "
+msgstr "  Pokreni postavljanje  "
+
+msgid "Connect to the Internet"
+msgstr "Povežite se s internetom"
+
+msgid "Connect now so AnduinOS can safely check for updates, drivers, and apps."
+msgstr "Povežite se sada kako bi AnduinOS mogao sigurno provjeriti ažuriranja, upravljačke programe i aplikacije."
+
+msgid "Internet Connection"
+msgstr "Internetska veza"
+
+msgid "Network Hardware"
+msgstr "Mrežni hardver"
+
+msgid "Available Wi-Fi Networks"
+msgstr "Dostupne Wi-Fi mreže"
+
+msgid "Wi-Fi"
+msgstr "Wi-Fi"
+
+msgid "Scan Again"
+msgstr "Ponovno pretraži"
+
+msgid "Open Network Settings"
+msgstr "Otvori mrežne postavke"
+
+#, python-brace-format
+msgid "Could not open network settings: {}"
+msgstr "Nije moguće otvoriti mrežne postavke: {}"
+
+msgid "Continue Offline"
+msgstr "Nastavi bez interneta"
+
+msgid "Skip updates, online drivers, apps, and account setup."
+msgstr "Preskočite ažuriranja, preuzimanje upravljačkih programa i aplikacija te postavljanje računa."
+
+msgid "Internet connection is ready. Choose Next to continue."
+msgstr "Internetska veza je spremna. Odaberite Dalje za nastavak."
+
+msgid "Connect to Wi-Fi or a wired network to continue."
+msgstr "Povežite se s Wi-Fi ili žičnom mrežom za nastavak."
+
+msgid "No network adapters detected."
+msgstr "Nisu otkriveni mrežni prilagodnici."
+
+msgid "Connect a network adapter or continue offline."
+msgstr "Povežite mrežni prilagodnik ili nastavite bez interneta."
+
+msgid "Wired Network"
+msgstr "Žična mreža"
+
+msgid "Cable connected."
+msgstr "Kabel je povezan."
+
+msgid "Plug in a network cable to connect."
+msgstr "Priključite mrežni kabel za povezivanje."
+
+msgid "Wireless Network"
+msgstr "Bežična mreža"
+
+msgid "Wi-Fi adapter detected."
+msgstr "Otkriven je Wi-Fi prilagodnik."
+
+msgid "Open Wi-Fi Settings"
+msgstr "Otvori Wi-Fi postavke"
+
+msgid "Wired and Wireless Networks"
+msgstr "Žične i bežične mreže"
+
+msgid "Cable connected and Wi-Fi available."
+msgstr "Kabel je povezan i Wi-Fi je dostupan."
+
+msgid "Wi-Fi is available; the network cable is disconnected."
+msgstr "Wi-Fi je dostupan; mrežni kabel nije povezan."
+
+msgid "Wi-Fi is turned off."
+msgstr "Wi-Fi je isključen."
+
+msgid "No Wi-Fi networks found."
+msgstr "Nisu pronađene Wi-Fi mreže."
+
+#, python-brace-format
+msgid "Wi-Fi unavailable: {}"
+msgstr "Wi-Fi nije dostupan: {}"
+
+msgid "Display Scaling"
+msgstr "Skaliranje zaslona"
+
+msgid "Recommendation unavailable for this display."
+msgstr "Preporuka nije dostupna za ovaj zaslon."
+
+#, python-format
+msgid "%(scale)s (Recommended)"
+msgstr "%(scale)s (preporučeno)"
+
+#, python-format
+msgid "Primary display: %(display)s · Recommended: %(scale)s"
+msgstr "Glavni zaslon: %(display)s · Preporučeno: %(scale)s"
+
+msgid "Could not change display scaling."
+msgstr "Nije moguće promijeniti skaliranje zaslona."
+
+msgid "Define Your Visual Order"
+msgstr "Prilagodite izgled"
+
+msgid "Light and Shadow"
+msgstr "Svjetlo i sjena"
+
+msgid "Choose a crisp light theme, or an immersive dark experience."
+msgstr "Odaberite svijetlu ili tamnu temu."
+
+msgid "Light"
+msgstr "Svijetla"
+
+msgid "Dark"
+msgstr "Tamna"
+
+msgid "Workflow Layout"
+msgstr "Raspored radnog prostora"
+
+msgid "Prefer modern centered alignment, or classic left-docked?"
+msgstr "Želite li moderan središnji ili klasičan lijevi raspored?"
+
+msgid "Taskbar Layout"
+msgstr "Raspored programske trake"
+
+msgid "Choose your workflow."
+msgstr "Odaberite način rada."
+
+msgid " Modern "
+msgstr " Moderan "
+
+msgid " Classic "
+msgstr " Klasičan "
+
+msgid "Show Virtual Desktop Switch Button"
+msgstr "Prikaži gumb za promjenu virtualne radne površine"
+
+msgid "Display the Activities button on the taskbar"
+msgstr "Prikaži gumb Aktivnosti na programskoj traci"
+
+msgid "Digital Sovereignty, Under Your Control"
+msgstr "Digitalna neovisnost pod vašom kontrolom"
+
+msgid "We deeply value privacy. Here, you hold absolute authority."
+msgstr "Privatnost nam je važna. Ovdje vi imate potpunu kontrolu."
+
+msgid "Network Security"
+msgstr "Sigurnost mreže"
+
+msgid "Network Firewall (UFW)"
+msgstr "Mrežni vatrozid (UFW)"
+
+msgid "Location Services"
+msgstr "Usluge lokacije"
+
+msgid "Allow apps like weather and clock to access your approximate geographic location."
+msgstr "Dopustite aplikacijama poput vremena i sata pristup vašoj približnoj geografskoj lokaciji."
+
+msgid "Location Access"
+msgstr "Pristup lokaciji"
+
+msgid "Power Settings"
+msgstr "Postavke napajanja"
+
+msgid "Manage idle behavior to balance energy saving and convenience."
+msgstr "Upravljajte ponašanjem tijekom mirovanja radi ravnoteže između uštede energije i praktičnosti."
+
+msgid "Auto Sleep When Idle"
+msgstr "Automatski prijeđi u mirovanje"
+
+#, python-brace-format
+msgid "Could not open AnduinOS Driver Center: {}"
+msgstr "Nije moguće otvoriti AnduinOS centar upravljačkih programa: {}"
+
+msgid "Configure Hardware Drivers?"
+msgstr "Konfigurirati upravljačke programe?"
+
+msgid "Open AnduinOS Driver Center now to manage graphics cards, Xbox controllers, and other hardware."
+msgstr "Otvorite AnduinOS centar upravljačkih programa za upravljanje grafičkim karticama, Xbox kontrolerima i drugim hardverom."
+
+msgid "Skip"
+msgstr "Preskoči"
+
+msgid "Open Driver Center"
+msgstr "Otvori centar upravljačkih programa"
+
+msgid "Run Windows Apps, with ease"
+msgstr "Jednostavno pokrećite aplikacije sustava Windows"
+
+msgid "Powered by Wine and Bottles technology, running classic Windows applications is now easier than ever."
+msgstr "Zahvaljujući tehnologijama Wine i Bottles, pokretanje klasičnih aplikacija sustava Windows sada je jednostavnije nego ikad."
+
+msgid "✓ Windows compatibility sandbox is already installed."
+msgstr "✓ Izolirano okruženje za kompatibilnost sa sustavom Windows već je instalirano."
+
+msgid "  Skip  "
+msgstr "  Preskoči  "
+
+msgid "  Enable Windows Compatibility Sandbox  "
+msgstr "  Omogući izolirano okruženje za kompatibilnost sa sustavom Windows  "
+
+msgid "Configure Bottles"
+msgstr "Konfiguriraj Bottles"
+
+msgid "Advanced Output"
+msgstr "Detaljan ispis"
+
+msgid "Deploying compatibility sandbox via Flatpak…"
+msgstr "Postavljanje izoliranog okruženja za kompatibilnost putem Flatpaka…"
+
+msgid "This may take a few minutes."
+msgstr "To može potrajati nekoliko minuta."
+
+msgid "✓ Sandbox deployed successfully!"
+msgstr "✓ Izolirano okruženje uspješno je postavljeno!"
+
+msgid "You can now double-click .exe files to run them."
+msgstr "Sada možete pokretati .exe datoteke dvostrukim klikom."
+
+msgid "✗ Deployment failed."
+msgstr "✗ Postavljanje nije uspjelo."
+
+msgid "You can install Bottles later from the App Store."
+msgstr "Bottles možete instalirati kasnije iz trgovine aplikacija."
+
+msgid "✗ Error: "
+msgstr "✗ Pogreška: "
+
+msgid "The Magic at Your Fingertips"
+msgstr "Mogućnosti na dohvat ruke"
+
+msgid "Skip tedious clicking. Capture inspiration with elegance."
+msgstr "Preskočite suvišne klikove i jednostavno zabilježite inspiraciju."
+
+msgid "Screenshot"
+msgstr "Snimka zaslona"
+
+msgid "Select, annotate, copy — all in one motion"
+msgstr "Odaberite, označite i kopirajte u jednom potezu"
+
+msgid "Screen Recording"
+msgstr "Snimanje zaslona"
+
+msgid "Seamless start, instant capture"
+msgstr "Jednostavno pokretanje, trenutačno snimanje"
+
+msgid "Open Chinese Input Method Settings"
+msgstr "Otvori postavke kineskog načina unosa"
+
+msgid "Switch to Chinese (Rime) first to choose Pinyin or Shuangpin."
+msgstr "Najprije prijeđite na kineski (Rime) kako biste odabrali Pinyin ili Shuangpin."
+
+msgid "More Essential Shortcuts"
+msgstr "Još korisnih prečaca"
+
+msgid "Open File Manager"
+msgstr "Otvori upravitelj datoteka"
+
+msgid "Open Terminal"
+msgstr "Otvori terminal"
+
+msgid "Task Manager"
+msgstr "Upravitelj zadataka"
+
+msgid "View Clipboard History"
+msgstr "Prikaži povijest međuspremnika"
+
+msgid "Lock Screen"
+msgstr "Zaključaj zaslon"
+
+msgid "Action Center"
+msgstr "Centar radnji"
+
+msgid "Notification Center"
+msgstr "Centar obavijesti"
+
+msgid "Toggle Network Stats Display"
+msgstr "Uključi ili isključi prikaz mrežne statistike"
+
+msgid "Switch Between Windows"
+msgstr "Prebaci između prozora"
+
+msgid "Close Current Window"
+msgstr "Zatvori trenutačni prozor"
+
+msgid "Snap Windows"
+msgstr "Prisloni prozore"
+
+msgid "Switch Virtual Desktop"
+msgstr "Promijeni virtualnu radnu površinu"
+
+msgid "Show Desktop"
+msgstr "Prikaži radnu površinu"
+
+msgid "System Settings"
+msgstr "Postavke sustava"
+
+msgid "Emoji and Characters"
+msgstr "Emotikoni i znakovi"
+
+msgid "Minimize Window"
+msgstr "Minimiziraj prozor"
+
+msgid "You can view and customize all shortcuts anytime in Settings → Keyboard."
+msgstr "Sve prečace možete pregledati i prilagoditi u bilo kojem trenutku u Postavke → Tipkovnica."
+
+msgid "Are you in mainland China?"
+msgstr "Nalazite li se u kontinentalnoj Kini?"
+
+msgid "Continue with global AnduinOS operated by AIURSOFT LIMITED, obtaining software from the global service network. (not compliant in mainland China)"
+msgstr "Nastavite s globalnim AnduinOS-om kojim upravlja AIURSOFT LIMITED i nabavljajte softver iz globalne mreže usluga. (Nije usklađeno s propisima kontinentalne Kine.)"
+
+msgid "Use mainland China AnduinOS operated by Suzhou Aiursoft Technology Co., Ltd., obtaining software from software servers in China."
+msgstr "Upotrijebite AnduinOS za kontinentalnu Kinu kojim upravlja Suzhou Aiursoft Technology Co., Ltd. i nabavljajte softver s poslužitelja u Kini."
+
+msgid "This option changes how software is obtained. The mainland China version may not provide access to some software."
+msgstr "Ova mogućnost mijenja način nabave softvera. Verzija za kontinentalnu Kinu možda ne omogućuje pristup određenom softveru."
+
+msgid "Some software sources could not be changed. You can retry or continue."
+msgstr "Neke izvore softvera nije moguće promijeniti. Možete pokušati ponovno ili nastaviti."
+
+msgid "Software sources have been changed."
+msgstr "Izvori softvera promijenjeni su."
+
+msgid "Testing software sources..."
+msgstr "Testiranje izvora softvera..."
+
+msgid "Productive From Day One"
+msgstr "Produktivni od prvog dana"
+
+msgid "Essential productivity and entertainment tools, hand-picked for you."
+msgstr "Odabrani osnovni alati za produktivnost i zabavu."
+
+msgid "Click any app to open its details in the App Store."
+msgstr "Kliknite aplikaciju za prikaz pojedinosti u trgovini aplikacija."
+
+msgid "WeChat"
+msgstr "WeChat"
+
+msgid "Most popular messaging app in China"
+msgstr "Najpopularnija aplikacija za razmjenu poruka u Kini"
+
+msgid "QQ"
+msgstr "QQ"
+
+msgid "Tencent QQ instant messenger"
+msgstr "Tencent QQ za razmjenu brzih poruka"
+
+msgid "WPS Office"
+msgstr "WPS Office"
+
+msgid "Best office suite for Chinese documents"
+msgstr "Uredski paket za dokumente na kineskom"
+
+msgid "Google Chrome"
+msgstr "Google Chrome"
+
+msgid "The world's most popular web browser"
+msgstr "Najpopularniji internetski preglednik na svijetu"
+
+msgid "Visual Studio Code"
+msgstr "Visual Studio Code"
+
+msgid "Code editing. Redefined."
+msgstr "Uređivanje koda na nov način."
+
+msgid "Steam"
+msgstr "Steam"
+
+msgid "Your portal to the gaming universe"
+msgstr "Vaš ulaz u svijet igara"
+
+msgid "Discord"
+msgstr "Discord"
+
+msgid "Chat, voice, and video for communities"
+msgstr "Tekstualni, glasovni i videorazgovori za zajednice"
+
+msgid "Spotify"
+msgstr "Spotify"
+
+msgid "Music for everyone"
+msgstr "Glazba za svakoga"
+
+msgid "OnlyOffice"
+msgstr "OnlyOffice"
+
+msgid "Best Microsoft Office-compatible suite"
+msgstr "Uredski paket kompatibilan s Microsoft Officeom"
+
+msgid "Thunderbird"
+msgstr "Thunderbird"
+
+msgid "Secure, fast, and easy email client"
+msgstr "Siguran, brz i jednostavan klijent e-pošte"
+
+msgid "Nextcloud"
+msgstr "Nextcloud"
+
+msgid "Sync and collaborate on your desktop or laptop"
+msgstr "Sinkronizirajte i surađujte na stolnom ili prijenosnom računalu"
+
+msgid "Blender"
+msgstr "Blender"
+
+msgid "Professional 3D creation suite"
+msgstr "Profesionalni paket za 3D stvaranje"
+
+msgid "GNOME Boxes"
+msgstr "GNOME Boxes"
+
+msgid "Virtualization made simple"
+msgstr "Jednostavna virtualizacija"
+
+msgid "VLC"
+msgstr "VLC"
+
+msgid "The versatile media player that plays everything"
+msgstr "Svestrani multimedijski reproduktor"
+
+msgid "Krita"
+msgstr "Krita"
+
+msgid "Professional free and open source painting program"
+msgstr "Profesionalni slobodni program otvorenog koda za digitalno slikanje"
+
+msgid "OBS Studio"
+msgstr "OBS Studio"
+
+msgid "Free and open source software for video recording and live streaming"
+msgstr "Slobodni softver otvorenog koda za snimanje i prijenos videa uživo"
+
+msgid "Installed"
+msgstr "Instalirano"
+
+msgid "Click to open in App Store"
+msgstr "Kliknite za otvaranje u trgovini aplikacija"
+
+msgid "Opening…"
+msgstr "Otvaranje…"
+
+msgid "Pro tip: You can explore these apps in the App Store, and continue with the system setup while they download."
+msgstr "Savjet: možete istražiti ove aplikacije u trgovini i nastaviti s postavljanjem sustava dok se preuzimaju."
+
+msgid "  Browse Store  "
+msgstr "  Pregledaj trgovinu  "
+
+msgid "Control Your Computer with Natural Language"
+msgstr "Upravljajte računalom prirodnim jezikom"
+
+msgid "Optional AI tools for your projects. Sign-in or an API key may be required; provider charges may apply."
+msgstr "Neobavezni alati umjetne inteligencije za vaše projekte. Možda će biti potrebna prijava ili API ključ; pružatelj može naplaćivati usluge."
+
+msgid "Independently provided third-party tools. Trademarks belong to their owners; no affiliation or endorsement."
+msgstr "Neovisni alati trećih strana. Zaštitni znakovi pripadaju njihovim vlasnicima; nema povezanosti ni potvrde podrške."
+
+msgid "Installation failed. Click the agent to retry."
+msgstr "Instalacija nije uspjela. Kliknite agenta za ponovni pokušaj."
+
+msgid "Not installed"
+msgstr "Nije instalirano"
+
+msgid "Installed. Click the agent to open it in a new window."
+msgstr "Instalirano. Kliknite agenta za otvaranje u novom prozoru."
+
+#, python-brace-format
+msgid "Installer exit status: {}"
+msgstr "Izlazni status instalacijskog programa: {}"
+
+msgid "The installer finished, but the executable could not be found."
+msgstr "Instalacijski program je završio, ali izvršna datoteka nije pronađena."
+
+#, python-brace-format
+msgid "Installing {}…"
+msgstr "Instaliranje: {}…"
+
+#, python-brace-format
+msgid "Opening {}…"
+msgstr "Otvaranje: {}…"
+
+#, python-brace-format
+msgid "Could not open {}."
+msgstr "Nije moguće otvoriti {}."
+
+msgid "Installation downloads and runs third-party software with your account permissions. It may change your user environment. Coding agents can read and modify files, run commands, and send project data to their provider. Only use them in projects you trust. Continue?"
+msgstr "Instalacija preuzima i pokreće softver trećih strana s dopuštenjima vašeg računa. Može promijeniti vaše korisničko okruženje. Agenti za programiranje mogu čitati i mijenjati datoteke, izvršavati naredbe i slati podatke projekta svojem pružatelju usluge. Upotrebljavajte ih samo u projektima kojima vjerujete. Nastaviti?"
+
+#, python-brace-format
+msgid "Install {}?"
+msgstr "Instalirati {}?"
+
+msgid "Read the terms of service and privacy policy before use. Fees are determined by the provider."
+msgstr "Prije upotrebe pročitajte uvjete pružanja usluge i pravila privatnosti. Naknade određuje pružatelj usluge."
+
+msgid "Terms of Service"
+msgstr "Uvjeti pružanja usluge"
+
+msgid "Privacy Policy"
+msgstr "Pravila privatnosti"
+
+msgid "Cancel"
+msgstr "Odustani"
+
+msgid "Install"
+msgstr "Instaliraj"
+
+msgid "Recommended"
+msgstr "Preporučeno"
+
+msgid "Your Data. Your Rules. Period."
+msgstr "Vaši podaci. Vaša pravila."
+
+msgid "AnduinOS does not send usage statistics or diagnostic reports to any organization by default."
+msgstr "AnduinOS prema zadanim postavkama ne šalje statistiku korištenja ni dijagnostička izvješća nijednoj organizaciji."
+
+msgid "We do not collect your usage habits."
+msgstr "Ne prikupljamo vaše navike korištenja."
+
+msgid "We do not upload your search history."
+msgstr "Ne prenosimo vašu povijest pretraživanja."
+
+msgid "There are no pervasive advertisements."
+msgstr "Nema nametljivih oglasa."
+
+msgid "In an era ruled by algorithms and surveillance, this is our firmest commitment to you."
+msgstr "U doba algoritama i nadzora ovo je naše čvrsto obećanje."
+
+msgid "✓ Zero telemetry — the operating system itself never reports your activity"
+msgstr "✓ Bez telemetrije — sam operacijski sustav nikada ne izvještava o vašim aktivnostima"
+
+msgid "✓ No mandatory internet connection — the operating system does not contact AIURSOFT servers except for updates"
+msgstr "✓ Internetska veza nije obavezna — operacijski sustav ne kontaktira poslužitelje AIURSOFT-a osim radi ažuriranja"
+
+msgid "✓ No ads in your operating system"
+msgstr "✓ Bez oglasa u operacijskom sustavu"
+
+msgid "✓ Full root access — you truly own your machine"
+msgstr "✓ Potpun administratorski pristup — vi upravljate svojim računalom"
+
+msgid "✓ UFW firewall — your digital perimeter, defended"
+msgstr "✓ Vatrozid UFW — zaštita vašeg digitalnog okruženja"
+
+msgid "✓ Open source — the code is yours to inspect and modify"
+msgstr "✓ Otvoreni kod — možete ga pregledavati i mijenjati"
+
+msgid "Welcome to the AnduinOS Community"
+msgstr "Dobro došli u zajednicu AnduinOS-a"
+
+msgid "Whether you're a Windows refugee seeking shelter, or a hardcore geek developer — you'll find your tribe here."
+msgstr "Bez obzira na to dolazite li iz sustava Windows ili ste iskusni zaljubljenik u programiranje, ovdje ćete pronaći svoju zajednicu."
+
+msgid "Found a bug? Want a feature? Tell us anytime."
+msgstr "Pronašli ste grešku ili želite novu značajku? Javite nam."
+
+msgid "Official Documentation"
+msgstr "Službena dokumentacija"
+
+msgid "Comprehensive guides and troubleshooting — covers everything you need"
+msgstr "Sveobuhvatni vodiči i pomoć pri rješavanju problema"
+
+msgid "Community Forums"
+msgstr "Forumi zajednice"
+
+msgid "Discuss with other AnduinOS users and developers"
+msgstr "Razgovarajte s drugim korisnicima i razvijateljima AnduinOS-a"
+
+msgid "Discord Server"
+msgstr "Discord poslužitelj"
+
+msgid "Join our official Discord server for real-time chat and support"
+msgstr "Pridružite se službenom Discord poslužitelju za razgovor i podršku u stvarnom vremenu"
+
+msgid "Report an Issue"
+msgstr "Prijavi problem"
+
+msgid "Found a bug or have a feature request? Let us know!"
+msgstr "Pronašli ste grešku ili imate prijedlog značajke? Javite nam!"
+
+msgid "Buy AnduinOS Enterprise Edition"
+msgstr "Kupite AnduinOS Enterprise Edition"
+
+msgid "Get enterprise-grade support and advanced features for your organization"
+msgstr "Osigurajte poslovnu podršku i napredne značajke za svoju organizaciju"
+
+msgid "Ask Ubuntu"
+msgstr "Ask Ubuntu"
+
+msgid "Almost all Ubuntu solutions apply directly to AnduinOS"
+msgstr "Gotovo sva rješenja za Ubuntu mogu se izravno primijeniti na AnduinOS"
+
+msgid "Source Code"
+msgstr "Izvorni kod"
+
+msgid "AnduinOS is open-source. Explore the code and contribute!"
+msgstr "AnduinOS je otvorenog koda. Istražite kod i pridonesite!"
+
+msgid "Open"
+msgstr "Otvori"
+
+msgid "💡 AnduinOS is compatible with Ubuntu's entire ecosystem."
+msgstr "💡 AnduinOS je kompatibilan s cijelim Ubuntuovim ekosustavom."
+
+msgid "You can rely on Ubuntu's vast documentation and expertise."
+msgstr "Možete se osloniti na opsežnu dokumentaciju i znanje zajednice Ubuntua."
+
+msgid "All Set."
+msgstr "Sve je spremno."
+
+msgid "Rate AnduinOS"
+msgstr "Ocijenite AnduinOS"
+
+msgid "Record is anonymous"
+msgstr "Zapis je anoniman"
+
+msgid "How we can improve"
+msgstr "Kako se možemo poboljšati"
+
+msgid "Submit"
+msgstr "Pošalji"
+
+msgid "Thank you for your feedback!"
+msgstr "Hvala na povratnim informacijama!"
+
+msgid "Submission limit reached. Please try again later."
+msgstr "Dosegnuto je ograničenje slanja. Pokušajte ponovno kasnije."
+
+msgid "Failed to submit rating."
+msgstr "Slanje ocjene nije uspjelo."
+
+msgid "Network error. Unable to submit rating."
+msgstr "Mrežna pogreška. Nije moguće poslati ocjenu."
+
+msgid "Submitting..."
+msgstr "Slanje..."
+
+msgid "  Start Your AnduinOS Journey  "
+msgstr "  Započnite svoje putovanje s AnduinOS-om  "
+
+msgid "AnduinOS Setup"
+msgstr "Postavljanje AnduinOS-a"
+
+msgid "AnduinOS Welcome Center"
+msgstr "Centar dobrodošlice AnduinOS-a"
+
+msgid "← Back"
+msgstr "← Natrag"
+
+msgid "Next →"
+msgstr "Dalje →"
+
+msgid "Finish"
+msgstr "Završi"
+
+msgid "AnduinOS Welcome"
+msgstr "AnduinOS dobrodošlica"
+
+msgid "AnduinOS Team"
+msgstr "Tim AnduinOS-a"
+
+msgid "If a compatible Node.js and npm are missing, this also installs nvm and the latest Node.js release for your user account."
+msgstr "Ako nedostaju kompatibilni Node.js i npm, ovo također instalira nvm i najnovije izdanje Node.js-a za vaš korisnički račun."
+
+msgid "This installs the OpenCode client. GLM is a separate model service from Z.AI."
+msgstr "Ovo instalira klijent OpenCode. GLM je zasebna usluga modela tvrtke Z.AI."
+
+msgid "Your chosen model provider also has its own terms and privacy policy."
+msgstr "Odabrani pružatelj modela također ima vlastite uvjete i pravila privatnosti."
+
+msgid "A coding agent with a local web interface."
+msgstr "Agent za programiranje s lokalnim web-sučeljem."
+
+msgid "A terminal coding assistant from Qwen."
+msgstr "Pomoćnik za programiranje u terminalu tvrtke Qwen."
+
+msgid "Use GLM in OpenCode. Select Z.AI when configuring your model."
+msgstr "Upotrijebite GLM u OpenCodeu. Pri konfiguraciji modela odaberite Z.AI."
+
+msgid "A terminal coding assistant from Kimi."
+msgstr "Pomoćnik za programiranje u terminalu tvrtke Kimi."
+
+msgid "A terminal coding assistant from MiniMax."
+msgstr "Pomoćnik za programiranje u terminalu tvrtke MiniMax."
+
+msgid "A terminal coding assistant from Tencent."
+msgstr "Pomoćnik za programiranje u terminalu tvrtke Tencent."
+
+msgid "An open source coding agent for your terminal."
+msgstr "Agent otvorenog koda za programiranje u terminalu."
+
+msgid "A terminal coding assistant from Anthropic."
+msgstr "Pomoćnik za programiranje u terminalu tvrtke Anthropic."
+
+msgid "A terminal coding assistant from OpenAI."
+msgstr "Pomoćnik za programiranje u terminalu tvrtke OpenAI."
+
+msgid "Bring GitHub Copilot to your terminal."
+msgstr "Upotrebljavajte GitHub Copilot u terminalu."
+
+msgid "A terminal coding assistant from Google."
+msgstr "Pomoćnik za programiranje u terminalu tvrtke Google."
+
+msgid "A terminal coding assistant from xAI."
+msgstr "Pomoćnik za programiranje u terminalu tvrtke xAI."
+
+msgid "Welcome Center"
+msgstr "Centar dobrodošlice"
+
+msgid "Explore and configure your AnduinOS system"
+msgstr "Istražite i konfigurirajte svoj sustav AnduinOS"
+
+msgid "welcome;oobe;setup;tutorial;first-run;"
+msgstr "dobrodošlica;oobe;postavljanje;vodič;prvo pokretanje;"

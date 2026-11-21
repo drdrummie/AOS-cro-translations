@@ -1,0 +1,1146 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the anduinos-control-panel package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: anduinos-control-panel\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-11-21 11:53+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: /usr/lib/python3/dist-packages/anduinos_control_panel/app.py:82
+#: /usr/lib/python3/dist-packages/anduinos_control_panel/app.py:102
+#: /usr/share/applications/com.anduinos.ControlPanel.desktop:3
+msgid "Control Panel"
+msgstr ""
+
+#: /usr/lib/python3/dist-packages/anduinos_control_panel/app.py:102
+msgid "AnduinOS"
+msgstr ""
+
+#: /usr/lib/python3/dist-packages/anduinos_control_panel/app.py:106
+#: /usr/lib/python3/dist-packages/anduinos_control_panel/app.py:1955
+msgid "Search Control Panel"
+msgstr ""
+
+#: /usr/lib/python3/dist-packages/anduinos_control_panel/app.py:107
+msgid "Search settings"
+msgstr ""
+
+#: /usr/lib/python3/dist-packages/anduinos_control_panel/app.py:114
+msgid "About Control Panel"
+msgstr ""
+
+#: /usr/lib/python3/dist-packages/anduinos_control_panel/app.py:116
+msgid "Main Menu"
+msgstr ""
+
+#: /usr/lib/python3/dist-packages/anduinos_control_panel/app.py:138
+msgid "Adjust your computer's settings"
+msgstr ""
+
+#: /usr/lib/python3/dist-packages/anduinos_control_panel/app.py:141
+msgid "Choose a category below, or search for a setting."
+msgstr ""
+
+#: /usr/lib/python3/dist-packages/anduinos_control_panel/app.py:157
+msgid "No settings found"
+msgstr ""
+
+#: /usr/lib/python3/dist-packages/anduinos_control_panel/app.py:158
+msgid "Try a different search."
+msgstr ""
+
+#: /usr/lib/python3/dist-packages/anduinos_control_panel/app.py:245
+#: /usr/lib/python3/dist-packages/anduinos_control_panel/topics.py:144
+msgid "Configure NetworkManager connection profiles"
+msgstr ""
+
+#: /usr/lib/python3/dist-packages/anduinos_control_panel/app.py:247
+msgid "Install Advanced Network Configuration"
+msgstr ""
+
+#: /usr/lib/python3/dist-packages/anduinos_control_panel/app.py:258
+#: /usr/lib/python3/dist-packages/anduinos_control_panel/topics.py:275
+msgid "Manage application permissions with Flatseal"
+msgstr ""
+
+#: /usr/lib/python3/dist-packages/anduinos_control_panel/app.py:260
+msgid "Install Flatseal to manage application permissions"
+msgstr ""
+
+#: /usr/lib/python3/dist-packages/anduinos_control_panel/app.py:270
+msgid "System"
+msgstr ""
+
+#: /usr/lib/python3/dist-packages/anduinos_control_panel/app.py:275
+msgid "Security"
+msgstr ""
+
+#: /usr/lib/python3/dist-packages/anduinos_control_panel/app.py:280
+msgid "Network and Internet"
+msgstr ""
+
+#: /usr/lib/python3/dist-packages/anduinos_control_panel/app.py:285
+msgid "User Accounts"
+msgstr ""
+
+#: /usr/lib/python3/dist-packages/anduinos_control_panel/app.py:293
+msgid "Hardware and Drivers"
+msgstr ""
+
+#: /usr/lib/python3/dist-packages/anduinos_control_panel/app.py:301
+msgid "Scan documents and select a scanner"
+msgstr ""
+
+#: /usr/lib/python3/dist-packages/anduinos_control_panel/app.py:303
+msgid "Install Document Scanner"
+msgstr ""
+
+#: /usr/lib/python3/dist-packages/anduinos_control_panel/app.py:309
+msgid "Appearance"
+msgstr ""
+
+#: /usr/lib/python3/dist-packages/anduinos_control_panel/app.py:317
+msgid "Programs"
+msgstr ""
+
+#: /usr/lib/python3/dist-packages/anduinos_control_panel/app.py:322
+msgid "AI Stack"
+msgstr ""
+
+#: /usr/lib/python3/dist-packages/anduinos_control_panel/app.py:327
+#: /usr/lib/python3/dist-packages/anduinos_control_panel/app.py:331
+msgid "Installed"
+msgstr ""
+
+#: /usr/lib/python3/dist-packages/anduinos_control_panel/app.py:327
+#: /usr/lib/python3/dist-packages/anduinos_control_panel/app.py:331
+#: /usr/lib/python3/dist-packages/anduinos_control_panel/prediction_settings.py:44
+msgid "Not installed"
+msgstr ""
+
+#: /usr/lib/python3/dist-packages/anduinos_control_panel/app.py:336
+msgid "Configure microphone, language, shortcut, and training"
+msgstr ""
+
+#: /usr/lib/python3/dist-packages/anduinos_control_panel/app.py:338
+msgid "Install private, offline speech-to-text"
+msgstr ""
+
+#: /usr/lib/python3/dist-packages/anduinos_control_panel/app.py:344
+#: /usr/lib/python3/dist-packages/anduinos_control_panel/app.py:1035
+msgid "Windows Compatibility"
+msgstr ""
+
+#: /usr/lib/python3/dist-packages/anduinos_control_panel/app.py:350
+msgid "Open your Windows application environments"
+msgstr ""
+
+#: /usr/lib/python3/dist-packages/anduinos_control_panel/app.py:352
+msgid "Install Bottles to run Windows applications"
+msgstr ""
+
+#: /usr/lib/python3/dist-packages/anduinos_control_panel/app.py:358
+msgid "Backup and Recovery"
+msgstr ""
+
+#: /usr/lib/python3/dist-packages/anduinos_control_panel/app.py:400
+msgid "Open Deja Dup backups"
+msgstr ""
+
+#: /usr/lib/python3/dist-packages/anduinos_control_panel/app.py:402
+msgid "Install Deja Dup from the app store"
+msgstr ""
+
+#: /usr/lib/python3/dist-packages/anduinos_control_panel/app.py:413
+#: /usr/lib/python3/dist-packages/anduinos_control_panel/app.py:430
+#: /usr/lib/python3/dist-packages/anduinos_control_panel/app.py:444
+#: /usr/lib/python3/dist-packages/anduinos_control_panel/app.py:1986
+msgid "Setting not found"
+msgstr ""
+
+#: /usr/lib/python3/dist-packages/anduinos_control_panel/app.py:563
+#: /usr/lib/python3/dist-packages/anduinos_control_panel/app.py:574
+#: /usr/lib/python3/dist-packages/anduinos_control_panel/app.py:583
+msgid "Could not open this setting"
+msgstr ""
+
+#: /usr/lib/python3/dist-packages/anduinos_control_panel/app.py:582
+msgid "The application exited before it could be opened."
+msgstr ""
+
+#: /usr/lib/python3/dist-packages/anduinos_control_panel/app.py:589
+msgid "OK"
+msgstr ""
+
+#: /usr/lib/python3/dist-packages/anduinos_control_panel/app.py:595
+#: /usr/lib/python3/dist-packages/anduinos_control_panel/app.py:612
+#: /usr/lib/python3/dist-packages/anduinos_control_panel/app.py:1005
+#, python-format
+msgid "Install %s?"
+msgstr ""
+
+#: /usr/lib/python3/dist-packages/anduinos_control_panel/app.py:597
+#, python-format
+msgid "%s is a recommended component, but it is not installed. You can reinstall it now."
+msgstr ""
+
+#: /usr/lib/python3/dist-packages/anduinos_control_panel/app.py:602
+#: /usr/lib/python3/dist-packages/anduinos_control_panel/app.py:1008
+#: /usr/lib/python3/dist-packages/anduinos_control_panel/app.py:1109
+#: /usr/lib/python3/dist-packages/anduinos_control_panel/app.py:1332
+#: /usr/lib/python3/dist-packages/anduinos_control_panel/app.py:1533
+#: /usr/lib/python3/dist-packages/anduinos_control_panel/app.py:1739
+#: /usr/lib/python3/dist-packages/anduinos_control_panel/prediction_settings.py:142
+msgid "Cancel"
+msgstr ""
+
+#: /usr/lib/python3/dist-packages/anduinos_control_panel/app.py:603
+#: /usr/lib/python3/dist-packages/anduinos_control_panel/app.py:1535
+#: /usr/lib/python3/dist-packages/anduinos_control_panel/prediction_settings.py:46
+msgid "Install"
+msgstr ""
+
+#: /usr/lib/python3/dist-packages/anduinos_control_panel/app.py:622
+#, python-format
+msgid "Installing %s…"
+msgstr ""
+
+#: /usr/lib/python3/dist-packages/anduinos_control_panel/app.py:630
+#: /usr/lib/python3/dist-packages/anduinos_control_panel/app.py:1077
+#: /usr/lib/python3/dist-packages/anduinos_control_panel/app.py:1300
+#: /usr/lib/python3/dist-packages/anduinos_control_panel/app.py:1503
+#: /usr/lib/python3/dist-packages/anduinos_control_panel/app.py:1707
+#: /usr/lib/python3/dist-packages/anduinos_control_panel/prediction_settings.py:84
+msgid "Advanced Output"
+msgstr ""
+
+#: /usr/lib/python3/dist-packages/anduinos_control_panel/app.py:633
+#: /usr/lib/python3/dist-packages/anduinos_control_panel/app.py:794
+#: /usr/lib/python3/dist-packages/anduinos_control_panel/app.py:1182
+#: /usr/lib/python3/dist-packages/anduinos_control_panel/app.py:1405
+#: /usr/lib/python3/dist-packages/anduinos_control_panel/app.py:1632
+#: /usr/lib/python3/dist-packages/anduinos_control_panel/app.py:1824
+msgid "Close"
+msgstr ""
+
+#: /usr/lib/python3/dist-packages/anduinos_control_panel/app.py:659
+msgid "Installation failed"
+msgstr ""
+
+#: /usr/lib/python3/dist-packages/anduinos_control_panel/app.py:663
+#, python-format
+msgid "%s installed"
+msgstr ""
+
+#: /usr/lib/python3/dist-packages/anduinos_control_panel/app.py:667
+msgid "The recommended component could not be installed."
+msgstr ""
+
+#: /usr/lib/python3/dist-packages/anduinos_control_panel/app.py:697
+#: /usr/lib/python3/dist-packages/anduinos_control_panel/topics.py:86
+msgid "Startup and Boot"
+msgstr ""
+
+#: /usr/lib/python3/dist-packages/anduinos_control_panel/app.py:715
+msgid "Boot menu"
+msgstr ""
+
+#: /usr/lib/python3/dist-packages/anduinos_control_panel/app.py:717
+msgid "Choose how long the boot menu waits before starting the default system."
+msgstr ""
+
+#: /usr/lib/python3/dist-packages/anduinos_control_panel/app.py:722
+msgid "Default operating system"
+msgstr ""
+
+#: /usr/lib/python3/dist-packages/anduinos_control_panel/app.py:723
+msgid "Starts automatically when the boot menu wait time ends."
+msgstr ""
+
+#: /usr/lib/python3/dist-packages/anduinos_control_panel/app.py:725
+#: /usr/lib/python3/dist-packages/anduinos_control_panel/app.py:855
+msgid "Current setting (unchanged)"
+msgstr ""
+
+#: /usr/lib/python3/dist-packages/anduinos_control_panel/app.py:729
+#: /usr/lib/python3/dist-packages/anduinos_control_panel/app.py:1198
+#: /usr/lib/python3/dist-packages/anduinos_control_panel/app.py:1421
+#: /usr/lib/python3/dist-packages/anduinos_control_panel/app.py:1650
+#: /usr/lib/python3/dist-packages/anduinos_control_panel/app.py:1845
+msgid "Retry"
+msgstr ""
+
+#: /usr/lib/python3/dist-packages/anduinos_control_panel/app.py:733
+msgid "Authentication is required to read the boot menu."
+msgstr ""
+
+#: /usr/lib/python3/dist-packages/anduinos_control_panel/app.py:736
+msgid "Boot menu wait time"
+msgstr ""
+
+#: /usr/lib/python3/dist-packages/anduinos_control_panel/app.py:738
+msgid "The same delay is used after an interrupted or unsuccessful startup."
+msgstr ""
+
+#: /usr/lib/python3/dist-packages/anduinos_control_panel/app.py:745
+#, python-format
+msgid "%d seconds"
+msgstr ""
+
+#: /usr/lib/python3/dist-packages/anduinos_control_panel/app.py:757
+msgid "Boot display"
+msgstr ""
+
+#: /usr/lib/python3/dist-packages/anduinos_control_panel/app.py:759
+msgid "Choose the size of the GRUB menu and startup logo."
+msgstr ""
+
+#: /usr/lib/python3/dist-packages/anduinos_control_panel/app.py:761
+msgid "High resolution can make menu text small on 4K displays; the screen's native resolution is not guaranteed at boot."
+msgstr ""
+
+#: /usr/lib/python3/dist-packages/anduinos_control_panel/app.py:765
+msgid "Display mode"
+msgstr ""
+
+#: /usr/lib/python3/dist-packages/anduinos_control_panel/app.py:772
+msgid "High resolution (if available)"
+msgstr ""
+
+#: /usr/lib/python3/dist-packages/anduinos_control_panel/app.py:772
+#: /usr/lib/python3/dist-packages/anduinos_control_panel/software_sources.py:600
+#: /usr/lib/python3/dist-packages/anduinos_control_panel/software_sources.py:657
+msgid "Automatic"
+msgstr ""
+
+#: /usr/lib/python3/dist-packages/anduinos_control_panel/app.py:772
+msgid "Large text mode"
+msgstr ""
+
+#: /usr/lib/python3/dist-packages/anduinos_control_panel/app.py:796
+#: /usr/lib/python3/dist-packages/anduinos_control_panel/app.py:1741
+#: /usr/lib/python3/dist-packages/anduinos_control_panel/app.py:1745
+msgid "Apply"
+msgstr ""
+
+#: /usr/lib/python3/dist-packages/anduinos_control_panel/app.py:852
+msgid "Custom setting (unchanged)"
+msgstr ""
+
+#: /usr/lib/python3/dist-packages/anduinos_control_panel/app.py:867
+msgid "Only operating systems already in the boot menu are listed."
+msgstr ""
+
+#: /usr/lib/python3/dist-packages/anduinos_control_panel/app.py:868
+msgid "No supported operating systems were found in the boot menu."
+msgstr ""
+
+#: /usr/lib/python3/dist-packages/anduinos_control_panel/app.py:871
+#: /usr/lib/python3/dist-packages/anduinos_control_panel/app.py:875
+msgid "The boot menu could not be read."
+msgstr ""
+
+#: /usr/lib/python3/dist-packages/anduinos_control_panel/app.py:874
+#: /usr/lib/python3/dist-packages/anduinos_control_panel/app.py:972
+#: /usr/lib/python3/dist-packages/anduinos_control_panel/app.py:1918
+#: /usr/lib/python3/dist-packages/anduinos_control_panel/software_sources.py:963
+msgid "Authentication was cancelled."
+msgstr ""
+
+#: /usr/lib/python3/dist-packages/anduinos_control_panel/app.py:886
+msgid "Reading the boot menu…"
+msgstr ""
+
+#: /usr/lib/python3/dist-packages/anduinos_control_panel/app.py:941
+msgid "Updating the boot menu…"
+msgstr ""
+
+#: /usr/lib/python3/dist-packages/anduinos_control_panel/app.py:964
+msgid "Boot settings updated. The change applies on the next startup."
+msgstr ""
+
+#: /usr/lib/python3/dist-packages/anduinos_control_panel/app.py:967
+msgid "Boot settings updated"
+msgstr ""
+
+#: /usr/lib/python3/dist-packages/anduinos_control_panel/app.py:974
+msgid "The boot setting could not be changed."
+msgstr ""
+
+#: /usr/lib/python3/dist-packages/anduinos_control_panel/app.py:1006
+msgid "This application is available from the app store."
+msgstr ""
+
+#: /usr/lib/python3/dist-packages/anduinos_control_panel/app.py:1009
+msgid "Open App Store"
+msgstr ""
+
+#: /usr/lib/python3/dist-packages/anduinos_control_panel/app.py:1053
+msgid "Bottles"
+msgstr ""
+
+#: /usr/lib/python3/dist-packages/anduinos_control_panel/app.py:1055
+msgid "Run Windows applications in isolated compatibility environments powered by Wine and Bottles."
+msgstr ""
+
+#: /usr/lib/python3/dist-packages/anduinos_control_panel/app.py:1060
+msgid "Install Bottles"
+msgstr ""
+
+#: /usr/lib/python3/dist-packages/anduinos_control_panel/app.py:1061
+msgid "Downloads Bottles and its runtime from Flathub"
+msgstr ""
+
+#: /usr/lib/python3/dist-packages/anduinos_control_panel/app.py:1111
+#: /usr/lib/python3/dist-packages/anduinos_control_panel/app.py:1334
+msgid "Start"
+msgstr ""
+
+#: /usr/lib/python3/dist-packages/anduinos_control_panel/app.py:1153
+#: /usr/lib/python3/dist-packages/anduinos_control_panel/app.py:1376
+#: /usr/lib/python3/dist-packages/anduinos_control_panel/app.py:1572
+msgid "Installing…"
+msgstr ""
+
+#: /usr/lib/python3/dist-packages/anduinos_control_panel/app.py:1155
+msgid "Downloading and installing Bottles… This may take a few minutes."
+msgstr ""
+
+#: /usr/lib/python3/dist-packages/anduinos_control_panel/app.py:1160
+msgid "Preparing Flathub and Bottles installation…"
+msgstr ""
+
+#: /usr/lib/python3/dist-packages/anduinos_control_panel/app.py:1174
+msgid "✓ Bottles is ready."
+msgstr ""
+
+#: /usr/lib/python3/dist-packages/anduinos_control_panel/app.py:1178
+#: /usr/lib/python3/dist-packages/anduinos_control_panel/app.py:1401
+#: /usr/lib/python3/dist-packages/anduinos_control_panel/app.py:1599
+#: /usr/lib/python3/dist-packages/anduinos_control_panel/app.py:1820
+msgid "✓ Installation completed successfully."
+msgstr ""
+
+#: /usr/lib/python3/dist-packages/anduinos_control_panel/app.py:1180
+msgid "Open Bottles"
+msgstr ""
+
+#: /usr/lib/python3/dist-packages/anduinos_control_panel/app.py:1185
+msgid "Bottles installed"
+msgstr ""
+
+#: /usr/lib/python3/dist-packages/anduinos_control_panel/app.py:1191
+#: /usr/lib/python3/dist-packages/anduinos_control_panel/app.py:1414
+#: /usr/lib/python3/dist-packages/anduinos_control_panel/app.py:1643
+msgid "✗ Installation failed. Review Advanced Output."
+msgstr ""
+
+#: /usr/lib/python3/dist-packages/anduinos_control_panel/app.py:1196
+#: /usr/lib/python3/dist-packages/anduinos_control_panel/app.py:1419
+#: /usr/lib/python3/dist-packages/anduinos_control_panel/app.py:1648
+#: /usr/lib/python3/dist-packages/anduinos_control_panel/app.py:1843
+#: /usr/lib/python3/dist-packages/anduinos_control_panel/software_sources.py:742
+msgid "✗ Operation failed: "
+msgstr ""
+
+#: /usr/lib/python3/dist-packages/anduinos_control_panel/app.py:1231
+msgid "Deja Dup Backups"
+msgstr ""
+
+#: /usr/lib/python3/dist-packages/anduinos_control_panel/app.py:1240
+msgid "Factory Reset Is Not Available"
+msgstr ""
+
+#: /usr/lib/python3/dist-packages/anduinos_control_panel/app.py:1242
+msgid "This system does not support factory reset. Reinstall AnduinOS and choose the Btrfs filesystem to enable it."
+msgstr ""
+
+#: /usr/lib/python3/dist-packages/anduinos_control_panel/app.py:1258
+#: /usr/lib/python3/dist-packages/anduinos_control_panel/topics.py:274
+msgid "Permission Settings"
+msgstr ""
+
+#: /usr/lib/python3/dist-packages/anduinos_control_panel/app.py:1276
+msgid "Flatseal"
+msgstr ""
+
+#: /usr/lib/python3/dist-packages/anduinos_control_panel/app.py:1278
+msgid "Review and control what files, devices, network connections, and services Flatpak applications can access."
+msgstr ""
+
+#: /usr/lib/python3/dist-packages/anduinos_control_panel/app.py:1283
+msgid "Install Flatseal"
+msgstr ""
+
+#: /usr/lib/python3/dist-packages/anduinos_control_panel/app.py:1285
+msgid "Administrator authentication is required when installation starts"
+msgstr ""
+
+#: /usr/lib/python3/dist-packages/anduinos_control_panel/app.py:1377
+msgid "Downloading and installing Flatseal…"
+msgstr ""
+
+#: /usr/lib/python3/dist-packages/anduinos_control_panel/app.py:1382
+msgid "Preparing Flatseal installation…"
+msgstr ""
+
+#: /usr/lib/python3/dist-packages/anduinos_control_panel/app.py:1397
+msgid "✓ Flatseal is ready."
+msgstr ""
+
+#: /usr/lib/python3/dist-packages/anduinos_control_panel/app.py:1403
+msgid "Open Flatseal"
+msgstr ""
+
+#: /usr/lib/python3/dist-packages/anduinos_control_panel/app.py:1408
+msgid "Flatseal installed"
+msgstr ""
+
+#: /usr/lib/python3/dist-packages/anduinos_control_panel/app.py:1450
+msgid "Install Voice Typing"
+msgstr ""
+
+#: /usr/lib/python3/dist-packages/anduinos_control_panel/app.py:1468
+msgid "Offline Voice Typing"
+msgstr ""
+
+#: /usr/lib/python3/dist-packages/anduinos_control_panel/app.py:1470
+msgid "Press Super + H to dictate into browsers, editors, messages, terminals, and other applications. Audio stays on this computer."
+msgstr ""
+
+#: /usr/lib/python3/dist-packages/anduinos_control_panel/app.py:1475
+msgid "Private by default"
+msgstr ""
+
+#: /usr/lib/python3/dist-packages/anduinos_control_panel/app.py:1476
+msgid "Speech is recognized locally with whisper.cpp"
+msgstr ""
+
+#: /usr/lib/python3/dist-packages/anduinos_control_panel/app.py:1481
+msgid "About 140 MB to download"
+msgstr ""
+
+#: /usr/lib/python3/dist-packages/anduinos_control_panel/app.py:1483
+msgid "Includes the multilingual Base model; optional models are available later"
+msgstr ""
+
+#: /usr/lib/python3/dist-packages/anduinos_control_panel/app.py:1492
+#: /usr/lib/python3/dist-packages/anduinos_control_panel/prediction_settings.py:177
+msgid "Administrator authentication is required when installation starts."
+msgstr ""
+
+#: /usr/lib/python3/dist-packages/anduinos_control_panel/app.py:1577
+msgid "Downloading the local engine and multilingual speech model…"
+msgstr ""
+
+#: /usr/lib/python3/dist-packages/anduinos_control_panel/app.py:1583
+msgid "Preparing Voice Typing installation…"
+msgstr ""
+
+#: /usr/lib/python3/dist-packages/anduinos_control_panel/app.py:1626
+msgid "✓ Installed. Sign out and back in once, then press Super + H to start Voice Typing."
+msgstr ""
+
+#: /usr/lib/python3/dist-packages/anduinos_control_panel/app.py:1630
+msgid "Open Settings"
+msgstr ""
+
+#: /usr/lib/python3/dist-packages/anduinos_control_panel/app.py:1636
+msgid "Voice Typing installed — sign out to finish"
+msgstr ""
+
+#: /usr/lib/python3/dist-packages/anduinos_control_panel/app.py:1667
+#: /usr/lib/python3/dist-packages/anduinos_control_panel/topics.py:292
+msgid "On-device AI"
+msgstr ""
+
+#: /usr/lib/python3/dist-packages/anduinos_control_panel/app.py:1685
+msgid "Why AI"
+msgstr ""
+
+#: /usr/lib/python3/dist-packages/anduinos_control_panel/app.py:1687
+msgid "Run the Why AI assistant locally. The model and runtime are installed only when this option is enabled."
+msgstr ""
+
+#: /usr/lib/python3/dist-packages/anduinos_control_panel/app.py:1692
+msgid "Install on-device AI"
+msgstr ""
+
+#: /usr/lib/python3/dist-packages/anduinos_control_panel/app.py:1693
+msgid "Enable the local Why AI stack on this computer"
+msgstr ""
+
+#: /usr/lib/python3/dist-packages/anduinos_control_panel/app.py:1787
+msgid "Applying…"
+msgstr ""
+
+#: /usr/lib/python3/dist-packages/anduinos_control_panel/app.py:1789
+msgid "Downloading and installing Why AI… This may take about 10 minutes."
+msgstr ""
+
+#: /usr/lib/python3/dist-packages/anduinos_control_panel/app.py:1791
+msgid "Disabling the local Why AI stack…"
+msgstr ""
+
+#: /usr/lib/python3/dist-packages/anduinos_control_panel/app.py:1798
+msgid "Preparing package operation…"
+msgstr ""
+
+#: /usr/lib/python3/dist-packages/anduinos_control_panel/app.py:1812
+msgid "✓ On-device AI is ready."
+msgstr ""
+
+#: /usr/lib/python3/dist-packages/anduinos_control_panel/app.py:1814
+msgid "✓ On-device AI is disabled."
+msgstr ""
+
+#: /usr/lib/python3/dist-packages/anduinos_control_panel/app.py:1820
+msgid "✓ Change completed successfully."
+msgstr ""
+
+#: /usr/lib/python3/dist-packages/anduinos_control_panel/app.py:1829
+msgid "On-device AI enabled"
+msgstr ""
+
+#: /usr/lib/python3/dist-packages/anduinos_control_panel/app.py:1831
+msgid "On-device AI disabled"
+msgstr ""
+
+#: /usr/lib/python3/dist-packages/anduinos_control_panel/app.py:1839
+msgid "✗ Package operation failed. Review Advanced Output."
+msgstr ""
+
+#: /usr/lib/python3/dist-packages/anduinos_control_panel/app.py:1920
+#, python-brace-format
+msgid "{command} exited with status {status}"
+msgstr ""
+
+#: /usr/lib/python3/dist-packages/anduinos_control_panel/app.py:1947
+msgid "Open a Control Panel topic"
+msgstr ""
+
+#: /usr/lib/python3/dist-packages/anduinos_control_panel/app.py:1948
+msgid "TOPIC"
+msgstr ""
+
+#: /usr/lib/python3/dist-packages/anduinos_control_panel/app.py:1956
+msgid "TERMS"
+msgstr ""
+
+#: /usr/lib/python3/dist-packages/anduinos_control_panel/app.py:1993
+msgid "AnduinOS Control Panel"
+msgstr ""
+
+#: /usr/lib/python3/dist-packages/anduinos_control_panel/app.py:1995
+msgid "AnduinOS Team"
+msgstr ""
+
+#: /usr/lib/python3/dist-packages/anduinos_control_panel/app.py:1997
+msgid "Find and manage AnduinOS system settings."
+msgstr ""
+
+#: /usr/lib/python3/dist-packages/anduinos_control_panel/prediction_settings.py:25
+#: /usr/lib/python3/dist-packages/anduinos_control_panel/prediction_settings.py:41
+#: /usr/lib/python3/dist-packages/anduinos_control_panel/topics.py:181
+msgid "Bash Command Predictions"
+msgstr ""
+
+#: /usr/lib/python3/dist-packages/anduinos_control_panel/prediction_settings.py:42
+msgid "Predict commands locally from your history and current context. No model download or on-device LLM is needed."
+msgstr ""
+
+#: /usr/lib/python3/dist-packages/anduinos_control_panel/prediction_settings.py:45
+msgid "Configure your preferences below, then install to use predictions."
+msgstr ""
+
+#: /usr/lib/python3/dist-packages/anduinos_control_panel/prediction_settings.py:52
+msgid "Changes take effect in newly opened Bash terminals. Saved settings override legacy environment variables."
+msgstr ""
+
+#: /usr/lib/python3/dist-packages/anduinos_control_panel/prediction_settings.py:55
+msgid "Enable command predictions"
+msgstr ""
+
+#: /usr/lib/python3/dist-packages/anduinos_control_panel/prediction_settings.py:55
+msgid "Show suggestions while typing in Bash."
+msgstr ""
+
+#: /usr/lib/python3/dist-packages/anduinos_control_panel/prediction_settings.py:56
+msgid "Learn from command history"
+msgstr ""
+
+#: /usr/lib/python3/dist-packages/anduinos_control_panel/prediction_settings.py:56
+msgid "Use Bash history, frequency, directories, and command sequences to personalize suggestions."
+msgstr ""
+
+#: /usr/lib/python3/dist-packages/anduinos_control_panel/prediction_settings.py:57
+msgid "Remember my usage habits"
+msgstr ""
+
+#: /usr/lib/python3/dist-packages/anduinos_control_panel/prediction_settings.py:57
+msgid "Save learned usage habits on this computer for predictions after closing the terminal. When off, Bash command history is still used."
+msgstr ""
+
+#: /usr/lib/python3/dist-packages/anduinos_control_panel/prediction_settings.py:67
+msgid "Clear saved learning"
+msgstr ""
+
+#: /usr/lib/python3/dist-packages/anduinos_control_panel/prediction_settings.py:68
+msgid "Keeps Bash history and your settings. Reopen existing terminals to discard their in-memory learning."
+msgstr ""
+
+#: /usr/lib/python3/dist-packages/anduinos_control_panel/prediction_settings.py:69
+#: /usr/lib/python3/dist-packages/anduinos_control_panel/prediction_settings.py:143
+msgid "Clear"
+msgstr ""
+
+#: /usr/lib/python3/dist-packages/anduinos_control_panel/prediction_settings.py:73
+msgid "Restore default settings"
+msgstr ""
+
+#: /usr/lib/python3/dist-packages/anduinos_control_panel/prediction_settings.py:73
+msgid "Does not delete learned data."
+msgstr ""
+
+#: /usr/lib/python3/dist-packages/anduinos_control_panel/prediction_settings.py:74
+msgid "Restore Defaults"
+msgstr ""
+
+#: /usr/lib/python3/dist-packages/anduinos_control_panel/prediction_settings.py:78
+msgid "At the end of a line, press Right Arrow or End to accept a suggestion. Press Enter to run the command."
+msgstr ""
+
+#: /usr/lib/python3/dist-packages/anduinos_control_panel/prediction_settings.py:119
+#, python-brace-format
+msgid "Could not update prediction settings: {error}"
+msgstr ""
+
+#: /usr/lib/python3/dist-packages/anduinos_control_panel/prediction_settings.py:134
+msgid "Default settings restored. Reopen Bash terminals to apply them."
+msgstr ""
+
+#: /usr/lib/python3/dist-packages/anduinos_control_panel/prediction_settings.py:140
+msgid "Clear saved learning?"
+msgstr ""
+
+#: /usr/lib/python3/dist-packages/anduinos_control_panel/prediction_settings.py:141
+msgid "Only prediction learning is removed. Your Bash command history is kept."
+msgstr ""
+
+#: /usr/lib/python3/dist-packages/anduinos_control_panel/prediction_settings.py:166
+msgid "Saved learning cleared. Older terminals cannot save it again; reopen them to resume learning persistence."
+msgstr ""
+
+#: /usr/lib/python3/dist-packages/anduinos_control_panel/prediction_settings.py:185
+msgid "Installation complete. Open a new Bash terminal to use predictions."
+msgstr ""
+
+#: /usr/lib/python3/dist-packages/anduinos_control_panel/prediction_settings.py:185
+msgid "Package installation could not be confirmed. Please retry."
+msgstr ""
+
+#: /usr/lib/python3/dist-packages/anduinos_control_panel/prediction_settings.py:190
+#, python-brace-format
+msgid "Installation failed: {error}"
+msgstr ""
+
+#: /usr/lib/python3/dist-packages/anduinos_control_panel/software_sources.py:527
+msgid "Current mirror"
+msgstr ""
+
+#: /usr/lib/python3/dist-packages/anduinos_control_panel/software_sources.py:544
+#: /usr/lib/python3/dist-packages/anduinos_control_panel/software_sources.py:587
+#: /usr/lib/python3/dist-packages/anduinos_control_panel/software_sources.py:603
+#: /usr/lib/python3/dist-packages/anduinos_control_panel/topics.py:245
+msgid "Software Source"
+msgstr ""
+
+#: /usr/lib/python3/dist-packages/anduinos_control_panel/software_sources.py:604
+#: /usr/lib/python3/dist-packages/anduinos_control_panel/software_sources.py:663
+msgid "  Switch to Fastest Mirror  "
+msgstr ""
+
+#: /usr/lib/python3/dist-packages/anduinos_control_panel/software_sources.py:614
+msgid "Keep Your System Up to Date"
+msgstr ""
+
+#: /usr/lib/python3/dist-packages/anduinos_control_panel/software_sources.py:615
+#: /usr/lib/python3/dist-packages/anduinos_control_panel/topics.py:246
+msgid "Security patches and the latest features are just a click away."
+msgstr ""
+
+#: /usr/lib/python3/dist-packages/anduinos_control_panel/software_sources.py:617
+#: /usr/lib/python3/dist-packages/anduinos_control_panel/software_sources.py:1112
+#: /usr/lib/python3/dist-packages/anduinos_control_panel/software_sources.py:1163
+#: /usr/lib/python3/dist-packages/anduinos_control_panel/software_sources.py:1177
+msgid "  Check for Updates  "
+msgstr ""
+
+#: /usr/lib/python3/dist-packages/anduinos_control_panel/software_sources.py:626
+#: /usr/lib/python3/dist-packages/anduinos_control_panel/software_sources.py:671
+msgid "Advanced"
+msgstr ""
+
+#: /usr/lib/python3/dist-packages/anduinos_control_panel/software_sources.py:634
+#: /usr/lib/python3/dist-packages/anduinos_control_panel/software_sources.py:675
+#: /usr/lib/python3/dist-packages/anduinos_control_panel/software_sources.py:821
+#: /usr/lib/python3/dist-packages/anduinos_control_panel/software_sources.py:899
+msgid "Custom address…"
+msgstr ""
+
+#: /usr/lib/python3/dist-packages/anduinos_control_panel/software_sources.py:647
+#: /usr/lib/python3/dist-packages/anduinos_control_panel/software_sources.py:683
+msgid "Test mirror speeds"
+msgstr ""
+
+#: /usr/lib/python3/dist-packages/anduinos_control_panel/software_sources.py:650
+#: /usr/lib/python3/dist-packages/anduinos_control_panel/software_sources.py:686
+#: /usr/lib/python3/dist-packages/anduinos_control_panel/software_sources.py:838
+#: /usr/lib/python3/dist-packages/anduinos_control_panel/software_sources.py:1079
+msgid "Apply selected mirror"
+msgstr ""
+
+#: /usr/lib/python3/dist-packages/anduinos_control_panel/software_sources.py:660
+msgid "Flathub software source"
+msgstr ""
+
+#: /usr/lib/python3/dist-packages/anduinos_control_panel/software_sources.py:692
+msgid "Terminal Output"
+msgstr ""
+
+#: /usr/lib/python3/dist-packages/anduinos_control_panel/software_sources.py:740
+msgid "Could not read the Flathub source."
+msgstr ""
+
+#: /usr/lib/python3/dist-packages/anduinos_control_panel/software_sources.py:742
+#: /usr/lib/python3/dist-packages/anduinos_control_panel/software_sources.py:812
+#: /usr/lib/python3/dist-packages/anduinos_control_panel/software_sources.py:968
+#: /usr/lib/python3/dist-packages/anduinos_control_panel/software_sources.py:1026
+#: /usr/lib/python3/dist-packages/anduinos_control_panel/software_sources.py:1155
+msgid "Review Terminal Output for details."
+msgstr ""
+
+#: /usr/lib/python3/dist-packages/anduinos_control_panel/software_sources.py:746
+msgid "Flathub is not configured."
+msgstr ""
+
+#: /usr/lib/python3/dist-packages/anduinos_control_panel/software_sources.py:755
+msgid "Official Flathub"
+msgstr ""
+
+#: /usr/lib/python3/dist-packages/anduinos_control_panel/software_sources.py:755
+msgid "USTC (China)"
+msgstr ""
+
+#: /usr/lib/python3/dist-packages/anduinos_control_panel/software_sources.py:782
+#: /usr/lib/python3/dist-packages/anduinos_control_panel/software_sources.py:792
+#: /usr/lib/python3/dist-packages/anduinos_control_panel/software_sources.py:996
+#: /usr/lib/python3/dist-packages/anduinos_control_panel/software_sources.py:1043
+msgid "Enter a valid HTTP or HTTPS mirror address."
+msgstr ""
+
+#: /usr/lib/python3/dist-packages/anduinos_control_panel/software_sources.py:795
+#: /usr/lib/python3/dist-packages/anduinos_control_panel/software_sources.py:1004
+#: /usr/lib/python3/dist-packages/anduinos_control_panel/software_sources.py:1049
+msgid "Testing mirrors…"
+msgstr ""
+
+#: /usr/lib/python3/dist-packages/anduinos_control_panel/software_sources.py:812
+#: /usr/lib/python3/dist-packages/anduinos_control_panel/software_sources.py:1030
+msgid "✗ Mirror test failed: "
+msgstr ""
+
+#: /usr/lib/python3/dist-packages/anduinos_control_panel/software_sources.py:824
+#: /usr/lib/python3/dist-packages/anduinos_control_panel/software_sources.py:902
+msgid "Mirror speed test complete."
+msgstr ""
+
+#: /usr/lib/python3/dist-packages/anduinos_control_panel/software_sources.py:832
+#: /usr/lib/python3/dist-packages/anduinos_control_panel/software_sources.py:1068
+msgid "Latency"
+msgstr ""
+
+#: /usr/lib/python3/dist-packages/anduinos_control_panel/software_sources.py:832
+#: /usr/lib/python3/dist-packages/anduinos_control_panel/software_sources.py:1069
+msgid "Bandwidth"
+msgstr ""
+
+#: /usr/lib/python3/dist-packages/anduinos_control_panel/software_sources.py:841
+#: /usr/lib/python3/dist-packages/anduinos_control_panel/software_sources.py:1085
+msgid "Keep Current"
+msgstr ""
+
+#: /usr/lib/python3/dist-packages/anduinos_control_panel/software_sources.py:842
+#: /usr/lib/python3/dist-packages/anduinos_control_panel/software_sources.py:1086
+msgid "Switch"
+msgstr ""
+
+#: /usr/lib/python3/dist-packages/anduinos_control_panel/software_sources.py:852
+#: /usr/lib/python3/dist-packages/anduinos_control_panel/software_sources.py:1095
+msgid "Switching mirror…"
+msgstr ""
+
+#: /usr/lib/python3/dist-packages/anduinos_control_panel/software_sources.py:862
+#: /usr/lib/python3/dist-packages/anduinos_control_panel/software_sources.py:1115
+msgid "✗ Switch failed: "
+msgstr ""
+
+#: /usr/lib/python3/dist-packages/anduinos_control_panel/software_sources.py:864
+msgid "Flathub source switched."
+msgstr ""
+
+#: /usr/lib/python3/dist-packages/anduinos_control_panel/software_sources.py:965
+msgid "The original source was restored, but refreshing it failed."
+msgstr ""
+
+#: /usr/lib/python3/dist-packages/anduinos_control_panel/software_sources.py:967
+msgid "The original source was restored."
+msgstr ""
+
+#: /usr/lib/python3/dist-packages/anduinos_control_panel/software_sources.py:1006
+msgid "=== Testing mirror speeds ==="
+msgstr ""
+
+#: /usr/lib/python3/dist-packages/anduinos_control_panel/software_sources.py:1024
+msgid "No Ubuntu archive mirror is reachable."
+msgstr ""
+
+#: /usr/lib/python3/dist-packages/anduinos_control_panel/software_sources.py:1057
+msgid "Could not validate this mirror for the current system."
+msgstr ""
+
+#: /usr/lib/python3/dist-packages/anduinos_control_panel/software_sources.py:1074
+msgid "This is already your current mirror."
+msgstr ""
+
+#: /usr/lib/python3/dist-packages/anduinos_control_panel/software_sources.py:1079
+msgid "Fastest Mirror Found"
+msgstr ""
+
+#: /usr/lib/python3/dist-packages/anduinos_control_panel/software_sources.py:1082
+msgid "Switch to this mirror and run apt update?"
+msgstr ""
+
+#: /usr/lib/python3/dist-packages/anduinos_control_panel/software_sources.py:1113
+msgid "✓ Mirror switched and system updated."
+msgstr ""
+
+#: /usr/lib/python3/dist-packages/anduinos_control_panel/software_sources.py:1123
+msgid "Installing updates…"
+msgstr ""
+
+#: /usr/lib/python3/dist-packages/anduinos_control_panel/software_sources.py:1126
+msgid "Checking for updates…"
+msgstr ""
+
+#: /usr/lib/python3/dist-packages/anduinos_control_panel/software_sources.py:1134
+#: /usr/lib/python3/dist-packages/anduinos_control_panel/software_sources.py:1155
+msgid "✗ Check failed: "
+msgstr ""
+
+#: /usr/lib/python3/dist-packages/anduinos_control_panel/software_sources.py:1163
+msgid "  Install Updates  "
+msgstr ""
+
+#: /usr/lib/python3/dist-packages/anduinos_control_panel/software_sources.py:1166
+msgid "Updates are available."
+msgstr ""
+
+#: /usr/lib/python3/dist-packages/anduinos_control_panel/software_sources.py:1168
+msgid "✓ System is up to date."
+msgstr ""
+
+#: /usr/lib/python3/dist-packages/anduinos_control_panel/software_sources.py:1179
+msgid "✓ Updates installed successfully!"
+msgstr ""
+
+#: /usr/lib/python3/dist-packages/anduinos_control_panel/software_sources.py:1181
+msgid "✗ Installation failed: "
+msgstr ""
+
+#: /usr/lib/python3/dist-packages/anduinos_control_panel/topics.py:77
+msgid "System Settings"
+msgstr ""
+
+#: /usr/lib/python3/dist-packages/anduinos_control_panel/topics.py:78
+msgid "Display, sound, power, privacy, and more"
+msgstr ""
+
+#: /usr/lib/python3/dist-packages/anduinos_control_panel/topics.py:87
+msgid "Change the boot menu wait time"
+msgstr ""
+
+#: /usr/lib/python3/dist-packages/anduinos_control_panel/topics.py:95
+msgid "Virtual Memory Settings"
+msgstr ""
+
+#: /usr/lib/python3/dist-packages/anduinos_control_panel/topics.py:96
+msgid "Configure Zram, Zswap, swap, and memory pressure"
+msgstr ""
+
+#: /usr/lib/python3/dist-packages/anduinos_control_panel/topics.py:115
+msgid "Secure Boot Status"
+msgstr ""
+
+#: /usr/lib/python3/dist-packages/anduinos_control_panel/topics.py:116
+msgid "Inspect firmware trust and signed drivers"
+msgstr ""
+
+#: /usr/lib/python3/dist-packages/anduinos_control_panel/topics.py:124
+msgid "Passwords and Keys"
+msgstr ""
+
+#: /usr/lib/python3/dist-packages/anduinos_control_panel/topics.py:125
+msgid "Manage passwords, encryption keys, and certificates"
+msgstr ""
+
+#: /usr/lib/python3/dist-packages/anduinos_control_panel/topics.py:134
+msgid "Firewall"
+msgstr ""
+
+#: /usr/lib/python3/dist-packages/anduinos_control_panel/topics.py:135
+msgid "Review connections, rules, and network protection"
+msgstr ""
+
+#: /usr/lib/python3/dist-packages/anduinos_control_panel/topics.py:143
+msgid "Advanced Network Configuration"
+msgstr ""
+
+#: /usr/lib/python3/dist-packages/anduinos_control_panel/topics.py:163
+msgid "User Account Settings"
+msgstr ""
+
+#: /usr/lib/python3/dist-packages/anduinos_control_panel/topics.py:164
+msgid "Manage users, passwords, and account details"
+msgstr ""
+
+#: /usr/lib/python3/dist-packages/anduinos_control_panel/topics.py:172
+msgid "YubiKey Settings"
+msgstr ""
+
+#: /usr/lib/python3/dist-packages/anduinos_control_panel/topics.py:173
+msgid "Configure sign-in, sudo, SSH keys, and Git signing"
+msgstr ""
+
+#: /usr/lib/python3/dist-packages/anduinos_control_panel/topics.py:182
+msgid "Predict commands locally from history and current context"
+msgstr ""
+
+#: /usr/lib/python3/dist-packages/anduinos_control_panel/topics.py:190
+msgid "Voice Typing"
+msgstr ""
+
+#: /usr/lib/python3/dist-packages/anduinos_control_panel/topics.py:191
+msgid "Configure private, offline speech-to-text"
+msgstr ""
+
+#: /usr/lib/python3/dist-packages/anduinos_control_panel/topics.py:199
+msgid "Driver Center"
+msgstr ""
+
+#: /usr/lib/python3/dist-packages/anduinos_control_panel/topics.py:200
+msgid "Graphics, audio, printers, controllers, and firmware"
+msgstr ""
+
+#: /usr/lib/python3/dist-packages/anduinos_control_panel/topics.py:208
+msgid "Printers"
+msgstr ""
+
+#: /usr/lib/python3/dist-packages/anduinos_control_panel/topics.py:209
+msgid "Add, remove, and configure printers"
+msgstr ""
+
+#: /usr/lib/python3/dist-packages/anduinos_control_panel/topics.py:217
+msgid "Scanners"
+msgstr ""
+
+#: /usr/lib/python3/dist-packages/anduinos_control_panel/topics.py:218
+msgid "Scan documents and add or select a scanner"
+msgstr ""
+
+#: /usr/lib/python3/dist-packages/anduinos_control_panel/topics.py:227
+msgid "AnduinOS Appearance Settings"
+msgstr ""
+
+#: /usr/lib/python3/dist-packages/anduinos_control_panel/topics.py:228
+msgid "Configure the taskbar, panel widgets, and desktop"
+msgstr ""
+
+#: /usr/lib/python3/dist-packages/anduinos_control_panel/topics.py:236
+msgid "Wallpaper and Accent Color"
+msgstr ""
+
+#: /usr/lib/python3/dist-packages/anduinos_control_panel/topics.py:237
+msgid "Choose the desktop background, style, and accent color"
+msgstr ""
+
+#: /usr/lib/python3/dist-packages/anduinos_control_panel/topics.py:265
+msgid "Uninstall Applications"
+msgstr ""
+
+#: /usr/lib/python3/dist-packages/anduinos_control_panel/topics.py:266
+msgid "Review and remove installed applications"
+msgstr ""
+
+#: /usr/lib/python3/dist-packages/anduinos_control_panel/topics.py:283
+msgid "Offline Update"
+msgstr ""
+
+#: /usr/lib/python3/dist-packages/anduinos_control_panel/topics.py:284
+msgid "Open an offline update package"
+msgstr ""
+
+#: /usr/lib/python3/dist-packages/anduinos_control_panel/topics.py:293
+msgid "Configure private AI features that run on this device"
+msgstr ""
+
+#: /usr/lib/python3/dist-packages/anduinos_control_panel/topics.py:301
+msgid "Configure Bottles"
+msgstr ""
+
+#: /usr/lib/python3/dist-packages/anduinos_control_panel/topics.py:302
+msgid "Run Windows applications in compatibility environments"
+msgstr ""
+
+#: /usr/lib/python3/dist-packages/anduinos_control_panel/topics.py:310
+msgid "System Snapshots"
+msgstr ""
+
+#: /usr/lib/python3/dist-packages/anduinos_control_panel/topics.py:311
+msgid "Create, browse, and roll back system snapshots"
+msgstr ""
+
+#: /usr/lib/python3/dist-packages/anduinos_control_panel/topics.py:319
+msgid "Factory Reset"
+msgstr ""
+
+#: /usr/lib/python3/dist-packages/anduinos_control_panel/topics.py:320
+msgid "Return system files and applications to their initial state"
+msgstr ""
+
+#: /usr/lib/python3/dist-packages/anduinos_control_panel/topics.py:336
+msgid "Back Up Home Folder"
+msgstr ""
+
+#: /usr/lib/python3/dist-packages/anduinos_control_panel/topics.py:337
+msgid "Protect personal files with Deja Dup backups"
+msgstr ""
+
+#: /usr/share/applications/com.anduinos.ControlPanel.desktop:31
+msgid "Find and manage AnduinOS system settings"
+msgstr ""
+
+#: /usr/share/applications/com.anduinos.ControlPanel.desktop:65
+msgid "settings;control;system;hardware;drivers;accounts;backup;"
+msgstr ""

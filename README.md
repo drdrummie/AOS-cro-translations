@@ -1,0 +1,90 @@
+# Croatian translations for AnduinOS
+
+Each component has its own translation directory:
+
+```text
+control-panel/
+  anduinos-control-panel.pot
+  anduinos-control-panel.sh
+  deploy.sh
+  hr_HR.po
+  run.py
+```
+
+The POT file is the message template; the PO file contains the Croatian
+translation. The Control Panel and Welcome templates were extracted from the
+locally installed versions. Before contributing upstream, compare them with
+the current source code and the maintainers' templates.
+
+## Tasks
+
+In VS Code, open **Terminal → Run Task** and select a task:
+
+- **Translation: update PO from POT** updates the existing PO using `msgmerge`.
+  Review new messages and suggestions marked `fuzzy`.
+- **Translation: check** checks syntax, format placeholders, and completeness
+  against the POT. Untranslated and `fuzzy` messages cause the check to fail.
+- **Translation: build MO** checks the translation, then builds an MO file in
+  `<package>/build/hr_HR/LC_MESSAGES/`. The MO name comes from the POT name.
+  Git ignores the generated files.
+
+Tasks prompt for the package directory name, defaulting to `control-panel`.
+For a new component, add one POT file and `hr_HR.po` under
+`package-name/`. Create a new PO with `msginit`, for example:
+
+```bash
+msginit --locale=hr_HR.UTF-8 --input=package-name/domain.pot \
+  --output-file=package-name/hr_HR.po
+```
+
+GNU gettext tools are required. The same operations are available in a terminal:
+
+```bash
+bash scripts/translate.sh update control-panel
+bash scripts/translate.sh check control-panel
+bash scripts/translate.sh build control-panel
+```
+
+## Testing Control Panel
+
+Deploy the current catalog to your user account, then launch the installed
+application with that translation:
+
+```bash
+bash control-panel/deploy.sh
+bash control-panel/anduinos-control-panel.sh
+```
+
+Deployment validates and builds the PO before updating
+`~/.local/share/anduinos-control-panel/locale/`. It leaves an identical
+catalog unchanged, and does not modify system files. Building alone does not
+deploy changes. The test launcher uses the current language settings; to
+select Croatian for a test:
+
+```bash
+LANGUAGE=hr_HR bash control-panel/anduinos-control-panel.sh
+```
+
+Close any running Control Panel instance first: the application may otherwise
+reuse it. The existing user desktop launcher also uses this deployed catalog,
+but GNOME search results may start the system application instead.
+
+## Testing AnduinOS Welcome
+
+```bash
+bash welcome/deploy.sh
+bash welcome/anduinos-oobe.sh
+```
+
+Deployment validates and compiles the catalog before placing it in
+`~/.local/share/anduinos-oobe/locale/`. The project launcher loads the
+installed application and applies that catalog for the selected language.
+The ordinary desktop and automatic first-run launchers remain unchanged and do
+not use the user-local catalog. Close any running Welcome instance before
+testing; the application may otherwise reuse it. As with Control Panel, set
+`LANGUAGE=hr_HR` when launching to select Croatian for a test.
+
+For each new component, provide its own `deploy.sh` and
+`<application>.sh` test launcher. Adapt deployment and launch to the
+component's localization mechanism and document their effects. Do not assume
+that other applications use the Control Panel's Python gettext setup.

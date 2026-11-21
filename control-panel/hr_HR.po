@@ -1,0 +1,784 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: anduinos-control-panel\n"
+"PO-Revision-Date: 2026-11-21 11:53+0100\n"
+"Last-Translator: Local translation\n"
+"Language-Team: Croatian\n"
+"Language: hr_HR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<12 || n%100>14) ? 1 : 2);\n"
+
+msgid "Control Panel"
+msgstr "Upravljačka ploča"
+
+msgid "AnduinOS"
+msgstr "AnduinOS"
+
+msgid "Search Control Panel"
+msgstr "Pretraži upravljačku ploču"
+
+msgid "Search settings"
+msgstr "Pretraži postavke"
+
+msgid "About Control Panel"
+msgstr "O upravljačkoj ploči"
+
+msgid "Main Menu"
+msgstr "Glavni izbornik"
+
+msgid "Adjust your computer's settings"
+msgstr "Prilagodite postavke računala"
+
+msgid "Choose a category below, or search for a setting."
+msgstr "Odaberite kategoriju u nastavku ili potražite postavku."
+
+msgid "No settings found"
+msgstr "Nema pronađenih postavki"
+
+msgid "Try a different search."
+msgstr "Pokušajte s drukčijim pojmom."
+
+msgid "Configure NetworkManager connection profiles"
+msgstr "Konfigurirajte profile povezivanja u NetworkManageru"
+
+msgid "Install Advanced Network Configuration"
+msgstr "Instaliraj naprednu konfiguraciju mreže"
+
+msgid "Manage application permissions with Flatseal"
+msgstr "Upravljajte dopuštenjima aplikacija pomoću Flatseala"
+
+msgid "Install Flatseal to manage application permissions"
+msgstr "Instalirajte Flatseal za upravljanje dopuštenjima aplikacija"
+
+msgid "System"
+msgstr "Sustav"
+
+msgid "Security"
+msgstr "Sigurnost"
+
+msgid "Network and Internet"
+msgstr "Mreža i internet"
+
+msgid "User Accounts"
+msgstr "Korisnički računi"
+
+msgid "Hardware and Drivers"
+msgstr "Hardver i upravljački programi"
+
+msgid "Scan documents and select a scanner"
+msgstr "Skenirajte dokumente i odaberite skener"
+
+msgid "Install Document Scanner"
+msgstr "Instaliraj skener dokumenata"
+
+msgid "Appearance"
+msgstr "Izgled"
+
+msgid "Programs"
+msgstr "Programi"
+
+msgid "AI Stack"
+msgstr "Alati za umjetnu inteligenciju"
+
+msgid "Installed"
+msgstr "Instalirano"
+
+msgid "Not installed"
+msgstr "Nije instalirano"
+
+msgid "Configure microphone, language, shortcut, and training"
+msgstr "Konfigurirajte mikrofon, jezik, prečac i treniranje"
+
+msgid "Install private, offline speech-to-text"
+msgstr "Instalirajte privatno izvanmrežno pretvaranje govora u tekst"
+
+msgid "Windows Compatibility"
+msgstr "Kompatibilnost sa sustavom Windows"
+
+msgid "Open your Windows application environments"
+msgstr "Otvorite svoja okruženja za aplikacije sustava Windows"
+
+msgid "Install Bottles to run Windows applications"
+msgstr "Instalirajte Bottles za pokretanje aplikacija sustava Windows"
+
+msgid "Backup and Recovery"
+msgstr "Sigurnosno kopiranje i oporavak"
+
+msgid "Open Deja Dup backups"
+msgstr "Otvorite sigurnosne kopije u aplikaciji Deja Dup"
+
+msgid "Install Deja Dup from the app store"
+msgstr "Instalirajte Deja Dup iz trgovine aplikacija"
+
+msgid "Setting not found"
+msgstr "Postavka nije pronađena"
+
+msgid "Could not open this setting"
+msgstr "Nije moguće otvoriti ovu postavku"
+
+msgid "The application exited before it could be opened."
+msgstr "Aplikacija se zatvorila prije otvaranja."
+
+msgid "OK"
+msgstr "U redu"
+
+#, python-format
+msgid "Install %s?"
+msgstr "Instalirati %s?"
+
+#, python-format
+msgid "%s is a recommended component, but it is not installed. You can reinstall it now."
+msgstr "%s je preporučena komponenta, ali nije instalirana. Možete je sada ponovno instalirati."
+
+msgid "Cancel"
+msgstr "Odustani"
+
+msgid "Install"
+msgstr "Instaliraj"
+
+#, python-format
+msgid "Installing %s…"
+msgstr "Instaliranje komponente %s…"
+
+msgid "Advanced Output"
+msgstr "Detaljan ispis"
+
+msgid "Close"
+msgstr "Zatvori"
+
+msgid "Installation failed"
+msgstr "Instalacija nije uspjela"
+
+#, python-format
+msgid "%s installed"
+msgstr "%s je instaliran"
+
+msgid "The recommended component could not be installed."
+msgstr "Nije moguće instalirati preporučenu komponentu."
+
+msgid "Startup and Boot"
+msgstr "Pokretanje sustava"
+
+msgid "Boot menu"
+msgstr "Izbornik pokretanja"
+
+msgid "Choose how long the boot menu waits before starting the default system."
+msgstr "Odaberite koliko dugo izbornik čeka prije pokretanja zadanog sustava."
+
+msgid "Default operating system"
+msgstr "Zadani operacijski sustav"
+
+msgid "Starts automatically when the boot menu wait time ends."
+msgstr "Automatski se pokreće nakon isteka vremena čekanja u izborniku."
+
+msgid "Current setting (unchanged)"
+msgstr "Trenutačna postavka (nepromijenjena)"
+
+msgid "Retry"
+msgstr "Pokušaj ponovno"
+
+msgid "Authentication is required to read the boot menu."
+msgstr "Za čitanje izbornika pokretanja potrebna je autentifikacija."
+
+msgid "Boot menu wait time"
+msgstr "Vrijeme čekanja izbornika pokretanja"
+
+msgid "The same delay is used after an interrupted or unsuccessful startup."
+msgstr "Isto vrijeme čekanja koristi se nakon prekinutog ili neuspješnog pokretanja."
+
+#, python-format
+msgid "%d seconds"
+msgstr "%d s"
+
+msgid "Boot display"
+msgstr "Prikaz pri pokretanju"
+
+msgid "Choose the size of the GRUB menu and startup logo."
+msgstr "Odaberite veličinu GRUB izbornika i logotipa pri pokretanju."
+
+msgid "High resolution can make menu text small on 4K displays; the screen's native resolution is not guaranteed at boot."
+msgstr "Visoka razlučivost može smanjiti tekst izbornika na 4K zaslonima; izvorna razlučivost zaslona nije zajamčena pri pokretanju."
+
+msgid "Display mode"
+msgstr "Način prikaza"
+
+msgid "High resolution (if available)"
+msgstr "Visoka razlučivost (ako je dostupna)"
+
+msgid "Automatic"
+msgstr "Automatski"
+
+msgid "Large text mode"
+msgstr "Način s velikim tekstom"
+
+msgid "Apply"
+msgstr "Primijeni"
+
+msgid "Custom setting (unchanged)"
+msgstr "Prilagođena postavka (nepromijenjena)"
+
+msgid "Only operating systems already in the boot menu are listed."
+msgstr "Prikazani su samo operacijski sustavi koji se već nalaze u izborniku pokretanja."
+
+msgid "No supported operating systems were found in the boot menu."
+msgstr "U izborniku pokretanja nisu pronađeni podržani operacijski sustavi."
+
+msgid "The boot menu could not be read."
+msgstr "Nije moguće pročitati izbornik pokretanja."
+
+msgid "Authentication was cancelled."
+msgstr "Autentifikacija je otkazana."
+
+msgid "Reading the boot menu…"
+msgstr "Čitanje izbornika pokretanja…"
+
+msgid "Updating the boot menu…"
+msgstr "Ažuriranje izbornika pokretanja…"
+
+msgid "Boot settings updated. The change applies on the next startup."
+msgstr "Postavke pokretanja ažurirane su. Promjena se primjenjuje pri sljedećem pokretanju."
+
+msgid "Boot settings updated"
+msgstr "Postavke pokretanja ažurirane su"
+
+msgid "The boot setting could not be changed."
+msgstr "Nije moguće promijeniti postavku pokretanja."
+
+msgid "This application is available from the app store."
+msgstr "Ova je aplikacija dostupna u trgovini aplikacija."
+
+msgid "Open App Store"
+msgstr "Otvori trgovinu aplikacija"
+
+msgid "Bottles"
+msgstr "Bottles"
+
+msgid "Run Windows applications in isolated compatibility environments powered by Wine and Bottles."
+msgstr "Pokrećite aplikacije sustava Windows u izoliranim okruženjima za kompatibilnost pomoću Winea i Bottlesa."
+
+msgid "Install Bottles"
+msgstr "Instaliraj Bottles"
+
+msgid "Downloads Bottles and its runtime from Flathub"
+msgstr "Preuzima Bottles i njegovo izvršno okruženje s Flathuba"
+
+msgid "Start"
+msgstr "Pokreni"
+
+msgid "Installing…"
+msgstr "Instaliranje…"
+
+msgid "Downloading and installing Bottles… This may take a few minutes."
+msgstr "Preuzimanje i instaliranje Bottlesa… To može potrajati nekoliko minuta."
+
+msgid "Preparing Flathub and Bottles installation…"
+msgstr "Priprema instalacije Flathuba i Bottlesa…"
+
+msgid "✓ Bottles is ready."
+msgstr "✓ Bottles je spreman."
+
+msgid "✓ Installation completed successfully."
+msgstr "✓ Instalacija je uspješno dovršena."
+
+msgid "Open Bottles"
+msgstr "Otvori Bottles"
+
+msgid "Bottles installed"
+msgstr "Bottles je instaliran"
+
+msgid "✗ Installation failed. Review Advanced Output."
+msgstr "✗ Instalacija nije uspjela. Provjerite detaljan ispis."
+
+msgid "✗ Operation failed: "
+msgstr "✗ Radnja nije uspjela: "
+
+msgid "Deja Dup Backups"
+msgstr "Sigurnosne kopije Deja Dup"
+
+msgid "Factory Reset Is Not Available"
+msgstr "Vraćanje na tvorničke postavke nije dostupno"
+
+msgid "This system does not support factory reset. Reinstall AnduinOS and choose the Btrfs filesystem to enable it."
+msgstr "Ovaj sustav ne podržava vraćanje na tvorničke postavke. Ponovno instalirajte AnduinOS i odaberite datotečni sustav Btrfs kako biste omogućili tu mogućnost."
+
+msgid "Permission Settings"
+msgstr "Postavke dopuštenja"
+
+msgid "Flatseal"
+msgstr "Flatseal"
+
+msgid "Review and control what files, devices, network connections, and services Flatpak applications can access."
+msgstr "Pregledajte i kontrolirajte kojim datotekama, uređajima, mrežnim vezama i uslugama aplikacije Flatpak mogu pristupiti."
+
+msgid "Install Flatseal"
+msgstr "Instaliraj Flatseal"
+
+msgid "Administrator authentication is required when installation starts"
+msgstr "Pri početku instalacije potrebna je administratorska autentifikacija"
+
+msgid "Downloading and installing Flatseal…"
+msgstr "Preuzimanje i instaliranje Flatseala…"
+
+msgid "Preparing Flatseal installation…"
+msgstr "Priprema instalacije Flatseala…"
+
+msgid "✓ Flatseal is ready."
+msgstr "✓ Flatseal je spreman."
+
+msgid "Open Flatseal"
+msgstr "Otvori Flatseal"
+
+msgid "Flatseal installed"
+msgstr "Flatseal je instaliran"
+
+msgid "Install Voice Typing"
+msgstr "Instaliraj glasovno tipkanje"
+
+msgid "Offline Voice Typing"
+msgstr "Izvanmrežno glasovno tipkanje"
+
+msgid "Press Super + H to dictate into browsers, editors, messages, terminals, and other applications. Audio stays on this computer."
+msgstr "Pritisnite Super + H za diktiranje u preglednicima, uređivačima, porukama, terminalima i drugim aplikacijama. Zvuk ostaje na ovom računalu."
+
+msgid "Private by default"
+msgstr "Privatnost je uključena prema zadanim postavkama"
+
+msgid "Speech is recognized locally with whisper.cpp"
+msgstr "Govor se prepoznaje lokalno pomoću whisper.cpp-a"
+
+msgid "About 140 MB to download"
+msgstr "Približno 140 MB za preuzimanje"
+
+msgid "Includes the multilingual Base model; optional models are available later"
+msgstr "Uključuje višejezični model Base; dodatni modeli dostupni su naknadno"
+
+msgid "Administrator authentication is required when installation starts."
+msgstr "Pri početku instalacije potrebna je administratorska autentifikacija."
+
+msgid "Downloading the local engine and multilingual speech model…"
+msgstr "Preuzimanje lokalnog mehanizma i višejezičnog modela za govor…"
+
+msgid "Preparing Voice Typing installation…"
+msgstr "Priprema instalacije glasovnog tipkanja…"
+
+msgid "✓ Installed. Sign out and back in once, then press Super + H to start Voice Typing."
+msgstr "✓ Instalirano. Odjavite se i ponovno prijavite, a zatim pritisnite Super + H za pokretanje glasovnog tipkanja."
+
+msgid "Open Settings"
+msgstr "Otvori postavke"
+
+msgid "Voice Typing installed — sign out to finish"
+msgstr "Glasovno tipkanje je instalirano — odjavite se za dovršetak"
+
+msgid "On-device AI"
+msgstr "Umjetna inteligencija na uređaju"
+
+msgid "Why AI"
+msgstr "Why AI"
+
+msgid "Run the Why AI assistant locally. The model and runtime are installed only when this option is enabled."
+msgstr "Pokrenite pomoćnika Why AI lokalno. Model i izvršno okruženje instaliraju se samo kada je ova mogućnost omogućena."
+
+msgid "Install on-device AI"
+msgstr "Instaliraj umjetnu inteligenciju na uređaju"
+
+msgid "Enable the local Why AI stack on this computer"
+msgstr "Omogućite lokalne alate Why AI na ovom računalu"
+
+msgid "Applying…"
+msgstr "Primjenjivanje…"
+
+msgid "Downloading and installing Why AI… This may take about 10 minutes."
+msgstr "Preuzimanje i instaliranje Why AI-ja… To može potrajati oko 10 minuta."
+
+msgid "Disabling the local Why AI stack…"
+msgstr "Onemogućavanje lokalnih alata Why AI…"
+
+msgid "Preparing package operation…"
+msgstr "Priprema radnje nad paketom…"
+
+msgid "✓ On-device AI is ready."
+msgstr "✓ Umjetna inteligencija na uređaju spremna je."
+
+msgid "✓ On-device AI is disabled."
+msgstr "✓ Umjetna inteligencija na uređaju onemogućena je."
+
+msgid "✓ Change completed successfully."
+msgstr "✓ Promjena je uspješno dovršena."
+
+msgid "On-device AI enabled"
+msgstr "Umjetna inteligencija na uređaju omogućena je"
+
+msgid "On-device AI disabled"
+msgstr "Umjetna inteligencija na uređaju onemogućena je"
+
+msgid "✗ Package operation failed. Review Advanced Output."
+msgstr "✗ Radnja nad paketom nije uspjela. Provjerite detaljan ispis."
+
+#, python-brace-format
+msgid "{command} exited with status {status}"
+msgstr "Naredba {command} završila je sa statusom {status}"
+
+msgid "Open a Control Panel topic"
+msgstr "Otvori temu upravljačke ploče"
+
+msgid "TOPIC"
+msgstr "TEMA"
+
+msgid "TERMS"
+msgstr "POJMOVI"
+
+msgid "AnduinOS Control Panel"
+msgstr "Upravljačka ploča AnduinOS-a"
+
+msgid "AnduinOS Team"
+msgstr "Tim AnduinOS-a"
+
+msgid "Find and manage AnduinOS system settings."
+msgstr "Pronađite postavke sustava AnduinOS i upravljajte njima."
+
+msgid "Bash Command Predictions"
+msgstr "Predviđanje naredbi u Bashu"
+
+msgid "Predict commands locally from your history and current context. No model download or on-device LLM is needed."
+msgstr "Predviđajte naredbe lokalno na temelju povijesti i trenutačnog konteksta. Nije potrebno preuzimanje modela ni lokalni veliki jezični model."
+
+msgid "Configure your preferences below, then install to use predictions."
+msgstr "Prilagodite postavke u nastavku, a zatim instalirajte komponentu za upotrebu predviđanja."
+
+msgid "Changes take effect in newly opened Bash terminals. Saved settings override legacy environment variables."
+msgstr "Promjene se primjenjuju u novootvorenim terminalima Basha. Spremljene postavke imaju prednost pred starim varijablama okruženja."
+
+msgid "Enable command predictions"
+msgstr "Omogući predviđanje naredbi"
+
+msgid "Show suggestions while typing in Bash."
+msgstr "Prikaži prijedloge tijekom tipkanja u Bashu."
+
+msgid "Learn from command history"
+msgstr "Učenje iz povijesti naredbi"
+
+msgid "Use Bash history, frequency, directories, and command sequences to personalize suggestions."
+msgstr "Upotrijebi povijest Basha, učestalost, direktorije i nizove naredbi za prilagodbu prijedloga."
+
+msgid "Remember my usage habits"
+msgstr "Zapamti moje navike korištenja"
+
+msgid "Save learned usage habits on this computer for predictions after closing the terminal. When off, Bash command history is still used."
+msgstr "Spremi naučene navike korištenja na ovo računalo za predviđanja nakon zatvaranja terminala. Kada je isključeno, povijest naredbi Basha i dalje se koristi."
+
+msgid "Clear saved learning"
+msgstr "Obriši spremljene podatke učenja"
+
+msgid "Keeps Bash history and your settings. Reopen existing terminals to discard their in-memory learning."
+msgstr "Zadržava povijest Basha i vaše postavke. Ponovno otvorite postojeće terminale kako biste odbacili njihove podatke učenja u memoriji."
+
+msgid "Clear"
+msgstr "Obriši"
+
+msgid "Restore default settings"
+msgstr "Vrati zadane postavke"
+
+msgid "Does not delete learned data."
+msgstr "Ne briše naučene podatke."
+
+msgid "Restore Defaults"
+msgstr "Vrati zadane postavke"
+
+msgid "At the end of a line, press Right Arrow or End to accept a suggestion. Press Enter to run the command."
+msgstr "Na kraju retka pritisnite strelicu udesno ili End za prihvaćanje prijedloga. Pritisnite Enter za izvršavanje naredbe."
+
+#, python-brace-format
+msgid "Could not update prediction settings: {error}"
+msgstr "Nije moguće ažurirati postavke predviđanja: {error}"
+
+msgid "Default settings restored. Reopen Bash terminals to apply them."
+msgstr "Zadane postavke vraćene su. Ponovno otvorite terminale Basha kako biste ih primijenili."
+
+msgid "Clear saved learning?"
+msgstr "Obrisati spremljene podatke učenja?"
+
+msgid "Only prediction learning is removed. Your Bash command history is kept."
+msgstr "Uklanjaju se samo podaci učenja za predviđanja. Povijest naredbi Basha ostaje sačuvana."
+
+msgid "Saved learning cleared. Older terminals cannot save it again; reopen them to resume learning persistence."
+msgstr "Spremljeni podaci učenja obrisani su. Stariji terminali ne mogu ih ponovno spremiti; ponovno ih otvorite kako biste nastavili sa spremanjem."
+
+msgid "Installation complete. Open a new Bash terminal to use predictions."
+msgstr "Instalacija je dovršena. Otvorite novi terminal Basha za upotrebu predviđanja."
+
+msgid "Package installation could not be confirmed. Please retry."
+msgstr "Nije moguće potvrditi instalaciju paketa. Pokušajte ponovno."
+
+#, python-brace-format
+msgid "Installation failed: {error}"
+msgstr "Instalacija nije uspjela: {error}"
+
+msgid "Current mirror"
+msgstr "Trenutačni zrcalni poslužitelj"
+
+msgid "Software Source"
+msgstr "Izvor softvera"
+
+msgid "  Switch to Fastest Mirror  "
+msgstr "  Prebaci na najbrži zrcalni poslužitelj  "
+
+msgid "Keep Your System Up to Date"
+msgstr "Održavajte sustav ažurnim"
+
+msgid "Security patches and the latest features are just a click away."
+msgstr "Sigurnosni ispravci i najnovije mogućnosti udaljeni su samo jedan klik."
+
+msgid "  Check for Updates  "
+msgstr "  Provjeri ažuriranja  "
+
+msgid "Advanced"
+msgstr "Napredno"
+
+msgid "Custom address…"
+msgstr "Prilagođena adresa…"
+
+msgid "Test mirror speeds"
+msgstr "Testiraj brzine zrcalnih poslužitelja"
+
+msgid "Apply selected mirror"
+msgstr "Primijeni odabrani zrcalni poslužitelj"
+
+msgid "Flathub software source"
+msgstr "Izvor softvera Flathub"
+
+msgid "Terminal Output"
+msgstr "Ispis terminala"
+
+msgid "Could not read the Flathub source."
+msgstr "Nije moguće pročitati izvor Flathub."
+
+msgid "Review Terminal Output for details."
+msgstr "Pojedinosti potražite u ispisu terminala."
+
+msgid "Flathub is not configured."
+msgstr "Flathub nije konfiguriran."
+
+msgid "Official Flathub"
+msgstr "Službeni Flathub"
+
+msgid "USTC (China)"
+msgstr "USTC (Kina)"
+
+msgid "Enter a valid HTTP or HTTPS mirror address."
+msgstr "Unesite valjanu HTTP ili HTTPS adresu zrcalnog poslužitelja."
+
+msgid "Testing mirrors…"
+msgstr "Testiranje zrcalnih poslužitelja…"
+
+msgid "✗ Mirror test failed: "
+msgstr "✗ Testiranje zrcalnih poslužitelja nije uspjelo: "
+
+msgid "Mirror speed test complete."
+msgstr "Testiranje brzine zrcalnih poslužitelja je dovršeno."
+
+msgid "Latency"
+msgstr "Latencija"
+
+msgid "Bandwidth"
+msgstr "Propusnost"
+
+msgid "Keep Current"
+msgstr "Zadrži trenutačni"
+
+msgid "Switch"
+msgstr "Prebaci"
+
+msgid "Switching mirror…"
+msgstr "Promjena zrcalnog poslužitelja…"
+
+msgid "✗ Switch failed: "
+msgstr "✗ Promjena nije uspjela: "
+
+msgid "Flathub source switched."
+msgstr "Izvor Flathub je promijenjen."
+
+msgid "The original source was restored, but refreshing it failed."
+msgstr "Izvorni je izvor vraćen, ali njegovo osvježavanje nije uspjelo."
+
+msgid "The original source was restored."
+msgstr "Izvorni je izvor vraćen."
+
+msgid "=== Testing mirror speeds ==="
+msgstr "=== Testiranje brzine zrcalnih poslužitelja ==="
+
+msgid "No Ubuntu archive mirror is reachable."
+msgstr "Nijedan zrcalni poslužitelj Ubuntuova arhiva nije dostupan."
+
+msgid "Could not validate this mirror for the current system."
+msgstr "Nije moguće provjeriti ovaj zrcalni poslužitelj za trenutačni sustav."
+
+msgid "This is already your current mirror."
+msgstr "Ovo je već vaš trenutačni zrcalni poslužitelj."
+
+msgid "Fastest Mirror Found"
+msgstr "Pronađen je najbrži zrcalni poslužitelj"
+
+msgid "Switch to this mirror and run apt update?"
+msgstr "Prebaciti se na ovaj zrcalni poslužitelj i pokrenuti apt update?"
+
+msgid "✓ Mirror switched and system updated."
+msgstr "✓ Zrcalni poslužitelj je promijenjen i sustav je ažuriran."
+
+msgid "Installing updates…"
+msgstr "Instaliranje ažuriranja…"
+
+msgid "Checking for updates…"
+msgstr "Provjera ažuriranja…"
+
+msgid "✗ Check failed: "
+msgstr "✗ Provjera nije uspjela: "
+
+msgid "  Install Updates  "
+msgstr "  Instaliraj ažuriranja  "
+
+msgid "Updates are available."
+msgstr "Dostupna su ažuriranja."
+
+msgid "✓ System is up to date."
+msgstr "✓ Sustav je ažuran."
+
+msgid "✓ Updates installed successfully!"
+msgstr "✓ Ažuriranja su uspješno instalirana!"
+
+msgid "✗ Installation failed: "
+msgstr "✗ Instalacija nije uspjela: "
+
+msgid "System Settings"
+msgstr "Postavke sustava"
+
+msgid "Display, sound, power, privacy, and more"
+msgstr "Zaslon, zvuk, napajanje, privatnost i ostalo"
+
+msgid "Change the boot menu wait time"
+msgstr "Promijenite vrijeme čekanja izbornika pokretanja"
+
+msgid "Virtual Memory Settings"
+msgstr "Postavke virtualne memorije"
+
+msgid "Configure Zram, Zswap, swap, and memory pressure"
+msgstr "Konfigurirajte Zram, Zswap, swap i opterećenje memorije"
+
+msgid "Secure Boot Status"
+msgstr "Status sigurnog pokretanja"
+
+msgid "Inspect firmware trust and signed drivers"
+msgstr "Provjerite pouzdanost firmvera i potpisane upravljačke programe"
+
+msgid "Passwords and Keys"
+msgstr "Lozinke i ključevi"
+
+msgid "Manage passwords, encryption keys, and certificates"
+msgstr "Upravljajte lozinkama, ključevima za šifriranje i certifikatima"
+
+msgid "Firewall"
+msgstr "Vatrozid"
+
+msgid "Review connections, rules, and network protection"
+msgstr "Pregledajte veze, pravila i mrežnu zaštitu"
+
+msgid "Advanced Network Configuration"
+msgstr "Napredna konfiguracija mreže"
+
+msgid "User Account Settings"
+msgstr "Postavke korisničkih računa"
+
+msgid "Manage users, passwords, and account details"
+msgstr "Upravljajte korisnicima, lozinkama i podacima o računima"
+
+msgid "YubiKey Settings"
+msgstr "Postavke YubiKeya"
+
+msgid "Configure sign-in, sudo, SSH keys, and Git signing"
+msgstr "Konfigurirajte prijavu, sudo, SSH ključeve i potpisivanje u Gitu"
+
+msgid "Predict commands locally from history and current context"
+msgstr "Predviđajte naredbe lokalno na temelju povijesti i trenutačnog konteksta"
+
+msgid "Voice Typing"
+msgstr "Glasovno tipkanje"
+
+msgid "Configure private, offline speech-to-text"
+msgstr "Konfigurirajte privatno izvanmrežno pretvaranje govora u tekst"
+
+msgid "Driver Center"
+msgstr "Centar upravljačkih programa"
+
+msgid "Graphics, audio, printers, controllers, and firmware"
+msgstr "Grafika, zvuk, pisači, kontroleri i firmver"
+
+msgid "Printers"
+msgstr "Pisači"
+
+msgid "Add, remove, and configure printers"
+msgstr "Dodajte, uklonite i konfigurirajte pisače"
+
+msgid "Scanners"
+msgstr "Skeneri"
+
+msgid "Scan documents and add or select a scanner"
+msgstr "Skenirajte dokumente i dodajte ili odaberite skener"
+
+msgid "AnduinOS Appearance Settings"
+msgstr "Postavke izgleda AnduinOS-a"
+
+msgid "Configure the taskbar, panel widgets, and desktop"
+msgstr "Konfigurirajte programsku traku, elemente ploče i radnu površinu"
+
+msgid "Wallpaper and Accent Color"
+msgstr "Pozadina i boja naglaska"
+
+msgid "Choose the desktop background, style, and accent color"
+msgstr "Odaberite pozadinu radne površine, stil i boju naglaska"
+
+msgid "Uninstall Applications"
+msgstr "Deinstaliraj aplikacije"
+
+msgid "Review and remove installed applications"
+msgstr "Pregledajte i uklonite instalirane aplikacije"
+
+msgid "Offline Update"
+msgstr "Izvanmrežno ažuriranje"
+
+msgid "Open an offline update package"
+msgstr "Otvorite paket za izvanmrežno ažuriranje"
+
+msgid "Configure private AI features that run on this device"
+msgstr "Konfigurirajte privatne značajke umjetne inteligencije koje se izvode na ovom uređaju"
+
+msgid "Configure Bottles"
+msgstr "Konfiguriraj Bottles"
+
+msgid "Run Windows applications in compatibility environments"
+msgstr "Pokrećite aplikacije sustava Windows u okruženjima za kompatibilnost"
+
+msgid "System Snapshots"
+msgstr "Snimke sustava"
+
+msgid "Create, browse, and roll back system snapshots"
+msgstr "Stvarajte i pregledavajte snimke sustava te vraćajte sustav iz njih"
+
+msgid "Factory Reset"
+msgstr "Vraćanje na tvorničke postavke"
+
+msgid "Return system files and applications to their initial state"
+msgstr "Vratite sistemske datoteke i aplikacije u početno stanje"
+
+msgid "Back Up Home Folder"
+msgstr "Sigurnosno kopiraj osobnu mapu"
+
+msgid "Protect personal files with Deja Dup backups"
+msgstr "Zaštitite osobne datoteke sigurnosnim kopijama u aplikaciji Deja Dup"
+
+msgid "Find and manage AnduinOS system settings"
+msgstr "Pronađite postavke sustava AnduinOS i upravljajte njima"
+
+msgid "settings;control;system;hardware;drivers;accounts;backup;"
+msgstr "postavke;upravljanje;sustav;hardver;upravljački programi;računi;sigurnosna kopija;"
