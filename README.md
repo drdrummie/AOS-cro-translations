@@ -8,6 +8,12 @@ appearance/
   anduinos-appearance.sh
   deploy.sh
   hr_HR.po
+exe-runner/
+  anduinos-exe-runner.pot
+  anduinos-exe-runner.sh
+  deploy.sh
+  hr_HR.po
+  run.py
 offline-updater/
   anduinos-offline-updater.pot
   anduinos-offline-updater.sh
@@ -57,6 +63,8 @@ are included for upstream contribution.
 The YubiKey Security Center template was extracted from its installed English
 gettext catalog, desktop entry, and PolicyKit action. The desktop-entry and
 PolicyKit messages are included for upstream contribution.
+The Exe Runner template was extracted from its installed English gettext
+catalog and desktop entry.
 
 `swap-control/` follows the same layout but has no `run.py`: Swap Control is a
 compiled GTK application, so its launcher only selects the language and points
@@ -142,6 +150,21 @@ installed updater with the user-local Croatian catalog. Deployment does not
 modify system files; the system desktop entry and PolicyKit prompt remain
 unchanged. Close any running Offline Updater instance before testing, because
 the application may otherwise reuse its existing window.
+
+## Testing AnduinOS Exe Runner
+
+```bash
+bash exe-runner/deploy.sh
+LANGUAGE=hr_HR bash exe-runner/anduinos-exe-runner.sh /path/to/program.exe
+```
+
+The installed runner binds its gettext domain to `/usr/share/locale`. The test
+launcher redirects that domain to the user-local catalog in
+`~/.local/share/anduinos-exe-runner/locale/` and selects Croatian. Deployment
+validates and builds the catalog before placing it there; it does not modify
+system files. The desktop entry remains system-provided and is not changed by
+this user-local test setup. Close any running Exe Runner instance before
+testing, because the application may otherwise reuse its existing window.
 
 ## Testing AnduinOS Welcome
 

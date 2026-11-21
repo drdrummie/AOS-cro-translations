@@ -1,0 +1,232 @@
+# AnduinOS Exe Runner translations.
+# Copyright (C) 2026 AnduinOS contributors
+# This file is distributed under the same license as anduinos-exe-runner.
+msgid ""
+msgstr ""
+"Project-Id-Version: anduinos-exe-runner\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-11-21 14:52+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: data/com.anduinos.ExeRunner.desktop
+msgid "AnduinOS Windows EXE Runner"
+msgstr ""
+
+#: src
+msgid " MusicBrainz Picard"
+msgstr ""
+
+#: src
+#, python-brace-format
+msgid "==> Executing command: {}"
+msgstr ""
+
+#: src
+msgid "About to start downloading Bottles..."
+msgstr ""
+
+#: src
+msgid "Advanced Status and Logs"
+msgstr ""
+
+#: src
+msgid "An error occurred while initializing the bottle. Please expand advanced status to view logs."
+msgstr ""
+
+#: src
+msgid "An error occurred while installing Bottles. Please expand advanced status to view logs."
+msgstr ""
+
+#: src
+msgid "App"
+msgstr ""
+
+#: src
+msgid "Automatically hiding launcher window, enjoy!"
+msgstr ""
+
+#: src
+msgid "Bottle is ready, about to launch application..."
+msgstr ""
+
+#: src
+msgid "Bottles installation not found."
+msgstr ""
+
+#: src
+msgid "Cancel"
+msgstr ""
+
+#: src
+msgid "Checking Bottles installation status via filesystem..."
+msgstr ""
+
+#: src
+msgid "Checking if Default bottle exists via filesystem..."
+msgstr ""
+
+#: src
+msgid "Checking system compatibility layer..."
+msgstr ""
+
+#: src
+msgid "Compatibility layer is ready, preparing to start program..."
+msgstr ""
+
+#: src
+msgid "Configuration Failed"
+msgstr ""
+
+#: src
+msgid "Configuring Bottle"
+msgstr ""
+
+#: src
+msgid "Configuring Fonts"
+msgstr ""
+
+#: src
+msgid "Configuring runtime environment, please wait..."
+msgstr ""
+
+#: src
+msgid "Default bottle not found."
+msgstr ""
+
+#: src
+msgid "Downloading Components"
+msgstr ""
+
+#: src
+msgid "Downloading and installing Bottles via Flatpak..."
+msgstr ""
+
+#: src
+msgid "Force Run Anyway"
+msgstr ""
+
+#: src
+#, python-brace-format
+msgid "Get {}"
+msgstr ""
+
+#: src
+msgid "Initializing Windows virtual bottle (Default)..."
+msgstr ""
+
+#: src
+msgid "Initializing core gaming components (DXVK, VKD3D, Runner, etc.)..."
+msgstr ""
+
+#: src
+msgid "Install and Configure"
+msgstr ""
+
+#: src
+msgid "Installation Failed"
+msgstr ""
+
+#: src
+msgid "Installation and configuration complete!"
+msgstr ""
+
+#: src
+msgid "Installing Environment"
+msgstr ""
+
+#: src
+msgid "Installing core fonts to prevent text rendering issues..."
+msgstr ""
+
+#: src
+msgid "Launch Exception"
+msgstr ""
+
+#: src
+msgid "Launch Failed"
+msgstr ""
+
+#: src
+#, python-brace-format
+msgid "Launch failed: {}"
+msgstr ""
+
+#: src
+msgid "Launch or configuration failed, please check advanced logs."
+msgstr ""
+
+#: src
+msgid "Launcher mission complete, program is running in the background."
+msgstr ""
+
+#: src
+msgid "Notice"
+msgstr ""
+
+#: src
+msgid "Preparing environment..."
+msgstr ""
+
+#: src
+#, python-brace-format
+msgid "Preparing to launch EXE: {}"
+msgstr ""
+
+#: src
+msgid "Preparing..."
+msgstr ""
+
+#: src
+msgid "Process finished normally."
+msgstr ""
+
+#: src
+msgid "Process successfully started in the background, listening to logs..."
+msgstr ""
+
+#: src
+#, python-brace-format
+msgid "Process terminated abnormally (exit code {})."
+msgstr ""
+
+#: data/com.anduinos.ExeRunner.desktop
+msgid "Run Windows executables seamlessly via Bottles"
+msgstr ""
+
+#: src
+msgid "Starting program"
+msgstr ""
+
+#: src
+msgid "Starting program..."
+msgstr ""
+
+#: src
+msgid "The system is not configured with the Bottles compatibility layer."
+msgstr ""
+
+#: src
+msgid "Unable to start program, please check advanced logs."
+msgstr ""
+
+#: src
+msgid "View Documentation"
+msgstr ""
+
+#: src
+msgid "Windows Application Runner"
+msgstr ""
+
+#: src
+msgid "Windows Compatibility Environment Required"
+msgstr ""
+
+#: src
+msgid "Would you like to automatically download and install it? This may take a few minutes."
+msgstr ""

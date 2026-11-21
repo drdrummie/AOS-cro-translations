@@ -1,0 +1,175 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: anduinos-exe-runner\n"
+"PO-Revision-Date: 2026-11-21 14:52+0100\n"
+"Last-Translator: Local translation\n"
+"Language-Team: Croatian\n"
+"Language: hr_HR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<12 || n%100>14) ? 1 : 2);\n"
+
+msgid "AnduinOS Windows EXE Runner"
+msgstr "AnduinOS pokretač Windows EXE datoteka"
+
+msgid " MusicBrainz Picard"
+msgstr "MusicBrainz Picard"
+
+#, python-brace-format
+msgid "==> Executing command: {}"
+msgstr "==> Izvršavanje naredbe: {}"
+
+msgid "About to start downloading Bottles..."
+msgstr "Preuzimanje aplikacije Bottles uskoro će započeti..."
+
+msgid "Advanced Status and Logs"
+msgstr "Napredni status i zapisnici"
+
+msgid "An error occurred while initializing the bottle. Please expand advanced status to view logs."
+msgstr "Došlo je do pogreške pri pokretanju okruženja. Proširite napredni status da biste pregledali zapisnike."
+
+msgid "An error occurred while installing Bottles. Please expand advanced status to view logs."
+msgstr "Došlo je do pogreške pri instalaciji aplikacije Bottles. Proširite napredni status da biste pregledali zapisnike."
+
+msgid "App"
+msgstr "Aplikacija"
+
+msgid "Automatically hiding launcher window, enjoy!"
+msgstr "Prozor pokretača automatski će se sakriti."
+
+msgid "Bottle is ready, about to launch application..."
+msgstr "Okruženje je spremno, aplikacija će se uskoro pokrenuti..."
+
+msgid "Bottles installation not found."
+msgstr "Instalacija aplikacije Bottles nije pronađena."
+
+msgid "Cancel"
+msgstr "Odustani"
+
+msgid "Checking Bottles installation status via filesystem..."
+msgstr "Provjerava se stanje instalacije aplikacije Bottles..."
+
+msgid "Checking if Default bottle exists via filesystem..."
+msgstr "Provjerava se postoji li zadano okruženje..."
+
+msgid "Checking system compatibility layer..."
+msgstr "Provjerava se sloj kompatibilnosti sustava..."
+
+msgid "Compatibility layer is ready, preparing to start program..."
+msgstr "Sloj kompatibilnosti je spreman, priprema se pokretanje programa..."
+
+msgid "Configuration Failed"
+msgstr "Konfiguracija nije uspjela"
+
+msgid "Configuring Bottle"
+msgstr "Konfiguriranje okruženja"
+
+msgid "Configuring Fonts"
+msgstr "Konfiguriranje fontova"
+
+msgid "Configuring runtime environment, please wait..."
+msgstr "Konfigurira se izvršno okruženje, pričekajte..."
+
+msgid "Default bottle not found."
+msgstr "Zadano okruženje nije pronađeno."
+
+msgid "Downloading Components"
+msgstr "Preuzimanje komponenti"
+
+msgid "Downloading and installing Bottles via Flatpak..."
+msgstr "Preuzimanje i instalacija aplikacije Bottles putem Flatpaka..."
+
+msgid "Force Run Anyway"
+msgstr "Ipak prisilno pokreni"
+
+#, python-brace-format
+msgid "Get {}"
+msgstr "Preuzmi {}"
+
+msgid "Initializing Windows virtual bottle (Default)..."
+msgstr "Pokretanje zadanog virtualnog okruženja sustava Windows..."
+
+msgid "Initializing core gaming components (DXVK, VKD3D, Runner, etc.)..."
+msgstr "Pokretanje osnovnih komponenti za igre (DXVK, VKD3D, Runner itd.)..."
+
+msgid "Install and Configure"
+msgstr "Instaliraj i konfiguriraj"
+
+msgid "Installation Failed"
+msgstr "Instalacija nije uspjela"
+
+msgid "Installation and configuration complete!"
+msgstr "Instalacija i konfiguracija su dovršene!"
+
+msgid "Installing Environment"
+msgstr "Instaliranje okruženja"
+
+msgid "Installing core fonts to prevent text rendering issues..."
+msgstr "Instaliraju se osnovni fontovi radi sprječavanja problema s prikazom teksta..."
+
+msgid "Launch Exception"
+msgstr "Iznimka pri pokretanju"
+
+msgid "Launch Failed"
+msgstr "Pokretanje nije uspjelo"
+
+#, python-brace-format
+msgid "Launch failed: {}"
+msgstr "Pokretanje nije uspjelo: {}"
+
+msgid "Launch or configuration failed, please check advanced logs."
+msgstr "Pokretanje ili konfiguracija nije uspjela. Provjerite napredne zapisnike."
+
+msgid "Launcher mission complete, program is running in the background."
+msgstr "Pokretač je završio s radom, a program se izvodi u pozadini."
+
+msgid "Notice"
+msgstr "Obavijest"
+
+msgid "Preparing environment..."
+msgstr "Priprema okruženja..."
+
+#, python-brace-format
+msgid "Preparing to launch EXE: {}"
+msgstr "Priprema pokretanja EXE datoteke: {}"
+
+msgid "Preparing..."
+msgstr "Priprema..."
+
+msgid "Process finished normally."
+msgstr "Proces je normalno završen."
+
+msgid "Process successfully started in the background, listening to logs..."
+msgstr "Proces je uspješno pokrenut u pozadini, prati se izlaz..."
+
+#, python-brace-format
+msgid "Process terminated abnormally (exit code {})."
+msgstr "Proces je neočekivano završio (izlazni kod {})."
+
+msgid "Run Windows executables seamlessly via Bottles"
+msgstr "Jednostavno pokrenite izvršne datoteke sustava Windows putem aplikacije Bottles"
+
+msgid "Starting program"
+msgstr "Pokretanje programa"
+
+msgid "Starting program..."
+msgstr "Pokreće se program..."
+
+msgid "The system is not configured with the Bottles compatibility layer."
+msgstr "Sustav nije konfiguriran za korištenje sloja kompatibilnosti Bottles."
+
+msgid "Unable to start program, please check advanced logs."
+msgstr "Program nije moguće pokrenuti. Provjerite napredne zapisnike."
+
+msgid "View Documentation"
+msgstr "Prikaži dokumentaciju"
+
+msgid "Windows Application Runner"
+msgstr "Pokretač Windows aplikacija"
+
+msgid "Windows Compatibility Environment Required"
+msgstr "Potrebno je okruženje za kompatibilnost sa sustavom Windows"
+
+msgid "Would you like to automatically download and install it? This may take a few minutes."
+msgstr "Želite li ga automatski preuzeti i instalirati? To može potrajati nekoliko minuta."
