@@ -222,6 +222,34 @@ not modify the system extension. The copy may shadow later system updates and
 must be maintained separately. The launcher checks that GNOME Shell is using
 the user-local copy. Neither script is run by building the catalog.
 
+### Network Stats catalog
+
+`extensions/network-stats/` contains a template extracted from the installed
+Network Stats version 36 JavaScript sources and a Croatian translation for its
+`network-stats` gettext domain. Compare the template with the installed
+extension again after upgrades.
+
+```bash
+bash scripts/translate.sh check extensions/network-stats
+bash scripts/translate.sh build extensions/network-stats
+```
+
+For user-local testing:
+
+```bash
+bash extensions/network-stats/deploy.sh
+# Log out and back in.
+bash extensions/network-stats/network-stats.sh
+```
+
+Deployment validates and builds the catalog, copies the system extension to
+the user's GNOME Shell extension directory, adds the compiled `hr` and
+`hr_HR` catalogs, and refuses to overwrite an existing user extension. It does
+not modify the system extension. The copy may shadow later system updates and
+must be maintained separately. The launcher checks that GNOME Shell is using
+the user-local copy. The preferences use the desktop session's language
+settings. Neither script is run by building the catalog.
+
 ## Testing Control Panel
 
 Deploy the current catalog to your user account, then launch the installed
