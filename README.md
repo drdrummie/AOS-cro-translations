@@ -22,7 +22,7 @@ The Croatian catalogs were extracted from the following inspected versions:
 | Exe Runner | Application | 2.1.0-1+resolute |
 | Swap Control | Application | 2.0.5-3+resolute |
 | YubiKey Security Center | Application | 2.0.5-3+resolute |
-| ArcMenu | GNOME Shell extension | 70.0 (`metadata.json`, package 2.1.0-2+resolute) |
+| ArcMenu | GNOME Shell extension | 74 (`metadata.json`, package 2.1.0-2+resolute) |
 | Dash to Panel | GNOME Shell extension | 74 |
 | Blur my Shell | GNOME Shell extension | 78 |
 | SimpleWeather | GNOME Shell extension | 12 |
@@ -331,8 +331,8 @@ catalogs should be submitted to the corresponding upstream repositories for
 long-term maintenance and inclusion in future extension releases.
 
 Repeat the build and `install -D` commands with the corresponding package
-directory and domain. At present, ArcMenu has no Croatian PO catalog in this
-repository, so it cannot be installed with this method.
+directory and domain. The ArcMenu catalog in this repository is validated
+against the installed version 74.
 
 System extension directories belong to distribution packages and may be replaced
 or restored during package upgrades. Back up or record existing catalog files
