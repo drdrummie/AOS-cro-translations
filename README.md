@@ -13,8 +13,13 @@ control-panel/
 
 The POT file is the message template; the PO file contains the Croatian
 translation. The Control Panel and Welcome templates were extracted from the
-locally installed versions. Before contributing upstream, compare them with
-the current source code and the maintainers' templates.
+locally installed versions; the Swap Control template was taken from the
+maintainers' `po/swapcontrol-gtk.pot`. Before contributing upstream, compare
+each template with the current source code and the maintainers' templates.
+
+`swap-control/` follows the same layout but has no `run.py`: Swap Control is a
+compiled GTK application, so its launcher only selects the language and points
+the application at the user-local catalog.
 
 ## Tasks
 
@@ -88,3 +93,28 @@ For each new component, provide its own `deploy.sh` and
 `<application>.sh` test launcher. Adapt deployment and launch to the
 component's localization mechanism and document their effects. Do not assume
 that other applications use the Control Panel's Python gettext setup.
+
+## Testing Swap Control
+
+```bash
+bash swap-control/deploy.sh
+bash swap-control/anduinos-swapcontrol.sh
+```
+
+Deployment validates and compiles the catalog before placing it in
+`~/.local/share/anduinos-swapcontrol/locale/`. It leaves an identical catalog
+unchanged and does not modify system files. The launcher resolves the catalog
+through `XDG_DATA_DIRS` and forces `LC_ALL=hr_HR.UTF-8` with
+`LANGUAGE=hr_HR`, so it is Croatian regardless of the session language. Both
+variables are required: `LC_ALL` makes gettext search the user-local
+directory, and `LANGUAGE` selects its `hr_HR` subdirectory when the desktop
+session already exports a language list such as `hr:en_US:en`.
+
+The desktop entry `com.anduinos.swapcontrol.desktop` and the polkit policy
+still come from the system package, so an ordinary launch from GNOME search
+shows the English name and the untranslated authentication prompt. Close a
+running instance before testing, because the application may otherwise reuse
+its existing window.
+
+The Swap Control catalog also carries the desktop entry and polkit strings, so
+the translation can be contributed upstream unchanged.
