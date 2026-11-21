@@ -1,0 +1,554 @@
+# Croatian translation template for AnduinOS Appearance.
+# Copyright (C) 2026 AnduinOS Team
+# This file is distributed under the same license as the AnduinOS Appearance package.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: AnduinOS Appearance 2.1.0\n"
+"Report-Msgid-Bugs-To: https://github.com/AiursoftWeb/AnduinOS-Packages/issues\n"
+"POT-Creation-Date: 2026-11-21 14:08+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: Croatian\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: /usr/bin/anduinos-appearance:77
+msgid "Bottom"
+msgstr ""
+
+#: /usr/bin/anduinos-appearance:77
+msgid "Top"
+msgstr ""
+
+#: /usr/bin/anduinos-appearance:77
+msgid "Left"
+msgstr ""
+
+#: /usr/bin/anduinos-appearance:77
+msgid "Right"
+msgstr ""
+
+#: /usr/bin/anduinos-appearance:114
+msgid "Behavior"
+msgstr ""
+
+#: /usr/bin/anduinos-appearance:115
+msgid "Automatically hide the taskbar"
+msgstr ""
+
+#: /usr/bin/anduinos-appearance:116
+msgid "Show taskbar when pointer reaches screen edge"
+msgstr ""
+
+#: /usr/bin/anduinos-appearance:142
+msgid "Taskbar Style"
+msgstr ""
+
+#: /usr/bin/anduinos-appearance:147
+msgid "Preview"
+msgstr ""
+
+#: /usr/bin/anduinos-appearance:148
+msgid "Choose the visual style of your taskbar."
+msgstr ""
+
+#: /usr/bin/anduinos-appearance:161
+msgid "Layout"
+msgstr ""
+
+#: /usr/bin/anduinos-appearance:168 /usr/bin/anduinos-appearance:326
+msgid "Centered"
+msgstr ""
+
+#: /usr/bin/anduinos-appearance:170 /usr/bin/anduinos-appearance:329
+msgid "Classic"
+msgstr ""
+
+#: /usr/bin/anduinos-appearance:172 /usr/bin/anduinos-appearance:328
+msgid "Separated"
+msgstr ""
+
+#: /usr/bin/anduinos-appearance:174 /usr/bin/anduinos-appearance:324
+msgid "GNOME"
+msgstr ""
+
+#: /usr/bin/anduinos-appearance:207
+msgid "Group apps"
+msgstr ""
+
+#: /usr/bin/anduinos-appearance:208
+msgid "Combine multiple windows of one app into a single icon"
+msgstr ""
+
+#: /usr/bin/anduinos-appearance:210
+msgid "Enable grouping"
+msgstr ""
+
+#: /usr/bin/anduinos-appearance:217
+msgid "Use Vista taskbar behavior"
+msgstr ""
+
+#: /usr/bin/anduinos-appearance:218
+msgid "Keep launchers separate from running apps"
+msgstr ""
+
+#: /usr/bin/anduinos-appearance:248 /usr/bin/anduinos-appearance:289
+#, python-brace-format
+msgid "✓ Applied — {style} | {pos}"
+msgstr ""
+
+#: /usr/bin/anduinos-appearance:250
+msgid "✗ Failed to apply style"
+msgstr ""
+
+#: /usr/bin/anduinos-appearance:291
+msgid "✗ Failed to apply position"
+msgstr ""
+
+#: /usr/bin/anduinos-appearance:335
+msgid "Show Weather"
+msgstr ""
+
+#: /usr/bin/anduinos-appearance:336
+msgid "Show Network"
+msgstr ""
+
+#: /usr/bin/anduinos-appearance:337
+msgid "Show Desktop Icons"
+msgstr ""
+
+#: /usr/bin/anduinos-appearance:352
+msgid "Panel Widgets"
+msgstr ""
+
+#: /usr/bin/anduinos-appearance:357
+msgid "Application Icons"
+msgstr ""
+
+#: /usr/bin/anduinos-appearance:363
+msgid "App Defaults"
+msgstr ""
+
+#: /usr/bin/anduinos-appearance:377
+msgid "Panel Indicators"
+msgstr ""
+
+#: /usr/bin/anduinos-appearance:378
+msgid "Toggle panel indicator widgets on or off."
+msgstr ""
+
+#: /usr/bin/anduinos-appearance:394
+msgid "Update approximate weather location"
+msgstr ""
+
+#: /usr/bin/anduinos-appearance:409
+msgid "Taskbar Elements"
+msgstr ""
+
+#: /usr/bin/anduinos-appearance:410
+msgid "Show or hide built-in panel elements."
+msgstr ""
+
+#: /usr/bin/anduinos-appearance:413
+msgid "Show Activities Button"
+msgstr ""
+
+#: /usr/bin/anduinos-appearance:414
+msgid "Display the Activities button on the taskbar"
+msgstr ""
+
+#: /usr/bin/anduinos-appearance:421
+msgid "Window Tiling"
+msgstr ""
+
+#: /usr/bin/anduinos-appearance:423
+msgid "Show Top Window Layout Menu"
+msgstr ""
+
+#: /usr/bin/anduinos-appearance:424
+msgid "Show split-screen layout choices at the top while dragging a window."
+msgstr ""
+
+#: /usr/bin/anduinos-appearance:458
+msgid "Failed to change icon theme."
+msgstr ""
+
+#: /usr/bin/anduinos-appearance:482
+msgid "✓ Activities button shown"
+msgstr ""
+
+#: /usr/bin/anduinos-appearance:483
+msgid "✓ Activities button hidden"
+msgstr ""
+
+#: /usr/bin/anduinos-appearance:486
+msgid "✗ Failed to toggle activities button"
+msgstr ""
+
+#: /usr/bin/anduinos-appearance:511
+#, python-brace-format
+msgid "✗ Failed to enable {label}"
+msgstr ""
+
+#: /usr/bin/anduinos-appearance:512
+#, python-brace-format
+msgid "✗ Failed to disable {label}"
+msgstr ""
+
+#: /usr/bin/anduinos-appearance:524
+msgid "Weather was disabled, but its saved permission could not be cleared."
+msgstr ""
+
+#: /usr/bin/anduinos-appearance:527
+#, python-brace-format
+msgid "✓ {label} enabled"
+msgstr ""
+
+#: /usr/bin/anduinos-appearance:528
+#, python-brace-format
+msgid "✓ {label} disabled"
+msgstr ""
+
+#: /usr/bin/anduinos-appearance:533
+msgid ""
+"1. Approximate location (ipapi.co)\n"
+"AnduinOS will make one HTTPS request to ipapi.co. Its operator, Kloudend, "
+"Inc., will see your public IP address and may use it to estimate your city, "
+"country, and approximate coordinates.\n"
+"\n"
+"2. Weather data (Open-Meteo)\n"
+"The weather extension will send the selected approximate coordinates to Open-"
+"Meteo, operated by OpenMeteo GmbH. The service will also see your public IP "
+"address and may retain API logs for up to 90 days.\n"
+"\n"
+"AnduinOS is not affiliated with, sponsored by, or endorsed by either third-"
+"party service. If location detection fails, AnduinOS will use an offline "
+"estimate based on your system timezone.\n"
+"\n"
+"Privacy policies:\n"
+"https://ipapi.co/privacy/\n"
+"https://open-meteo.com/en/terms"
+msgstr ""
+
+#: /usr/bin/anduinos-appearance:550
+msgid "Weather Services Privacy Agreement"
+msgstr ""
+
+#: /usr/bin/anduinos-appearance:553
+msgid "Decline"
+msgstr ""
+
+#: /usr/bin/anduinos-appearance:554
+msgid "Agree to All"
+msgstr ""
+
+#: /usr/bin/anduinos-appearance:573
+msgid "Weather was not enabled because permission was declined."
+msgstr ""
+
+#: /usr/bin/anduinos-appearance:594
+msgid "Failed to save weather permission."
+msgstr ""
+
+#: /usr/bin/anduinos-appearance:603
+msgid "Determining your approximate location…"
+msgstr ""
+
+#: /usr/bin/anduinos-appearance:652
+msgid "Failed to configure the weather extension."
+msgstr ""
+
+#: /usr/bin/anduinos-appearance:658
+#, python-brace-format
+msgid "Weather location set to {location}."
+msgstr ""
+
+#: /usr/bin/anduinos-appearance:662
+#, python-brace-format
+msgid "Location service unavailable; using {location} from your timezone."
+msgstr ""
+
+#: /usr/bin/anduinos-appearance:675
+msgid "Advanced"
+msgstr ""
+
+#: /usr/bin/anduinos-appearance:680
+msgid "Appearance"
+msgstr ""
+
+#: /usr/bin/anduinos-appearance:683
+msgid "Wallpaper"
+msgstr ""
+
+#: /usr/bin/anduinos-appearance:684 /usr/bin/anduinos-appearance:694
+#: /usr/bin/anduinos-appearance:717
+msgid "Open"
+msgstr ""
+
+#: /usr/bin/anduinos-appearance:693
+msgid "Tweaks"
+msgstr ""
+
+#: /usr/bin/anduinos-appearance:704
+msgid "Extension Settings"
+msgstr ""
+
+#: /usr/bin/anduinos-appearance:705
+msgid "Open the preference windows of the panel extensions."
+msgstr ""
+
+#: /usr/bin/anduinos-appearance:708
+msgid "ArcMenu"
+msgstr ""
+
+#: /usr/bin/anduinos-appearance:709
+msgid "Dash-to-Panel"
+msgstr ""
+
+#: /usr/bin/anduinos-appearance:710
+msgid "Simple Weather"
+msgstr ""
+
+#: /usr/bin/anduinos-appearance:711
+msgid "Network Stats"
+msgstr ""
+
+#: /usr/bin/anduinos-appearance:730
+msgid "Backup and Restore"
+msgstr ""
+
+#: /usr/bin/anduinos-appearance:732
+msgid ""
+"Back up GNOME settings, layouts, and extension preferences. Personal files "
+"are not included."
+msgstr ""
+
+#: /usr/bin/anduinos-appearance:737
+msgid "Export GNOME settings"
+msgstr ""
+
+#: /usr/bin/anduinos-appearance:738
+msgid "Save the current settings as a readable INI file"
+msgstr ""
+
+#: /usr/bin/anduinos-appearance:739
+msgid "Export…"
+msgstr ""
+
+#: /usr/bin/anduinos-appearance:746
+msgid "Import GNOME settings"
+msgstr ""
+
+#: /usr/bin/anduinos-appearance:747
+msgid "Restore settings from a dconf INI file"
+msgstr ""
+
+#: /usr/bin/anduinos-appearance:748
+msgid "Import…"
+msgstr ""
+
+#: /usr/bin/anduinos-appearance:758
+msgid "Danger Zone"
+msgstr ""
+
+#: /usr/bin/anduinos-appearance:761
+msgid "Reset desktop settings"
+msgstr ""
+
+#: /usr/bin/anduinos-appearance:762
+msgid ""
+"Restore desktop appearance, search, app folders, and privacy to factory "
+"defaults"
+msgstr ""
+
+#: /usr/bin/anduinos-appearance:763 /usr/bin/anduinos-appearance:903
+msgid "Reset"
+msgstr ""
+
+#: /usr/bin/anduinos-appearance:779
+msgid "INI settings files"
+msgstr ""
+
+#: /usr/bin/anduinos-appearance:787
+msgid "Export GNOME Settings"
+msgstr ""
+
+#: /usr/bin/anduinos-appearance:802 /usr/bin/anduinos-appearance:806
+msgid "✗ Failed to export GNOME settings"
+msgstr ""
+
+#: /usr/bin/anduinos-appearance:809
+msgid "✓ GNOME settings exported"
+msgstr ""
+
+#: /usr/bin/anduinos-appearance:813
+msgid "Import GNOME Settings"
+msgstr ""
+
+#: /usr/bin/anduinos-appearance:827 /usr/bin/anduinos-appearance:831
+msgid "✗ Failed to read the settings file"
+msgstr ""
+
+#: /usr/bin/anduinos-appearance:836
+msgid "How should these settings be imported?"
+msgstr ""
+
+#: /usr/bin/anduinos-appearance:837
+msgid ""
+"Merge import keeps current values that are absent from the file.\n"
+"\n"
+"Strict restore resets all /org/gnome/ settings first; values absent from the "
+"file return to their defaults. A safety backup is saved before either "
+"operation."
+msgstr ""
+
+#: /usr/bin/anduinos-appearance:842 /usr/bin/anduinos-appearance:902
+msgid "Cancel"
+msgstr ""
+
+#: /usr/bin/anduinos-appearance:843
+msgid "Merge Import"
+msgstr ""
+
+#: /usr/bin/anduinos-appearance:844
+msgid "Strict Restore"
+msgstr ""
+
+#: /usr/bin/anduinos-appearance:868
+msgid "✗ The selected file is not a valid dconf INI file"
+msgstr ""
+
+#: /usr/bin/anduinos-appearance:873
+msgid "✗ Import failed; previous settings were restored"
+msgstr ""
+
+#: /usr/bin/anduinos-appearance:875
+msgid "✗ Import and automatic rollback both failed"
+msgstr ""
+
+#: /usr/bin/anduinos-appearance:879
+msgid "✗ Failed to import GNOME settings"
+msgstr ""
+
+#: /usr/bin/anduinos-appearance:886
+msgid "✓ Settings imported. Log out and back in to apply all changes."
+msgstr ""
+
+#: /usr/bin/anduinos-appearance:892
+msgid "✓ Desktop settings reset. Log out and back in to apply all changes."
+msgstr ""
+
+#: /usr/bin/anduinos-appearance:894
+msgid "✗ Failed to reset"
+msgstr ""
+
+#: /usr/bin/anduinos-appearance:898
+msgid "Reset desktop settings?"
+msgstr ""
+
+#: /usr/bin/anduinos-appearance:899
+msgid ""
+"This will restore extensions, panel layout, search preferences, app folders, "
+"wallpaper, interface, and privacy preferences to factory defaults."
+msgstr ""
+
+#: /usr/bin/anduinos-appearance:933
+msgid "GDM Wallpaper"
+msgstr ""
+
+#: /usr/bin/anduinos-appearance:938
+msgid "Login Screen Wallpaper"
+msgstr ""
+
+#: /usr/bin/anduinos-appearance:939
+msgid "Choose an image for the GDM login screen background."
+msgstr ""
+
+#: /usr/bin/anduinos-appearance:949
+msgid "Select image"
+msgstr ""
+
+#: /usr/bin/anduinos-appearance:950
+msgid "Choose…"
+msgstr ""
+
+#: /usr/bin/anduinos-appearance:959
+msgid "Apply to Login Screen"
+msgstr ""
+
+#: /usr/bin/anduinos-appearance:971
+msgid "Images"
+msgstr ""
+
+#: /usr/bin/anduinos-appearance:992
+msgid "✗ Please select an image first"
+msgstr ""
+
+#: /usr/bin/anduinos-appearance:1007
+msgid "✓ GDM wallpaper applied"
+msgstr ""
+
+#: /usr/bin/anduinos-appearance:1009
+msgid "✗ Failed to set GDM wallpaper"
+msgstr ""
+
+#: /usr/bin/anduinos-appearance:1017 /usr/bin/anduinos-appearance:1133
+msgid "AnduinOS Appearance"
+msgstr ""
+
+#: /usr/bin/anduinos-appearance:1047
+msgid "About AnduinOS Appearance"
+msgstr ""
+
+#: /usr/bin/anduinos-appearance:1080
+msgid "Switching desktop layout… Please wait."
+msgstr ""
+
+#: /usr/bin/anduinos-appearance:1097
+#, python-brace-format
+msgid "✓ Applied — {style}"
+msgstr ""
+
+#: /usr/bin/anduinos-appearance:1101
+msgid ""
+"An extension is in an error state. Log out and back in before trying again."
+msgstr ""
+
+#: /usr/bin/anduinos-appearance:1104
+#, python-brace-format
+msgid "Failed to enable {extension}."
+msgstr ""
+
+#: /usr/bin/anduinos-appearance:1105
+#, python-brace-format
+msgid "Failed to disable {extension}."
+msgstr ""
+
+#: /usr/bin/anduinos-appearance:1107
+msgid ""
+"Failed to switch desktop layout. Check the extension settings and try again."
+msgstr ""
+
+#: /usr/bin/anduinos-appearance:1108
+msgid "Desktop layout could not be applied"
+msgstr ""
+
+#: /usr/bin/anduinos-appearance:1109
+msgid "Close"
+msgstr ""
+
+#: /usr/bin/anduinos-appearance:1135
+msgid "AnduinOS Team"
+msgstr ""
+
+#: /usr/share/applications/anduinos-appearance.desktop:74
+msgid "Switch between Centered and Classic taskbar layouts"
+msgstr ""
+
+#: /usr/share/applications/anduinos-appearance.desktop:106
+msgid "taskbar;panel;layout;style;windows;appearance;"
+msgstr ""

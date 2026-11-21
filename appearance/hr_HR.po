@@ -1,0 +1,579 @@
+# Croatian translations for AnduinOS Appearance.
+# Copyright (C) 2026 AnduinOS Team
+# This file is distributed under the same license as the AnduinOS Appearance package.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: AnduinOS Appearance 2.1.0\n"
+"Report-Msgid-Bugs-To: https://github.com/AiursoftWeb/AnduinOS-Packages/issues\n"
+"POT-Creation-Date: 2026-11-21 14:08+0100\n"
+"PO-Revision-Date: 2026-11-21 14:08+0100\n"
+"Last-Translator: Local translation\n"
+"Language-Team: Croatian\n"
+"Language: hr_HR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<12 || n%100>14) ? 1 : 2);\n"
+
+#: /usr/bin/anduinos-appearance:77
+msgid "Bottom"
+msgstr "Dolje"
+
+#: /usr/bin/anduinos-appearance:77
+msgid "Top"
+msgstr "Gore"
+
+#: /usr/bin/anduinos-appearance:77
+msgid "Left"
+msgstr "Lijevo"
+
+#: /usr/bin/anduinos-appearance:77
+msgid "Right"
+msgstr "Desno"
+
+#: /usr/bin/anduinos-appearance:114
+msgid "Behavior"
+msgstr "Ponašanje"
+
+#: /usr/bin/anduinos-appearance:115
+msgid "Automatically hide the taskbar"
+msgstr "Automatski sakrij traku zadataka"
+
+#: /usr/bin/anduinos-appearance:116
+msgid "Show taskbar when pointer reaches screen edge"
+msgstr "Prikaži traku zadataka kada pokazivač dođe do ruba zaslona"
+
+#: /usr/bin/anduinos-appearance:142
+msgid "Taskbar Style"
+msgstr "Traka zadataka"
+
+#: /usr/bin/anduinos-appearance:147
+msgid "Preview"
+msgstr "Pregled"
+
+#: /usr/bin/anduinos-appearance:148
+msgid "Choose the visual style of your taskbar."
+msgstr "Odaberite izgled trake zadataka."
+
+#: /usr/bin/anduinos-appearance:161
+msgid "Layout"
+msgstr "Raspored"
+
+#: /usr/bin/anduinos-appearance:168 /usr/bin/anduinos-appearance:326
+msgid "Centered"
+msgstr "Centrirano"
+
+#: /usr/bin/anduinos-appearance:170 /usr/bin/anduinos-appearance:329
+msgid "Classic"
+msgstr "Klasično"
+
+#: /usr/bin/anduinos-appearance:172 /usr/bin/anduinos-appearance:328
+msgid "Separated"
+msgstr "Razdvojeno"
+
+#: /usr/bin/anduinos-appearance:174 /usr/bin/anduinos-appearance:324
+msgid "GNOME"
+msgstr "GNOME"
+
+#: /usr/bin/anduinos-appearance:207
+msgid "Group apps"
+msgstr "Grupiraj aplikacije"
+
+#: /usr/bin/anduinos-appearance:208
+msgid "Combine multiple windows of one app into a single icon"
+msgstr "Spoji više prozora iste aplikacije u jednu ikonu"
+
+#: /usr/bin/anduinos-appearance:210
+msgid "Enable grouping"
+msgstr "Omogući grupiranje"
+
+#: /usr/bin/anduinos-appearance:217
+msgid "Use Vista taskbar behavior"
+msgstr "Koristi ponašanje trake zadataka iz sustava Vista"
+
+#: /usr/bin/anduinos-appearance:218
+msgid "Keep launchers separate from running apps"
+msgstr "Drži pokretače odvojenima od pokrenutih aplikacija"
+
+#: /usr/bin/anduinos-appearance:248 /usr/bin/anduinos-appearance:289
+#, python-brace-format
+msgid "✓ Applied — {style} | {pos}"
+msgstr "✓ Primijenjeno — {style} | {pos}"
+
+#: /usr/bin/anduinos-appearance:250
+msgid "✗ Failed to apply style"
+msgstr "✗ Primjena stila nije uspjela"
+
+#: /usr/bin/anduinos-appearance:291
+msgid "✗ Failed to apply position"
+msgstr "✗ Primjena položaja nije uspjela"
+
+#: /usr/bin/anduinos-appearance:335
+msgid "Show Weather"
+msgstr "Prikaži vremensku prognozu"
+
+#: /usr/bin/anduinos-appearance:336
+msgid "Show Network"
+msgstr "Prikaži mrežne podatke"
+
+#: /usr/bin/anduinos-appearance:337
+msgid "Show Desktop Icons"
+msgstr "Prikaži ikone radne površine"
+
+#: /usr/bin/anduinos-appearance:352
+msgid "Panel Widgets"
+msgstr "Widgeti ploče"
+
+#: /usr/bin/anduinos-appearance:357
+msgid "Application Icons"
+msgstr "Ikone aplikacija"
+
+#: /usr/bin/anduinos-appearance:363
+msgid "App Defaults"
+msgstr "Zadane ikone"
+
+#: /usr/bin/anduinos-appearance:377
+msgid "Panel Indicators"
+msgstr "Indikatori ploče"
+
+#: /usr/bin/anduinos-appearance:378
+msgid "Toggle panel indicator widgets on or off."
+msgstr "Uključite ili isključite indikatore ploče."
+
+#: /usr/bin/anduinos-appearance:394
+msgid "Update approximate weather location"
+msgstr "Ažuriraj približnu lokaciju za vremensku prognozu"
+
+#: /usr/bin/anduinos-appearance:409
+msgid "Taskbar Elements"
+msgstr "Elementi trake zadataka"
+
+#: /usr/bin/anduinos-appearance:410
+msgid "Show or hide built-in panel elements."
+msgstr "Prikažite ili sakrijte ugrađene elemente ploče."
+
+#: /usr/bin/anduinos-appearance:413
+msgid "Show Activities Button"
+msgstr "Prikaži gumb Aktivnosti"
+
+#: /usr/bin/anduinos-appearance:414
+msgid "Display the Activities button on the taskbar"
+msgstr "Prikaži gumb Aktivnosti na traci zadataka"
+
+#: /usr/bin/anduinos-appearance:421
+msgid "Window Tiling"
+msgstr "Popločavanje prozora"
+
+#: /usr/bin/anduinos-appearance:423
+msgid "Show Top Window Layout Menu"
+msgstr "Prikaži izbornik rasporeda prozora pri vrhu"
+
+#: /usr/bin/anduinos-appearance:424
+msgid "Show split-screen layout choices at the top while dragging a window."
+msgstr "Prikaži mogućnosti podijeljenog zaslona pri vrhu dok povlačite prozor."
+
+#: /usr/bin/anduinos-appearance:458
+msgid "Failed to change icon theme."
+msgstr "Promjena teme ikona nije uspjela."
+
+#: /usr/bin/anduinos-appearance:482
+msgid "✓ Activities button shown"
+msgstr "✓ Gumb Aktivnosti prikazan je"
+
+#: /usr/bin/anduinos-appearance:483
+msgid "✓ Activities button hidden"
+msgstr "✓ Gumb Aktivnosti skriven je"
+
+#: /usr/bin/anduinos-appearance:486
+msgid "✗ Failed to toggle activities button"
+msgstr "✗ Uključivanje ili isključivanje gumba Aktivnosti nije uspjelo"
+
+#: /usr/bin/anduinos-appearance:511
+#, python-brace-format
+msgid "✗ Failed to enable {label}"
+msgstr "✗ Nije moguće omogućiti: {label}"
+
+#: /usr/bin/anduinos-appearance:512
+#, python-brace-format
+msgid "✗ Failed to disable {label}"
+msgstr "✗ Nije moguće onemogućiti: {label}"
+
+#: /usr/bin/anduinos-appearance:524
+msgid "Weather was disabled, but its saved permission could not be cleared."
+msgstr "Vremenska prognoza isključena je, ali spremljeno dopuštenje nije moguće ukloniti."
+
+#: /usr/bin/anduinos-appearance:527
+#, python-brace-format
+msgid "✓ {label} enabled"
+msgstr "✓ Omogućeno: {label}"
+
+#: /usr/bin/anduinos-appearance:528
+#, python-brace-format
+msgid "✓ {label} disabled"
+msgstr "✓ Onemogućeno: {label}"
+
+#: /usr/bin/anduinos-appearance:533
+msgid ""
+"1. Approximate location (ipapi.co)\n"
+"AnduinOS will make one HTTPS request to ipapi.co. Its operator, Kloudend, "
+"Inc., will see your public IP address and may use it to estimate your city, "
+"country, and approximate coordinates.\n"
+"\n"
+"2. Weather data (Open-Meteo)\n"
+"The weather extension will send the selected approximate coordinates to Open-"
+"Meteo, operated by OpenMeteo GmbH. The service will also see your public IP "
+"address and may retain API logs for up to 90 days.\n"
+"\n"
+"AnduinOS is not affiliated with, sponsored by, or endorsed by either third-"
+"party service. If location detection fails, AnduinOS will use an offline "
+"estimate based on your system timezone.\n"
+"\n"
+"Privacy policies:\n"
+"https://ipapi.co/privacy/\n"
+"https://open-meteo.com/en/terms"
+msgstr ""
+"1. Približna lokacija (ipapi.co)\n"
+"AnduinOS će poslati jedan HTTPS zahtjev usluzi ipapi.co. Njezin operator, "
+"Kloudend, Inc., vidjet će vašu javnu IP adresu i može je upotrijebiti za "
+"procjenu vašeg grada, države i približnih koordinata.\n"
+"\n"
+"2. Vremenski podaci (Open-Meteo)\n"
+"Proširenje za vremensku prognozu poslat će odabrane približne koordinate "
+"usluzi Open-Meteo, kojom upravlja OpenMeteo GmbH. Usluga će također vidjeti "
+"vašu javnu IP adresu i može zadržati zapise API-ja do 90 dana.\n"
+"\n"
+"AnduinOS nije povezan ni s jednom od tih usluga treće strane, ne sponzorira "
+"ih niti ih podržava. Ako određivanje lokacije ne uspije, AnduinOS će "
+"upotrijebiti izvanmrežnu procjenu na temelju vremenske zone sustava.\n"
+"\n"
+"Pravila privatnosti:\n"
+"https://ipapi.co/privacy/\n"
+"https://open-meteo.com/en/terms"
+
+#: /usr/bin/anduinos-appearance:550
+msgid "Weather Services Privacy Agreement"
+msgstr "Sporazum o privatnosti usluga vremenske prognoze"
+
+#: /usr/bin/anduinos-appearance:553
+msgid "Decline"
+msgstr "Odbij"
+
+#: /usr/bin/anduinos-appearance:554
+msgid "Agree to All"
+msgstr "Prihvati sve"
+
+#: /usr/bin/anduinos-appearance:573
+msgid "Weather was not enabled because permission was declined."
+msgstr "Vremenska prognoza nije uključena jer je dopuštenje odbijeno."
+
+#: /usr/bin/anduinos-appearance:594
+msgid "Failed to save weather permission."
+msgstr "Spremanje dopuštenja za vremensku prognozu nije uspjelo."
+
+#: /usr/bin/anduinos-appearance:603
+msgid "Determining your approximate location…"
+msgstr "Određuje se približna lokacija…"
+
+#: /usr/bin/anduinos-appearance:652
+msgid "Failed to configure the weather extension."
+msgstr "Konfiguracija proširenja za vremensku prognozu nije uspjela."
+
+#: /usr/bin/anduinos-appearance:658
+#, python-brace-format
+msgid "Weather location set to {location}."
+msgstr "Lokacija vremenske prognoze postavljena je na {location}."
+
+#: /usr/bin/anduinos-appearance:662
+#, python-brace-format
+msgid "Location service unavailable; using {location} from your timezone."
+msgstr "Usluga lokacije nije dostupna; upotrebljava se lokacija {location} iz vaše vremenske zone."
+
+#: /usr/bin/anduinos-appearance:675
+msgid "Advanced"
+msgstr "Napredno"
+
+#: /usr/bin/anduinos-appearance:680
+msgid "Appearance"
+msgstr "Izgled"
+
+#: /usr/bin/anduinos-appearance:683
+msgid "Wallpaper"
+msgstr "Pozadina"
+
+#: /usr/bin/anduinos-appearance:684 /usr/bin/anduinos-appearance:694
+#: /usr/bin/anduinos-appearance:717
+msgid "Open"
+msgstr "Otvori"
+
+#: /usr/bin/anduinos-appearance:693
+msgid "Tweaks"
+msgstr "Dodatne postavke"
+
+#: /usr/bin/anduinos-appearance:704
+msgid "Extension Settings"
+msgstr "Postavke proširenja"
+
+#: /usr/bin/anduinos-appearance:705
+msgid "Open the preference windows of the panel extensions."
+msgstr "Otvorite prozore s postavkama proširenja ploče."
+
+#: /usr/bin/anduinos-appearance:708
+msgid "ArcMenu"
+msgstr "ArcMenu"
+
+#: /usr/bin/anduinos-appearance:709
+msgid "Dash-to-Panel"
+msgstr "Dash-to-Panel"
+
+#: /usr/bin/anduinos-appearance:710
+msgid "Simple Weather"
+msgstr "Jednostavna vremenska prognoza"
+
+#: /usr/bin/anduinos-appearance:711
+msgid "Network Stats"
+msgstr "Mrežna statistika"
+
+#: /usr/bin/anduinos-appearance:730
+msgid "Backup and Restore"
+msgstr "Sigurnosno kopiranje i vraćanje"
+
+#: /usr/bin/anduinos-appearance:732
+msgid ""
+"Back up GNOME settings, layouts, and extension preferences. Personal files "
+"are not included."
+msgstr ""
+"Izradite sigurnosnu kopiju postavki GNOME-a, rasporeda i postavki proširenja. "
+"Osobne datoteke nisu obuhvaćene."
+
+#: /usr/bin/anduinos-appearance:737
+msgid "Export GNOME settings"
+msgstr "Izvezi postavke GNOME-a"
+
+#: /usr/bin/anduinos-appearance:738
+msgid "Save the current settings as a readable INI file"
+msgstr "Spremi trenutačne postavke u čitljivu INI datoteku"
+
+#: /usr/bin/anduinos-appearance:739
+msgid "Export…"
+msgstr "Izvezi…"
+
+#: /usr/bin/anduinos-appearance:746
+msgid "Import GNOME settings"
+msgstr "Uvezi postavke GNOME-a"
+
+#: /usr/bin/anduinos-appearance:747
+msgid "Restore settings from a dconf INI file"
+msgstr "Vrati postavke iz dconf INI datoteke"
+
+#: /usr/bin/anduinos-appearance:748
+msgid "Import…"
+msgstr "Uvezi…"
+
+#: /usr/bin/anduinos-appearance:758
+msgid "Danger Zone"
+msgstr "Opasna zona"
+
+#: /usr/bin/anduinos-appearance:761
+msgid "Reset desktop settings"
+msgstr "Vrati postavke radne površine"
+
+#: /usr/bin/anduinos-appearance:762
+msgid ""
+"Restore desktop appearance, search, app folders, and privacy to factory "
+"defaults"
+msgstr "Vrati izgled radne površine, pretraživanje, mape aplikacija i privatnost na tvorničke postavke"
+
+#: /usr/bin/anduinos-appearance:763 /usr/bin/anduinos-appearance:903
+msgid "Reset"
+msgstr "Vrati na početno"
+
+#: /usr/bin/anduinos-appearance:779
+msgid "INI settings files"
+msgstr "INI datoteke postavki"
+
+#: /usr/bin/anduinos-appearance:787
+msgid "Export GNOME Settings"
+msgstr "Izvoz postavki GNOME-a"
+
+#: /usr/bin/anduinos-appearance:802 /usr/bin/anduinos-appearance:806
+msgid "✗ Failed to export GNOME settings"
+msgstr "✗ Izvoz postavki GNOME-a nije uspio"
+
+#: /usr/bin/anduinos-appearance:809
+msgid "✓ GNOME settings exported"
+msgstr "✓ Postavke GNOME-a izvezene su"
+
+#: /usr/bin/anduinos-appearance:813
+msgid "Import GNOME Settings"
+msgstr "Uvoz postavki GNOME-a"
+
+#: /usr/bin/anduinos-appearance:827 /usr/bin/anduinos-appearance:831
+msgid "✗ Failed to read the settings file"
+msgstr "✗ Čitanje datoteke postavki nije uspjelo"
+
+#: /usr/bin/anduinos-appearance:836
+msgid "How should these settings be imported?"
+msgstr "Kako želite uvesti ove postavke?"
+
+#: /usr/bin/anduinos-appearance:837
+msgid ""
+"Merge import keeps current values that are absent from the file.\n"
+"\n"
+"Strict restore resets all /org/gnome/ settings first; values absent from the "
+"file return to their defaults. A safety backup is saved before either "
+"operation."
+msgstr ""
+"Spajanje zadržava postojeće vrijednosti koje nisu navedene u datoteci.\n"
+"\n"
+"Strogo vraćanje najprije poništava sve postavke u /org/gnome/; vrijednosti "
+"koje nisu navedene u datoteci vraćaju se na zadane. Prije oba postupka "
+"sprema se sigurnosna kopija."
+
+#: /usr/bin/anduinos-appearance:842 /usr/bin/anduinos-appearance:902
+msgid "Cancel"
+msgstr "Odustani"
+
+#: /usr/bin/anduinos-appearance:843
+msgid "Merge Import"
+msgstr "Spojeni uvoz"
+
+#: /usr/bin/anduinos-appearance:844
+msgid "Strict Restore"
+msgstr "Strogo vraćanje"
+
+#: /usr/bin/anduinos-appearance:868
+msgid "✗ The selected file is not a valid dconf INI file"
+msgstr "✗ Odabrana datoteka nije valjana dconf INI datoteka"
+
+#: /usr/bin/anduinos-appearance:873
+msgid "✗ Import failed; previous settings were restored"
+msgstr "✗ Uvoz nije uspio; prethodne postavke vraćene su"
+
+#: /usr/bin/anduinos-appearance:875
+msgid "✗ Import and automatic rollback both failed"
+msgstr "✗ Uvoz i automatsko vraćanje nisu uspjeli"
+
+#: /usr/bin/anduinos-appearance:879
+msgid "✗ Failed to import GNOME settings"
+msgstr "✗ Uvoz postavki GNOME-a nije uspio"
+
+#: /usr/bin/anduinos-appearance:886
+msgid "✓ Settings imported. Log out and back in to apply all changes."
+msgstr "✓ Postavke su uvezene. Odjavite se i ponovno prijavite da biste primijenili sve promjene."
+
+#: /usr/bin/anduinos-appearance:892
+msgid "✓ Desktop settings reset. Log out and back in to apply all changes."
+msgstr "✓ Postavke radne površine vraćene su na zadane. Odjavite se i ponovno prijavite da biste primijenili sve promjene."
+
+#: /usr/bin/anduinos-appearance:894
+msgid "✗ Failed to reset"
+msgstr "✗ Vraćanje na zadane postavke nije uspjelo"
+
+#: /usr/bin/anduinos-appearance:898
+msgid "Reset desktop settings?"
+msgstr "Vratiti postavke radne površine na zadane?"
+
+#: /usr/bin/anduinos-appearance:899
+msgid ""
+"This will restore extensions, panel layout, search preferences, app folders, "
+"wallpaper, interface, and privacy preferences to factory defaults."
+msgstr "Time će se proširenja, raspored ploče, postavke pretraživanja, mape aplikacija, pozadina, sučelje i privatnost vratiti na tvorničke postavke."
+
+#: /usr/bin/anduinos-appearance:933
+msgid "GDM Wallpaper"
+msgstr "Pozadina GDM-a"
+
+#: /usr/bin/anduinos-appearance:938
+msgid "Login Screen Wallpaper"
+msgstr "Pozadina zaslona za prijavu"
+
+#: /usr/bin/anduinos-appearance:939
+msgid "Choose an image for the GDM login screen background."
+msgstr "Odaberite sliku za pozadinu zaslona za prijavu u GDM."
+
+#: /usr/bin/anduinos-appearance:949
+msgid "Select image"
+msgstr "Odaberi sliku"
+
+#: /usr/bin/anduinos-appearance:950
+msgid "Choose…"
+msgstr "Odaberi…"
+
+#: /usr/bin/anduinos-appearance:959
+msgid "Apply to Login Screen"
+msgstr "Primijeni na zaslon za prijavu"
+
+#: /usr/bin/anduinos-appearance:971
+msgid "Images"
+msgstr "Slike"
+
+#: /usr/bin/anduinos-appearance:992
+msgid "✗ Please select an image first"
+msgstr "✗ Najprije odaberite sliku"
+
+#: /usr/bin/anduinos-appearance:1007
+msgid "✓ GDM wallpaper applied"
+msgstr "✓ Pozadina GDM-a primijenjena je"
+
+#: /usr/bin/anduinos-appearance:1009
+msgid "✗ Failed to set GDM wallpaper"
+msgstr "✗ Postavljanje pozadine GDM-a nije uspjelo"
+
+#: /usr/bin/anduinos-appearance:1017 /usr/bin/anduinos-appearance:1133
+msgid "AnduinOS Appearance"
+msgstr "Izgled AnduinOS-a"
+
+#: /usr/bin/anduinos-appearance:1047
+msgid "About AnduinOS Appearance"
+msgstr "O aplikaciji Izgled AnduinOS-a"
+
+#: /usr/bin/anduinos-appearance:1080
+msgid "Switching desktop layout… Please wait."
+msgstr "Mijenja se raspored radne površine… Pričekajte."
+
+#: /usr/bin/anduinos-appearance:1097
+#, python-brace-format
+msgid "✓ Applied — {style}"
+msgstr "✓ Primijenjeno — {style}"
+
+#: /usr/bin/anduinos-appearance:1101
+msgid ""
+"An extension is in an error state. Log out and back in before trying again."
+msgstr "Proširenje je u stanju pogreške. Odjavite se i ponovno prijavite prije ponovnog pokušaja."
+
+#: /usr/bin/anduinos-appearance:1104
+#, python-brace-format
+msgid "Failed to enable {extension}."
+msgstr "Nije moguće omogućiti proširenje {extension}."
+
+#: /usr/bin/anduinos-appearance:1105
+#, python-brace-format
+msgid "Failed to disable {extension}."
+msgstr "Nije moguće onemogućiti proširenje {extension}."
+
+#: /usr/bin/anduinos-appearance:1107
+msgid ""
+"Failed to switch desktop layout. Check the extension settings and try again."
+msgstr "Promjena rasporeda radne površine nije uspjela. Provjerite postavke proširenja i pokušajte ponovno."
+
+#: /usr/bin/anduinos-appearance:1108
+msgid "Desktop layout could not be applied"
+msgstr "Nije moguće primijeniti raspored radne površine"
+
+#: /usr/bin/anduinos-appearance:1109
+msgid "Close"
+msgstr "Zatvori"
+
+#: /usr/bin/anduinos-appearance:1135
+msgid "AnduinOS Team"
+msgstr "Tim AnduinOS"
+
+#: /usr/share/applications/anduinos-appearance.desktop:74
+msgid "Switch between Centered and Classic taskbar layouts"
+msgstr "Prebacujte se između centriranog i klasičnog rasporeda trake zadataka"
+
+#: /usr/share/applications/anduinos-appearance.desktop:106
+msgid "taskbar;panel;layout;style;windows;appearance;"
+msgstr "traka zadataka;ploča;raspored;stil;prozori;izgled;"

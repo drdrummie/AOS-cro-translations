@@ -3,6 +3,11 @@
 Each component has its own translation directory:
 
 ```text
+appearance/
+  anduinos-appearance.pot
+  anduinos-appearance.sh
+  deploy.sh
+  hr_HR.po
 control-panel/
   anduinos-control-panel.pot
   anduinos-control-panel.sh
@@ -33,6 +38,8 @@ the maintainers' templates.
 The Firewall template was extracted from the installed AnduinOS Firewall
 2.0.5 English catalog. It also includes the desktop-entry and PolicyKit
 strings already present in the application's catalog for upstream contribution.
+The Appearance template was extracted from the installed AnduinOS Appearance
+2.1.0 Python UI and desktop entry.
 
 `swap-control/` follows the same layout but has no `run.py`: Swap Control is a
 compiled GTK application, so its launcher only selects the language and points
@@ -90,6 +97,20 @@ LANGUAGE=hr_HR bash control-panel/anduinos-control-panel.sh
 Close any running Control Panel instance first: the application may otherwise
 reuse it. The existing user desktop launcher also uses this deployed catalog,
 but GNOME search results may start the system application instead.
+
+## Testing AnduinOS Appearance
+
+```bash
+bash appearance/deploy.sh
+bash appearance/anduinos-appearance.sh
+```
+
+Deployment validates and builds the catalog before placing it in
+`~/.local/share/anduinos-appearance/locale/`. The test launcher points the
+installed application at that user-local catalog and selects Croatian.
+Deployment does not modify system files; the system desktop entry remains
+unchanged. Close any running Appearance instance before testing, because the
+application may otherwise reuse its existing window.
 
 ## Testing AnduinOS Welcome
 
