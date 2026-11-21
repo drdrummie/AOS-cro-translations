@@ -12,6 +12,7 @@ The Croatian catalogs were extracted from the following inspected versions:
 | Component | Type | Inspected version |
 | --- | --- | --- |
 | AnduinOS | Distribution | 2.0.6 |
+| Flatseal | Application | 2.4.1 |
 | Appearance | Application | 2.1.0 |
 | Offline Updater | Application | 2.1.0-14 |
 | Firewall | Application | 2.0.5 |
@@ -35,6 +36,12 @@ before upgrading or contributing it upstream.
 Each component has its own translation directory:
 
 ```text
+flatseal/
+  flatseal.pot
+  flatseal-test.js
+  flatseal.sh
+  deploy.sh
+  hr_HR.po
 appearance/
   anduinos-appearance.pot
   anduinos-appearance.sh
@@ -97,6 +104,9 @@ gettext catalog, desktop entry, and PolicyKit action. The desktop-entry and
 PolicyKit messages are included for upstream contribution.
 The Exe Runner template was extracted from its installed English gettext
 catalog and desktop entry.
+The Flatseal template is the upstream
+[`flatseal.pot` from Flatseal 2.4.1](https://raw.githubusercontent.com/tchx84/Flatseal/v2.4.1/po/flatseal.pot),
+matching the inspected Flathub installation. Its gettext domain is `flatseal`.
 
 `swap-control/` follows the same layout but has no `run.py`: Swap Control is a
 compiled GTK application, so its launcher only selects the language and points
@@ -355,6 +365,30 @@ LANGUAGE=hr_HR bash control-panel/anduinos-control-panel.sh
 Close any running Control Panel instance first: the application may otherwise
 reuse it. The existing user desktop launcher also uses this deployed catalog,
 but GNOME search results may start the system application instead.
+
+## Testing Flatseal
+
+```bash
+bash flatseal/deploy.sh
+bash flatseal/flatseal.sh
+```
+
+The deployment builds the catalog and places it under
+`~/.local/share/flatseal/`; it does not modify the Flatpak installation or
+install the catalog system-wide. The test launcher starts Flatseal's GJS
+application resources from the installed Flatpak and binds gettext to that
+user-local catalog. It grants the sandbox read-only access to the translation
+directory only. To verify that the catalog is visible inside the Flatpak
+without opening the window, run:
+
+```bash
+bash flatseal/flatseal.sh --check-translation
+```
+
+Close any running Flatseal instance before testing, because Flatpak may forward
+the launch to the already-running application. The template includes desktop
+and AppStream messages for upstream use; the local test deployment does not
+replace Flatseal's installed desktop entry.
 
 ## Testing AnduinOS Appearance
 
