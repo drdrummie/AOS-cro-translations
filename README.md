@@ -282,6 +282,56 @@ must be maintained separately. The launcher checks that GNOME Shell is using
 the user-local copy. The preferences use the desktop session's language
 settings. Neither script is run by building the catalog.
 
+## Installing GNOME Shell extension catalogs system-wide
+
+GNOME Shell extension catalogs do not use the `/usr/share/locale/hr/`
+directory used by the applications above. Each catalog belongs inside the
+installed extension's own `locale/` directory.
+
+First, build the extension catalog and confirm that the system extension is
+installed at the expected UUID path:
+
+```bash
+bash scripts/translate.sh build extensions/dash-to-panel
+ls -ld /usr/share/gnome-shell/extensions/dash-to-panel@jderose9.github.com
+```
+
+Install the built catalog under the extension's `locale/hr/LC_MESSAGES/`
+directory. The example below is for Dash to Panel:
+
+```bash
+sudo install -D -m 644 \
+  extensions/dash-to-panel/build/hr_HR/LC_MESSAGES/dash-to-panel.mo \
+  /usr/share/gnome-shell/extensions/dash-to-panel@jderose9.github.com/locale/hr/LC_MESSAGES/dash-to-panel.mo
+```
+
+Use the matching UUID and gettext domain for the other extension catalogs:
+
+| Extension | UUID | Gettext domain |
+| --- | --- | --- |
+| ArcMenu | `arcmenu@arcmenu.com` | `arcmenu` |
+| Dash to Panel | `dash-to-panel@jderose9.github.com` | `dash-to-panel` |
+| Blur my Shell | `blur-my-shell@aunetx` | `blur-my-shell@aunetx` |
+| SimpleWeather | `simple-weather@romanlefler.com` | `simple-weather@romanlefler.com` |
+| Network Stats | `network-stats@gnome.noroadsleft.xyz` | `network-stats` |
+
+Before applying a catalog to a distribution package or a local extension
+copy, review the Croatian PO against the extension's current source. Completed
+catalogs should be submitted to the corresponding upstream repositories for
+long-term maintenance and inclusion in future extension releases.
+
+Repeat the build and `install -D` commands with the corresponding package
+directory and domain. At present, ArcMenu has no Croatian PO catalog in this
+repository, so it cannot be installed with this method.
+
+System extension directories belong to distribution packages and may be replaced
+or restored during package upgrades. Back up or record existing catalog files
+before replacing them, and verify every destination before installation.
+
+After installing or updating an extension catalog, log out and back in. On
+Wayland, this is more reliable than trying to replace GNOME Shell with
+`gnome-shell --replace`.
+
 ## Testing Control Panel
 
 Deploy the current catalog to your user account, then launch the installed
