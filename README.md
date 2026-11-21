@@ -15,6 +15,11 @@ driver-center/
   deploy.sh
   hr_HR.po
   run.py
+firewall/
+  ufwall-gtk.pot
+  anduinos-firewall.sh
+  deploy.sh
+  hr_HR.po
 ```
 
 The POT file is the message template; the PO file contains the Croatian
@@ -25,6 +30,9 @@ and PolicyKit messages included for upstream contribution. The Swap Control
 template was taken from the maintainers' `po/swapcontrol-gtk.pot`. Before
 contributing upstream, compare each template with the current source code and
 the maintainers' templates.
+The Firewall template was extracted from the installed AnduinOS Firewall
+2.0.5 English catalog. It also includes the desktop-entry and PolicyKit
+strings already present in the application's catalog for upstream contribution.
 
 `swap-control/` follows the same layout but has no `run.py`: Swap Control is a
 compiled GTK application, so its launcher only selects the language and points
@@ -142,3 +150,20 @@ its existing window.
 
 The Swap Control catalog also carries the desktop entry and polkit strings, so
 the translation can be contributed upstream unchanged.
+
+## Testing AnduinOS Firewall
+
+```bash
+bash firewall/deploy.sh
+LANGUAGE=hr_HR bash firewall/anduinos-firewall.sh
+```
+
+The Firewall application is a compiled GTK application. Its launcher searches
+for its gettext catalog through `XDG_DATA_DIRS`, so the test launcher points it
+at the user-local catalog and selects Croatian. Deployment validates and builds
+the catalog before placing it in
+`~/.local/share/anduinos-ufwall-gtk/locale/`; it does not modify system files.
+The desktop entry and PolicyKit prompts remain system-provided and are not
+changed by this user-local test setup. Close any running Firewall instance
+before testing, because the application may otherwise reuse its existing
+window.
