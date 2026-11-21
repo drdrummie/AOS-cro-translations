@@ -122,11 +122,11 @@ Individual users can enable or install additional extensions.
 | Network Stats | `network-stats@gnome.noroadsleft.xyz` | `network-stats` |
 
 These installed extensions have their own `locale/` directories, which GNOME
-Shell binds as their gettext locations. The inspected Blur my Shell and Dash to
-Panel versions have Croatian catalogs in this repository; the other three do
-not. Catalogs in this repository are not automatically used by GNOME Shell. In
-particular, the application deployment instructions below do not apply to
-extensions.
+Shell binds as their gettext locations. The inspected Blur my Shell, Dash to
+Panel, and SimpleWeather versions have Croatian catalogs in this repository;
+Network Stats does not. Catalogs in this repository are not automatically used
+by GNOME Shell. In particular, the application deployment instructions below
+do not apply to extensions.
 
 System extension directories belong to distribution packages and require
 administrator privileges to modify. The absence of a Croatian catalog in one
@@ -167,6 +167,33 @@ Log out and back in before using `blur-my-shell.sh` to open its preferences;
 the launcher checks that GNOME Shell is actually using the user-local copy.
 The preferences use the desktop session's language settings. Neither script is
 run by building the catalog.
+
+### SimpleWeather catalog
+
+`extensions/simple-weather/` contains a template extracted from the installed
+SimpleWeather version 12 JavaScript sources and a Croatian translation. Compare
+the template with the installed extension again after upgrades.
+
+```bash
+bash scripts/translate.sh check extensions/simple-weather
+bash scripts/translate.sh build extensions/simple-weather
+```
+
+For user-local testing:
+
+```bash
+bash extensions/simple-weather/deploy.sh
+# Log out and back in.
+bash extensions/simple-weather/simple-weather.sh
+```
+
+Deployment validates and builds the catalog, copies the system extension to
+the user's GNOME Shell extension directory, adds the compiled `hr` and `hr_HR`
+catalogs, and refuses to overwrite an existing user extension. It does not
+modify the system extension. The copy may shadow later system updates and must
+be maintained separately. The launcher checks that GNOME Shell is using the
+user-local copy. The preferences use the desktop session's language settings.
+Neither script is run by building the catalog.
 
 ### Dash to Panel catalog
 

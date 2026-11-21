@@ -1,0 +1,818 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the simple-weather@romanlefler package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: simple-weather@romanlefler 12\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-11-21 19:42+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: autoConfig.js:124
+msgid "Unnamed Location"
+msgstr ""
+
+#: details.js:46 preferences/generalPage.js:63
+msgid "Temperature"
+msgstr ""
+
+#: details.js:47
+msgid "Condition"
+msgstr ""
+
+#: details.js:48
+msgid "Feels Like"
+msgstr ""
+
+#: details.js:49
+msgid "Wind"
+msgstr ""
+
+#: details.js:50
+msgid "Humidity"
+msgstr ""
+
+#: details.js:51
+msgid "Gusts"
+msgstr ""
+
+#: details.js:52
+msgid "UV High"
+msgstr ""
+
+#: details.js:53 preferences/generalPage.js:89
+msgid "Pressure"
+msgstr ""
+
+#: details.js:54
+msgid "Precipitation"
+msgstr ""
+
+#: details.js:55
+msgid "Sunrise"
+msgstr ""
+
+#: details.js:56
+msgid "Sunset"
+msgstr ""
+
+#: details.js:57
+msgid "Cloud Cover"
+msgstr ""
+
+#: details.js:58
+msgid "Sun Countdown"
+msgstr ""
+
+#: details.js:62 layouts/classic.js:187 layouts/defaultlayout.js:273
+msgid "Invalid"
+msgstr ""
+
+#: errors.js:46
+#, javascript-format
+msgid "%s requires an API key and host."
+msgstr ""
+
+#: errors.js:55
+msgid "Location unavailable or permission not granted."
+msgstr ""
+
+#: errors.js:72
+#, javascript-format
+msgid "Service down (%s)"
+msgstr ""
+
+#: extension.js:351 preferences/generalPage.js:522 preferences/search.js:154
+msgid "No Internet"
+msgstr ""
+
+#: extension.js:360 preferences/generalPage.js:494
+msgid "Unknown Error"
+msgstr ""
+
+#: lang.js:114 layouts/defaultlayout.js:203
+msgid "Today"
+msgstr ""
+
+#: lang.js:116
+msgid "Sunday"
+msgstr ""
+
+#: lang.js:116
+msgid "Monday"
+msgstr ""
+
+#: lang.js:116
+msgid "Tuesday"
+msgstr ""
+
+#: lang.js:116
+msgid "Wednesday"
+msgstr ""
+
+#: lang.js:117
+msgid "Thursday"
+msgstr ""
+
+#: lang.js:117
+msgid "Friday"
+msgstr ""
+
+#: lang.js:117
+msgid "Saturday"
+msgstr ""
+
+#: layouts/defaultlayout.js:258
+#, javascript-format
+msgid "H: %s"
+msgstr ""
+
+#: layouts/defaultlayout.js:259
+#, javascript-format
+msgid "L: %s"
+msgstr ""
+
+#: location.js:46 location.js:56 preferences/generalPage.js:255
+msgid "My Location"
+msgstr ""
+
+#: location.js:73
+#, javascript-format
+msgid "%f°N"
+msgstr ""
+
+#: location.js:73
+#, javascript-format
+msgid "%f°S"
+msgstr ""
+
+#: location.js:74
+#, javascript-format
+msgid "%f°E"
+msgstr ""
+
+#: location.js:74
+#, javascript-format
+msgid "%f°W"
+msgstr ""
+
+#: popup.js:58
+msgid "Weather Data"
+msgstr ""
+
+#: popup.js:107
+msgid "Refresh"
+msgstr ""
+
+#: popup.js:142 preferences/aboutPage.js:76
+msgid "Settings"
+msgstr ""
+
+#: popup.js:253
+msgid "Retry"
+msgstr ""
+
+#: preferences/aboutPage.js:41
+msgid "About"
+msgstr ""
+
+#: preferences/aboutPage.js:50
+msgid "GitHub Repository"
+msgstr ""
+
+#: preferences/aboutPage.js:52
+msgid "Support Me"
+msgstr ""
+
+#: preferences/aboutPage.js:58
+msgid "SimpleWeather Version"
+msgstr ""
+
+#: preferences/aboutPage.js:61
+msgid "Unknown"
+msgstr ""
+
+#: preferences/aboutPage.js:68
+msgid "Git Hash"
+msgstr ""
+
+#: preferences/aboutPage.js:79
+msgid "Copy"
+msgstr ""
+
+#: preferences/aboutPage.js:106
+msgid "Copied settings JSON to clipboard."
+msgstr ""
+
+#: preferences/aboutPage.js:118
+#, javascript-format
+msgid "Contributions and translations are welcome! Read how on %s."
+msgstr ""
+
+#: preferences/aboutPage.js:119
+#, javascript-format
+msgid "If you like this extension, consider starring it on %s."
+msgstr ""
+
+#: preferences/aboutPage.js:121
+msgid "here"
+msgstr ""
+
+#: preferences/aboutPage.js:122
+#, javascript-format
+msgid "Report bugs or request new features %s."
+msgstr ""
+
+#: preferences/aboutPage.js:125 preferences/aboutPage.js:135
+msgid "Credits"
+msgstr ""
+
+#: preferences/detailsPage.js:105
+msgid "Details"
+msgstr ""
+
+#: preferences/detailsPage.js:111
+msgid "Pop-Up"
+msgstr ""
+
+#: preferences/detailsPage.js:120 preferences/generalPage.js:262
+msgid "System"
+msgstr ""
+
+#: preferences/detailsPage.js:121
+msgid "Light"
+msgstr ""
+
+#: preferences/detailsPage.js:122
+msgid "Afterdark"
+msgstr ""
+
+#: preferences/detailsPage.js:123
+msgid "Immersive"
+msgstr ""
+
+#: preferences/detailsPage.js:126
+msgid "Theme"
+msgstr ""
+
+#: preferences/detailsPage.js:136
+msgid "Default"
+msgstr ""
+
+#: preferences/detailsPage.js:137
+msgid "Classic"
+msgstr ""
+
+#: preferences/detailsPage.js:140
+msgid "Layout"
+msgstr ""
+
+#: preferences/detailsPage.js:150
+msgid "Highlight Detail Values"
+msgstr ""
+
+#: preferences/detailsPage.js:164
+msgid "Featured Details"
+msgstr ""
+
+#: preferences/detailsPage.js:165
+msgid "Drag-and-drop from bottom to configure the pop-up"
+msgstr ""
+
+#: preferences/detailsPage.js:170
+msgid "Number of Details"
+msgstr ""
+
+#: preferences/detailsPage.js:304 preferences/generalPage.js:307
+msgid "Panel"
+msgstr ""
+
+#: preferences/detailsPage.js:307
+msgid "None"
+msgstr ""
+
+#: preferences/detailsPage.js:317
+msgid "Panel Detail"
+msgstr ""
+
+#: preferences/detailsPage.js:333
+msgid "Secondary Panel Detail"
+msgstr ""
+
+#: preferences/detailsPage.js:344
+msgid "Show Condition Icon"
+msgstr ""
+
+#: preferences/detailsPage.js:353
+msgid "Show Sunrise/Sunset"
+msgstr ""
+
+#: preferences/detailsPage.js:363
+msgid "Use Countdown for Sun"
+msgstr ""
+
+#: preferences/editLocation.js:31
+#, javascript-format
+msgid "Edit %s"
+msgstr ""
+
+#: preferences/editLocation.js:31
+msgid "New Location"
+msgstr ""
+
+#: preferences/editLocation.js:39
+msgid "Name"
+msgstr ""
+
+#: preferences/editLocation.js:68
+#, javascript-format
+msgid "%s (e.g. \"%s\")"
+msgstr ""
+
+#: preferences/editLocation.js:68
+msgid "Coordinates"
+msgstr ""
+
+#: preferences/editLocation.js:90
+msgid "Save"
+msgstr ""
+
+#: preferences/editLocation.js:98
+#, javascript-format
+msgid "View in %s"
+msgstr ""
+
+#: preferences/editLocation.js:99
+msgid "Open in Browser"
+msgstr ""
+
+#: preferences/editLocation.js:102
+msgid "Open"
+msgstr ""
+
+#: preferences/editLocation.js:130
+msgid "Name is required."
+msgstr ""
+
+#: preferences/editLocation.js:136
+msgid "Invalid coordinates entry."
+msgstr ""
+
+#: preferences/generalPage.js:39 preferences/locationsPage.js:160
+msgid "General"
+msgstr ""
+
+#: preferences/generalPage.js:44 preferences/generalPage.js:53
+msgid "Units"
+msgstr ""
+
+#: preferences/generalPage.js:45
+msgid "Configure units of measurement"
+msgstr ""
+
+#: preferences/generalPage.js:48
+msgid "US"
+msgstr ""
+
+#: preferences/generalPage.js:48
+msgid "UK"
+msgstr ""
+
+#: preferences/generalPage.js:48
+msgid "Metric"
+msgstr ""
+
+#: preferences/generalPage.js:48
+msgid "Nordic"
+msgstr ""
+
+#: preferences/generalPage.js:48
+msgid "Custom"
+msgstr ""
+
+#: preferences/generalPage.js:60
+msgid "Fahrenheit"
+msgstr ""
+
+#: preferences/generalPage.js:61
+msgid "Celsius"
+msgstr ""
+
+#: preferences/generalPage.js:76
+msgid "Speed"
+msgstr ""
+
+#: preferences/generalPage.js:102
+msgid "Rain Measurement"
+msgstr ""
+
+#: preferences/generalPage.js:115
+msgid "Distance"
+msgstr ""
+
+#: preferences/generalPage.js:135
+msgid "Degrees"
+msgstr ""
+
+#: preferences/generalPage.js:135
+msgid "Eight-Point Compass"
+msgstr ""
+
+#: preferences/generalPage.js:138
+msgid "Direction"
+msgstr ""
+
+#: preferences/generalPage.js:149
+msgid "Weather Service"
+msgstr ""
+
+#: preferences/generalPage.js:150
+msgid "Configure how the weather is attained"
+msgstr ""
+
+#: preferences/generalPage.js:158 preferences/locationsPage.js:160
+msgid "Weather Provider"
+msgstr ""
+
+#: preferences/generalPage.js:164
+msgid "The open-source, most privacy-friendly default."
+msgstr ""
+
+#: preferences/generalPage.js:165
+msgid "Requires an account with a One Call 3.0 subscription."
+msgstr ""
+
+#: preferences/generalPage.js:166
+msgid "Recommended primarily for users in mainland China. Requires an account."
+msgstr ""
+
+#: preferences/generalPage.js:178 preferences/generalPage.js:243
+msgid "API Key (Required)"
+msgstr ""
+
+#: preferences/generalPage.js:178 preferences/generalPage.js:243
+msgid "API Key"
+msgstr ""
+
+#: preferences/generalPage.js:187 preferences/generalPage.js:247
+msgid "API Host (Required)"
+msgstr ""
+
+#: preferences/generalPage.js:187 preferences/generalPage.js:247
+msgid "API Host"
+msgstr ""
+
+#: preferences/generalPage.js:195
+msgid "Validate Credentials"
+msgstr ""
+
+#: preferences/generalPage.js:199
+msgid "Validate"
+msgstr ""
+
+#: preferences/generalPage.js:230 preferences/search.js:109
+msgid "API Credentials Warning"
+msgstr ""
+
+#: preferences/generalPage.js:256
+msgid "Configure how your location is found"
+msgstr ""
+
+#: preferences/generalPage.js:259 preferences/generalPage.js:260
+#: preferences/generalPage.js:261
+msgid "Online"
+msgstr ""
+
+#: preferences/generalPage.js:263
+msgid "Disable"
+msgstr ""
+
+#: preferences/generalPage.js:266
+msgid "Provider"
+msgstr ""
+
+#: preferences/generalPage.js:277
+msgid "Refresh Interval (Minutes)"
+msgstr ""
+
+#: preferences/generalPage.js:293
+msgid "Accessibility"
+msgstr ""
+
+#: preferences/generalPage.js:294
+msgid "Configure accessibility features"
+msgstr ""
+
+#: preferences/generalPage.js:297
+msgid "High Contrast"
+msgstr ""
+
+#: preferences/generalPage.js:308
+msgid "Configure the panel"
+msgstr ""
+
+#: preferences/generalPage.js:311
+msgid "Right"
+msgstr ""
+
+#: preferences/generalPage.js:311
+msgid "Center"
+msgstr ""
+
+#: preferences/generalPage.js:311
+msgid "Left"
+msgstr ""
+
+#: preferences/generalPage.js:314
+msgid "Side of Panel"
+msgstr ""
+
+#: preferences/generalPage.js:327
+msgid "Order in Panel"
+msgstr ""
+
+#: preferences/generalPage.js:343
+msgid "Pop-Up Offset"
+msgstr ""
+
+#: preferences/generalPage.js:344
+msgid "Horizontal pop-up offset from 0–100."
+msgstr ""
+
+#: preferences/generalPage.js:382
+msgid "Use Symbolic Icons in Panel"
+msgstr ""
+
+#: preferences/generalPage.js:392
+msgid "Always Use Packaged Icons"
+msgstr ""
+
+#: preferences/generalPage.js:402
+msgid "Show Refresh Button"
+msgstr ""
+
+#: preferences/generalPage.js:412
+msgid "Hide Error Popup"
+msgstr ""
+
+#: preferences/generalPage.js:413
+msgid "If the popup just says Error, don't even show it."
+msgstr ""
+
+#: preferences/generalPage.js:450
+msgid "API Key Warning"
+msgstr ""
+
+#: preferences/generalPage.js:486
+msgid "Key is invalid or is not subscribed to the One Call 3.0 API."
+msgstr ""
+
+#: preferences/generalPage.js:494
+#, javascript-format
+msgid "Error when validating API Key: %s"
+msgstr ""
+
+#: preferences/generalPage.js:506
+msgid "Host is required."
+msgstr ""
+
+#: preferences/generalPage.js:511
+msgid "Key or host is invalid."
+msgstr ""
+
+#: preferences/generalPage.js:516
+msgid "Host is invalid."
+msgstr ""
+
+#: preferences/generalPage.js:524
+msgid "The API Host returned an invalid response."
+msgstr ""
+
+#: preferences/generalPage.js:526
+msgid "Error when validating credentials."
+msgstr ""
+
+#: preferences/locationsPage.js:46 preferences/locationsPage.js:68
+msgid "Locations"
+msgstr ""
+
+#: preferences/locationsPage.js:58 preferences/search.js:64
+msgid "Add"
+msgstr ""
+
+#: preferences/locationsPage.js:83
+msgid "Move Up"
+msgstr ""
+
+#: preferences/locationsPage.js:99
+msgid "Move Down"
+msgstr ""
+
+#: preferences/locationsPage.js:121
+msgid "Add Here"
+msgstr ""
+
+#: preferences/locationsPage.js:133
+msgid "Add By Coords"
+msgstr ""
+
+#: preferences/locationsPage.js:148
+msgid "Location Search"
+msgstr ""
+
+#: preferences/locationsPage.js:154
+msgid "Search Provider"
+msgstr ""
+
+#: preferences/locationsPage.js:160
+#, javascript-format
+msgid ""
+"QWeather requires you to input your credentials in the %s section in %s."
+msgstr ""
+
+#: preferences/locationsPage.js:225
+#, javascript-format
+msgid "Are you sure you want delete %s?"
+msgstr ""
+
+#: preferences/locationsPage.js:226
+msgid "Cancel"
+msgstr ""
+
+#: preferences/locationsPage.js:226
+msgid "Delete"
+msgstr ""
+
+#: preferences/locationsPage.js:261
+#, javascript-format
+msgid "Internal Error: %s"
+msgstr ""
+
+#: preferences/locationsPage.js:263
+msgid "Internal Error"
+msgstr ""
+
+#: preferences/locationsPage.js:285
+msgid "Something else edited the locations."
+msgstr ""
+
+#: preferences/search.js:38
+msgid "Search Location"
+msgstr ""
+
+#: preferences/search.js:46
+msgid "City, Neighborhood, etc."
+msgstr ""
+
+#: preferences/search.js:50
+msgid "Search"
+msgstr ""
+
+#: preferences/search.js:203 preferences/search.js:247
+#: preferences/search.js:288
+msgid "No results."
+msgstr ""
+
+#: preferences/search.js:212 preferences/search.js:297
+msgid "No copyright information available."
+msgstr ""
+
+#: prefs.js:58
+#, javascript-format
+msgid ""
+"SimpleWeather doesn't know how to handle your locale.\n"
+"\tError - %s\n"
+"Please consider submitting a bug report on GitHub."
+msgstr ""
+
+#: prefs.js:60
+msgid "Ignore"
+msgstr ""
+
+#: prefs.js:60
+msgid "Open GitHub"
+msgstr ""
+
+#: prefs.js:60
+msgid "Don't Show Again"
+msgstr ""
+
+#: units.js:109
+msgid "N"
+msgstr ""
+
+#: units.js:109
+msgid "NE"
+msgstr ""
+
+#: units.js:109
+msgid "E"
+msgstr ""
+
+#: units.js:109
+msgid "SE"
+msgstr ""
+
+#: units.js:109
+msgid "S"
+msgstr ""
+
+#: units.js:109
+msgid "SW"
+msgstr ""
+
+#: units.js:109
+msgid "W"
+msgstr ""
+
+#: units.js:109
+msgid "NW"
+msgstr ""
+
+#: units.js:276
+msgid "Now"
+msgstr ""
+
+#: units.js:278
+#, javascript-format
+msgid "%d h"
+msgstr ""
+
+#: units.js:280
+#, javascript-format
+msgid "%d min"
+msgstr ""
+
+#: weather.js:35
+msgid "Clear"
+msgstr ""
+
+#: weather.js:35
+msgid "Sunny"
+msgstr ""
+
+#: weather.js:37
+msgid "Cloudy"
+msgstr ""
+
+#: weather.js:39
+msgid "Rainy"
+msgstr ""
+
+#: weather.js:41
+msgid "Snowy"
+msgstr ""
+
+#: weather.js:43
+msgid "Stormy"
+msgstr ""
+
+#: weather.js:45
+msgid "Windy"
+msgstr ""
+
+#: welcome.js:44
+#, javascript-format
+msgid "Welcome to %s"
+msgstr ""
+
+#: welcome.js:62
+#, javascript-format
+msgid ""
+"%s occasionally connects to the selected weather service. By default, it "
+"will use the Internet to connect to:\n"
+"  •  %s, an %s service for weather\n"
+"  •  %s, optional for resolving the current location\n"
+"  •  %s, for searching locations by name\n"
+"\n"
+msgstr ""
+
+#: welcome.js:68
+#, javascript-format
+msgid "Thank you for installing %s!"
+msgstr ""
+
+#: welcome.js:80
+msgid "Abort"
+msgstr ""
+
+#: welcome.js:122
+msgid "Manual Configuration"
+msgstr ""
+
+#: welcome.js:140
+msgid "Failed to detect location."
+msgstr ""
+
+#: welcome.js:142
+msgid "Please configure your location and units manually."
+msgstr ""
