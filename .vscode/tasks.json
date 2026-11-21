@@ -22,6 +22,31 @@
             "args": ["${workspaceFolder}/scripts/translate.sh", "build", "${input:package}"],
             "group": "build",
             "problemMatcher": []
+        },
+        {
+            "label": "Translation: install system-wide (sudo)",
+            "type": "shell",
+            "command": "sudo",
+            "args": [
+                "bash",
+                "${workspaceFolder}/scripts/install-system.sh",
+                "--package",
+                "${input:package}"
+            ],
+            "problemMatcher": []
+        },
+        {
+            "label": "Translation: uninstall system-wide (sudo)",
+            "type": "shell",
+            "command": "sudo",
+            "args": [
+                "bash",
+                "${workspaceFolder}/scripts/install-system.sh",
+                "--uninstall",
+                "--package",
+                "${input:package}"
+            ],
+            "problemMatcher": []
         }
     ],
     "inputs": [

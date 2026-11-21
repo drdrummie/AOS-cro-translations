@@ -258,3 +258,49 @@ files. The desktop entry and PolicyKit prompt remain system-provided and are
 not changed by this user-local test setup. Close any running Security Center
 instance before testing, because the application may otherwise reuse its
 existing window.
+
+## System-wide Installation
+
+The user-local `deploy.sh` scripts are meant for testing: each one redirects a
+single application to `~/.local/share/...`, so the desktop entries and every
+other launch path keep using the untranslated system catalog. To translate the
+applications when they are started normally, for example from the GNOME
+application grid, install the compiled catalogs system-wide:
+
+```bash
+sudo bash scripts/install-system.sh
+```
+
+The script builds and checks every listed component with
+`scripts/translate.sh`, then installs the resulting `.mo` files into
+`/usr/share/locale/hr/LC_MESSAGES/`, which is the directory those applications
+read. The language-only `hr` directory is intentional: glibc only falls back
+from `hr_HR` to `hr` and never the other way round, and AnduinOS ships
+`LANGUAGE=hr:en_US:en` by default. A `hr_HR`-only catalog would therefore be
+invisible in a stock desktop session. Python's gettext and the gettext-rs
+crate used by the GTK applications both resolve the `hr` directory for a `hr`
+or `hr_HR` selection.
+
+Every installed path is recorded with its checksum in
+`/var/lib/anduinos-hr-translations/manifest.tsv`, so the installer never
+overwrites a catalog it does not own (another distribution package, for
+example) without `--force`, and `--uninstall` removes only its own files:
+
+```bash
+bash scripts/install-system.sh --list
+sudo bash scripts/install-system.sh --package firewall
+sudo bash scripts/install-system.sh --dry-run
+sudo bash scripts/install-system.sh --uninstall
+```
+
+`--package NAME` restricts any action to one component and is repeatable.
+`--destdir DIR` prepends a directory to every path, which is how the tests
+exercise the script without root. Adding a component to the project is not
+enough; list it in `scripts/install-system.sh` once its `hr_HR.po` is complete
+so that a partially translated catalog is never installed system-wide.
+
+Only gettext catalogs are installed. The desktop entries and PolicyKit
+actions are shipped by the distribution packages, and the project does not
+modify them; their Croatian strings are kept in the catalogs for upstream
+contribution. Uninstalling does not require removing the user-local
+deployments, though both can coexist.

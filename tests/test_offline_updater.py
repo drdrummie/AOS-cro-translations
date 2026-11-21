@@ -68,7 +68,7 @@ class OfflineUpdaterDeploymentTest(unittest.TestCase):
         before = self.target.stat().st_mtime_ns
         result = self.run_script("anduinos-offline-updater.sh")
         self.assertEqual(result.returncode, 0, result.stderr)
-        self.assertEqual(result.stdout.strip(), "Izvanmrežni ažurirač")
+        self.assertEqual(result.stdout.strip(), "Izvanmrežno ažuriranje")
 
         again = self.run_script("deploy.sh")
         self.assertEqual(again.returncode, 0, again.stderr)
@@ -81,7 +81,7 @@ class OfflineUpdaterDeploymentTest(unittest.TestCase):
         catalog = self.component / "hr_HR.po"
         catalog.write_text(
             catalog.read_text(encoding="utf-8").replace(
-                'msgstr "Izvanmrežni ažurirač"', 'msgstr ""', 1
+                'msgstr "Izvanmrežno ažuriranje"', 'msgstr ""', 1
             ),
             encoding="utf-8",
         )
