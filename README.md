@@ -122,10 +122,11 @@ Individual users can enable or install additional extensions.
 | Network Stats | `network-stats@gnome.noroadsleft.xyz` | `network-stats` |
 
 These installed extensions have their own `locale/` directories, which GNOME
-Shell binds as their gettext locations. The inspected Blur my Shell version
-already includes a Croatian catalog; the other four do not. Catalogs in this
-repository are not automatically used by GNOME Shell. In particular, the
-application deployment instructions below do not apply to extensions.
+Shell binds as their gettext locations. The inspected Blur my Shell and Dash to
+Panel versions have Croatian catalogs in this repository; the other three do
+not. Catalogs in this repository are not automatically used by GNOME Shell. In
+particular, the application deployment instructions below do not apply to
+extensions.
 
 System extension directories belong to distribution packages and require
 administrator privileges to modify. The absence of a Croatian catalog in one
@@ -166,6 +167,33 @@ Log out and back in before using `blur-my-shell.sh` to open its preferences;
 the launcher checks that GNOME Shell is actually using the user-local copy.
 The preferences use the desktop session's language settings. Neither script is
 run by building the catalog.
+
+### Dash to Panel catalog
+
+`extensions/dash-to-panel/` contains a template extracted from the installed
+version 74 JavaScript and UI resources, and a Croatian translation for its
+gettext domain. Compare the template with the installed extension again after
+upgrades.
+
+```bash
+bash scripts/translate.sh check extensions/dash-to-panel
+bash scripts/translate.sh build extensions/dash-to-panel
+```
+
+For user-local testing:
+
+```bash
+bash extensions/dash-to-panel/deploy.sh
+# Log out and back in.
+bash extensions/dash-to-panel/dash-to-panel.sh
+```
+
+Deployment validates and builds the catalog, copies the system extension to
+the user's GNOME Shell extension directory, adds the compiled `hr` and
+`hr_HR` catalogs, and refuses to overwrite an existing user extension. It does
+not modify the system extension. The copy may shadow later system updates and
+must be maintained separately. The launcher checks that GNOME Shell is using
+the user-local copy. Neither script is run by building the catalog.
 
 ## Testing Control Panel
 

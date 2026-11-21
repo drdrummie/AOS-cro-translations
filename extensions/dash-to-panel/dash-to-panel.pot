@@ -1,0 +1,1583 @@
+# Croatian translations for dash-to-panel package.
+# This file is distributed under the same license as the dash-to-panel package.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: dash-to-panel 74\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-11-21 19:28+0100\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: extension.js:119
+msgid "Dash to Panel has been updated!"
+msgstr ""
+
+#: extension.js:120
+msgid "You are now running version"
+msgstr ""
+
+#: extension.js:126
+msgid "See what's new"
+msgstr ""
+
+#: windowPreview.js:1163
+msgid "Move to current Workspace"
+msgstr ""
+
+#: appIcons.js:1933 appIcons.js:1944 ui/BoxMiddleClickOptions.ui:33
+#: ui/BoxMiddleClickOptions.ui:62 ui/BoxMiddleClickOptions.ui:91
+msgid "Quit"
+msgstr ""
+
+#: appIcons.js:1950
+#, javascript-format
+msgid "Quit %d Window"
+msgid_plural "Quit %d Windows"
+msgstr[0] ""
+msgstr[1] ""
+
+#: appIcons.js:2271
+msgid "Power options"
+msgstr ""
+
+#: appIcons.js:2276
+msgid "Event logs"
+msgstr ""
+
+#: appIcons.js:2281
+msgid "System"
+msgstr ""
+
+#: appIcons.js:2286
+msgid "Device Management"
+msgstr ""
+
+#: appIcons.js:2291
+msgid "Disk Management"
+msgstr ""
+
+#: appIcons.js:2322
+msgid "Unlock taskbar"
+msgstr ""
+
+#: appIcons.js:2323
+msgid "Lock taskbar"
+msgstr ""
+
+#: appIcons.js:2333
+msgid "Gnome Settings"
+msgstr ""
+
+#: appIcons.js:2337
+msgid "Taskbar Settings"
+msgstr ""
+
+#: appIcons.js:2344
+msgid "Restore Windows"
+msgstr ""
+
+#: appIcons.js:2345
+msgid "Show Desktop"
+msgstr ""
+
+#: prefs.js:265
+msgid "Show Desktop button height (px)"
+msgstr ""
+
+#: prefs.js:266
+msgid "Show Desktop button width (px)"
+msgstr ""
+
+#: prefs.js:338 ui/SettingsStyle.ui:218 ui/SettingsPosition.ui:133
+msgid "Left"
+msgstr ""
+
+#: prefs.js:339
+msgid "Center"
+msgstr ""
+
+#: prefs.js:340 ui/SettingsStyle.ui:226 ui/SettingsPosition.ui:142
+msgid "Right"
+msgstr ""
+
+#: prefs.js:342 ui/SettingsStyle.ui:210 ui/SettingsPosition.ui:124
+#: ui/BoxWindowPreviewOptions.ui:334
+msgid "Top"
+msgstr ""
+
+#: prefs.js:343 prefs.js:348 ui/SettingsPosition.ui:198
+msgid "Middle"
+msgstr ""
+
+#: prefs.js:344 ui/SettingsStyle.ui:202 ui/SettingsPosition.ui:115
+#: ui/BoxWindowPreviewOptions.ui:325
+msgid "Bottom"
+msgstr ""
+
+#: prefs.js:347 ui/SettingsPosition.ui:197
+msgid "Start"
+msgstr ""
+
+#: prefs.js:349 ui/SettingsPosition.ui:199
+msgid "End"
+msgstr ""
+
+#: prefs.js:474
+msgid "Show Applications button"
+msgstr ""
+
+#: prefs.js:475
+msgid "Activities button"
+msgstr ""
+
+#: prefs.js:476
+msgid "Taskbar"
+msgstr ""
+
+#: prefs.js:477
+msgid "Date menu"
+msgstr ""
+
+#: prefs.js:478
+msgid "System menu"
+msgstr ""
+
+#: prefs.js:479
+msgid "Left box"
+msgstr ""
+
+#: prefs.js:480
+msgid "Center box"
+msgstr ""
+
+#: prefs.js:481
+msgid "Right box"
+msgstr ""
+
+#: prefs.js:482
+msgid "Desktop button"
+msgstr ""
+
+#: prefs.js:492 prefs.js:3047
+msgid "Move up"
+msgstr ""
+
+#: prefs.js:494 prefs.js:3055
+msgid "Move down"
+msgstr ""
+
+#: prefs.js:500
+msgid "Visible"
+msgstr ""
+
+#: prefs.js:504
+msgid "Select element position"
+msgstr ""
+
+#: prefs.js:518
+msgid "Stacked to top"
+msgstr ""
+
+#: prefs.js:518
+msgid "Stacked to left"
+msgstr ""
+
+#: prefs.js:522
+msgid "Stacked to bottom"
+msgstr ""
+
+#: prefs.js:522
+msgid "Stacked to right"
+msgstr ""
+
+#: prefs.js:524
+msgid "Centered"
+msgstr ""
+
+#: prefs.js:525
+msgid "Monitor Center"
+msgstr ""
+
+#: prefs.js:552
+msgid "More options"
+msgstr ""
+
+#: prefs.js:587
+msgid "Reset to defaults"
+msgstr ""
+
+#: prefs.js:610
+msgid "Show Applications options"
+msgstr ""
+
+#: prefs.js:671
+msgid "Open icon"
+msgstr ""
+
+#: prefs.js:689
+msgid "Show Desktop options"
+msgstr ""
+
+#: prefs.js:781
+msgid "Primary monitor"
+msgstr ""
+
+#: prefs.js:782
+msgid "Monitor "
+msgstr ""
+
+#: prefs.js:911
+msgid "Running Indicator Options"
+msgstr ""
+
+#: prefs.js:1447
+msgid "Dynamic opacity options"
+msgstr ""
+
+#: prefs.js:1871
+msgid "Intellihide options"
+msgstr ""
+
+#: prefs.js:2111
+msgid "Window preview options"
+msgstr ""
+
+#: prefs.js:2591
+msgid "Isolate Workspaces options"
+msgstr ""
+
+#: prefs.js:2627
+msgid "Isolate monitors options"
+msgstr ""
+
+#: prefs.js:2726
+msgid "Ungrouped application options"
+msgstr ""
+
+#: prefs.js:2893
+msgid "Customize middle-click behavior"
+msgstr ""
+
+#: prefs.js:3022
+msgid "Text"
+msgstr ""
+
+#: prefs.js:3031
+msgid "Command"
+msgstr ""
+
+#: prefs.js:3063
+msgid "Remove"
+msgstr ""
+
+#: prefs.js:3091
+msgid "Customize panel scroll behavior"
+msgstr ""
+
+#: prefs.js:3137
+msgid "Customize icon scroll behavior"
+msgstr ""
+
+#: prefs.js:3261
+msgid "Advanced hotkeys options"
+msgstr ""
+
+#: prefs.js:3289
+msgid "Secondary Menu Options"
+msgstr ""
+
+#: prefs.js:3489
+#, javascript-format
+msgid "%d ms"
+msgstr ""
+
+#: prefs.js:3495
+#, javascript-format
+msgid "%d °"
+msgstr ""
+
+#: prefs.js:3501 prefs.js:3507
+#, javascript-format
+msgid "%d %%"
+msgstr ""
+
+#: prefs.js:3513
+#, javascript-format
+msgid "%.1f"
+msgstr ""
+
+#: prefs.js:3519
+#, javascript-format
+msgid "%d icon"
+msgid_plural "%d icons"
+msgstr[0] ""
+msgstr[1] ""
+
+#: prefs.js:3646
+msgid "App icon animation options"
+msgstr ""
+
+#: prefs.js:3769
+msgid "App icon highlight options"
+msgstr ""
+
+#: prefs.js:3858
+msgid "Export settings"
+msgstr ""
+
+#: prefs.js:3880
+msgid "Import settings"
+msgstr ""
+
+#: panel.js:232
+msgid "Top Bar"
+msgstr ""
+
+#: ui/BoxHighlightAppIconHoverOptions.ui:26
+msgid "Highlight AppIcon color"
+msgstr ""
+
+#: ui/BoxHighlightAppIconHoverOptions.ui:38
+msgid "Pressed AppIcon color"
+msgstr ""
+
+#: ui/BoxHighlightAppIconHoverOptions.ui:50
+msgid "Highlight AppIcon border radius"
+msgstr ""
+
+#: ui/BoxHighlightAppIconHoverOptions.ui:51
+msgid "Overrides global border radius (default is 0)"
+msgstr ""
+
+#: ui/SettingsStyle.ui:73
+msgid "Style"
+msgstr ""
+
+#: ui/SettingsStyle.ui:76
+msgid "Global style"
+msgstr ""
+
+#: ui/SettingsStyle.ui:79
+msgid "Border radius"
+msgstr ""
+
+#: ui/SettingsStyle.ui:96
+msgid "AppIcon style"
+msgstr ""
+
+#: ui/SettingsStyle.ui:99
+msgid "(default is 8)"
+msgstr ""
+
+#: ui/SettingsStyle.ui:100
+msgid "App Icon Margin"
+msgstr ""
+
+#: ui/SettingsStyle.ui:115
+msgid "(default is 4)"
+msgstr ""
+
+#: ui/SettingsStyle.ui:116
+msgid "App Icon Padding"
+msgstr ""
+
+#: ui/SettingsStyle.ui:131
+msgid "Animate hovering app icons"
+msgstr ""
+
+#: ui/SettingsStyle.ui:155
+msgid "Highlight hovering app icons"
+msgstr ""
+
+#: ui/SettingsStyle.ui:179
+msgid "Icon style"
+msgstr ""
+
+#: ui/SettingsStyle.ui:184
+msgid "Normal"
+msgstr ""
+
+#: ui/SettingsStyle.ui:185
+msgid "Symbolic"
+msgstr ""
+
+#: ui/SettingsStyle.ui:186
+msgid "Grayscale"
+msgstr ""
+
+#: ui/SettingsStyle.ui:196
+msgid "Running indicator"
+msgstr ""
+
+#: ui/SettingsStyle.ui:199
+msgid "Running indicator position"
+msgstr ""
+
+#: ui/SettingsStyle.ui:235
+msgid "Running indicator style (Focused app)"
+msgstr ""
+
+#: ui/SettingsStyle.ui:253 ui/SettingsStyle.ui:272
+msgid "Dots"
+msgstr ""
+
+#: ui/SettingsStyle.ui:254 ui/SettingsStyle.ui:273
+msgid "Squares"
+msgstr ""
+
+#: ui/SettingsStyle.ui:255 ui/SettingsStyle.ui:274
+msgid "Dashes"
+msgstr ""
+
+#: ui/SettingsStyle.ui:256 ui/SettingsStyle.ui:275
+msgid "Segmented"
+msgstr ""
+
+#: ui/SettingsStyle.ui:257 ui/SettingsStyle.ui:276
+msgid "Solid"
+msgstr ""
+
+#: ui/SettingsStyle.ui:258 ui/SettingsStyle.ui:277
+msgid "Ciliora"
+msgstr ""
+
+#: ui/SettingsStyle.ui:259 ui/SettingsStyle.ui:278
+msgid "Metro"
+msgstr ""
+
+#: ui/SettingsStyle.ui:267
+msgid "Running indicator style (Unfocused apps)"
+msgstr ""
+
+#: ui/SettingsStyle.ui:288
+msgid "Panel style"
+msgstr ""
+
+#: ui/SettingsStyle.ui:291 ui/SettingsStyle.ui:307 ui/SettingsStyle.ui:323
+#: ui/SettingsStyle.ui:339
+msgid "(default is 0)"
+msgstr ""
+
+#: ui/SettingsStyle.ui:292
+msgid "Side margins"
+msgstr ""
+
+#: ui/SettingsStyle.ui:308
+msgid "Top and bottom margins"
+msgstr ""
+
+#: ui/SettingsStyle.ui:324
+msgid "Side padding"
+msgstr ""
+
+#: ui/SettingsStyle.ui:340
+msgid "Top and bottom padding"
+msgstr ""
+
+#: ui/SettingsStyle.ui:359
+msgid "Override panel theme background color"
+msgstr ""
+
+#: ui/SettingsStyle.ui:374
+msgid "Override panel theme background opacity"
+msgstr ""
+
+#: ui/SettingsStyle.ui:384
+msgid "Panel background opacity (%)"
+msgstr ""
+
+#: ui/SettingsStyle.ui:388 ui/SettingsStyle.ui:445 ui/SettingsStyle.ui:463
+#: ui/BoxShowApplicationsOptions.ui:64 ui/BoxDynamicOpacityOptions.ui:72
+#: ui/BoxWindowPreviewOptions.ui:472
+msgid "0"
+msgstr ""
+
+#: ui/SettingsStyle.ui:396
+msgid "Change opacity when a window gets close to the panel"
+msgstr ""
+
+#: ui/SettingsStyle.ui:397
+msgid "Dynamic background opacity"
+msgstr ""
+
+#: ui/SettingsStyle.ui:425
+msgid "Override panel theme gradient"
+msgstr ""
+
+#: ui/SettingsStyle.ui:435
+msgid "Gradient top color and opacity (%)"
+msgstr ""
+
+#: ui/SettingsStyle.ui:453
+msgid "Gradient bottom color and opacity (%)"
+msgstr ""
+
+#: ui/SettingsStyle.ui:477
+msgid "Panel border"
+msgstr ""
+
+#: ui/SettingsStyle.ui:487
+msgid "Override border color"
+msgstr ""
+
+#: ui/SettingsStyle.ui:504
+msgid "Border thickness"
+msgstr ""
+
+#: ui/SettingsStyle.ui:508 ui/BoxWindowPreviewOptions.ui:197
+#: ui/BoxWindowPreviewOptions.ui:238
+msgid "1"
+msgstr ""
+
+#: ui/SettingsAction.ui:8
+msgid "Action"
+msgstr ""
+
+#: ui/SettingsAction.ui:11 ui/SettingsAction.ui:15
+msgid "Click action"
+msgstr ""
+
+#: ui/SettingsAction.ui:14
+msgid "Behaviour when clicking on the icon of a running application."
+msgstr ""
+
+#: ui/SettingsAction.ui:34 ui/BoxMiddleClickOptions.ui:29
+#: ui/BoxMiddleClickOptions.ui:58 ui/BoxMiddleClickOptions.ui:87
+msgid "Cycle windows + minimize"
+msgstr ""
+
+#: ui/SettingsAction.ui:35 ui/BoxMiddleClickOptions.ui:28
+#: ui/BoxMiddleClickOptions.ui:57 ui/BoxMiddleClickOptions.ui:86
+msgid "Cycle through windows"
+msgstr ""
+
+#: ui/SettingsAction.ui:36 ui/BoxMiddleClickOptions.ui:30
+#: ui/BoxMiddleClickOptions.ui:59 ui/BoxMiddleClickOptions.ui:88
+msgid "Toggle single / Preview multiple"
+msgstr ""
+
+#: ui/SettingsAction.ui:37 ui/BoxMiddleClickOptions.ui:31
+#: ui/BoxMiddleClickOptions.ui:60 ui/BoxMiddleClickOptions.ui:89
+msgid "Toggle single / Cycle multiple"
+msgstr ""
+
+#: ui/SettingsAction.ui:38 ui/BoxMiddleClickOptions.ui:32
+#: ui/BoxMiddleClickOptions.ui:61 ui/BoxMiddleClickOptions.ui:90
+msgid "Toggle single / Spread multiple"
+msgstr ""
+
+#: ui/SettingsAction.ui:39
+msgid "Toggle windows"
+msgstr ""
+
+#: ui/SettingsAction.ui:40 ui/BoxMiddleClickOptions.ui:25
+#: ui/BoxMiddleClickOptions.ui:54 ui/BoxMiddleClickOptions.ui:83
+msgid "Raise windows"
+msgstr ""
+
+#: ui/SettingsAction.ui:41 ui/BoxMiddleClickOptions.ui:27
+#: ui/BoxMiddleClickOptions.ui:56 ui/BoxMiddleClickOptions.ui:85
+msgid "Launch new instance"
+msgstr ""
+
+#: ui/SettingsAction.ui:51
+msgid "Scroll action"
+msgstr ""
+
+#: ui/SettingsAction.ui:54
+msgid "Behavior when mouse scrolling over the panel."
+msgstr ""
+
+#: ui/SettingsAction.ui:55
+msgid "Scroll panel action"
+msgstr ""
+
+#: ui/SettingsAction.ui:79 ui/SettingsAction.ui:112
+msgid "Do nothing"
+msgstr ""
+
+#: ui/SettingsAction.ui:80
+msgid "Switch workspace"
+msgstr ""
+
+#: ui/SettingsAction.ui:81 ui/SettingsAction.ui:113
+msgid "Cycle windows"
+msgstr ""
+
+#: ui/SettingsAction.ui:82
+msgid "Change volume"
+msgstr ""
+
+#: ui/SettingsAction.ui:90
+msgid "Behavior when mouse scrolling over an application icon."
+msgstr ""
+
+#: ui/SettingsAction.ui:91
+msgid "Scroll icon action"
+msgstr ""
+
+#: ui/SettingsAction.ui:114
+msgid "Same as panel"
+msgstr ""
+
+#: ui/SettingsAction.ui:124
+msgid "Hotkey overlay"
+msgstr ""
+
+#: ui/SettingsAction.ui:127
+msgid ""
+"Enable Super+(0-9) as shortcuts to activate apps. It can also be used "
+"together with Shift and Ctrl."
+msgstr ""
+
+#: ui/SettingsAction.ui:128
+msgid "Use hotkeys to activate apps"
+msgstr ""
+
+#: ui/SettingsAction.ui:154
+msgid "Application icons context menu"
+msgstr ""
+
+#: ui/SettingsAction.ui:157
+msgid "(right-click menu)"
+msgstr ""
+
+#: ui/SettingsAction.ui:158
+msgid "Secondary menu"
+msgstr ""
+
+#: ui/SettingsAction.ui:179
+msgid "Panel context menu entries"
+msgstr ""
+
+#: ui/SettingsAction.ui:190
+msgid "Add entry"
+msgstr ""
+
+#: ui/BoxShowDesktopOptions.ui:53
+msgid "Override Show Desktop line color"
+msgstr ""
+
+#: ui/BoxShowDesktopOptions.ui:77
+msgid "Reveal the desktop when hovering the Show Desktop button"
+msgstr ""
+
+#: ui/BoxShowDesktopOptions.ui:90
+msgid "Delay before revealing the desktop (ms)"
+msgstr ""
+
+#: ui/BoxShowDesktopOptions.ui:106
+msgid "Fade duration (ms)"
+msgstr ""
+
+#: ui/BoxIntellihideOptions.ui:53
+msgid "Only hide the panel from windows"
+msgstr ""
+
+#: ui/BoxIntellihideOptions.ui:64
+msgid "Overlapping"
+msgstr ""
+
+#: ui/BoxIntellihideOptions.ui:80
+msgid "On same monitor"
+msgstr ""
+
+#: ui/BoxIntellihideOptions.ui:91
+msgid "The panel hides from"
+msgstr ""
+
+#: ui/BoxIntellihideOptions.ui:96 ui/BoxDynamicOpacityOptions.ui:42
+msgid "All windows"
+msgstr ""
+
+#: ui/BoxIntellihideOptions.ui:97 ui/BoxDynamicOpacityOptions.ui:43
+msgid "Focused windows"
+msgstr ""
+
+#: ui/BoxIntellihideOptions.ui:98 ui/BoxDynamicOpacityOptions.ui:44
+msgid "Maximized windows"
+msgstr ""
+
+#: ui/BoxIntellihideOptions.ui:110
+msgid "Touching the monitor's edge with the pointer reveals the panel"
+msgstr ""
+
+#: ui/BoxIntellihideOptions.ui:126 ui/BoxIntellihideOptions.ui:153
+msgid "Limit to panel length"
+msgstr ""
+
+#: ui/BoxIntellihideOptions.ui:137
+msgid "Hovering the panel area keeps the panel revealed"
+msgstr ""
+
+#: ui/BoxIntellihideOptions.ui:164
+msgid "Require pressure at the edge of the monitor to reveal the panel"
+msgstr ""
+
+#: ui/BoxIntellihideOptions.ui:174
+msgid "Required pressure threshold (px)"
+msgstr ""
+
+#: ui/BoxIntellihideOptions.ui:188
+msgid "Required pressure timeout (ms)"
+msgstr ""
+
+#: ui/BoxIntellihideOptions.ui:206
+msgid "Allow the panel to be revealed while in fullscreen mode"
+msgstr ""
+
+#: ui/BoxIntellihideOptions.ui:216
+msgid "(requires multi-monitors option)"
+msgstr ""
+
+#: ui/BoxIntellihideOptions.ui:217
+msgid "Only hide secondary panels"
+msgstr ""
+
+#: ui/BoxIntellihideOptions.ui:227 ui/BoxOverlayShortcut.ui:65
+msgid "Syntax: &lt;Shift&gt;, &lt;Ctrl&gt;, &lt;Alt&gt;, &lt;Super&gt;"
+msgstr ""
+
+#: ui/BoxIntellihideOptions.ui:228
+msgid "Keyboard shortcut to reveal and hold the panel"
+msgstr ""
+
+#: ui/BoxIntellihideOptions.ui:231
+msgid "e.g. <Super>i"
+msgstr ""
+
+#: ui/BoxIntellihideOptions.ui:240
+msgid "Persist state across restarts"
+msgstr ""
+
+#: ui/BoxIntellihideOptions.ui:250
+msgid ""
+"(respects Gnome \"Do Not Disturb\" and requires show notification counter "
+"badge option)"
+msgstr ""
+
+#: ui/BoxIntellihideOptions.ui:251
+msgid "Reveal and hold the panel on notification"
+msgstr ""
+
+#: ui/BoxIntellihideOptions.ui:265
+msgid "Hide and reveal animation duration (ms)"
+msgstr ""
+
+#: ui/BoxIntellihideOptions.ui:279
+msgid "Delay before hiding the panel (ms)"
+msgstr ""
+
+#: ui/BoxIntellihideOptions.ui:294
+msgid "Delay before revealing the panel (ms)"
+msgstr ""
+
+#: ui/BoxIntellihideOptions.ui:309
+msgid "Delay before enabling intellihide on start (ms)"
+msgstr ""
+
+#: ui/BoxScrollPanelOptions.ui:25 ui/BoxScrollIconOptions.ui:25
+msgid "Delay between mouse scroll events (ms)"
+msgstr ""
+
+#: ui/BoxScrollPanelOptions.ui:26 ui/BoxScrollIconOptions.ui:26
+msgid "Use this value to limit the number of captured mouse scroll events."
+msgstr ""
+
+#: ui/BoxScrollPanelOptions.ui:42
+msgid "Show popup when changing workspace"
+msgstr ""
+
+#: ui/BoxScrollPanelOptions.ui:43
+msgid "This affects workspace popup when scrolling on the panel only."
+msgstr ""
+
+#: ui/SettingsBehavior.ui:7
+msgid "Behavior"
+msgstr ""
+
+#: ui/SettingsBehavior.ui:10
+msgid "Applications"
+msgstr ""
+
+#: ui/SettingsBehavior.ui:13
+msgid "Show favorite applications"
+msgstr ""
+
+#: ui/SettingsBehavior.ui:23
+msgid "Show favorite applications on secondary panels"
+msgstr ""
+
+#: ui/SettingsBehavior.ui:33
+msgid "Show running applications"
+msgstr ""
+
+#: ui/SettingsBehavior.ui:43
+msgid "Ungroup applications"
+msgstr ""
+
+#: ui/SettingsBehavior.ui:67
+msgid "Show notification counter badge"
+msgstr ""
+
+#: ui/SettingsBehavior.ui:81
+msgid "Hover"
+msgstr ""
+
+#: ui/SettingsBehavior.ui:84
+msgid "Show window previews on hover"
+msgstr ""
+
+#: ui/SettingsBehavior.ui:108
+msgid "Show tooltip on hover"
+msgstr ""
+
+#: ui/SettingsBehavior.ui:120
+msgid "Isolate"
+msgstr ""
+
+#: ui/SettingsBehavior.ui:123
+msgid "Isolate Workspaces"
+msgstr ""
+
+#: ui/SettingsBehavior.ui:147
+msgid "Isolate monitors"
+msgstr ""
+
+#: ui/SettingsBehavior.ui:173
+msgid "Overview"
+msgstr ""
+
+#: ui/SettingsBehavior.ui:176
+msgid "Click empty space to close overview"
+msgstr ""
+
+#: ui/SettingsBehavior.ui:186
+msgid "Disable show overview on startup"
+msgstr ""
+
+#: ui/BoxMiddleClickOptions.ui:19
+msgid "Shift+Click action"
+msgstr ""
+
+#: ui/BoxMiddleClickOptions.ui:20
+msgid ""
+"When set to minimize, double clicking minimizes all the windows of the "
+"application."
+msgstr ""
+
+#: ui/BoxMiddleClickOptions.ui:26 ui/BoxMiddleClickOptions.ui:55
+#: ui/BoxMiddleClickOptions.ui:84
+msgid "Minimize window"
+msgstr ""
+
+#: ui/BoxMiddleClickOptions.ui:48
+msgid "Middle-Click action"
+msgstr ""
+
+#: ui/BoxMiddleClickOptions.ui:49
+msgid "Behavior for Middle-Click."
+msgstr ""
+
+#: ui/BoxMiddleClickOptions.ui:77
+msgid "Shift+Middle-Click action"
+msgstr ""
+
+#: ui/BoxMiddleClickOptions.ui:78
+msgid "Behavior for Shift+Middle-Click."
+msgstr ""
+
+#: ui/BoxSecondaryMenuOptions.ui:19
+msgid "Integrate <i>AppMenu</i> items"
+msgstr ""
+
+#: ui/BoxSecondaryMenuOptions.ui:30
+msgid "<i>App Details</i> menu item"
+msgstr ""
+
+#: ui/BoxSecondaryMenuOptions.ui:31
+msgid "<i>App Details</i> is only available when Gnome Software is installed"
+msgstr ""
+
+#: ui/BoxDotOptions.ui:37
+msgid "Highlight focused application"
+msgstr ""
+
+#: ui/BoxDotOptions.ui:54
+msgid "Icon dominant color"
+msgstr ""
+
+#: ui/BoxDotOptions.ui:65
+msgid "Custom color"
+msgstr ""
+
+#: ui/BoxDotOptions.ui:76
+msgid "Highlight opacity"
+msgstr ""
+
+#: ui/BoxDotOptions.ui:96
+msgid "Indicator size (px)"
+msgstr ""
+
+#: ui/BoxDotOptions.ui:109
+msgid "Indicator color - Icon Dominant"
+msgstr ""
+
+#: ui/BoxDotOptions.ui:126
+msgid "Indicator color - Override Theme"
+msgstr ""
+
+#: ui/BoxDotOptions.ui:142 ui/BoxDotOptions.ui:215
+msgid "1 window open (or ungrouped)"
+msgstr ""
+
+#: ui/BoxDotOptions.ui:146 ui/BoxDotOptions.ui:219
+msgid "Apply to all"
+msgstr ""
+
+#: ui/BoxDotOptions.ui:159 ui/BoxDotOptions.ui:232
+msgid "2 windows open"
+msgstr ""
+
+#: ui/BoxDotOptions.ui:170 ui/BoxDotOptions.ui:243
+msgid "3 windows open"
+msgstr ""
+
+#: ui/BoxDotOptions.ui:181 ui/BoxDotOptions.ui:254
+msgid "4+ windows open"
+msgstr ""
+
+#: ui/BoxDotOptions.ui:198
+msgid "Use different for unfocused"
+msgstr ""
+
+#: ui/SettingsFineTune.ui:38
+msgid "Fine-Tune"
+msgstr ""
+
+#: ui/SettingsFineTune.ui:41
+msgid "Font size"
+msgstr ""
+
+#: ui/SettingsFineTune.ui:44 ui/SettingsFineTune.ui:60
+msgid "(0 = theme default)"
+msgstr ""
+
+#: ui/SettingsFineTune.ui:45
+msgid "Tray Font Size"
+msgstr ""
+
+#: ui/SettingsFineTune.ui:61
+msgid "LeftBox Font Size"
+msgstr ""
+
+#: ui/SettingsFineTune.ui:78
+msgid "Padding"
+msgstr ""
+
+#: ui/SettingsFineTune.ui:81 ui/SettingsFineTune.ui:97
+#: ui/SettingsFineTune.ui:113
+msgid "(-1 = theme default)"
+msgstr ""
+
+#: ui/SettingsFineTune.ui:82
+msgid "Tray Item Padding"
+msgstr ""
+
+#: ui/SettingsFineTune.ui:98
+msgid "Status Icon Padding"
+msgstr ""
+
+#: ui/SettingsFineTune.ui:114
+msgid "LeftBox Padding"
+msgstr ""
+
+#: ui/SettingsFineTune.ui:131
+msgid "Animate"
+msgstr ""
+
+#: ui/SettingsFineTune.ui:134
+msgid "Animate switching applications"
+msgstr ""
+
+#: ui/SettingsFineTune.ui:144
+msgid "Animate launching new windows"
+msgstr ""
+
+#: ui/SettingsFineTune.ui:156
+msgid "Gnome functionality"
+msgstr ""
+
+#: ui/SettingsFineTune.ui:159
+msgid "(overview)"
+msgstr ""
+
+#: ui/SettingsFineTune.ui:160
+msgid "Keep original gnome-shell dash"
+msgstr ""
+
+#: ui/SettingsFineTune.ui:170
+msgid "Keep original gnome-shell top panel"
+msgstr ""
+
+#: ui/SettingsFineTune.ui:180
+msgid "(e.g. date menu)"
+msgstr ""
+
+#: ui/SettingsFineTune.ui:181
+msgid "Activate panel menu buttons on click only"
+msgstr ""
+
+#: ui/SettingsFineTune.ui:191
+msgid "Force Activities hot corner on primary monitor"
+msgstr ""
+
+#: ui/BoxOverlayShortcut.ui:23
+msgid "Hotkeys will either be Super+Number or Super+Alt+Num"
+msgstr ""
+
+#: ui/BoxOverlayShortcut.ui:24
+msgid "Hotkeys prefix"
+msgstr ""
+
+#: ui/BoxOverlayShortcut.ui:29
+msgid "Super"
+msgstr ""
+
+#: ui/BoxOverlayShortcut.ui:30
+msgid "Super + Alt"
+msgstr ""
+
+#: ui/BoxOverlayShortcut.ui:38
+msgid ""
+"Temporarily show the application numbers over the icons when using the "
+"hotkeys."
+msgstr ""
+
+#: ui/BoxOverlayShortcut.ui:39
+msgid "Number overlay"
+msgstr ""
+
+#: ui/BoxOverlayShortcut.ui:44
+msgid "Never"
+msgstr ""
+
+#: ui/BoxOverlayShortcut.ui:45
+msgid "Show temporarily"
+msgstr ""
+
+#: ui/BoxOverlayShortcut.ui:46
+msgid "Always visible"
+msgstr ""
+
+#: ui/BoxOverlayShortcut.ui:54
+msgid "Hide timeout (ms)"
+msgstr ""
+
+#: ui/BoxOverlayShortcut.ui:66
+msgid "Shortcut to show the overlay for 2 seconds"
+msgstr ""
+
+#: ui/BoxOverlayShortcut.ui:69
+msgid "e.g. <Super>q"
+msgstr ""
+
+#: ui/BoxOverlayShortcut.ui:78
+msgid ""
+"On secondary monitors, show the overlay on icons matching the primary monitor"
+msgstr ""
+
+#: ui/BoxOverlayShortcut.ui:79
+msgid "Show the overlay on all monitors"
+msgstr ""
+
+#: ui/BoxOverlayShortcut.ui:89
+msgid "Show previews when the application have multiple instances"
+msgstr ""
+
+#: ui/BoxOverlayShortcut.ui:90
+msgid "Show window previews on hotkey"
+msgstr ""
+
+#: ui/BoxOverlayShortcut.ui:100
+msgid "Select which keyboard number keys are used to activate the hotkeys"
+msgstr ""
+
+#: ui/BoxOverlayShortcut.ui:101
+msgid "Hotkeys are activated with"
+msgstr ""
+
+#: ui/BoxOverlayShortcut.ui:106
+msgid "Number row"
+msgstr ""
+
+#: ui/BoxOverlayShortcut.ui:107
+msgid "Numeric keypad"
+msgstr ""
+
+#: ui/BoxOverlayShortcut.ui:108
+msgid "Both"
+msgstr ""
+
+#: ui/BoxIsolateMonitorsOptions.ui:21
+msgid "Isolate monitors even when using a single panel"
+msgstr ""
+
+#: ui/BoxAnimateAppIconHoverOptions.ui:62
+msgid "Animation type"
+msgstr ""
+
+#: ui/BoxAnimateAppIconHoverOptions.ui:67
+msgid "Simple"
+msgstr ""
+
+#: ui/BoxAnimateAppIconHoverOptions.ui:68
+msgid "Ripple"
+msgstr ""
+
+#: ui/BoxAnimateAppIconHoverOptions.ui:69
+msgid "Plank"
+msgstr ""
+
+#: ui/BoxAnimateAppIconHoverOptions.ui:84
+msgid "Duration"
+msgstr ""
+
+#: ui/BoxAnimateAppIconHoverOptions.ui:101
+msgid "Rotation"
+msgstr ""
+
+#: ui/BoxAnimateAppIconHoverOptions.ui:118
+msgid "Travel"
+msgstr ""
+
+#: ui/BoxAnimateAppIconHoverOptions.ui:135
+msgid "Zoom"
+msgstr ""
+
+#: ui/BoxAnimateAppIconHoverOptions.ui:152
+msgid "Convexity"
+msgstr ""
+
+#: ui/BoxAnimateAppIconHoverOptions.ui:169
+msgid "Extent"
+msgstr ""
+
+#: ui/BoxShowApplicationsOptions.ui:25
+msgid "Show Applications icon"
+msgstr ""
+
+#: ui/BoxShowApplicationsOptions.ui:60
+msgid "Show Applications icon side padding (px)"
+msgstr ""
+
+#: ui/BoxShowApplicationsOptions.ui:73
+msgid "Override escape key and return to desktop"
+msgstr ""
+
+#: ui/SettingsAbout.ui:8
+msgid "About"
+msgstr ""
+
+#: ui/SettingsAbout.ui:11
+msgid "Info"
+msgstr ""
+
+#: ui/SettingsAbout.ui:14
+msgid "Version"
+msgstr ""
+
+#: ui/SettingsAbout.ui:22
+msgid "Source"
+msgstr ""
+
+#: ui/SettingsAbout.ui:26
+msgid "GitHub"
+msgstr ""
+
+#: ui/SettingsAbout.ui:37
+msgid "Export and Import"
+msgstr ""
+
+#: ui/SettingsAbout.ui:40
+msgid ""
+"Use the buttons below to create a settings file from your current "
+"preferences that can be imported on a different machine."
+msgstr ""
+
+#: ui/SettingsAbout.ui:41
+msgid "Export and import settings"
+msgstr ""
+
+#: ui/SettingsAbout.ui:56
+msgid "Export to file"
+msgstr ""
+
+#: ui/SettingsAbout.ui:62
+msgid "Import from file"
+msgstr ""
+
+#: ui/SettingsAbout.ui:77
+msgid ""
+"<span size=\"small\">This program comes with ABSOLUTELY NO WARRANTY.\n"
+"See the <a href=\"https://www.gnu.org/licenses/old-licenses/"
+"gpl-2.0.html\">GNU General Public License, version 2 or later</a> for "
+"details.</span>"
+msgstr ""
+
+#: ui/SettingsAbout.ui:96
+msgid "Sponsored and originally developed by"
+msgstr ""
+
+#: ui/BoxGroupAppsOptions.ui:32
+msgid "Font size (px) of the application titles (default is 14)"
+msgstr ""
+
+#: ui/BoxGroupAppsOptions.ui:47
+msgid "Font weight of application titles"
+msgstr ""
+
+#: ui/BoxGroupAppsOptions.ui:52 ui/BoxWindowPreviewOptions.ui:406
+msgid "inherit from theme"
+msgstr ""
+
+#: ui/BoxGroupAppsOptions.ui:53 ui/BoxWindowPreviewOptions.ui:407
+msgid "normal"
+msgstr ""
+
+#: ui/BoxGroupAppsOptions.ui:54 ui/BoxWindowPreviewOptions.ui:408
+msgid "lighter"
+msgstr ""
+
+#: ui/BoxGroupAppsOptions.ui:55 ui/BoxWindowPreviewOptions.ui:409
+msgid "bold"
+msgstr ""
+
+#: ui/BoxGroupAppsOptions.ui:56 ui/BoxWindowPreviewOptions.ui:410
+msgid "bolder"
+msgstr ""
+
+#: ui/BoxGroupAppsOptions.ui:65
+msgid "Font color of the application titles"
+msgstr ""
+
+#: ui/BoxGroupAppsOptions.ui:77
+msgid "Font color of the minimized application titles"
+msgstr ""
+
+#: ui/BoxGroupAppsOptions.ui:95
+msgid "Maximum width (px) of the application titles"
+msgstr ""
+
+#: ui/BoxGroupAppsOptions.ui:96
+msgid "(default is 160)"
+msgstr ""
+
+#: ui/BoxGroupAppsOptions.ui:111
+msgid "Use a fixed width for the application titles"
+msgstr ""
+
+#: ui/BoxGroupAppsOptions.ui:112
+msgid ""
+"The application titles all have the same width, even if their texts are "
+"shorter than the maximum width. The maximum width value is used as the fixed "
+"width."
+msgstr ""
+
+#: ui/BoxGroupAppsOptions.ui:129
+msgid "Display running indicators on unfocused applications"
+msgstr ""
+
+#: ui/BoxGroupAppsOptions.ui:140
+msgid "Use the favorite icons as application launchers"
+msgstr ""
+
+#: ui/BoxIsolateWorkspacesOptions.ui:22
+msgid "Isolate workspaces in gnome-shell Application Switcher"
+msgstr ""
+
+#: ui/BoxDynamicOpacityOptions.ui:37
+msgid "The panel background opacity is affected by"
+msgstr ""
+
+#: ui/BoxDynamicOpacityOptions.ui:53
+msgid "Change opacity when a window gets closer than (px)"
+msgstr ""
+
+#: ui/BoxDynamicOpacityOptions.ui:69
+msgid "Change opacity to (%)"
+msgstr ""
+
+#: ui/BoxDynamicOpacityOptions.ui:82
+msgid "Opacity change animation duration (ms)"
+msgstr ""
+
+#: ui/SettingsPosition.ui:19
+msgid "Position"
+msgstr ""
+
+#: ui/SettingsPosition.ui:22
+msgid "Panel"
+msgstr ""
+
+#: ui/SettingsPosition.ui:25
+msgid "Display the main panel on"
+msgstr ""
+
+#: ui/SettingsPosition.ui:35
+msgid "Display panels on all monitors"
+msgstr ""
+
+#: ui/SettingsPosition.ui:49
+msgid "Hide and reveal the panel according to preferences"
+msgstr ""
+
+#: ui/SettingsPosition.ui:50
+msgid "Panel Intellihide"
+msgstr ""
+
+#: ui/SettingsPosition.ui:76
+msgid "Order and Position on monitors"
+msgstr ""
+
+#: ui/SettingsPosition.ui:79
+msgid "Monitor"
+msgstr ""
+
+#: ui/SettingsPosition.ui:90
+msgid "Apply changes to all monitors"
+msgstr ""
+
+#: ui/SettingsPosition.ui:111
+msgid "Panel monitor position"
+msgstr ""
+
+#: ui/SettingsPosition.ui:152
+msgid "(default is 48)"
+msgstr ""
+
+#: ui/SettingsPosition.ui:153
+msgid "Panel thickness"
+msgstr ""
+
+#: ui/SettingsPosition.ui:168
+msgid "(default is 100)"
+msgstr ""
+
+#: ui/SettingsPosition.ui:169
+msgid "Panel length"
+msgstr ""
+
+#: ui/SettingsPosition.ui:174
+msgid "Dynamic"
+msgstr ""
+
+#: ui/SettingsPosition.ui:192
+msgid "Anchor"
+msgstr ""
+
+#: ui/SettingsPosition.ui:211
+msgid "Taskbar Display"
+msgstr ""
+
+#: ui/BoxWindowPreviewOptions.ui:89
+msgid "Time (ms) before showing"
+msgstr ""
+
+#: ui/BoxWindowPreviewOptions.ui:90
+msgid "(400 is default)"
+msgstr ""
+
+#: ui/BoxWindowPreviewOptions.ui:105
+msgid "Time (ms) before hiding"
+msgstr ""
+
+#: ui/BoxWindowPreviewOptions.ui:106
+msgid "(100 is default)"
+msgstr ""
+
+#: ui/BoxWindowPreviewOptions.ui:117
+msgid "Immediate on application icon click"
+msgstr ""
+
+#: ui/BoxWindowPreviewOptions.ui:138
+msgid "Animation time (ms)"
+msgstr ""
+
+#: ui/BoxWindowPreviewOptions.ui:159
+msgid "Middle click on the preview to close the window"
+msgstr ""
+
+#: ui/BoxWindowPreviewOptions.ui:176
+msgid "Window previews preferred size (px)"
+msgstr ""
+
+#: ui/BoxWindowPreviewOptions.ui:192
+msgid "Window previews aspect ratio X (width)"
+msgstr ""
+
+#: ui/BoxWindowPreviewOptions.ui:198 ui/BoxWindowPreviewOptions.ui:239
+msgid "2"
+msgstr ""
+
+#: ui/BoxWindowPreviewOptions.ui:199 ui/BoxWindowPreviewOptions.ui:240
+msgid "3"
+msgstr ""
+
+#: ui/BoxWindowPreviewOptions.ui:200 ui/BoxWindowPreviewOptions.ui:241
+msgid "4"
+msgstr ""
+
+#: ui/BoxWindowPreviewOptions.ui:201 ui/BoxWindowPreviewOptions.ui:242
+#: ui/BoxWindowPreviewOptions.ui:306
+msgid "5"
+msgstr ""
+
+#: ui/BoxWindowPreviewOptions.ui:202 ui/BoxWindowPreviewOptions.ui:243
+msgid "6"
+msgstr ""
+
+#: ui/BoxWindowPreviewOptions.ui:203 ui/BoxWindowPreviewOptions.ui:244
+msgid "7"
+msgstr ""
+
+#: ui/BoxWindowPreviewOptions.ui:204 ui/BoxWindowPreviewOptions.ui:245
+msgid "8"
+msgstr ""
+
+#: ui/BoxWindowPreviewOptions.ui:205 ui/BoxWindowPreviewOptions.ui:246
+msgid "9"
+msgstr ""
+
+#: ui/BoxWindowPreviewOptions.ui:206 ui/BoxWindowPreviewOptions.ui:247
+msgid "10"
+msgstr ""
+
+#: ui/BoxWindowPreviewOptions.ui:207 ui/BoxWindowPreviewOptions.ui:248
+msgid "11"
+msgstr ""
+
+#: ui/BoxWindowPreviewOptions.ui:208 ui/BoxWindowPreviewOptions.ui:249
+msgid "12"
+msgstr ""
+
+#: ui/BoxWindowPreviewOptions.ui:209 ui/BoxWindowPreviewOptions.ui:250
+msgid "13"
+msgstr ""
+
+#: ui/BoxWindowPreviewOptions.ui:210 ui/BoxWindowPreviewOptions.ui:251
+msgid "14"
+msgstr ""
+
+#: ui/BoxWindowPreviewOptions.ui:211 ui/BoxWindowPreviewOptions.ui:252
+msgid "15"
+msgstr ""
+
+#: ui/BoxWindowPreviewOptions.ui:212 ui/BoxWindowPreviewOptions.ui:253
+msgid "16"
+msgstr ""
+
+#: ui/BoxWindowPreviewOptions.ui:213 ui/BoxWindowPreviewOptions.ui:254
+msgid "17"
+msgstr ""
+
+#: ui/BoxWindowPreviewOptions.ui:214 ui/BoxWindowPreviewOptions.ui:255
+msgid "18"
+msgstr ""
+
+#: ui/BoxWindowPreviewOptions.ui:215 ui/BoxWindowPreviewOptions.ui:256
+msgid "19"
+msgstr ""
+
+#: ui/BoxWindowPreviewOptions.ui:216 ui/BoxWindowPreviewOptions.ui:257
+msgid "20"
+msgstr ""
+
+#: ui/BoxWindowPreviewOptions.ui:217 ui/BoxWindowPreviewOptions.ui:258
+msgid "21"
+msgstr ""
+
+#: ui/BoxWindowPreviewOptions.ui:223 ui/BoxWindowPreviewOptions.ui:264
+msgid "Fixed"
+msgstr ""
+
+#: ui/BoxWindowPreviewOptions.ui:233
+msgid "Window previews aspect ratio Y (height)"
+msgstr ""
+
+#: ui/BoxWindowPreviewOptions.ui:274
+msgid "Window previews padding (px)"
+msgstr ""
+
+#: ui/BoxWindowPreviewOptions.ui:296
+msgid "Use custom opacity for the previews background"
+msgstr ""
+
+#: ui/BoxWindowPreviewOptions.ui:297
+msgid ""
+"If disabled, the previews background have the same opacity as the panel."
+msgstr ""
+
+#: ui/BoxWindowPreviewOptions.ui:322
+msgid "Close button and header position"
+msgstr ""
+
+#: ui/BoxWindowPreviewOptions.ui:352
+msgid "Display window preview headers"
+msgstr ""
+
+#: ui/BoxWindowPreviewOptions.ui:363
+msgid "Icon size (px) of the window preview"
+msgstr ""
+
+#: ui/BoxWindowPreviewOptions.ui:364
+msgid "If disabled, the previews icon size will be based on headerbar size"
+msgstr ""
+
+#: ui/BoxWindowPreviewOptions.ui:385
+msgid "Font size (px) of the preview titles"
+msgstr ""
+
+#: ui/BoxWindowPreviewOptions.ui:401
+msgid "Font weight of the preview titles"
+msgstr ""
+
+#: ui/BoxWindowPreviewOptions.ui:419
+msgid "Font color of the preview titles"
+msgstr ""
+
+#: ui/BoxWindowPreviewOptions.ui:437
+msgid "Enable window peeking"
+msgstr ""
+
+#: ui/BoxWindowPreviewOptions.ui:438
+msgid ""
+"When hovering over a window preview for some time, the window gets "
+"distinguished."
+msgstr ""
+
+#: ui/BoxWindowPreviewOptions.ui:449
+msgid "Enter window peeking mode timeout (ms)"
+msgstr ""
+
+#: ui/BoxWindowPreviewOptions.ui:450
+msgid ""
+"Time of inactivity while hovering over a window preview needed to enter the "
+"window peeking mode."
+msgstr ""
+
+#: ui/BoxWindowPreviewOptions.ui:455
+msgid "50"
+msgstr ""
+
+#: ui/BoxWindowPreviewOptions.ui:466
+msgid "Window peeking mode opacity"
+msgstr ""
+
+#: ui/BoxWindowPreviewOptions.ui:467
+msgid ""
+"All windows except for the peeked one have their opacity set to the same "
+"value."
+msgstr ""
