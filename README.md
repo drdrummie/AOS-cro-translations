@@ -99,6 +99,74 @@ bash scripts/translate.sh check control-panel
 bash scripts/translate.sh build control-panel
 ```
 
+Extension components can use `extensions/<package>/` as their package
+directory. Once a catalog has been added, it can be checked with, for example,
+`bash scripts/translate.sh check extensions/arcmenu`. The generated `build/`
+directory is ignored there as well. This does not add extension catalogs to
+the system installer.
+
+## GNOME Shell extensions
+
+On the inspected AnduinOS 2.0.6 installation, ArcMenu, Dash to Panel,
+Blur my Shell, SimpleWeather and Network Stats are system-installed GNOME Shell
+extensions. ArcMenu, Dash to Panel and Blur my Shell are enabled in the
+distribution defaults; SimpleWeather and Network Stats are not listed there.
+Individual users can enable or install additional extensions.
+
+| Extension | UUID | Gettext domain |
+| --- | --- | --- |
+| ArcMenu | `arcmenu@arcmenu.com` | `arcmenu` |
+| Dash to Panel | `dash-to-panel@jderose9.github.com` | `dash-to-panel` |
+| Blur my Shell | `blur-my-shell@aunetx` | `blur-my-shell@aunetx` |
+| SimpleWeather | `simple-weather@romanlefler.com` | `simple-weather@romanlefler.com` |
+| Network Stats | `network-stats@gnome.noroadsleft.xyz` | `network-stats` |
+
+These installed extensions have their own `locale/` directories, which GNOME
+Shell binds as their gettext locations. The inspected Blur my Shell version
+already includes a Croatian catalog; the other four do not. Catalogs in this
+repository are not automatically used by GNOME Shell. In particular, the
+application deployment instructions below do not apply to extensions.
+
+System extension directories belong to distribution packages and require
+administrator privileges to modify. The absence of a Croatian catalog in one
+installed version does not guarantee that a later package update will not
+provide or replace it. A system installation must check each destination and
+avoid overwriting an existing catalog without explicit approval. The inspected
+session uses `LANGUAGE=hr:en_US:en`, so the `hr` locale directory is relevant.
+Shell and extension preference processes may need restarting to pick up a new
+catalog.
+
+### Blur my Shell catalog
+
+`extensions/blur-my-shell/` contains a template extracted from the installed
+version 78 JavaScript and embedded UI resources, and a Croatian PO merged from
+the upstream Croatian catalog. Existing translations were reviewed and the
+remaining messages translated. Compare the template with the installed
+extension again after upgrades.
+
+```bash
+bash scripts/translate.sh check extensions/blur-my-shell
+bash scripts/translate.sh build extensions/blur-my-shell
+```
+
+The component's `deploy.sh` is for user-local testing:
+
+```bash
+bash extensions/blur-my-shell/deploy.sh
+# Log out and back in.
+bash extensions/blur-my-shell/blur-my-shell.sh
+```
+
+Deployment validates and builds the catalog. It
+copies the system extension into the user's GNOME Shell extension directory,
+adds the compiled `hr` and `hr_HR` catalogs to that copy, and refuses to
+overwrite an existing user extension. It does not modify the system extension.
+The copy may shadow later system updates and must be maintained separately.
+Log out and back in before using `blur-my-shell.sh` to open its preferences;
+the launcher checks that GNOME Shell is actually using the user-local copy.
+The preferences use the desktop session's language settings. Neither script is
+run by building the catalog.
+
 ## Testing Control Panel
 
 Deploy the current catalog to your user account, then launch the installed

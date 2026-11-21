@@ -1,0 +1,1521 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the blur-my-shell@aunetx package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: blur-my-shell@aunetx\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-11-21 18:29+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: effects/blur/info.js:7
+msgid "Dual Kawase blur"
+msgstr ""
+
+#: effects/blur/info.js:8
+msgid "A fast, high-quality blur."
+msgstr ""
+
+#: effects/blur/info.js:11
+msgid "Radius"
+msgstr ""
+
+#: effects/blur/info.js:12
+msgid "The intensity of the blur effect."
+msgstr ""
+
+#: effects/blur/info.js:21 effects/wave/info.js:77
+msgid "Brightness"
+msgstr ""
+
+#: effects/blur/info.js:22
+msgid ""
+"The brightness of the blur effect, a high value might make the text harder "
+"to read."
+msgstr ""
+
+#: effects/color/info.js:10 effects/color/info.js:15 effects/color/info.js:41
+#: effects/effect_groups.js:11 effects/texture/info.js:51
+msgid "Color"
+msgstr ""
+
+#: effects/color/info.js:11
+msgid "An effect that blends a color into the pipeline."
+msgstr ""
+
+#: effects/color/info.js:16
+msgid ""
+"The color to blend in. The blending amount is controlled by the opacity of "
+"the color."
+msgstr ""
+
+#: effects/color/info.js:21 effects/texture/info.js:31
+msgid "Blend mode"
+msgstr ""
+
+#: effects/color/info.js:22
+msgid "How the color is blended in."
+msgstr ""
+
+#: effects/color/info.js:25 effects/texture/info.js:35
+msgid "Normal"
+msgstr ""
+
+#: effects/color/info.js:26 effects/texture/info.js:36
+msgid "Multiply"
+msgstr ""
+
+#: effects/color/info.js:27 effects/texture/info.js:37
+msgid "Screen"
+msgstr ""
+
+#: effects/color/info.js:28 effects/texture/info.js:38
+msgid "Overlay"
+msgstr ""
+
+#: effects/color/info.js:29 effects/texture/info.js:39
+msgid "Darken"
+msgstr ""
+
+#: effects/color/info.js:30 effects/texture/info.js:40
+msgid "Lighten"
+msgstr ""
+
+#: effects/color/info.js:31 effects/texture/info.js:41
+msgid "Plus darker"
+msgstr ""
+
+#: effects/color/info.js:32 effects/texture/info.js:42
+msgid "Plus lighter"
+msgstr ""
+
+#: effects/color/info.js:33 effects/texture/info.js:43
+msgid "Color dodge"
+msgstr ""
+
+#: effects/color/info.js:34 effects/texture/info.js:44
+msgid "Color burn"
+msgstr ""
+
+#: effects/color/info.js:35 effects/texture/info.js:45
+msgid "Hard light"
+msgstr ""
+
+#: effects/color/info.js:36 effects/texture/info.js:46
+msgid "Soft light"
+msgstr ""
+
+#: effects/color/info.js:37 effects/texture/info.js:47
+msgid "Difference"
+msgstr ""
+
+#: effects/color/info.js:38 effects/texture/info.js:48
+msgid "Exclusion"
+msgstr ""
+
+#: effects/color/info.js:39 effects/texture/info.js:49
+msgid "Hue"
+msgstr ""
+
+#: effects/color/info.js:40 effects/color/info.js:93 effects/texture/info.js:50
+#: effects/wave/info.js:67
+msgid "Saturation"
+msgstr ""
+
+#: effects/color/info.js:42 effects/color/info.js:49 effects/texture/info.js:52
+msgid "Luminosity"
+msgstr ""
+
+#: effects/color/info.js:50
+msgid "An effect that affects the luminosity of the image."
+msgstr ""
+
+#: effects/color/info.js:53
+msgid "Shift brightness"
+msgstr ""
+
+#: effects/color/info.js:54
+msgid "The brightness to add or remove from the image."
+msgstr ""
+
+#: effects/color/info.js:63
+msgid "Brightness multiplier"
+msgstr ""
+
+#: effects/color/info.js:64
+msgid ""
+"Multiplies image brightness; 0 is black and 1 leaves brightness unchanged."
+msgstr ""
+
+#: effects/color/info.js:73
+msgid "Contrast"
+msgstr ""
+
+#: effects/color/info.js:74
+msgid "Adjusts image contrast around the selected contrast center."
+msgstr ""
+
+#: effects/color/info.js:83
+msgid "Contrast center"
+msgstr ""
+
+#: effects/color/info.js:84
+msgid "The center of the contrast to use."
+msgstr ""
+
+#: effects/color/info.js:94
+msgid ""
+"Multiplies image saturation; 0 removes all color and 1 leaves saturation "
+"unchanged."
+msgstr ""
+
+#: effects/color/info.js:106
+msgid "RGB to HSL (advanced effect)"
+msgstr ""
+
+#: effects/color/info.js:107
+msgid "Converts the image from RGBA color space to HSLA."
+msgstr ""
+
+#: effects/color/info.js:112
+msgid "HSL to RGB (advanced effect)"
+msgstr ""
+
+#: effects/color/info.js:113
+msgid "Converts the image from HSLA color space to RGBA."
+msgstr ""
+
+#: effects/effect_groups.js:4
+msgid "Blur"
+msgstr ""
+
+#: effects/effect_groups.js:18
+msgid "Texture"
+msgstr ""
+
+#: effects/effect_groups.js:28
+msgid "Advanced"
+msgstr ""
+
+#: effects/effect_groups.js:29
+msgid "Building blocks that are mostly useful combined with other effects."
+msgstr ""
+
+#: effects/refraction/info.js:7
+msgid "Liquid Glass"
+msgstr ""
+
+#: effects/refraction/info.js:8
+msgid ""
+"A glossy translucent material with edge refraction, rim lighting, tint, and "
+"inner shadow."
+msgstr ""
+
+#: effects/refraction/info.js:11
+msgid "Refraction scale"
+msgstr ""
+
+#: effects/refraction/info.js:12
+msgid "How strongly the glass bends the sampled blur texture."
+msgstr ""
+
+#: effects/refraction/info.js:21
+msgid "Blur radius"
+msgstr ""
+
+#: effects/refraction/info.js:22
+msgid "Blurs the sampled backdrop before the liquid-glass shader is applied."
+msgstr ""
+
+#: effects/refraction/info.js:31
+msgid "Bezel width"
+msgstr ""
+
+#: effects/refraction/info.js:32
+msgid "How far the liquid-glass lens reaches inward from the edge."
+msgstr ""
+
+#: effects/refraction/info.js:41
+msgid "Rim spread"
+msgstr ""
+
+#: effects/refraction/info.js:42
+msgid "How far the refraction eases inward from the glass edge."
+msgstr ""
+
+#: effects/refraction/info.js:51
+msgid "Refraction reach"
+msgstr ""
+
+#: effects/refraction/info.js:52
+msgid ""
+"How far the bend reaches inward from the edge, past the corner radius. A "
+"wider bend is also deeper, like a wider bezel (0 keeps it at the rim)."
+msgstr ""
+
+#: effects/refraction/info.js:61
+msgid "Glass thickness"
+msgstr ""
+
+#: effects/refraction/info.js:62
+msgid "Depth used by the refraction edge profile."
+msgstr ""
+
+#: effects/refraction/info.js:71
+msgid "Refraction style"
+msgstr ""
+
+#: effects/refraction/info.js:72
+msgid ""
+"Shape of the bend near the edge. Low values bend softly, higher values bend "
+"more sharply right at the edge."
+msgstr ""
+
+#: effects/refraction/info.js:81
+msgid "Fresnel glare"
+msgstr ""
+
+#: effects/refraction/info.js:82
+msgid "Strength of the directional fresnel glare from the glass edge."
+msgstr ""
+
+#: effects/refraction/info.js:91
+msgid "Fresnel glare angle"
+msgstr ""
+
+#: effects/refraction/info.js:92
+msgid ""
+"Direction or axis of the fresnel glare, in degrees (positive rotates "
+"clockwise). In two-sided mode, 0 lights the top and bottom edges; in one-"
+"sided mode, only the edge facing the light angle is lit (0 for top, 180 for "
+"bottom)."
+msgstr ""
+
+#: effects/refraction/info.js:101
+msgid "Fresnel glare width"
+msgstr ""
+
+#: effects/refraction/info.js:102
+msgid "Thickness multiplier of the fresnel glare ring along the glass edge."
+msgstr ""
+
+#: effects/refraction/info.js:111
+msgid "Two-sided fresnel glare"
+msgstr ""
+
+#: effects/refraction/info.js:112
+msgid ""
+"Light opposite edge pairs symmetrically. When disabled, only the edge facing "
+"the fresnel angle is lit (e.g. 180 lights the bottom edge, removing the "
+"glare from the top)."
+msgstr ""
+
+#: effects/refraction/info.js:116
+msgid "Specular glare strength"
+msgstr ""
+
+#: effects/refraction/info.js:117
+msgid ""
+"Strength of the white specular glare on the same edge pair as the fresnel "
+"glare, brighter on the light side (0 disables it)."
+msgstr ""
+
+#: effects/refraction/info.js:126
+msgid "Edge border"
+msgstr ""
+
+#: effects/refraction/info.js:127
+msgid ""
+"Thin dark line along the straight side edges, away from the fresnel glare, "
+"outlining the glass on light backgrounds."
+msgstr ""
+
+#: effects/refraction/info.js:136
+msgid "Edge glow"
+msgstr ""
+
+#: effects/refraction/info.js:137
+msgid "Colorful content under the glass lights up its edge."
+msgstr ""
+
+#: effects/refraction/info.js:146
+msgid "Tint strength"
+msgstr ""
+
+#: effects/refraction/info.js:147
+msgid "Amount of subtle milky glass tint over the blurred texture."
+msgstr ""
+
+#: effects/refraction/info.js:156
+msgid "Tint color"
+msgstr ""
+
+#: effects/refraction/info.js:157
+msgid "Color blended over the blurred texture, weighted by the tint strength."
+msgstr ""
+
+#: effects/refraction/info.js:162
+msgid "Backdrop zoom"
+msgstr ""
+
+#: effects/refraction/info.js:163
+msgid "Zoom level of the backdrop visible through the glass."
+msgstr ""
+
+#: effects/refraction/info.js:172
+msgid "Inner shadow"
+msgstr ""
+
+#: effects/refraction/info.js:173
+msgid "Darkens the lower and inner edge for a deeper glass surface."
+msgstr ""
+
+#: effects/refraction/info.js:182
+msgid "Chromatic dispersion"
+msgstr ""
+
+#: effects/refraction/info.js:183
+msgid "Physical per-channel refraction dispersion at the glass edge."
+msgstr ""
+
+#: effects/refraction/info.js:192
+msgid "Edge behavior"
+msgstr ""
+
+#: effects/refraction/info.js:193
+msgid "How texture coordinates outside the actor are sampled."
+msgstr ""
+
+#: effects/refraction/info.js:196
+msgid "Clamp"
+msgstr ""
+
+#: effects/refraction/info.js:197
+msgid "Mirror"
+msgstr ""
+
+#: effects/texture/info.js:12
+msgid "Image"
+msgstr ""
+
+#: effects/texture/info.js:13
+msgid "Blends an image into the pipeline."
+msgstr ""
+
+#: effects/texture/info.js:16
+msgid "Image path"
+msgstr ""
+
+#: effects/texture/info.js:17
+msgid "Absolute path to the image file."
+msgstr ""
+
+#: effects/texture/info.js:21
+msgid "Blend"
+msgstr ""
+
+#: effects/texture/info.js:22
+msgid "How strongly the image is blended in."
+msgstr ""
+
+#: effects/texture/info.js:32
+msgid "How the image is blended in."
+msgstr ""
+
+#: effects/texture/info.js:56
+msgid "Image mode"
+msgstr ""
+
+#: effects/texture/info.js:57
+msgid "Tile the image, stretch it, or fit its width to the monitor."
+msgstr ""
+
+#: effects/texture/info.js:60
+msgid "Tile"
+msgstr ""
+
+#: effects/texture/info.js:61
+msgid "Stretch"
+msgstr ""
+
+#: effects/texture/info.js:62
+msgid "Fit width"
+msgstr ""
+
+#: effects/texture/info.js:66
+msgid "Opacity"
+msgstr ""
+
+#: effects/texture/info.js:67
+msgid "Opacity of the image blend."
+msgstr ""
+
+#: effects/texture/info.js:79
+msgid "Pixelize"
+msgstr ""
+
+#: effects/texture/info.js:80
+msgid "An effect that pixelizes the image."
+msgstr ""
+
+#: effects/texture/info.js:83 effects/texture/info.js:108
+#: effects/texture/info.js:133
+msgid "Factor"
+msgstr ""
+
+#: effects/texture/info.js:84 effects/texture/info.js:109
+msgid "How much to scale down the image."
+msgstr ""
+
+#: effects/texture/info.js:91 effects/texture/info.js:116
+msgid "Downsampling mode"
+msgstr ""
+
+#: effects/texture/info.js:92 effects/texture/info.js:117
+msgid "The downsampling method that is used."
+msgstr ""
+
+#: effects/texture/info.js:95 effects/texture/info.js:120
+msgid "Boxcar"
+msgstr ""
+
+#: effects/texture/info.js:96 effects/texture/info.js:121
+msgid "Triangular"
+msgstr ""
+
+#: effects/texture/info.js:97 effects/texture/info.js:122
+msgid "Dirac"
+msgstr ""
+
+#: effects/texture/info.js:104
+msgid "Downscale (advanced effect)"
+msgstr ""
+
+#: effects/texture/info.js:105
+msgid "An effect that downscales the image and puts it in the top-left corner."
+msgstr ""
+
+#: effects/texture/info.js:129
+msgid "Upscale (advanced effect)"
+msgstr ""
+
+#: effects/texture/info.js:130
+msgid "An effect that upscales the image from the top-left corner."
+msgstr ""
+
+#: effects/texture/info.js:134
+msgid "How much to scale up the image."
+msgstr ""
+
+#: effects/texture/info.js:144
+msgid "Derivative"
+msgstr ""
+
+#: effects/texture/info.js:145
+msgid "Apply a spatial derivative, or a laplacian."
+msgstr ""
+
+#: effects/texture/info.js:148
+msgid "Operation"
+msgstr ""
+
+#: effects/texture/info.js:149
+msgid "The mathematical operation to apply."
+msgstr ""
+
+#: effects/texture/info.js:152
+msgid "1-step derivative"
+msgstr ""
+
+#: effects/texture/info.js:153
+msgid "2-step derivative"
+msgstr ""
+
+#: effects/texture/info.js:154
+msgid "Laplacian"
+msgstr ""
+
+#: effects/texture/info.js:161 effects/texture/info.js:165
+msgid "Noise"
+msgstr ""
+
+#: effects/texture/info.js:162
+msgid "An effect that adds random grain to the image."
+msgstr ""
+
+#: effects/texture/info.js:166
+msgid "The amount of noise to add."
+msgstr ""
+
+#: effects/texture/info.js:175
+msgid "Lightness"
+msgstr ""
+
+#: effects/texture/info.js:176
+msgid ""
+"The luminosity of the noise. A setting of '1.0' will make the effect "
+"transparent."
+msgstr ""
+
+#: effects/wave/info.js:7
+msgid "Vapor Wave"
+msgstr ""
+
+#: effects/wave/info.js:8
+msgid ""
+"A flowing wave displacement for a lively and dynamic feel with natural "
+"movement."
+msgstr ""
+
+#: effects/wave/info.js:11
+msgid "Wave frequency"
+msgstr ""
+
+#: effects/wave/info.js:12
+msgid "How tightly packed the ripples are."
+msgstr ""
+
+#: effects/wave/info.js:21
+msgid "Wave amplitude"
+msgstr ""
+
+#: effects/wave/info.js:22
+msgid "How strongly the image gets displaced by the waves."
+msgstr ""
+
+#: effects/wave/info.js:31
+msgid "Wave octaves"
+msgstr ""
+
+#: effects/wave/info.js:32
+msgid ""
+"Detail level of the wave shape. Higher adds more detail at the cost of "
+"performance."
+msgstr ""
+
+#: effects/wave/info.js:39
+msgid "Vapor octaves"
+msgstr ""
+
+#: effects/wave/info.js:40
+msgid ""
+"Detail level of the misty texture. Higher adds more detail at the cost of "
+"performance."
+msgstr ""
+
+#: effects/wave/info.js:47
+msgid "Vapor speed"
+msgstr ""
+
+#: effects/wave/info.js:48
+msgid "How quickly the misty vapor texture drifts over time."
+msgstr ""
+
+#: effects/wave/info.js:57
+msgid "Texture grain"
+msgstr ""
+
+#: effects/wave/info.js:58
+msgid "Adds a fine sandblasted texture to the image."
+msgstr ""
+
+#: effects/wave/info.js:68
+msgid "The saturation of the effect."
+msgstr ""
+
+#: effects/wave/info.js:78
+msgid "The brightness of the effect."
+msgstr ""
+
+#: effects/wave/info.js:87
+msgid "Zoom"
+msgstr ""
+
+#: effects/wave/info.js:88
+msgid "Magnifies the backdrop toward the surface's center."
+msgstr ""
+
+#: effects/wave/info.js:97
+msgid "Dispersion"
+msgstr ""
+
+#: effects/wave/info.js:98
+msgid "Chromatic aberration strength for a glitchy feel."
+msgstr ""
+
+#: effects/wave/info.js:107
+msgid "Enable flow animation"
+msgstr ""
+
+#: effects/wave/info.js:108
+msgid "Whether the wave noise continuously flows over time."
+msgstr ""
+
+#: effects/wave/info.js:112
+msgid "Flow animation speed"
+msgstr ""
+
+#: effects/wave/info.js:113
+msgid "The base speed at which the wave pattern flows."
+msgstr ""
+
+#: effects/wave/info.js:122
+msgid "Resize ease duration"
+msgstr ""
+
+#: effects/wave/info.js:123
+msgid ""
+"How long the effect takes to adjust when a window changes size "
+"(milliseconds)."
+msgstr ""
+
+#: preferences/legacy_blur_notice.js:26
+msgid "Rounded-blur is no longer needed"
+msgstr ""
+
+#: preferences/legacy_blur_notice.js:27
+msgid ""
+"Blur my Shell handles rounded corners directly. You can remove the old "
+"library if nothing else uses it."
+msgstr ""
+
+#: preferences/legacy_blur_notice.js:31
+msgid "Removal instructions"
+msgstr ""
+
+#: preferences/legacy_blur_notice.js:37 preferences/legacy_blur_notice.js:43
+msgid "Dismiss"
+msgstr ""
+
+#: preferences/legacy_blur_notice.js:58
+msgid "Removing the old blur library"
+msgstr ""
+
+#: preferences/legacy_blur_notice.js:60
+msgid ""
+"Removal is optional. Keep the library if another extension still needs it."
+msgstr ""
+
+#: preferences/legacy_blur_notice.js:61
+msgid ""
+"Installed through a package manager? Remove the gnome-rounded-blur package "
+"with the same package manager. Review its proposed changes before confirming."
+msgstr ""
+
+#: preferences/legacy_blur_notice.js:62
+msgid ""
+"Installed with the old Blur my Shell helper? The instructions explain how to "
+"run its uninstaller."
+msgstr ""
+
+#: preferences/legacy_blur_notice.js:63
+msgid ""
+"Built from source? Use “sudo ninja -C build uninstall” from the original "
+"build directory, or follow its install log. Do not use the helper to remove "
+"a package-managed installation."
+msgstr ""
+
+#: preferences/legacy_blur_notice.js:64
+msgid ""
+"Log out and back in after removal. Blur my Shell will not uninstall anything "
+"for you."
+msgstr ""
+
+#: preferences/legacy_blur_notice.js:69
+msgid "Close"
+msgstr ""
+
+#: preferences/legacy_blur_notice.js:70
+msgid "Open instructions"
+msgstr ""
+
+#: preferences/menu.js:94
+msgid "Reset all preferences?"
+msgstr ""
+
+#: preferences/menu.js:95
+msgid "Pipelines and component settings will return to their defaults."
+msgstr ""
+
+#: preferences/menu.js:97 preferences/menu.js:146
+#: preferences/pages/pipelines/index.js:122
+msgid "Cancel"
+msgstr ""
+
+#: preferences/menu.js:98
+msgid "Reset"
+msgstr ""
+
+#: preferences/menu.js:125
+msgid "Preferences exported"
+msgstr ""
+
+#: preferences/menu.js:127
+msgid "Could not export the preferences"
+msgstr ""
+
+#: preferences/menu.js:137
+msgid "Could not import this file"
+msgstr ""
+
+#: preferences/menu.js:143
+msgid "Import preferences?"
+msgstr ""
+
+#: preferences/menu.js:144
+msgid ""
+"Your pipelines and component settings will be replaced by the ones in this "
+"file."
+msgstr ""
+
+#: preferences/menu.js:147
+msgid "Import"
+msgstr ""
+
+#: preferences/menu.js:153
+msgid "Preferences imported"
+msgstr ""
+
+#: preferences/pages/pipelines/components.js:7
+msgid "Panel"
+msgstr ""
+
+#: preferences/pages/pipelines/components.js:8
+msgid "Panel (Light mode)"
+msgstr ""
+
+#: preferences/pages/pipelines/components.js:9
+msgid "Panel (Dark mode)"
+msgstr ""
+
+#: preferences/pages/pipelines/components.js:11
+msgid "Dock"
+msgstr ""
+
+#: preferences/pages/pipelines/components.js:12
+msgid "Dock (Light mode)"
+msgstr ""
+
+#: preferences/pages/pipelines/components.js:13
+msgid "Dock (Dark mode)"
+msgstr ""
+
+#: preferences/pages/pipelines/components.js:15
+msgid "Popups"
+msgstr ""
+
+#: preferences/pages/pipelines/components.js:16
+msgid "Popups (Light mode)"
+msgstr ""
+
+#: preferences/pages/pipelines/components.js:17
+msgid "Popups (Dark mode)"
+msgstr ""
+
+#: preferences/pages/pipelines/components.js:19
+msgid "Overview"
+msgstr ""
+
+#: preferences/pages/pipelines/components.js:20
+msgid "Overview (Light mode)"
+msgstr ""
+
+#: preferences/pages/pipelines/components.js:21
+msgid "Overview (Dark mode)"
+msgstr ""
+
+#: preferences/pages/pipelines/components.js:23
+msgid "App folders"
+msgstr ""
+
+#: preferences/pages/pipelines/components.js:24
+msgid "App folders (Light mode)"
+msgstr ""
+
+#: preferences/pages/pipelines/components.js:25
+msgid "App folders (Dark mode)"
+msgstr ""
+
+#: preferences/pages/pipelines/components.js:27
+msgid "Lock screen"
+msgstr ""
+
+#: preferences/pages/pipelines/components.js:28
+msgid "Lock screen (Light mode)"
+msgstr ""
+
+#: preferences/pages/pipelines/components.js:29
+msgid "Lock screen (Dark mode)"
+msgstr ""
+
+#: preferences/pages/pipelines/components.js:31
+msgid "Screenshot"
+msgstr ""
+
+#: preferences/pages/pipelines/components.js:32
+msgid "Screenshot (Light mode)"
+msgstr ""
+
+#: preferences/pages/pipelines/components.js:33
+msgid "Screenshot (Dark mode)"
+msgstr ""
+
+#: preferences/pages/pipelines/components.js:35
+msgid "Window List"
+msgstr ""
+
+#: preferences/pages/pipelines/components.js:36
+msgid "Window List (Light mode)"
+msgstr ""
+
+#: preferences/pages/pipelines/components.js:37
+msgid "Window List (Dark mode)"
+msgstr ""
+
+#: preferences/pages/pipelines/components.js:39
+msgid "Coverflow Alt-Tab"
+msgstr ""
+
+#: preferences/pages/pipelines/components.js:40
+msgid "Coverflow Alt-Tab (Light mode)"
+msgstr ""
+
+#: preferences/pages/pipelines/components.js:41
+msgid "Coverflow Alt-Tab (Dark mode)"
+msgstr ""
+
+#: preferences/pages/pipelines/components.js:43
+msgid "Applications"
+msgstr ""
+
+#: preferences/pages/pipelines/components.js:44
+msgid "Applications (Light mode)"
+msgstr ""
+
+#: preferences/pages/pipelines/components.js:45
+msgid "Applications (Dark mode)"
+msgstr ""
+
+#: preferences/pages/pipelines/effect_chooser.js:13
+msgid "Add Effect"
+msgstr ""
+
+#: preferences/pages/pipelines/index.js:79
+msgid "New pipeline"
+msgstr ""
+
+#: preferences/pages/pipelines/index.js:117
+#, javascript-format
+msgid "Delete “%s”?"
+msgstr ""
+
+#: preferences/pages/pipelines/index.js:118
+msgid "Delete this pipeline?"
+msgstr ""
+
+#: preferences/pages/pipelines/index.js:119
+#, javascript-format
+msgid "It is used by %s, which will switch to the default pipeline."
+msgstr ""
+
+#: preferences/pages/pipelines/index.js:123
+#: preferences/pages/pipelines/pipeline_row.js:43
+msgid "Delete"
+msgstr ""
+
+#: preferences/pages/pipelines/index.js:147
+#, javascript-format
+msgid "\"%s\" deleted"
+msgstr ""
+
+#: preferences/pages/pipelines/index.js:148
+msgid "Pipeline deleted"
+msgstr ""
+
+#: preferences/pages/pipelines/index.js:151
+msgid "Undo"
+msgstr ""
+
+#: preferences/pages/pipelines/pipeline_page.js:83
+#: preferences/pages/pipelines/pipeline_row.js:69
+msgid "Pipeline"
+msgstr ""
+
+#: preferences/pages/pipelines/pipeline_row.js:42
+msgid "Duplicate"
+msgstr ""
+
+#: preferences/pages/pipelines/pipeline_row.js:61
+msgid "Pipeline Menu"
+msgstr ""
+
+#: preferences/pages/pipelines/pipeline_row.js:74
+msgid "Unknown effect"
+msgstr ""
+
+#: preferences/pages/pipelines/pipeline_row.js:75
+msgid "No effects yet"
+msgstr ""
+
+#: preferences/widgets/effect_row.js:16
+msgid "Move Up"
+msgstr ""
+
+#: preferences/widgets/effect_row.js:17
+msgid "Move Down"
+msgstr ""
+
+#: preferences/widgets/effect_row.js:19
+msgid "Remove"
+msgstr ""
+
+#: preferences/widgets/effect_row.js:49
+msgid "Effect Menu"
+msgstr ""
+
+#: preferences/widgets/effect_row.js:179
+msgid "Choose…"
+msgstr ""
+
+#: preferences/widgets/effect_row.js:185
+msgid "Select"
+msgstr ""
+
+#: preferences/widgets/effect_row.js:189
+msgid "Images"
+msgstr ""
+
+#: preferences/widgets/effect_row.js:197
+msgid "Selected image is not a local file"
+msgstr ""
+
+#: preferences/widgets/pipeline_choose_row.js:28
+msgid "Create new pipeline"
+msgstr ""
+
+#: ui/menu.ui:6
+msgid "Debug Logging"
+msgstr ""
+
+#: ui/menu.ui:10
+msgid "Disable on Power Saver"
+msgstr ""
+
+#: ui/menu.ui:16
+msgid "Reset Preferences…"
+msgstr ""
+
+#: ui/menu.ui:20
+msgid "Export Preferences…"
+msgstr ""
+
+#: ui/menu.ui:24
+msgid "Import Preferences…"
+msgstr ""
+
+#: ui/menu.ui:30
+msgid "Project page"
+msgstr ""
+
+#: ui/menu.ui:34
+msgid "Report a Bug"
+msgstr ""
+
+#: ui/menu.ui:38
+msgid "License"
+msgstr ""
+
+#: ui/menu.ui:48
+msgid "Main Menu"
+msgstr ""
+
+#: ui/pages/applications.ui:34 ui/pages/shell/app-folders.ui:21
+#: ui/pages/shell/component.ui:20 ui/pages/shell/dash.ui:37
+#: ui/pages/shell/overview.ui:21 ui/pages/shell/panel.ui:37
+#: ui/pages/shell/popup.ui:38
+msgid "Follow system theme"
+msgstr ""
+
+#: ui/pages/applications.ui:35 ui/pages/shell/app-folders.ui:22
+#: ui/pages/shell/component.ui:21 ui/pages/shell/dash.ui:38
+#: ui/pages/shell/overview.ui:22 ui/pages/shell/panel.ui:38
+#: ui/pages/shell/popup.ui:39
+msgid "Automatically switch the pipeline based on the system theme."
+msgstr ""
+
+#: ui/pages/applications.ui:50 ui/pages/shell/app-folders.ui:35
+#: ui/pages/shell/app-folders.ui:77 ui/pages/shell/component.ui:36
+#: ui/pages/shell/dash.ui:52 ui/pages/shell/dash.ui:95
+#: ui/pages/shell/overview.ui:35 ui/pages/shell/overview.ui:83
+#: ui/pages/shell/panel.ui:53 ui/pages/shell/panel.ui:194
+#: ui/pages/shell/popup.ui:54 ui/pages/shell/popup.ui:298
+msgid "Light"
+msgstr ""
+
+#: ui/pages/applications.ui:51 ui/pages/shell/app-folders.ui:36
+#: ui/pages/shell/component.ui:37 ui/pages/shell/dash.ui:53
+#: ui/pages/shell/overview.ui:36 ui/pages/shell/panel.ui:54
+#: ui/pages/shell/popup.ui:55
+msgid "The pipeline used for light mode"
+msgstr ""
+
+#: ui/pages/applications.ui:59 ui/pages/shell/app-folders.ui:43
+#: ui/pages/shell/app-folders.ui:78 ui/pages/shell/component.ui:45
+#: ui/pages/shell/dash.ui:61 ui/pages/shell/dash.ui:96
+#: ui/pages/shell/overview.ui:43 ui/pages/shell/overview.ui:84
+#: ui/pages/shell/panel.ui:62 ui/pages/shell/panel.ui:195
+#: ui/pages/shell/popup.ui:63 ui/pages/shell/popup.ui:299
+msgid "Dark"
+msgstr ""
+
+#: ui/pages/applications.ui:60 ui/pages/shell/app-folders.ui:44
+#: ui/pages/shell/component.ui:46 ui/pages/shell/dash.ui:62
+#: ui/pages/shell/overview.ui:44 ui/pages/shell/panel.ui:63
+#: ui/pages/shell/popup.ui:64
+msgid "The pipeline used for dark mode"
+msgstr ""
+
+#: ui/pages/applications.ui:70 ui/pages/shell/app-folders.ui:53
+#: ui/pages/shell/overview.ui:53 ui/pages/shell/panel.ui:73
+msgid "Appearance"
+msgstr ""
+
+#: ui/pages/applications.ui:76
+msgid "Higher values are easier to read"
+msgstr ""
+
+#: ui/pages/applications.ui:96
+msgid "Opaque focused window"
+msgstr ""
+
+#: ui/pages/applications.ui:102 ui/pages/shell/panel.ui:78
+#: ui/pages/shell/popup.ui:182
+msgid "Corner radius"
+msgstr ""
+
+#: ui/pages/applications.ui:109 ui/pages/shell/panel.ui:85
+#: ui/pages/shell/popup.ui:187
+msgid "Rounded corners"
+msgstr ""
+
+#: ui/pages/applications.ui:116
+msgid "Round maximized and fullscreen windows"
+msgstr ""
+
+#: ui/pages/applications.ui:124
+msgid "Behavior"
+msgstr ""
+
+#: ui/pages/applications.ui:129
+msgid "Blur on overview"
+msgstr ""
+
+#: ui/pages/applications.ui:130
+msgid "Shows the blur on every workspace, at some performance cost"
+msgstr ""
+
+#: ui/pages/applications.ui:136
+msgid "Unblur when Fullscreen"
+msgstr ""
+
+#: ui/pages/applications.ui:142
+msgid "Blur menus"
+msgstr ""
+
+#: ui/pages/applications.ui:143
+msgid ""
+"Blur the menus of Wayland applications, which must be translucent for it to "
+"show."
+msgstr ""
+
+#: ui/pages/applications.ui:149
+msgid "Menu corner radius"
+msgstr ""
+
+#: ui/pages/applications.ui:150
+msgid "Shapes edge effects like refraction, the blur always follows the menu."
+msgstr ""
+
+#: ui/pages/applications.ui:158
+msgid "Blur all windows"
+msgstr ""
+
+#: ui/pages/applications.ui:159
+msgid "When off, only the windows listed below are blurred."
+msgstr ""
+
+#: ui/pages/applications.ui:167
+msgid "Blurred windows"
+msgstr ""
+
+#: ui/pages/applications.ui:168 ui/pages/applications.ui:190
+msgid ""
+"Use * to match any characters, like Firefox* or *Code*, and ? to match a "
+"single one. Start with title: to match the window title instead, like "
+"title:Picture-in-Picture."
+msgstr ""
+
+#: ui/pages/applications.ui:176 ui/pages/applications.ui:198
+msgid "Add Window"
+msgstr ""
+
+#: ui/pages/applications.ui:189
+msgid "Excluded windows"
+msgstr ""
+
+#: ui/pages/applications.ui:212 ui/pages/shell/panel.ui:184
+#: ui/pages/shell/popup.ui:288
+msgid "All"
+msgstr ""
+
+#: ui/pages/applications.ui:213 ui/pages/shell/panel.ui:185
+#: ui/pages/shell/popup.ui:289
+msgid "Top only"
+msgstr ""
+
+#: ui/pages/applications.ui:214 ui/pages/shell/panel.ui:186
+#: ui/pages/shell/popup.ui:290
+msgid "Bottom only"
+msgstr ""
+
+#: ui/pages/applications.ui:215 ui/pages/shell/panel.ui:187
+#: ui/pages/shell/popup.ui:291
+msgid "None"
+msgstr ""
+
+#: ui/pages/pipelines/pipeline-page.ui:24
+msgid "Name"
+msgstr ""
+
+#: ui/pages/pipelines/pipeline-page.ui:30
+msgid "Pipeline ID"
+msgstr ""
+
+#: ui/pages/pipelines/pipeline-page.ui:36
+msgid "Copy"
+msgstr ""
+
+#: ui/pages/pipelines/pipeline-page.ui:49
+msgid "Effects"
+msgstr ""
+
+#: ui/pages/pipelines/pipeline-page.ui:50
+msgid "The top effect is applied first."
+msgstr ""
+
+#: ui/pages/pipelines/pipelines.ui:5
+msgid "Pipelines"
+msgstr ""
+
+#: ui/pages/pipelines/pipelines.ui:10
+msgid "Pipelines are sets of effects that components share."
+msgstr ""
+
+#: ui/pages/pipelines/pipelines.ui:17
+msgid "New Pipeline"
+msgstr ""
+
+#: ui/pages/shell/app-folders.ui:58
+msgid "Application folder dialogs style"
+msgstr ""
+
+#: ui/pages/shell/app-folders.ui:65
+msgid "Blur behind folders"
+msgstr ""
+
+#: ui/pages/shell/app-folders.ui:66
+msgid "Blur the app grid behind an open folder."
+msgstr ""
+
+#: ui/pages/shell/app-folders.ui:75 ui/pages/shell/overview.ui:82
+msgid "Do not style"
+msgstr ""
+
+#: ui/pages/shell/app-folders.ui:76 ui/pages/shell/dash.ui:94
+#: ui/pages/shell/overview.ui:85 ui/pages/shell/panel.ui:193
+#: ui/pages/shell/popup.ui:297
+msgid "Transparent"
+msgstr ""
+
+#: ui/pages/shell/app-folders.ui:79 ui/pages/shell/dash.ui:97
+#: ui/pages/shell/overview.ui:86 ui/pages/shell/panel.ui:197
+#: ui/pages/shell/popup.ui:300
+msgid "Automatic"
+msgstr ""
+
+#: ui/pages/shell/dash.ui:24 ui/pages/shell/panel.ui:24
+msgid "Disable in overview"
+msgstr ""
+
+#: ui/pages/shell/dash.ui:72 ui/pages/shell/panel.ui:107
+#: ui/pages/shell/popup.ui:153 ui/pages/shell/shell.ui:51
+msgid "Background"
+msgstr ""
+
+#: ui/pages/shell/dash.ui:77 ui/pages/shell/panel.ui:112
+#: ui/pages/shell/popup.ui:158
+msgid "Override background"
+msgstr ""
+
+#: ui/pages/shell/dash.ui:83 ui/pages/shell/panel.ui:118
+#: ui/pages/shell/popup.ui:164
+msgid "Background style"
+msgstr ""
+
+#: ui/pages/shell/overview.ui:58
+msgid "Overview components style"
+msgstr ""
+
+#: ui/pages/shell/overview.ui:59
+msgid "For the dash, search and app folders"
+msgstr ""
+
+#: ui/pages/shell/overview.ui:66
+msgid "Workspace corner radius"
+msgstr ""
+
+#: ui/pages/shell/panel.ui:92
+msgid "Force light text"
+msgstr ""
+
+#: ui/pages/shell/panel.ui:93
+msgid "Useful with a light shell theme"
+msgstr ""
+
+#: ui/pages/shell/panel.ui:99
+msgid "Match theme in overview"
+msgstr ""
+
+#: ui/pages/shell/panel.ui:126
+msgid "Override background dynamically"
+msgstr ""
+
+#: ui/pages/shell/panel.ui:127
+msgid "Changes the background when a window is near the panel"
+msgstr ""
+
+#: ui/pages/shell/panel.ui:134
+msgid "When a window is near"
+msgstr ""
+
+#: ui/pages/shell/panel.ui:135
+msgid ""
+"Blur on Window Proximity: Blur only when a window is near the panel and "
+"transparent when it is not.\n"
+"Background on Window Proximity: Solid color background when a window is near "
+"the panel and blur when it is not."
+msgstr ""
+
+#: ui/pages/shell/panel.ui:144
+msgid "Gradient background"
+msgstr ""
+
+#: ui/pages/shell/panel.ui:151
+msgid "Gradient direction"
+msgstr ""
+
+#: ui/pages/shell/panel.ui:161
+msgid "Compatibility"
+msgstr ""
+
+#: ui/pages/shell/panel.ui:166
+msgid "Hidetopbar extension"
+msgstr ""
+
+#: ui/pages/shell/panel.ui:167
+msgid "Keeps the blur visible in the overview, best with static blur"
+msgstr ""
+
+#: ui/pages/shell/panel.ui:174
+msgid "Blur original panel with Dash to Panel"
+msgstr ""
+
+#: ui/pages/shell/panel.ui:175
+msgid "When Dash to Panel keeps the original panel"
+msgstr ""
+
+#: ui/pages/shell/panel.ui:196
+msgid "Contrasted"
+msgstr ""
+
+#: ui/pages/shell/panel.ui:203
+msgid "Blur on Window Proximity"
+msgstr ""
+
+#: ui/pages/shell/panel.ui:204
+msgid "Background on Window Proximity"
+msgstr ""
+
+#: ui/pages/shell/panel.ui:210
+msgid "Top"
+msgstr ""
+
+#: ui/pages/shell/panel.ui:211
+msgid "Bottom"
+msgstr ""
+
+#: ui/pages/shell/popup.ui:24
+msgid "Blur behind dialogs"
+msgstr ""
+
+#: ui/pages/shell/popup.ui:25
+msgid ""
+"Blur the dimmed screen behind system dialogs, like the power off dialog."
+msgstr ""
+
+#: ui/pages/shell/popup.ui:74
+msgid "Blurred popups"
+msgstr ""
+
+#: ui/pages/shell/popup.ui:79 ui/pages/shell/popup.ui:194
+msgid "Menus"
+msgstr ""
+
+#: ui/pages/shell/popup.ui:85 ui/pages/shell/popup.ui:201
+msgid "Input method candidates"
+msgstr ""
+
+#: ui/pages/shell/popup.ui:91 ui/pages/shell/popup.ui:208
+msgid "Quick settings"
+msgstr ""
+
+#: ui/pages/shell/popup.ui:97 ui/pages/shell/popup.ui:215
+msgid "Quick settings submenus"
+msgstr ""
+
+#: ui/pages/shell/popup.ui:103 ui/pages/shell/popup.ui:222
+msgid "Screenshot panel"
+msgstr ""
+
+#: ui/pages/shell/popup.ui:109 ui/pages/shell/popup.ui:229
+msgid "Calendar and notification center"
+msgstr ""
+
+#: ui/pages/shell/popup.ui:115 ui/pages/shell/popup.ui:236
+msgid "Notifications"
+msgstr ""
+
+#: ui/pages/shell/popup.ui:121 ui/pages/shell/popup.ui:243
+msgid "Window and workspace switchers"
+msgstr ""
+
+#: ui/pages/shell/popup.ui:127 ui/pages/shell/popup.ui:250
+msgid "Volume and brightness"
+msgstr ""
+
+#: ui/pages/shell/popup.ui:133 ui/pages/shell/popup.ui:257
+msgid "Window resize hints"
+msgstr ""
+
+#: ui/pages/shell/popup.ui:139 ui/pages/shell/popup.ui:264
+msgid "Dialogs"
+msgstr ""
+
+#: ui/pages/shell/popup.ui:145 ui/pages/shell/popup.ui:271
+msgid "On-screen keyboard"
+msgstr ""
+
+#: ui/pages/shell/popup.ui:172
+msgid "Preserve shell theme"
+msgstr ""
+
+#: ui/pages/shell/popup.ui:173
+msgid "Keep your shell theme's colors for popup controls."
+msgstr ""
+
+#: ui/pages/shell/popup.ui:278
+msgid "Other popup surfaces"
+msgstr ""
+
+#: ui/pages/shell/shell.ui:5
+msgid "Shell"
+msgstr ""
+
+#: ui/pages/shell/shell.ui:16
+msgid "Desktop"
+msgstr ""
+
+#: ui/pages/shell/shell.ui:22
+msgid "The top bar, or the panels from Dash to Panel"
+msgstr ""
+
+#: ui/pages/shell/shell.ui:30
+msgid "Dash to Dock, Ubuntu Dock, Dhruva and similar docks"
+msgstr ""
+
+#: ui/pages/shell/shell.ui:38
+msgid "Menus, quick settings, notifications and dialogs"
+msgstr ""
+
+#: ui/pages/shell/shell.ui:52
+msgid "The wallpaper behind the workspaces"
+msgstr ""
+
+#: ui/pages/shell/shell.ui:60
+msgid "Folders opened from the app grid"
+msgstr ""
+
+#: ui/pages/shell/shell.ui:68
+msgid "System"
+msgstr ""
+
+#: ui/pages/shell/shell.ui:74
+msgid "Behind the password prompt"
+msgstr ""
+
+#: ui/pages/shell/shell.ui:82
+msgid "Behind the window selector"
+msgstr ""
+
+#: ui/pages/shell/shell.ui:90
+msgid "Extensions"
+msgstr ""
+
+#: ui/pages/shell/shell.ui:96
+msgid "The taskbar from the Window List extension"
+msgstr ""
+
+#: ui/pages/shell/shell.ui:104
+msgid "Behind the window switcher"
+msgstr ""
+
+#: ui/widgets/application-row.ui:4
+msgid "Window class or title"
+msgstr ""
+
+#: ui/widgets/application-row.ui:10
+msgid "Pick a Window"
+msgstr ""
+
+#: ui/widgets/application-row.ui:30
+msgid "Window selection failed. Make sure the extension is enabled."
+msgstr ""
+
+#: ui/widgets/application-row.ui:34
+msgid "The selected actor is not a window."
+msgstr ""
+
+#: ui/widgets/blur-mode-row.ui:4
+msgid "Blur type"
+msgstr ""
+
+#: ui/widgets/blur-mode-row.ui:5
+msgid "Static blurs only the wallpaper"
+msgstr ""
+
+#: ui/widgets/blur-mode-row.ui:23
+msgid "Static"
+msgstr ""
+
+#: ui/widgets/blur-mode-row.ui:35
+msgid "Dynamic"
+msgstr ""

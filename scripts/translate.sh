@@ -8,7 +8,7 @@ fi
 
 action=$1
 package=$2
-if [[ ! $package =~ ^[[:alnum:]_-][[:alnum:]_.-]*$ ]]; then
+if [[ ! $package =~ ^(extensions/)?[[:alnum:]_-][[:alnum:]_.-]*$ ]]; then
     echo "Invalid package directory name: $package" >&2
     exit 2
 fi

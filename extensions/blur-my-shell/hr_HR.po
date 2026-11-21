@@ -1,0 +1,1530 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the blur-my-shell@aunetx package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# Original Croatian translations by Damir Zelenika.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: blur-my-shell@aunetx\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-11-21 18:29+0100\n"
+"PO-Revision-Date: 2026-11-21 18:43+0100\n"
+"Last-Translator: AnduinOS Croatian translation contributors\n"
+"Language-Team: Croatian <https://hosted.weblate.org/projects/blur-my-shell/"
+"blur-my-shell/hr/>\n"
+"Language: hr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: Weblate 5.11-dev\n"
+
+#: effects/blur/info.js:7
+msgid "Dual Kawase blur"
+msgstr "Dvostruko Kawaseovo zamućenje"
+
+#: effects/blur/info.js:8
+msgid "A fast, high-quality blur."
+msgstr "Brzo, visokokvalitetno zamućenje."
+
+#: effects/blur/info.js:11
+msgid "Radius"
+msgstr "Polumjer"
+
+#: effects/blur/info.js:12
+msgid "The intensity of the blur effect."
+msgstr "Intenzitet efekta zamućenja."
+
+#: effects/blur/info.js:21 effects/wave/info.js:77
+msgid "Brightness"
+msgstr "Svjetlina"
+
+#: effects/blur/info.js:22
+msgid ""
+"The brightness of the blur effect, a high value might make the text harder "
+"to read."
+msgstr ""
+"Svjetlina efekta zamućenja. Visoka vrijednost može otežati čitanje teksta."
+
+#: effects/color/info.js:10 effects/color/info.js:15 effects/color/info.js:41
+#: effects/effect_groups.js:11 effects/texture/info.js:51
+msgid "Color"
+msgstr "Boja"
+
+#: effects/color/info.js:11
+msgid "An effect that blends a color into the pipeline."
+msgstr "Efekt koji stapa boju sa slikom u nizu efekata."
+
+#: effects/color/info.js:16
+msgid ""
+"The color to blend in. The blending amount is controlled by the opacity of "
+"the color."
+msgstr "Boja koja se stapa sa slikom. Količina stapanja određena je neprozirnošću boje."
+
+#: effects/color/info.js:21 effects/texture/info.js:31
+msgid "Blend mode"
+msgstr "Način stapanja"
+
+#: effects/color/info.js:22
+msgid "How the color is blended in."
+msgstr "Način stapanja boje sa slikom."
+
+#: effects/color/info.js:25 effects/texture/info.js:35
+msgid "Normal"
+msgstr "Uobičajeno"
+
+#: effects/color/info.js:26 effects/texture/info.js:36
+msgid "Multiply"
+msgstr "Množenje"
+
+#: effects/color/info.js:27 effects/texture/info.js:37
+msgid "Screen"
+msgstr "Zaslon"
+
+#: effects/color/info.js:28 effects/texture/info.js:38
+msgid "Overlay"
+msgstr "Prekrivanje"
+
+#: effects/color/info.js:29 effects/texture/info.js:39
+msgid "Darken"
+msgstr "Zatamnjivanje"
+
+#: effects/color/info.js:30 effects/texture/info.js:40
+msgid "Lighten"
+msgstr "Posvjetljivanje"
+
+#: effects/color/info.js:31 effects/texture/info.js:41
+msgid "Plus darker"
+msgstr "Dodatno zatamnjivanje"
+
+#: effects/color/info.js:32 effects/texture/info.js:42
+msgid "Plus lighter"
+msgstr "Dodatno posvjetljivanje"
+
+#: effects/color/info.js:33 effects/texture/info.js:43
+msgid "Color dodge"
+msgstr "Posvjetljivanje boja"
+
+#: effects/color/info.js:34 effects/texture/info.js:44
+msgid "Color burn"
+msgstr "Potamnjivanje boja"
+
+#: effects/color/info.js:35 effects/texture/info.js:45
+msgid "Hard light"
+msgstr "Jako svjetlo"
+
+#: effects/color/info.js:36 effects/texture/info.js:46
+msgid "Soft light"
+msgstr "Meko svjetlo"
+
+#: effects/color/info.js:37 effects/texture/info.js:47
+msgid "Difference"
+msgstr "Razlika"
+
+#: effects/color/info.js:38 effects/texture/info.js:48
+msgid "Exclusion"
+msgstr "Isključivanje"
+
+#: effects/color/info.js:39 effects/texture/info.js:49
+msgid "Hue"
+msgstr "Nijansa"
+
+#: effects/color/info.js:40 effects/color/info.js:93 effects/texture/info.js:50
+#: effects/wave/info.js:67
+msgid "Saturation"
+msgstr "Zasićenost"
+
+#: effects/color/info.js:42 effects/color/info.js:49 effects/texture/info.js:52
+msgid "Luminosity"
+msgstr "Osvijetljenost"
+
+#: effects/color/info.js:50
+msgid "An effect that affects the luminosity of the image."
+msgstr "Efekt koji mijenja osvijetljenost slike."
+
+#: effects/color/info.js:53
+msgid "Shift brightness"
+msgstr "Pomak svjetline"
+
+#: effects/color/info.js:54
+msgid "The brightness to add or remove from the image."
+msgstr "Vrijednost svjetline koja se dodaje slici ili oduzima od nje."
+
+#: effects/color/info.js:63
+msgid "Brightness multiplier"
+msgstr "Množitelj svjetline"
+
+#: effects/color/info.js:64
+msgid ""
+"Multiplies image brightness; 0 is black and 1 leaves brightness unchanged."
+msgstr "Množi svjetlinu slike; 0 daje crnu boju, a 1 ostavlja svjetlinu nepromijenjenom."
+
+#: effects/color/info.js:73
+msgid "Contrast"
+msgstr "Kontrast"
+
+#: effects/color/info.js:74
+msgid "Adjusts image contrast around the selected contrast center."
+msgstr "Prilagođava kontrast slike oko odabranog središta kontrasta."
+
+#: effects/color/info.js:83
+msgid "Contrast center"
+msgstr "Središte kontrasta"
+
+#: effects/color/info.js:84
+msgid "The center of the contrast to use."
+msgstr "Središte kontrasta koje će se koristiti."
+
+#: effects/color/info.js:94
+msgid ""
+"Multiplies image saturation; 0 removes all color and 1 leaves saturation "
+"unchanged."
+msgstr "Množi zasićenost slike; 0 uklanja sve boje, a 1 ostavlja zasićenost nepromijenjenom."
+
+#: effects/color/info.js:106
+msgid "RGB to HSL (advanced effect)"
+msgstr "RGB u HSL (napredni efekt)"
+
+#: effects/color/info.js:107
+msgid "Converts the image from RGBA color space to HSLA."
+msgstr "Pretvara sliku iz prostora boja RGBA u HSLA."
+
+#: effects/color/info.js:112
+msgid "HSL to RGB (advanced effect)"
+msgstr "HSL u RGB (napredni efekt)"
+
+#: effects/color/info.js:113
+msgid "Converts the image from HSLA color space to RGBA."
+msgstr "Pretvara sliku iz prostora boja HSLA u RGBA."
+
+#: effects/effect_groups.js:4
+msgid "Blur"
+msgstr "Zamućenje"
+
+#: effects/effect_groups.js:18
+msgid "Texture"
+msgstr "Tekstura"
+
+#: effects/effect_groups.js:28
+msgid "Advanced"
+msgstr "Napredno"
+
+#: effects/effect_groups.js:29
+msgid "Building blocks that are mostly useful combined with other effects."
+msgstr "Osnovni efekti koji su uglavnom korisni u kombinaciji s drugim efektima."
+
+#: effects/refraction/info.js:7
+msgid "Liquid Glass"
+msgstr "Liquid Glass"
+
+#: effects/refraction/info.js:8
+msgid ""
+"A glossy translucent material with edge refraction, rim lighting, tint, and "
+"inner shadow."
+msgstr "Sjajni proziran materijal s lomom svjetlosti na rubovima, osvijetljenim rubom, nijansom i unutarnjom sjenom."
+
+#: effects/refraction/info.js:11
+msgid "Refraction scale"
+msgstr "Jačina loma svjetlosti"
+
+#: effects/refraction/info.js:12
+msgid "How strongly the glass bends the sampled blur texture."
+msgstr "Koliko snažno staklo lomi uzorkovanu zamućenu teksturu."
+
+#: effects/refraction/info.js:21
+msgid "Blur radius"
+msgstr "Polumjer zamućenja"
+
+#: effects/refraction/info.js:22
+msgid "Blurs the sampled backdrop before the liquid-glass shader is applied."
+msgstr "Zamućuje uzorkovanu pozadinu prije primjene sjenčara Liquid Glass."
+
+#: effects/refraction/info.js:31
+msgid "Bezel width"
+msgstr "Širina ruba"
+
+#: effects/refraction/info.js:32
+msgid "How far the liquid-glass lens reaches inward from the edge."
+msgstr "Koliko se leća efekta Liquid Glass proteže prema unutra od ruba."
+
+#: effects/refraction/info.js:41
+msgid "Rim spread"
+msgstr "Raspon rubnog prijelaza"
+
+#: effects/refraction/info.js:42
+msgid "How far the refraction eases inward from the glass edge."
+msgstr "Koliko se lom svjetlosti postupno smanjuje prema unutra od ruba stakla."
+
+#: effects/refraction/info.js:51
+msgid "Refraction reach"
+msgstr "Doseg loma svjetlosti"
+
+#: effects/refraction/info.js:52
+msgid ""
+"How far the bend reaches inward from the edge, past the corner radius. A "
+"wider bend is also deeper, like a wider bezel (0 keeps it at the rim)."
+msgstr "Koliko se lom proteže prema unutra od ruba, iza zaobljenog kuta. Širi lom ujedno je i dublji, poput šireg okvira (0 ga zadržava na rubu)."
+
+#: effects/refraction/info.js:61
+msgid "Glass thickness"
+msgstr "Debljina stakla"
+
+#: effects/refraction/info.js:62
+msgid "Depth used by the refraction edge profile."
+msgstr "Dubina koja se koristi za profil loma na rubu."
+
+#: effects/refraction/info.js:71
+msgid "Refraction style"
+msgstr "Oblik loma svjetlosti"
+
+#: effects/refraction/info.js:72
+msgid ""
+"Shape of the bend near the edge. Low values bend softly, higher values bend "
+"more sharply right at the edge."
+msgstr "Oblik loma blizu ruba. Niske vrijednosti daju blagi lom, a više vrijednosti oštriji lom neposredno uz rub."
+
+#: effects/refraction/info.js:81
+msgid "Fresnel glare"
+msgstr "Fresnelov odsjaj"
+
+#: effects/refraction/info.js:82
+msgid "Strength of the directional fresnel glare from the glass edge."
+msgstr "Jačina usmjerenog Fresnelova odsjaja na rubu stakla."
+
+#: effects/refraction/info.js:91
+msgid "Fresnel glare angle"
+msgstr "Kut Fresnelova odsjaja"
+
+#: effects/refraction/info.js:92
+msgid ""
+"Direction or axis of the fresnel glare, in degrees (positive rotates "
+"clockwise). In two-sided mode, 0 lights the top and bottom edges; in one-"
+"sided mode, only the edge facing the light angle is lit (0 for top, 180 for "
+"bottom)."
+msgstr "Smjer ili os Fresnelova odsjaja u stupnjevima (pozitivne vrijednosti zakreću ga u smjeru kazaljke na satu). U dvostranom načinu 0 osvjetljava gornji i donji rub; u jednostranom načinu osvijetljen je samo rub okrenut prema svjetlu (0 za gornji, 180 za donji)."
+
+#: effects/refraction/info.js:101
+msgid "Fresnel glare width"
+msgstr "Širina Fresnelova odsjaja"
+
+#: effects/refraction/info.js:102
+msgid "Thickness multiplier of the fresnel glare ring along the glass edge."
+msgstr "Množitelj debljine prstena Fresnelova odsjaja duž ruba stakla."
+
+#: effects/refraction/info.js:111
+msgid "Two-sided fresnel glare"
+msgstr "Dvostrani Fresnelov odsjaj"
+
+#: effects/refraction/info.js:112
+msgid ""
+"Light opposite edge pairs symmetrically. When disabled, only the edge facing "
+"the fresnel angle is lit (e.g. 180 lights the bottom edge, removing the "
+"glare from the top)."
+msgstr "Simetrično osvjetljava parove suprotnih rubova. Kada je isključeno, osvijetljen je samo rub okrenut prema kutu Fresnelova odsjaja (npr. 180 osvjetljava donji rub i uklanja odsjaj s gornjeg)."
+
+#: effects/refraction/info.js:116
+msgid "Specular glare strength"
+msgstr "Jačina zrcalnog odsjaja"
+
+#: effects/refraction/info.js:117
+msgid ""
+"Strength of the white specular glare on the same edge pair as the fresnel "
+"glare, brighter on the light side (0 disables it)."
+msgstr "Jačina bijelog zrcalnog odsjaja na istom paru rubova kao Fresnelov odsjaj, svjetlijeg na osvijetljenoj strani (0 ga isključuje)."
+
+#: effects/refraction/info.js:126
+msgid "Edge border"
+msgstr "Obrub ruba"
+
+#: effects/refraction/info.js:127
+msgid ""
+"Thin dark line along the straight side edges, away from the fresnel glare, "
+"outlining the glass on light backgrounds."
+msgstr "Tanka tamna crta duž ravnih bočnih rubova, udaljena od Fresnelova odsjaja, koja ocrtava staklo na svijetlim pozadinama."
+
+#: effects/refraction/info.js:136
+msgid "Edge glow"
+msgstr "Sjaj ruba"
+
+#: effects/refraction/info.js:137
+msgid "Colorful content under the glass lights up its edge."
+msgstr "Šareni sadržaj ispod stakla osvjetljava njegov rub."
+
+#: effects/refraction/info.js:146
+msgid "Tint strength"
+msgstr "Jačina nijanse"
+
+#: effects/refraction/info.js:147
+msgid "Amount of subtle milky glass tint over the blurred texture."
+msgstr "Količina suptilne mliječne nijanse stakla preko zamućene teksture."
+
+#: effects/refraction/info.js:156
+msgid "Tint color"
+msgstr "Boja nijanse"
+
+#: effects/refraction/info.js:157
+msgid "Color blended over the blurred texture, weighted by the tint strength."
+msgstr "Boja koja se stapa sa zamućenom teksturom, prema zadanoj jačini nijanse."
+
+#: effects/refraction/info.js:162
+msgid "Backdrop zoom"
+msgstr "Uvećanje pozadine"
+
+#: effects/refraction/info.js:163
+msgid "Zoom level of the backdrop visible through the glass."
+msgstr "Razina uvećanja pozadine vidljive kroz staklo."
+
+#: effects/refraction/info.js:172
+msgid "Inner shadow"
+msgstr "Unutarnja sjena"
+
+#: effects/refraction/info.js:173
+msgid "Darkens the lower and inner edge for a deeper glass surface."
+msgstr "Zatamnjuje donji i unutarnji rub kako bi staklena površina dobila dubinu."
+
+#: effects/refraction/info.js:182
+msgid "Chromatic dispersion"
+msgstr "Kromatska disperzija"
+
+#: effects/refraction/info.js:183
+msgid "Physical per-channel refraction dispersion at the glass edge."
+msgstr "Fizikalna disperzija loma svjetlosti po kanalima na rubu stakla."
+
+#: effects/refraction/info.js:192
+msgid "Edge behavior"
+msgstr "Ponašanje na rubu"
+
+#: effects/refraction/info.js:193
+msgid "How texture coordinates outside the actor are sampled."
+msgstr "Način uzorkovanja koordinata teksture izvan elementa."
+
+#: effects/refraction/info.js:196
+msgid "Clamp"
+msgstr "Ograniči"
+
+#: effects/refraction/info.js:197
+msgid "Mirror"
+msgstr "Zrcali"
+
+#: effects/texture/info.js:12
+msgid "Image"
+msgstr "Slika"
+
+#: effects/texture/info.js:13
+msgid "Blends an image into the pipeline."
+msgstr "Stapa sliku s nizom efekata."
+
+#: effects/texture/info.js:16
+msgid "Image path"
+msgstr "Putanja slike"
+
+#: effects/texture/info.js:17
+msgid "Absolute path to the image file."
+msgstr "Apsolutna putanja do slikovne datoteke."
+
+#: effects/texture/info.js:21
+msgid "Blend"
+msgstr "Stapanje"
+
+#: effects/texture/info.js:22
+msgid "How strongly the image is blended in."
+msgstr "Koliko se snažno slika stapa s podlogom."
+
+#: effects/texture/info.js:32
+msgid "How the image is blended in."
+msgstr "Način stapanja slike s podlogom."
+
+#: effects/texture/info.js:56
+msgid "Image mode"
+msgstr "Način prikaza slike"
+
+#: effects/texture/info.js:57
+msgid "Tile the image, stretch it, or fit its width to the monitor."
+msgstr "Popločajte sliku, rastegnite je ili prilagodite njezinu širinu zaslonu."
+
+#: effects/texture/info.js:60
+msgid "Tile"
+msgstr "Popločaj"
+
+#: effects/texture/info.js:61
+msgid "Stretch"
+msgstr "Rastegni"
+
+#: effects/texture/info.js:62
+msgid "Fit width"
+msgstr "Prilagodi širinu"
+
+#: effects/texture/info.js:66
+msgid "Opacity"
+msgstr "Neprozirnost"
+
+#: effects/texture/info.js:67
+msgid "Opacity of the image blend."
+msgstr "Neprozirnost stopljene slike."
+
+#: effects/texture/info.js:79
+msgid "Pixelize"
+msgstr "Pikseliziraj"
+
+#: effects/texture/info.js:80
+msgid "An effect that pixelizes the image."
+msgstr "Efekt koji pikselizira sliku."
+
+#: effects/texture/info.js:83 effects/texture/info.js:108
+#: effects/texture/info.js:133
+msgid "Factor"
+msgstr "Faktor"
+
+#: effects/texture/info.js:84 effects/texture/info.js:109
+msgid "How much to scale down the image."
+msgstr "Koliko će slika biti umanjena."
+
+#: effects/texture/info.js:91 effects/texture/info.js:116
+msgid "Downsampling mode"
+msgstr "Način umanjenja slike"
+
+#: effects/texture/info.js:92 effects/texture/info.js:117
+msgid "The downsampling method that is used."
+msgstr "Korištena metoda umanjenja."
+
+#: effects/texture/info.js:95 effects/texture/info.js:120
+msgid "Boxcar"
+msgstr "Boxcar"
+
+#: effects/texture/info.js:96 effects/texture/info.js:121
+msgid "Triangular"
+msgstr "Trokutast"
+
+#: effects/texture/info.js:97 effects/texture/info.js:122
+msgid "Dirac"
+msgstr "Dirac"
+
+#: effects/texture/info.js:104
+msgid "Downscale (advanced effect)"
+msgstr "Smanjenje veličine (napredni efekt)"
+
+#: effects/texture/info.js:105
+msgid "An effect that downscales the image and puts it in the top-left corner."
+msgstr "Efekt koji smanjuje sliku i postavlja je u gornji lijevi kut."
+
+#: effects/texture/info.js:129
+msgid "Upscale (advanced effect)"
+msgstr "Uvećanje (napredni efekt)"
+
+#: effects/texture/info.js:130
+msgid "An effect that upscales the image from the top-left corner."
+msgstr "Efekt koji uvećava sliku iz gornjeg lijevog kuta."
+
+#: effects/texture/info.js:134
+msgid "How much to scale up the image."
+msgstr "Koliko će slika biti uvećana."
+
+#: effects/texture/info.js:144
+msgid "Derivative"
+msgstr "Derivacija"
+
+#: effects/texture/info.js:145
+msgid "Apply a spatial derivative, or a laplacian."
+msgstr "Primjenjuje prostornu derivaciju ili Laplaceov operator."
+
+#: effects/texture/info.js:148
+msgid "Operation"
+msgstr "Operacija"
+
+#: effects/texture/info.js:149
+msgid "The mathematical operation to apply."
+msgstr "Primijenjena matematička operacija."
+
+#: effects/texture/info.js:152
+msgid "1-step derivative"
+msgstr "Derivacija u jednom koraku"
+
+#: effects/texture/info.js:153
+msgid "2-step derivative"
+msgstr "Derivacija u dva koraka"
+
+#: effects/texture/info.js:154
+msgid "Laplacian"
+msgstr "Laplaceov operator"
+
+#: effects/texture/info.js:161 effects/texture/info.js:165
+msgid "Noise"
+msgstr "Šum"
+
+#: effects/texture/info.js:162
+msgid "An effect that adds random grain to the image."
+msgstr "Efekt koji slici dodaje nasumičnu zrnatost."
+
+#: effects/texture/info.js:166
+msgid "The amount of noise to add."
+msgstr "Količina šuma koja će biti dodana."
+
+#: effects/texture/info.js:175
+msgid "Lightness"
+msgstr "Svjetlina"
+
+#: effects/texture/info.js:176
+msgid ""
+"The luminosity of the noise. A setting of '1.0' will make the effect "
+"transparent."
+msgstr "Svjetlina šuma. Postavka 1.0 učinit će efekt prozirnim."
+
+#: effects/wave/info.js:7
+msgid "Vapor Wave"
+msgstr "Vapor Wave"
+
+#: effects/wave/info.js:8
+msgid ""
+"A flowing wave displacement for a lively and dynamic feel with natural "
+"movement."
+msgstr "Valovito pomicanje s prirodnim kretanjem za živahan i dinamičan dojam."
+
+#: effects/wave/info.js:11
+msgid "Wave frequency"
+msgstr "Frekvencija valova"
+
+#: effects/wave/info.js:12
+msgid "How tightly packed the ripples are."
+msgstr "Koliko su valovi gusto raspoređeni."
+
+#: effects/wave/info.js:21
+msgid "Wave amplitude"
+msgstr "Amplituda valova"
+
+#: effects/wave/info.js:22
+msgid "How strongly the image gets displaced by the waves."
+msgstr "Koliko snažno valovi pomiču sliku."
+
+#: effects/wave/info.js:31
+msgid "Wave octaves"
+msgstr "Oktave valova"
+
+#: effects/wave/info.js:32
+msgid ""
+"Detail level of the wave shape. Higher adds more detail at the cost of "
+"performance."
+msgstr "Razina detalja oblika vala. Viša vrijednost dodaje više detalja na štetu performansi."
+
+#: effects/wave/info.js:39
+msgid "Vapor octaves"
+msgstr "Oktave pare"
+
+#: effects/wave/info.js:40
+msgid ""
+"Detail level of the misty texture. Higher adds more detail at the cost of "
+"performance."
+msgstr "Razina detalja magličaste teksture. Viša vrijednost dodaje više detalja na štetu performansi."
+
+#: effects/wave/info.js:47
+msgid "Vapor speed"
+msgstr "Brzina pare"
+
+#: effects/wave/info.js:48
+msgid "How quickly the misty vapor texture drifts over time."
+msgstr "Koliko se brzo magličasta tekstura pare pomiče tijekom vremena."
+
+#: effects/wave/info.js:57
+msgid "Texture grain"
+msgstr "Zrnatost teksture"
+
+#: effects/wave/info.js:58
+msgid "Adds a fine sandblasted texture to the image."
+msgstr "Dodaje slici finu teksturu nalik pjeskarenoj površini."
+
+#: effects/wave/info.js:68
+msgid "The saturation of the effect."
+msgstr "Zasićenost efekta."
+
+#: effects/wave/info.js:78
+msgid "The brightness of the effect."
+msgstr "Svjetlina efekta."
+
+#: effects/wave/info.js:87
+msgid "Zoom"
+msgstr "Uvećanje"
+
+#: effects/wave/info.js:88
+msgid "Magnifies the backdrop toward the surface's center."
+msgstr "Uvećava pozadinu prema središtu površine."
+
+#: effects/wave/info.js:97
+msgid "Dispersion"
+msgstr "Disperzija"
+
+#: effects/wave/info.js:98
+msgid "Chromatic aberration strength for a glitchy feel."
+msgstr "Jačina kromatske aberacije za dojam digitalne smetnje."
+
+#: effects/wave/info.js:107
+msgid "Enable flow animation"
+msgstr "Omogući animaciju protoka"
+
+#: effects/wave/info.js:108
+msgid "Whether the wave noise continuously flows over time."
+msgstr "Određuje pomiče li se valoviti šum neprekidno."
+
+#: effects/wave/info.js:112
+msgid "Flow animation speed"
+msgstr "Brzina animacije protoka"
+
+#: effects/wave/info.js:113
+msgid "The base speed at which the wave pattern flows."
+msgstr "Osnovna brzina kretanja valovitog uzorka."
+
+#: effects/wave/info.js:122
+msgid "Resize ease duration"
+msgstr "Trajanje prilagodbe promjeni veličine"
+
+#: effects/wave/info.js:123
+msgid ""
+"How long the effect takes to adjust when a window changes size "
+"(milliseconds)."
+msgstr "Koliko je vremena efektu potrebno da se prilagodi promjeni veličine prozora (u milisekundama)."
+
+#: preferences/legacy_blur_notice.js:26
+msgid "Rounded-blur is no longer needed"
+msgstr "Rounded-blur više nije potreban"
+
+#: preferences/legacy_blur_notice.js:27
+msgid ""
+"Blur my Shell handles rounded corners directly. You can remove the old "
+"library if nothing else uses it."
+msgstr "Blur my Shell sam obrađuje zaobljene kutove. Staru biblioteku možete ukloniti ako je ništa drugo ne koristi."
+
+#: preferences/legacy_blur_notice.js:31
+msgid "Removal instructions"
+msgstr "Upute za uklanjanje"
+
+#: preferences/legacy_blur_notice.js:37 preferences/legacy_blur_notice.js:43
+msgid "Dismiss"
+msgstr "Odbaci"
+
+#: preferences/legacy_blur_notice.js:58
+msgid "Removing the old blur library"
+msgstr "Uklanjanje stare biblioteke za zamućenje"
+
+#: preferences/legacy_blur_notice.js:60
+msgid ""
+"Removal is optional. Keep the library if another extension still needs it."
+msgstr "Uklanjanje je neobavezno. Zadržite biblioteku ako je drugoj ekstenziji još potrebna."
+
+#: preferences/legacy_blur_notice.js:61
+msgid ""
+"Installed through a package manager? Remove the gnome-rounded-blur package "
+"with the same package manager. Review its proposed changes before confirming."
+msgstr "Instalirano upraviteljem paketa? Uklonite paket gnome-rounded-blur istim upraviteljem paketa. Prije potvrde pregledajte predložene promjene."
+
+#: preferences/legacy_blur_notice.js:62
+msgid ""
+"Installed with the old Blur my Shell helper? The instructions explain how to "
+"run its uninstaller."
+msgstr "Instalirano starim pomoćnim programom Blur my Shella? Upute objašnjavaju kako pokrenuti njegov program za uklanjanje."
+
+#: preferences/legacy_blur_notice.js:63
+msgid ""
+"Built from source? Use “sudo ninja -C build uninstall” from the original "
+"build directory, or follow its install log. Do not use the helper to remove "
+"a package-managed installation."
+msgstr "Izgrađeno iz izvornog koda? Upotrijebite „sudo ninja -C build uninstall” iz izvornog direktorija izgradnje ili slijedite njegov zapis instalacije. Ne koristite pomoćni program za uklanjanje instalacije kojom upravlja upravitelj paketa."
+
+#: preferences/legacy_blur_notice.js:64
+msgid ""
+"Log out and back in after removal. Blur my Shell will not uninstall anything "
+"for you."
+msgstr "Nakon uklanjanja odjavite se i ponovno prijavite. Blur my Shell neće ništa sam ukloniti."
+
+#: preferences/legacy_blur_notice.js:69
+msgid "Close"
+msgstr "Zatvori"
+
+#: preferences/legacy_blur_notice.js:70
+msgid "Open instructions"
+msgstr "Otvori upute"
+
+#: preferences/menu.js:94
+msgid "Reset all preferences?"
+msgstr "Vrati sve postavke na zadane vrijednosti?"
+
+#: preferences/menu.js:95
+msgid "Pipelines and component settings will return to their defaults."
+msgstr "Nizovi efekata i postavke komponenti vratit će se na zadane vrijednosti."
+
+#: preferences/menu.js:97 preferences/menu.js:146
+#: preferences/pages/pipelines/index.js:122
+msgid "Cancel"
+msgstr "Odustani"
+
+#: preferences/menu.js:98
+msgid "Reset"
+msgstr "Vrati na zadano"
+
+#: preferences/menu.js:125
+msgid "Preferences exported"
+msgstr "Postavke su izvezene"
+
+#: preferences/menu.js:127
+msgid "Could not export the preferences"
+msgstr "Nije moguće izvesti postavke"
+
+#: preferences/menu.js:137
+msgid "Could not import this file"
+msgstr "Nije moguće uvesti ovu datoteku"
+
+#: preferences/menu.js:143
+msgid "Import preferences?"
+msgstr "Uvesti postavke?"
+
+#: preferences/menu.js:144
+msgid ""
+"Your pipelines and component settings will be replaced by the ones in this "
+"file."
+msgstr "Vaši nizovi efekata i postavke komponenti bit će zamijenjeni onima iz ove datoteke."
+
+#: preferences/menu.js:147
+msgid "Import"
+msgstr "Uvezi"
+
+#: preferences/menu.js:153
+msgid "Preferences imported"
+msgstr "Postavke su uvezene"
+
+#: preferences/pages/pipelines/components.js:7
+msgid "Panel"
+msgstr "Ploča"
+
+#: preferences/pages/pipelines/components.js:8
+msgid "Panel (Light mode)"
+msgstr "Ploča (svijetli način)"
+
+#: preferences/pages/pipelines/components.js:9
+msgid "Panel (Dark mode)"
+msgstr "Ploča (tamni način)"
+
+#: preferences/pages/pipelines/components.js:11
+msgid "Dock"
+msgstr "Dok"
+
+#: preferences/pages/pipelines/components.js:12
+msgid "Dock (Light mode)"
+msgstr "Dok (svijetli način)"
+
+#: preferences/pages/pipelines/components.js:13
+msgid "Dock (Dark mode)"
+msgstr "Dok (tamni način)"
+
+#: preferences/pages/pipelines/components.js:15
+msgid "Popups"
+msgstr "Skočni prozori"
+
+#: preferences/pages/pipelines/components.js:16
+msgid "Popups (Light mode)"
+msgstr "Skočni prozori (svijetli način)"
+
+#: preferences/pages/pipelines/components.js:17
+msgid "Popups (Dark mode)"
+msgstr "Skočni prozori (tamni način)"
+
+#: preferences/pages/pipelines/components.js:19
+msgid "Overview"
+msgstr "Pregled"
+
+#: preferences/pages/pipelines/components.js:20
+msgid "Overview (Light mode)"
+msgstr "Pregled (svijetli način)"
+
+#: preferences/pages/pipelines/components.js:21
+msgid "Overview (Dark mode)"
+msgstr "Pregled (tamni način)"
+
+#: preferences/pages/pipelines/components.js:23
+msgid "App folders"
+msgstr "Mape aplikacija"
+
+#: preferences/pages/pipelines/components.js:24
+msgid "App folders (Light mode)"
+msgstr "Mape aplikacija (svijetli način)"
+
+#: preferences/pages/pipelines/components.js:25
+msgid "App folders (Dark mode)"
+msgstr "Mape aplikacija (tamni način)"
+
+#: preferences/pages/pipelines/components.js:27
+msgid "Lock screen"
+msgstr "Zaključani zaslon"
+
+#: preferences/pages/pipelines/components.js:28
+msgid "Lock screen (Light mode)"
+msgstr "Zaključani zaslon (svijetli način)"
+
+#: preferences/pages/pipelines/components.js:29
+msgid "Lock screen (Dark mode)"
+msgstr "Zaključani zaslon (tamni način)"
+
+#: preferences/pages/pipelines/components.js:31
+msgid "Screenshot"
+msgstr "Snimka zaslona"
+
+#: preferences/pages/pipelines/components.js:32
+msgid "Screenshot (Light mode)"
+msgstr "Snimka zaslona (svijetli način)"
+
+#: preferences/pages/pipelines/components.js:33
+msgid "Screenshot (Dark mode)"
+msgstr "Snimka zaslona (tamni način)"
+
+#: preferences/pages/pipelines/components.js:35
+msgid "Window List"
+msgstr "Popis prozora"
+
+#: preferences/pages/pipelines/components.js:36
+msgid "Window List (Light mode)"
+msgstr "Popis prozora (svijetli način)"
+
+#: preferences/pages/pipelines/components.js:37
+msgid "Window List (Dark mode)"
+msgstr "Popis prozora (tamni način)"
+
+#: preferences/pages/pipelines/components.js:39
+msgid "Coverflow Alt-Tab"
+msgstr "Coverflow Alt-Tab"
+
+#: preferences/pages/pipelines/components.js:40
+msgid "Coverflow Alt-Tab (Light mode)"
+msgstr "Coverflow Alt-Tab (svijetli način)"
+
+#: preferences/pages/pipelines/components.js:41
+msgid "Coverflow Alt-Tab (Dark mode)"
+msgstr "Coverflow Alt-Tab (tamni način)"
+
+#: preferences/pages/pipelines/components.js:43
+msgid "Applications"
+msgstr "Aplikacije"
+
+#: preferences/pages/pipelines/components.js:44
+msgid "Applications (Light mode)"
+msgstr "Aplikacije (svijetli način)"
+
+#: preferences/pages/pipelines/components.js:45
+msgid "Applications (Dark mode)"
+msgstr "Aplikacije (tamni način)"
+
+#: preferences/pages/pipelines/effect_chooser.js:13
+msgid "Add Effect"
+msgstr "Dodaj efekt"
+
+#: preferences/pages/pipelines/index.js:79
+msgid "New pipeline"
+msgstr "Novi niz efekata"
+
+#: preferences/pages/pipelines/index.js:117
+#, javascript-format
+msgid "Delete “%s”?"
+msgstr "Izbrisati „%s”?"
+
+#: preferences/pages/pipelines/index.js:118
+msgid "Delete this pipeline?"
+msgstr "Izbrisati ovaj niz efekata?"
+
+#: preferences/pages/pipelines/index.js:119
+#, javascript-format
+msgid "It is used by %s, which will switch to the default pipeline."
+msgstr "Koristi ga %s; umjesto njega koristit će se zadani niz efekata."
+
+#: preferences/pages/pipelines/index.js:123
+#: preferences/pages/pipelines/pipeline_row.js:43
+msgid "Delete"
+msgstr "Izbriši"
+
+#: preferences/pages/pipelines/index.js:147
+#, javascript-format
+msgid "\"%s\" deleted"
+msgstr "„%s” je izbrisan"
+
+#: preferences/pages/pipelines/index.js:148
+msgid "Pipeline deleted"
+msgstr "Niz efekata je izbrisan"
+
+#: preferences/pages/pipelines/index.js:151
+msgid "Undo"
+msgstr "Poništi"
+
+#: preferences/pages/pipelines/pipeline_page.js:83
+#: preferences/pages/pipelines/pipeline_row.js:69
+msgid "Pipeline"
+msgstr "Niz efekata"
+
+#: preferences/pages/pipelines/pipeline_row.js:42
+msgid "Duplicate"
+msgstr "Udvostruči"
+
+#: preferences/pages/pipelines/pipeline_row.js:61
+msgid "Pipeline Menu"
+msgstr "Izbornik niza efekata"
+
+#: preferences/pages/pipelines/pipeline_row.js:74
+msgid "Unknown effect"
+msgstr "Nepoznati efekt"
+
+#: preferences/pages/pipelines/pipeline_row.js:75
+msgid "No effects yet"
+msgstr "Još nema efekata"
+
+#: preferences/widgets/effect_row.js:16
+msgid "Move Up"
+msgstr "Pomakni gore"
+
+#: preferences/widgets/effect_row.js:17
+msgid "Move Down"
+msgstr "Pomakni dolje"
+
+#: preferences/widgets/effect_row.js:19
+msgid "Remove"
+msgstr "Ukloni"
+
+#: preferences/widgets/effect_row.js:49
+msgid "Effect Menu"
+msgstr "Izbornik efekta"
+
+#: preferences/widgets/effect_row.js:179
+msgid "Choose…"
+msgstr "Odaberi…"
+
+#: preferences/widgets/effect_row.js:185
+msgid "Select"
+msgstr "Odaberi"
+
+#: preferences/widgets/effect_row.js:189
+msgid "Images"
+msgstr "Slike"
+
+#: preferences/widgets/effect_row.js:197
+msgid "Selected image is not a local file"
+msgstr "Odabrana slika nije lokalna datoteka"
+
+#: preferences/widgets/pipeline_choose_row.js:28
+msgid "Create new pipeline"
+msgstr "Stvori novi niz efekata"
+
+#: ui/menu.ui:6
+msgid "Debug Logging"
+msgstr "Zapisivanje podataka za otklanjanje grešaka"
+
+#: ui/menu.ui:10
+msgid "Disable on Power Saver"
+msgstr "Onemogući pri uštedi energije"
+
+#: ui/menu.ui:16
+msgid "Reset Preferences…"
+msgstr "Vrati postavke na zadane vrijednosti…"
+
+#: ui/menu.ui:20
+msgid "Export Preferences…"
+msgstr "Izvezi postavke…"
+
+#: ui/menu.ui:24
+msgid "Import Preferences…"
+msgstr "Uvezi postavke…"
+
+#: ui/menu.ui:30
+msgid "Project page"
+msgstr "Stranica projekta"
+
+#: ui/menu.ui:34
+msgid "Report a Bug"
+msgstr "Prijavi grešku"
+
+#: ui/menu.ui:38
+msgid "License"
+msgstr "Licencija"
+
+#: ui/menu.ui:48
+msgid "Main Menu"
+msgstr "Glavni izbornik"
+
+#: ui/pages/applications.ui:34 ui/pages/shell/app-folders.ui:21
+#: ui/pages/shell/component.ui:20 ui/pages/shell/dash.ui:37
+#: ui/pages/shell/overview.ui:21 ui/pages/shell/panel.ui:37
+#: ui/pages/shell/popup.ui:38
+msgid "Follow system theme"
+msgstr "Prati temu sustava"
+
+#: ui/pages/applications.ui:35 ui/pages/shell/app-folders.ui:22
+#: ui/pages/shell/component.ui:21 ui/pages/shell/dash.ui:38
+#: ui/pages/shell/overview.ui:22 ui/pages/shell/panel.ui:38
+#: ui/pages/shell/popup.ui:39
+msgid "Automatically switch the pipeline based on the system theme."
+msgstr "Automatski promijeni niz efekata prema temi sustava."
+
+#: ui/pages/applications.ui:50 ui/pages/shell/app-folders.ui:35
+#: ui/pages/shell/app-folders.ui:77 ui/pages/shell/component.ui:36
+#: ui/pages/shell/dash.ui:52 ui/pages/shell/dash.ui:95
+#: ui/pages/shell/overview.ui:35 ui/pages/shell/overview.ui:83
+#: ui/pages/shell/panel.ui:53 ui/pages/shell/panel.ui:194
+#: ui/pages/shell/popup.ui:54 ui/pages/shell/popup.ui:298
+msgid "Light"
+msgstr "Svijetlo"
+
+#: ui/pages/applications.ui:51 ui/pages/shell/app-folders.ui:36
+#: ui/pages/shell/component.ui:37 ui/pages/shell/dash.ui:53
+#: ui/pages/shell/overview.ui:36 ui/pages/shell/panel.ui:54
+#: ui/pages/shell/popup.ui:55
+msgid "The pipeline used for light mode"
+msgstr "Niz efekata koji se koristi u svijetlom načinu"
+
+#: ui/pages/applications.ui:59 ui/pages/shell/app-folders.ui:43
+#: ui/pages/shell/app-folders.ui:78 ui/pages/shell/component.ui:45
+#: ui/pages/shell/dash.ui:61 ui/pages/shell/dash.ui:96
+#: ui/pages/shell/overview.ui:43 ui/pages/shell/overview.ui:84
+#: ui/pages/shell/panel.ui:62 ui/pages/shell/panel.ui:195
+#: ui/pages/shell/popup.ui:63 ui/pages/shell/popup.ui:299
+msgid "Dark"
+msgstr "Tamno"
+
+#: ui/pages/applications.ui:60 ui/pages/shell/app-folders.ui:44
+#: ui/pages/shell/component.ui:46 ui/pages/shell/dash.ui:62
+#: ui/pages/shell/overview.ui:44 ui/pages/shell/panel.ui:63
+#: ui/pages/shell/popup.ui:64
+msgid "The pipeline used for dark mode"
+msgstr "Niz efekata koji se koristi u tamnom načinu"
+
+#: ui/pages/applications.ui:70 ui/pages/shell/app-folders.ui:53
+#: ui/pages/shell/overview.ui:53 ui/pages/shell/panel.ui:73
+msgid "Appearance"
+msgstr "Izgled"
+
+#: ui/pages/applications.ui:76
+msgid "Higher values are easier to read"
+msgstr "Više vrijednosti olakšavaju čitanje"
+
+#: ui/pages/applications.ui:96
+msgid "Opaque focused window"
+msgstr "Neproziran aktivni prozor"
+
+#: ui/pages/applications.ui:102 ui/pages/shell/panel.ui:78
+#: ui/pages/shell/popup.ui:182
+msgid "Corner radius"
+msgstr "Polumjer zaobljenja kutova"
+
+#: ui/pages/applications.ui:109 ui/pages/shell/panel.ui:85
+#: ui/pages/shell/popup.ui:187
+msgid "Rounded corners"
+msgstr "Zaobljeni kutovi"
+
+#: ui/pages/applications.ui:116
+msgid "Round maximized and fullscreen windows"
+msgstr "Zaobli maksimizirane prozore i prozore preko cijelog zaslona"
+
+#: ui/pages/applications.ui:124
+msgid "Behavior"
+msgstr "Ponašanje"
+
+#: ui/pages/applications.ui:129
+msgid "Blur on overview"
+msgstr "Zamućenje u pregledu"
+
+#: ui/pages/applications.ui:130
+msgid "Shows the blur on every workspace, at some performance cost"
+msgstr "Prikazuje zamućenje na svakom radnom prostoru, uz određeni utjecaj na performanse"
+
+#: ui/pages/applications.ui:136
+msgid "Unblur when Fullscreen"
+msgstr "Ukloni zamućenje preko cijelog zaslona"
+
+#: ui/pages/applications.ui:142
+msgid "Blur menus"
+msgstr "Zamuti izbornike"
+
+#: ui/pages/applications.ui:143
+msgid ""
+"Blur the menus of Wayland applications, which must be translucent for it to "
+"show."
+msgstr "Zamuti izbornike Wayland aplikacija. Izbornici moraju biti prozirni da bi zamućenje bilo vidljivo."
+
+#: ui/pages/applications.ui:149
+msgid "Menu corner radius"
+msgstr "Polumjer zaobljenja kutova izbornika"
+
+#: ui/pages/applications.ui:150
+msgid "Shapes edge effects like refraction, the blur always follows the menu."
+msgstr "Oblikuje rubne efekte poput loma svjetlosti; zamućenje uvijek prati izbornik."
+
+#: ui/pages/applications.ui:158
+msgid "Blur all windows"
+msgstr "Zamuti sve prozore"
+
+#: ui/pages/applications.ui:159
+msgid "When off, only the windows listed below are blurred."
+msgstr "Kada je isključeno, zamućuju se samo dolje navedeni prozori."
+
+#: ui/pages/applications.ui:167
+msgid "Blurred windows"
+msgstr "Zamućeni prozori"
+
+#: ui/pages/applications.ui:168 ui/pages/applications.ui:190
+msgid ""
+"Use * to match any characters, like Firefox* or *Code*, and ? to match a "
+"single one. Start with title: to match the window title instead, like "
+"title:Picture-in-Picture."
+msgstr "Upotrijebite * za bilo koji niz znakova, kao u Firefox* ili *Code*, a ? za jedan znak. Za podudaranje s naslovom prozora započnite s title:, primjerice title:Picture-in-Picture."
+
+#: ui/pages/applications.ui:176 ui/pages/applications.ui:198
+msgid "Add Window"
+msgstr "Dodaj prozor"
+
+#: ui/pages/applications.ui:189
+msgid "Excluded windows"
+msgstr "Izuzeti prozori"
+
+#: ui/pages/applications.ui:212 ui/pages/shell/panel.ui:184
+#: ui/pages/shell/popup.ui:288
+msgid "All"
+msgstr "Sve"
+
+#: ui/pages/applications.ui:213 ui/pages/shell/panel.ui:185
+#: ui/pages/shell/popup.ui:289
+msgid "Top only"
+msgstr "Samo gore"
+
+#: ui/pages/applications.ui:214 ui/pages/shell/panel.ui:186
+#: ui/pages/shell/popup.ui:290
+msgid "Bottom only"
+msgstr "Samo dolje"
+
+#: ui/pages/applications.ui:215 ui/pages/shell/panel.ui:187
+#: ui/pages/shell/popup.ui:291
+msgid "None"
+msgstr "Ništa"
+
+#: ui/pages/pipelines/pipeline-page.ui:24
+msgid "Name"
+msgstr "Naziv"
+
+#: ui/pages/pipelines/pipeline-page.ui:30
+msgid "Pipeline ID"
+msgstr "ID niza efekata"
+
+#: ui/pages/pipelines/pipeline-page.ui:36
+msgid "Copy"
+msgstr "Kopiraj"
+
+#: ui/pages/pipelines/pipeline-page.ui:49
+msgid "Effects"
+msgstr "Efekti"
+
+#: ui/pages/pipelines/pipeline-page.ui:50
+msgid "The top effect is applied first."
+msgstr "Najprije se primjenjuje najgornji efekt."
+
+#: ui/pages/pipelines/pipelines.ui:5
+msgid "Pipelines"
+msgstr "Nizovi efekata"
+
+#: ui/pages/pipelines/pipelines.ui:10
+msgid "Pipelines are sets of effects that components share."
+msgstr "Nizovi su skupovi efekata koje komponente mogu dijeliti."
+
+#: ui/pages/pipelines/pipelines.ui:17
+msgid "New Pipeline"
+msgstr "Novi niz efekata"
+
+#: ui/pages/shell/app-folders.ui:58
+msgid "Application folder dialogs style"
+msgstr "Stil dijaloga mapa aplikacija"
+
+#: ui/pages/shell/app-folders.ui:65
+msgid "Blur behind folders"
+msgstr "Zamuti iza mapa"
+
+#: ui/pages/shell/app-folders.ui:66
+msgid "Blur the app grid behind an open folder."
+msgstr "Zamuti mrežu aplikacija iza otvorene mape."
+
+#: ui/pages/shell/app-folders.ui:75 ui/pages/shell/overview.ui:82
+msgid "Do not style"
+msgstr "Bez promjene stila"
+
+#: ui/pages/shell/app-folders.ui:76 ui/pages/shell/dash.ui:94
+#: ui/pages/shell/overview.ui:85 ui/pages/shell/panel.ui:193
+#: ui/pages/shell/popup.ui:297
+msgid "Transparent"
+msgstr "Prozirno"
+
+#: ui/pages/shell/app-folders.ui:79 ui/pages/shell/dash.ui:97
+#: ui/pages/shell/overview.ui:86 ui/pages/shell/panel.ui:197
+#: ui/pages/shell/popup.ui:300
+msgid "Automatic"
+msgstr "Automatski"
+
+#: ui/pages/shell/dash.ui:24 ui/pages/shell/panel.ui:24
+msgid "Disable in overview"
+msgstr "Onemogući u pregledu"
+
+#: ui/pages/shell/dash.ui:72 ui/pages/shell/panel.ui:107
+#: ui/pages/shell/popup.ui:153 ui/pages/shell/shell.ui:51
+msgid "Background"
+msgstr "Pozadina"
+
+#: ui/pages/shell/dash.ui:77 ui/pages/shell/panel.ui:112
+#: ui/pages/shell/popup.ui:158
+msgid "Override background"
+msgstr "Nadjačaj pozadinu"
+
+#: ui/pages/shell/dash.ui:83 ui/pages/shell/panel.ui:118
+#: ui/pages/shell/popup.ui:164
+msgid "Background style"
+msgstr "Stil pozadine"
+
+#: ui/pages/shell/overview.ui:58
+msgid "Overview components style"
+msgstr "Stil komponenti pregleda"
+
+#: ui/pages/shell/overview.ui:59
+msgid "For the dash, search and app folders"
+msgstr "Za dok, pretraživanje i mape aplikacija"
+
+#: ui/pages/shell/overview.ui:66
+msgid "Workspace corner radius"
+msgstr "Polumjer zaobljenja kutova radnog prostora"
+
+#: ui/pages/shell/panel.ui:92
+msgid "Force light text"
+msgstr "Prisili svijetli tekst"
+
+#: ui/pages/shell/panel.ui:93
+msgid "Useful with a light shell theme"
+msgstr "Korisno uz svijetlu temu ljuske"
+
+#: ui/pages/shell/panel.ui:99
+msgid "Match theme in overview"
+msgstr "Uskladi s temom u pregledu"
+
+#: ui/pages/shell/panel.ui:126
+msgid "Override background dynamically"
+msgstr "Dinamički nadjačaj pozadinu"
+
+#: ui/pages/shell/panel.ui:127
+msgid "Changes the background when a window is near the panel"
+msgstr "Mijenja pozadinu kada je prozor blizu ploče"
+
+#: ui/pages/shell/panel.ui:134
+msgid "When a window is near"
+msgstr "Kada je prozor u blizini"
+
+#: ui/pages/shell/panel.ui:135
+msgid ""
+"Blur on Window Proximity: Blur only when a window is near the panel and "
+"transparent when it is not.\n"
+"Background on Window Proximity: Solid color background when a window is near "
+"the panel and blur when it is not."
+msgstr ""
+"Zamućenje pri blizini prozora: zamućenje samo kada je prozor blizu ploče, "
+"a prozirnost kada nije.\n"
+"Pozadina pri blizini prozora: jednobojna pozadina kada je prozor blizu ploče, "
+"a zamućenje kada nije."
+
+#: ui/pages/shell/panel.ui:144
+msgid "Gradient background"
+msgstr "Gradijentna pozadina"
+
+#: ui/pages/shell/panel.ui:151
+msgid "Gradient direction"
+msgstr "Smjer gradijenta"
+
+#: ui/pages/shell/panel.ui:161
+msgid "Compatibility"
+msgstr "Kompatibilnost"
+
+#: ui/pages/shell/panel.ui:166
+msgid "Hidetopbar extension"
+msgstr "Ekstenzija Hidetopbar"
+
+#: ui/pages/shell/panel.ui:167
+msgid "Keeps the blur visible in the overview, best with static blur"
+msgstr "Zadržava zamućenje vidljivim u pregledu; najbolje radi sa statičnim zamućenjem"
+
+#: ui/pages/shell/panel.ui:174
+msgid "Blur original panel with Dash to Panel"
+msgstr "Zamuti izvornu ploču uz Dash to Panel"
+
+#: ui/pages/shell/panel.ui:175
+msgid "When Dash to Panel keeps the original panel"
+msgstr "Kada Dash to Panel zadržava izvornu ploču"
+
+#: ui/pages/shell/panel.ui:196
+msgid "Contrasted"
+msgstr "Kontrastno"
+
+#: ui/pages/shell/panel.ui:203
+msgid "Blur on Window Proximity"
+msgstr "Zamućenje pri blizini prozora"
+
+#: ui/pages/shell/panel.ui:204
+msgid "Background on Window Proximity"
+msgstr "Pozadina pri blizini prozora"
+
+#: ui/pages/shell/panel.ui:210
+msgid "Top"
+msgstr "Gore"
+
+#: ui/pages/shell/panel.ui:211
+msgid "Bottom"
+msgstr "Dolje"
+
+#: ui/pages/shell/popup.ui:24
+msgid "Blur behind dialogs"
+msgstr "Zamuti iza dijaloga"
+
+#: ui/pages/shell/popup.ui:25
+msgid ""
+"Blur the dimmed screen behind system dialogs, like the power off dialog."
+msgstr "Zamuti zatamnjeni zaslon iza dijaloga sustava, poput dijaloga za isključivanje."
+
+#: ui/pages/shell/popup.ui:74
+msgid "Blurred popups"
+msgstr "Zamućeni skočni prozori"
+
+#: ui/pages/shell/popup.ui:79 ui/pages/shell/popup.ui:194
+msgid "Menus"
+msgstr "Izbornici"
+
+#: ui/pages/shell/popup.ui:85 ui/pages/shell/popup.ui:201
+msgid "Input method candidates"
+msgstr "Prijedlozi načina unosa"
+
+#: ui/pages/shell/popup.ui:91 ui/pages/shell/popup.ui:208
+msgid "Quick settings"
+msgstr "Brze postavke"
+
+#: ui/pages/shell/popup.ui:97 ui/pages/shell/popup.ui:215
+msgid "Quick settings submenus"
+msgstr "Podizbornici brzih postavki"
+
+#: ui/pages/shell/popup.ui:103 ui/pages/shell/popup.ui:222
+msgid "Screenshot panel"
+msgstr "Ploča za snimanje zaslona"
+
+#: ui/pages/shell/popup.ui:109 ui/pages/shell/popup.ui:229
+msgid "Calendar and notification center"
+msgstr "Kalendar i centar obavijesti"
+
+#: ui/pages/shell/popup.ui:115 ui/pages/shell/popup.ui:236
+msgid "Notifications"
+msgstr "Obavijesti"
+
+#: ui/pages/shell/popup.ui:121 ui/pages/shell/popup.ui:243
+msgid "Window and workspace switchers"
+msgstr "Prebacivači prozora i radnih prostora"
+
+#: ui/pages/shell/popup.ui:127 ui/pages/shell/popup.ui:250
+msgid "Volume and brightness"
+msgstr "Glasnoća i svjetlina"
+
+#: ui/pages/shell/popup.ui:133 ui/pages/shell/popup.ui:257
+msgid "Window resize hints"
+msgstr "Naznake promjene veličine prozora"
+
+#: ui/pages/shell/popup.ui:139 ui/pages/shell/popup.ui:264
+msgid "Dialogs"
+msgstr "Dijalozi"
+
+#: ui/pages/shell/popup.ui:145 ui/pages/shell/popup.ui:271
+msgid "On-screen keyboard"
+msgstr "Zaslonska tipkovnica"
+
+#: ui/pages/shell/popup.ui:172
+msgid "Preserve shell theme"
+msgstr "Zadrži temu ljuske"
+
+#: ui/pages/shell/popup.ui:173
+msgid "Keep your shell theme's colors for popup controls."
+msgstr "Zadrži boje teme ljuske za kontrole skočnih prozora."
+
+#: ui/pages/shell/popup.ui:278
+msgid "Other popup surfaces"
+msgstr "Ostale skočne površine"
+
+#: ui/pages/shell/shell.ui:5
+msgid "Shell"
+msgstr "Ljuska"
+
+#: ui/pages/shell/shell.ui:16
+msgid "Desktop"
+msgstr "Radna površina"
+
+#: ui/pages/shell/shell.ui:22
+msgid "The top bar, or the panels from Dash to Panel"
+msgstr "Gornja traka ili ploče ekstenzije Dash to Panel"
+
+#: ui/pages/shell/shell.ui:30
+msgid "Dash to Dock, Ubuntu Dock, Dhruva and similar docks"
+msgstr "Dash to Dock, Ubuntu Dock, Dhruva i slični dokovi"
+
+#: ui/pages/shell/shell.ui:38
+msgid "Menus, quick settings, notifications and dialogs"
+msgstr "Izbornici, brze postavke, obavijesti i dijalozi"
+
+#: ui/pages/shell/shell.ui:52
+msgid "The wallpaper behind the workspaces"
+msgstr "Pozadinska slika iza radnih prostora"
+
+#: ui/pages/shell/shell.ui:60
+msgid "Folders opened from the app grid"
+msgstr "Mape otvorene iz mreže aplikacija"
+
+#: ui/pages/shell/shell.ui:68
+msgid "System"
+msgstr "Sustav"
+
+#: ui/pages/shell/shell.ui:74
+msgid "Behind the password prompt"
+msgstr "Iza upita za lozinku"
+
+#: ui/pages/shell/shell.ui:82
+msgid "Behind the window selector"
+msgstr "Iza odabira prozora"
+
+#: ui/pages/shell/shell.ui:90
+msgid "Extensions"
+msgstr "Ekstenzije"
+
+#: ui/pages/shell/shell.ui:96
+msgid "The taskbar from the Window List extension"
+msgstr "Programska traka ekstenzije Window List"
+
+#: ui/pages/shell/shell.ui:104
+msgid "Behind the window switcher"
+msgstr "Iza prebacivača prozora"
+
+#: ui/widgets/application-row.ui:4
+msgid "Window class or title"
+msgstr "Klasa ili naslov prozora"
+
+#: ui/widgets/application-row.ui:10
+msgid "Pick a Window"
+msgstr "Odaberi prozor"
+
+#: ui/widgets/application-row.ui:30
+msgid "Window selection failed. Make sure the extension is enabled."
+msgstr "Odabir prozora nije uspio. Provjerite je li ekstenzija omogućena."
+
+#: ui/widgets/application-row.ui:34
+msgid "The selected actor is not a window."
+msgstr "Odabrani element nije prozor."
+
+#: ui/widgets/blur-mode-row.ui:4
+msgid "Blur type"
+msgstr "Vrsta zamućenja"
+
+#: ui/widgets/blur-mode-row.ui:5
+msgid "Static blurs only the wallpaper"
+msgstr "Statično zamućuje samo pozadinsku sliku"
+
+#: ui/widgets/blur-mode-row.ui:23
+msgid "Static"
+msgstr "Statično"
+
+#: ui/widgets/blur-mode-row.ui:35
+msgid "Dynamic"
+msgstr "Dinamično"

@@ -59,6 +59,18 @@ class TranslationTasksTest(unittest.TestCase):
 
     def test_rejects_paths_as_package_names(self):
         self.assertNotEqual(self.run_task("check", "../example").returncode, 0)
+        self.assertNotEqual(self.run_task("check", "extensions/../example").returncode, 0)
+        self.assertNotEqual(self.run_task("check", "other/example").returncode, 0)
+
+    def test_supports_extension_directories(self):
+        extensions = self.root / "extensions"
+        extensions.mkdir()
+        self.directory.rename(extensions / "example")
+        result = self.run_task("build", "extensions/example")
+        self.assertEqual(result.returncode, 0, result.stderr)
+        output = extensions / "example/build/hr_HR/LC_MESSAGES/example-domain.mo"
+        with output.open("rb") as stream:
+            self.assertEqual(gettext.GNUTranslations(stream).gettext("Hello"), "Bok")
 
 
 if __name__ == "__main__":
