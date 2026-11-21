@@ -1,5 +1,37 @@
 # Croatian translations for AnduinOS
 
+AnduinOS officially supports 28 languages, but Croatian is not currently among
+them. This repository is intended to improve the UI experience for Croatian
+users and to provide a foundation for AnduinOS developers if Croatian is added
+in the future.
+
+## Translated component versions
+
+The Croatian catalogs were extracted from the following inspected versions:
+
+| Component | Type | Inspected version |
+| --- | --- | --- |
+| AnduinOS | Distribution | 2.0.6 |
+| Appearance | Application | 2.1.0 |
+| Offline Updater | Application | 2.1.0-14 |
+| Firewall | Application | 2.0.5 |
+| Driver Center | Application | 2.1.0 |
+| Control Panel | Application | 2.1.0-4+resolute |
+| Welcome | Application | 2.1.0-7+resolute |
+| Exe Runner | Application | 2.1.0-1+resolute |
+| Swap Control | Application | 2.0.5-3+resolute |
+| YubiKey Security Center | Application | 2.0.5-3+resolute |
+| ArcMenu | GNOME Shell extension | 70.0 (`metadata.json`, package 2.1.0-2+resolute) |
+| Dash to Panel | GNOME Shell extension | 74 |
+| Blur my Shell | GNOME Shell extension | 78 |
+| SimpleWeather | GNOME Shell extension | 12 |
+| Network Stats | GNOME Shell extension | 36 |
+
+These versions identify the source material used for the catalogs. They are
+not an assurance that a later application or extension package has the same
+strings. Compare each catalog with the current source and installed package
+before upgrading or contributing it upstream.
+
 Each component has its own translation directory:
 
 ```text
@@ -123,10 +155,10 @@ Individual users can enable or install additional extensions.
 
 These installed extensions have their own `locale/` directories, which GNOME
 Shell binds as their gettext locations. The inspected Blur my Shell, Dash to
-Panel, and SimpleWeather versions have Croatian catalogs in this repository;
-Network Stats does not. Catalogs in this repository are not automatically used
-by GNOME Shell. In particular, the application deployment instructions below
-do not apply to extensions.
+Panel, SimpleWeather, and Network Stats versions have Croatian catalogs in this
+repository. Catalogs in this repository are not automatically used by GNOME
+Shell. In particular, the application deployment instructions below do not
+apply to extensions.
 
 System extension directories belong to distribution packages and require
 administrator privileges to modify. The absence of a Croatian catalog in one
