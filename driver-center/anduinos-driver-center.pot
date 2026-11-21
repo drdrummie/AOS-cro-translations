@@ -1,0 +1,1584 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR AnduinOS Team
+# This file is distributed under the same license as the AnduinOS Driver Center package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: AnduinOS Driver Center 2.1.0\n"
+"Report-Msgid-Bugs-To: https://github.com/AiursoftWeb/AnduinOS-Packages/"
+"issues\n"
+"POT-Creation-Date: 2026-11-21 13:29+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+
+#, python-format
+msgid "%(days)d d %(hours)d h %(minutes)d min"
+msgstr ""
+
+#, python-format
+msgid "%(hours)d h %(minutes)d min"
+msgstr ""
+
+#, python-format
+msgid "%(used)s used / %(total)s"
+msgstr ""
+
+#, python-format
+msgid "%d configured printer"
+msgid_plural "%d configured printers"
+msgstr[0] ""
+msgstr[1] ""
+
+#, python-format
+msgid "%d device detected"
+msgid_plural "%d devices detected"
+msgstr[0] ""
+msgstr[1] ""
+
+#, python-format
+msgid "%d device is up to date"
+msgid_plural "%d devices are up to date"
+msgstr[0] ""
+msgstr[1] ""
+
+#, python-format
+msgid "%d firmware update available"
+msgid_plural "%d firmware updates available"
+msgstr[0] ""
+msgstr[1] ""
+
+#, python-format
+msgid "%d printer configured"
+msgid_plural "%d printers configured"
+msgstr[0] ""
+msgstr[1] ""
+
+#, python-format
+msgid "%d queue paused"
+msgid_plural "%d queues paused"
+msgstr[0] ""
+msgstr[1] ""
+
+#, python-format
+msgid "%d update available"
+msgid_plural "%d updates available"
+msgstr[0] ""
+msgstr[1] ""
+
+#, python-format
+msgid "%s cores"
+msgstr ""
+
+#, python-format
+msgid "%s threads"
+msgstr ""
+
+msgid ""
+"A certificate is waiting for enrollment. Restart and select Enroll MOK, "
+"Continue, Yes, then enter password 123456."
+msgstr ""
+
+msgid "A previous change was interrupted. Restore defaults before continuing."
+msgstr ""
+
+msgid ""
+"A previous preparation was interrupted. Ask an administrator to inspect the "
+"saved partition table and swap header before retrying."
+msgstr ""
+
+msgid "A restart may be required to finish installation."
+msgstr ""
+
+msgid "ALSA UCM profiles"
+msgstr ""
+
+msgid "About Driver Center"
+msgstr ""
+
+msgid "About This Computer"
+msgstr ""
+
+msgid "Action required"
+msgstr ""
+
+msgid "Active audio drivers"
+msgstr ""
+
+msgid "Administrator authentication was cancelled."
+msgstr ""
+
+msgid "Advanced compatibility settings"
+msgstr ""
+
+msgid "Advanced driver versions"
+msgstr ""
+
+msgid "All queues enabled"
+msgstr ""
+
+msgid "Allow local, network, and USB printing services to run."
+msgstr ""
+
+msgid ""
+"Alternative drivers are available only for hardware and kernels that have "
+"passed acceptance tests."
+msgstr ""
+
+msgid "AnduinOS Bootloader"
+msgstr ""
+
+msgid "AnduinOS Driver Center"
+msgstr ""
+
+msgid "AnduinOS GRUB is signed, trusted and deployed."
+msgstr ""
+
+msgid "AnduinOS Team"
+msgstr ""
+
+msgid ""
+"AnduinOS provides Intel SOF firmware and ALSA UCM profiles for reliable "
+"audio initialization and routing."
+msgstr ""
+
+msgid ""
+"AnduinOS will update software sources and install the drivers recommended "
+"for this hardware."
+msgstr ""
+
+msgid "Another disk credential operation is running. Wait and try again."
+msgstr ""
+
+msgid "Applications and runtimes"
+msgstr ""
+
+msgid ""
+"Applications and runtimes across user and system installations; locale and "
+"debug extensions excluded."
+msgstr ""
+
+msgid "Apply"
+msgstr ""
+
+msgid "Apply Changes"
+msgstr ""
+
+msgid "Apply graphics settings?"
+msgstr ""
+
+msgid "Audio"
+msgstr ""
+
+msgid "Audio Support"
+msgstr ""
+
+msgid "Audio support ready"
+msgstr ""
+
+#. PolicyKit authentication message
+msgid "Authentication is required to change hardware drivers"
+msgstr ""
+
+#. PolicyKit authentication message
+msgid "Authentication is required to read memory module type and speed"
+msgstr ""
+
+msgid "Automatic"
+msgstr ""
+
+msgid "Automatic discovery of printers advertised on the local network."
+msgstr ""
+
+msgid ""
+"Automatic preparation is unavailable for this disk or swap configuration. "
+"Ask an administrator to prepare a 256 MiB AOS_RECOVERY ext4 partition, then "
+"scan again."
+msgstr ""
+
+msgid ""
+"Automatic signing now uses your enrolled certificate. The previous "
+"configuration has been backed up. No further certificate enrollment is "
+"needed."
+msgstr ""
+
+msgid "Available"
+msgstr ""
+
+msgid "Available drivers"
+msgstr ""
+
+msgid "Available firmware updates"
+msgstr ""
+
+msgid "Available version"
+msgstr ""
+
+#, python-format
+msgid "Available: %s"
+msgstr ""
+
+msgid "BIOS / UEFI"
+msgstr ""
+
+msgid "Bluetooth Settings"
+msgstr ""
+
+msgid "Boot Recovery Help"
+msgstr ""
+
+msgid "Bootloader Update Failed"
+msgstr ""
+
+msgid "Bootloader Updated"
+msgstr ""
+
+msgid "Built-in display"
+msgstr ""
+
+msgid "CUPS service"
+msgstr ""
+
+msgid "Cancel"
+msgstr ""
+
+msgid "Certificate Enrollment"
+msgstr ""
+
+msgid "Certificate Signing Purpose"
+msgstr ""
+
+msgid "Certificate is not trusted by motherboard"
+msgstr ""
+
+msgid "Change disk password"
+msgstr ""
+
+msgid ""
+"Changes require a restart and may affect display reliability. The boot menu "
+"will remain visible for recovery. You can restore defaults from recovery "
+"mode."
+msgstr ""
+
+msgid "Check Again"
+msgstr ""
+
+msgid "Check encryption for system files, personal files and swap."
+msgstr ""
+
+msgid "Check for Driver Updates"
+msgstr ""
+
+msgid "Check for Firmware Updates"
+msgstr ""
+
+msgid "Check recovery configuration"
+msgstr ""
+
+msgid ""
+"Check the configured or duplicate recovery volumes with an administrator, "
+"then scan again."
+msgstr ""
+
+msgid "Check the firmware and boot mode before continuing."
+msgstr ""
+
+msgid "Check the password length, characters and confirmation."
+msgstr ""
+
+msgid "Checking credential configuration…"
+msgstr ""
+
+msgid "Checking for updates…"
+msgstr ""
+
+msgid "Checking hardware and Secure Boot status…"
+msgstr ""
+
+msgid "Checking…"
+msgstr ""
+
+msgid "Choose a new credential that is not already used by this disk."
+msgstr ""
+
+msgid ""
+"Choose the driver used by this device. AnduinOS marks the hardware-tested "
+"recommendation."
+msgstr ""
+
+msgid "Close"
+msgstr ""
+
+msgid ""
+"Close memory-heavy applications and scan again. There is not enough "
+"available RAM to disable this swap safely."
+msgstr ""
+
+msgid "Compare connected devices with the available metadata."
+msgstr ""
+
+msgid "Complete This Step First"
+msgstr ""
+
+msgid "Completed firmware operations will appear here."
+msgstr ""
+
+msgid "Configured"
+msgstr ""
+
+msgid "Configured printers"
+msgstr ""
+
+msgid "Confirm new disk password"
+msgstr ""
+
+msgid "Connect the computer to AC power"
+msgstr ""
+
+msgid "Contacting the firmware service"
+msgstr ""
+
+msgid "Continue"
+msgstr ""
+
+msgid "Core printing"
+msgstr ""
+
+msgid "Create Signing Certificate"
+msgstr ""
+
+msgid ""
+"Create a certificate that can sign both the bootloader and drivers first."
+msgstr ""
+
+msgid "Create a local signing certificate before preparing trust."
+msgstr ""
+
+msgid "Critical"
+msgstr ""
+
+msgid "Current disk password"
+msgstr ""
+
+msgid "Current emergency recovery key"
+msgstr ""
+
+msgid "Current mode"
+msgstr ""
+
+msgid "Current usage"
+msgstr ""
+
+msgid "Current version"
+msgstr ""
+
+msgid "Cursor"
+msgstr ""
+
+msgid ""
+"DKMS and the matching kernel headers are required. Check the driver build "
+"requirements."
+msgstr ""
+
+msgid "Default printer"
+msgstr ""
+
+msgid "Deploy the installed recovery image and regenerate the GRUB menu?"
+msgstr ""
+
+msgid "Desktop"
+msgstr ""
+
+msgid "Detailed specifications"
+msgstr ""
+
+msgid "Details"
+msgstr ""
+
+msgid "Device Firmware"
+msgstr ""
+
+msgid "Diagnostic access was not granted."
+msgstr ""
+
+msgid "Diagnostic coverage"
+msgstr ""
+
+msgid "Diagnostics"
+msgstr ""
+
+msgid "Disabled"
+msgstr ""
+
+msgid "Disk Encryption"
+msgstr ""
+
+msgid "Disk password changed."
+msgstr ""
+
+msgid "Disk swap"
+msgstr ""
+
+msgid "Display"
+msgstr ""
+
+msgid "Display compatibility settings take effect after restarting."
+msgstr ""
+
+msgid "Display power-saving states"
+msgstr ""
+
+msgid "Display troubleshooting"
+msgstr ""
+
+msgid "Do not disconnect devices or turn off the computer."
+msgstr ""
+
+msgid ""
+"Do not restart until the installed EFI boot files are trusted. Restore a "
+"known-good EFI backup or use trusted installation media to repair them. Keep "
+"existing enrolled certificates."
+msgstr ""
+
+msgid "Download the latest metadata from enabled firmware sources."
+msgstr ""
+
+msgid "Downloading firmware…"
+msgstr ""
+
+msgid "Driver changes completed. Restart may be required."
+msgstr ""
+
+msgid "Driver information updated."
+msgstr ""
+
+msgid "Driver operation failed: "
+msgstr ""
+
+msgid "Driver package"
+msgstr ""
+
+msgid ""
+"Driver signature repair is complete. The system will now check whether the "
+"installed drivers are trusted."
+msgstr ""
+
+msgid "Driver status"
+msgstr ""
+
+msgid "Driver switching"
+msgstr ""
+
+msgid "Driverless printing"
+msgstr ""
+
+msgid "Emergency recovery key"
+msgstr ""
+
+msgid "Emergency recovery key replaced."
+msgstr ""
+
+msgid "Enable Printing Support"
+msgstr ""
+
+msgid "Enabled"
+msgstr ""
+
+msgid ""
+"Enabling disk encryption on an existing installation is not supported yet. "
+"Reinstall using the latest AnduinOS ISO to enable disk encryption."
+msgstr ""
+
+msgid "Encrypted"
+msgstr ""
+
+msgid "Encryption coverage"
+msgstr ""
+
+msgid ""
+"Enrollment requested. Restart and select Enroll MOK to finish trusting this "
+"certificate."
+msgstr ""
+
+msgid ""
+"Enter the current emergency recovery key once to identify this preview's "
+"credential roles."
+msgstr ""
+
+msgid ""
+"Enter your emergency recovery key to set a new disk password. You do not "
+"need the forgotten password. Your emergency recovery key stays valid."
+msgstr ""
+
+msgid ""
+"Existing bootloader, driver signatures and old enrolled certificates are "
+"preserved."
+msgstr ""
+
+msgid "Expand a device to inspect installed and available firmware versions."
+msgstr ""
+
+#, python-format
+msgid "Experimental: %s"
+msgstr ""
+
+msgid "Export diagnostics"
+msgstr ""
+
+msgid "External display"
+msgstr ""
+
+msgid "External graphics configuration"
+msgstr ""
+
+msgid "Failed"
+msgstr ""
+
+msgid "Firmware Configuration"
+msgstr ""
+
+msgid "Firmware Devices"
+msgstr ""
+
+msgid "Firmware Help"
+msgstr ""
+
+msgid "Firmware Settings Failed"
+msgstr ""
+
+msgid "Firmware Update History"
+msgstr ""
+
+msgid "Firmware actions"
+msgstr ""
+
+msgid "Firmware device"
+msgstr ""
+
+msgid "Firmware does not support Secure Boot"
+msgstr ""
+
+msgid "Firmware is up to date"
+msgstr ""
+
+msgid "Firmware metadata"
+msgstr ""
+
+msgid "Firmware metadata refreshed."
+msgstr ""
+
+msgid "Firmware operation"
+msgstr ""
+
+msgid "Firmware operation failed"
+msgstr ""
+
+msgid "Firmware operation failed: "
+msgstr ""
+
+msgid ""
+"Firmware platform keys are not configured. This is separate from MOK "
+"enrollment."
+msgstr ""
+
+msgid "Firmware service"
+msgstr ""
+
+msgid "Firmware status"
+msgstr ""
+
+msgid "Firmware update completed."
+msgstr ""
+
+msgid "Font"
+msgstr ""
+
+msgid "Frame buffer compression (FBC)"
+msgstr ""
+
+msgid "GRUB menu entry"
+msgstr ""
+
+msgid "GTK theme"
+msgstr ""
+
+msgid "Go to This Step"
+msgstr ""
+
+msgid "Graphics"
+msgstr ""
+
+msgid "Graphics device"
+msgstr ""
+
+msgid "Hardware overview"
+msgstr ""
+
+msgid "Hide details"
+msgstr ""
+
+msgid "High"
+msgstr ""
+
+msgid "Home"
+msgstr ""
+
+msgid "I have saved the new emergency recovery key outside this computer."
+msgstr ""
+
+msgid "Icon theme"
+msgstr ""
+
+msgid "In recovery mode, sign in with your normal account and run:"
+msgstr ""
+
+msgid "In use"
+msgstr ""
+
+msgid ""
+"Inspect the local print service, configured queues, and the packages that "
+"provide modern and legacy printer support."
+msgstr ""
+
+msgid "Inspection Failed"
+msgstr ""
+
+#, python-format
+msgid "Install %d available firmware update?"
+msgid_plural "Install all %d available firmware updates?"
+msgstr[0] ""
+msgstr[1] ""
+
+#, python-format
+msgid "Install %d available update."
+msgid_plural "Install all %d available updates."
+msgstr[0] ""
+msgstr[1] ""
+
+msgid "Install AnduinOS Bootloader"
+msgstr ""
+
+msgid "Install Audio Support"
+msgstr ""
+
+msgid "Install Driver"
+msgstr ""
+
+msgid "Install Firmware Update"
+msgstr ""
+
+#. PolicyKit action description
+msgid "Install and repair hardware drivers"
+msgstr ""
+
+msgid "Install Missing Packages"
+msgstr ""
+
+#, python-format
+msgid "Install firmware for %(device)s from %(current)s to %(available)s?"
+msgstr ""
+
+msgid ""
+"Install or update only the recovery package using the current software lists?"
+msgstr ""
+
+msgid "Install or update recovery package"
+msgstr ""
+
+msgid "Install, inspect, and repair hardware drivers on AnduinOS."
+msgstr ""
+
+msgid "Installation requirements"
+msgstr ""
+
+msgid "Installed"
+msgstr ""
+
+msgid ""
+"Installed drivers are trusted, including signatures from previously enrolled "
+"certificates."
+msgstr ""
+
+msgid "Installed packages"
+msgstr ""
+
+msgid "Installing firmware…"
+msgstr ""
+
+msgid "Intel SOF firmware"
+msgstr ""
+
+msgid ""
+"Keep system firmware and supported hardware up to date through the Linux "
+"Vendor Firmware Service."
+msgstr ""
+
+msgid "Keep the computer connected to AC power."
+msgstr ""
+
+msgid "Kernel driver"
+msgstr ""
+
+msgid "Kernel module"
+msgstr ""
+
+msgid "Kernel version"
+msgstr ""
+
+msgid "Later"
+msgstr ""
+
+msgid "Loaded"
+msgstr ""
+
+#, python-format
+msgid "Loaded parameter: %s"
+msgstr ""
+
+msgid "Local MOK Certificate"
+msgstr ""
+
+msgid "Low"
+msgstr ""
+
+msgid "MOK enrollment could not be verified. Check again before continuing."
+msgstr ""
+
+msgid "Main Menu"
+msgstr ""
+
+#. Desktop Entry comment
+msgid "Manage hardware drivers and device firmware"
+msgstr ""
+
+msgid "Manage Printers in System Settings"
+msgstr ""
+
+#, python-format
+msgid "Maximum frequency: %s"
+msgstr ""
+
+msgid "Medium"
+msgstr ""
+
+msgid "Memory"
+msgstr ""
+
+msgid "Memory module"
+msgstr ""
+
+msgid ""
+"Memory specifications are unavailable. Other hardware details remain "
+"available."
+msgstr ""
+
+msgid "Memory type and speed require optional administrator authentication."
+msgstr ""
+
+msgid "Memory-based swap; not a disk partition"
+msgstr ""
+
+msgid "Missing"
+msgstr ""
+
+msgid "Modern IPP drivers, document filters, and capability tools."
+msgstr ""
+
+msgid ""
+"Module parameters describe policy, not whether a feature is currently "
+"active. Missing log evidence does not prove that graphics are healthy."
+msgstr ""
+
+msgid "Module signature"
+msgstr ""
+
+msgid "Motherboard"
+msgstr ""
+
+msgid "Motherboard Secure Boot is enabled."
+msgstr ""
+
+msgid "Multiple recovery partitions found"
+msgstr ""
+
+msgid "Needs attention"
+msgstr ""
+
+msgid "Network"
+msgstr ""
+
+msgid "Network discovery"
+msgstr ""
+
+msgid "New disk password"
+msgstr ""
+
+msgid "New emergency recovery key"
+msgstr ""
+
+msgid "Next step:"
+msgstr ""
+
+msgid "No additional drivers are needed."
+msgstr ""
+
+msgid "No configured queues"
+msgstr ""
+
+msgid "No disk swap is active"
+msgstr ""
+
+msgid "No firmware update history"
+msgstr ""
+
+msgid "No firmware updates are available."
+msgstr ""
+
+msgid ""
+"No package candidate could be verified from the local APT cache. Refresh "
+"sources in your software updater, then scan again."
+msgstr ""
+
+msgid "No printers configured"
+msgstr ""
+
+msgid "No repairs are required by the checks shown above."
+msgstr ""
+
+msgid "No supported devices"
+msgstr ""
+
+msgid "No supported firmware devices"
+msgstr ""
+
+msgid "No third-party kernel modules need attention."
+msgstr ""
+
+msgid "Not applicable to ext4. Use Rescue Center from the Live USB."
+msgstr ""
+
+msgid "Not available"
+msgstr ""
+
+msgid "Not configured"
+msgstr ""
+
+msgid "Not currently loaded"
+msgstr ""
+
+msgid "Not detected"
+msgstr ""
+
+msgid "Not encrypted"
+msgstr ""
+
+msgid "Not installed"
+msgstr ""
+
+msgid "Not refreshed in this session"
+msgstr ""
+
+msgid "Not set"
+msgstr ""
+
+msgid "OK"
+msgstr ""
+
+msgid "Older, newer, and server-oriented packages"
+msgstr ""
+
+msgid "One or more third-party drivers need a trusted signature."
+msgstr ""
+
+msgid "Open"
+msgstr ""
+
+msgid "Open Firmware Settings"
+msgstr ""
+
+msgid "Operation Failed"
+msgstr ""
+
+msgid "Operation Finished"
+msgstr ""
+
+msgid "Optional Bluetooth driver"
+msgstr ""
+
+msgid "Optional compatibility"
+msgstr ""
+
+msgid "PSR status"
+msgstr ""
+
+msgid ""
+"Package status uses the local APT cache. Software sources are not refreshed."
+msgstr ""
+
+msgid ""
+"Packages marked − will be removed. Older kernels may lose NVIDIA graphics "
+"support. Restart after updating."
+msgstr ""
+
+msgid "Panel Replay"
+msgstr ""
+
+msgid "Panel self refresh (PSR)"
+msgstr ""
+
+msgid "Pending"
+msgstr ""
+
+msgid "Pending enrollment in blue screen (MOKManager)"
+msgstr ""
+
+msgid "Personal files (Home)"
+msgstr ""
+
+msgid "Please wait. Do not restart while this operation is running."
+msgstr ""
+
+msgid "Preparation checks passed. Secure Boot is still disabled."
+msgstr ""
+
+msgid "Prepare a valid signing certificate first."
+msgstr ""
+
+msgid "Present"
+msgstr ""
+
+msgid "Print queues"
+msgstr ""
+
+msgid "Printing Support"
+msgstr ""
+
+msgid "Printing operation failed: "
+msgstr ""
+
+msgid "Printing service stopped"
+msgstr ""
+
+msgid "Printing support disabled."
+msgstr ""
+
+msgid "Printing support enabled."
+msgstr ""
+
+msgid "Pro feature"
+msgstr ""
+
+msgid "Processor"
+msgstr ""
+
+msgid "Purchase AnduinOS Pro"
+msgstr ""
+
+msgid "Read detailed status"
+msgstr ""
+
+msgid "Read memory specifications"
+msgstr ""
+
+#. PolicyKit action message
+msgid "Read recovery boot information"
+msgstr ""
+
+msgid "Ready"
+msgstr ""
+
+msgid "Reboot Required"
+msgstr ""
+
+msgid "Recommended"
+msgstr ""
+
+msgid "Recovery Environment"
+msgstr ""
+
+msgid "Recovery menu entry not found"
+msgstr ""
+
+msgid "Recovery package"
+msgstr ""
+
+msgid "Recovery partition"
+msgstr ""
+
+msgid "Recovery partition not found"
+msgstr ""
+
+msgid "Recovery repair completed."
+msgstr ""
+
+msgid ""
+"Recovery repair requires an installed AnduinOS Btrfs @root system. Start the "
+"installed system and scan again."
+msgstr ""
+
+msgid "Refresh"
+msgstr ""
+
+msgid "Refresh Firmware Metadata"
+msgstr ""
+
+msgid "Refresh software sources and compare the recommended driver version."
+msgstr ""
+
+msgid "Release notes"
+msgstr ""
+
+msgid "Repair & Reinstall"
+msgstr ""
+
+msgid "Repair AnduinOS Bootloader"
+msgstr ""
+
+msgid "Repair Automatic Signing"
+msgstr ""
+
+msgid "Repair Driver Signatures"
+msgstr ""
+
+msgid "Repair recovery boot menu"
+msgstr ""
+
+msgid "Replace Signing Certificate…"
+msgstr ""
+
+msgid "Replace emergency recovery key"
+msgstr ""
+
+msgid "Required for the local print service and command-line clients."
+msgstr ""
+
+msgid "Reset forgotten disk password"
+msgstr ""
+
+msgid "Restart"
+msgstr ""
+
+msgid "Restart Now"
+msgstr ""
+
+msgid "Restart Required"
+msgstr ""
+
+msgid "Restart required"
+msgstr ""
+
+msgid "Restart required after installation"
+msgstr ""
+
+msgid "Restart to Enroll Certificate"
+msgstr ""
+
+msgid ""
+"Restart to UEFI settings, enable Secure Boot, then save your changes and "
+"start AnduinOS. Firmware wording varies by manufacturer. Platform keys and "
+"the Microsoft third-party CA are separate from your MOK certificate. The "
+"preparation checks shown here do not replace a successful boot with Secure "
+"Boot enabled."
+msgstr ""
+
+msgid "Restart to finish the firmware update"
+msgstr ""
+
+msgid "Restore a Trusted Boot Path"
+msgstr ""
+
+msgid "Restore default settings"
+msgstr ""
+
+msgid "Results reported by the fwupd service."
+msgstr ""
+
+msgid "Running"
+msgstr ""
+
+msgid "Runtime status"
+msgstr ""
+
+msgid "SOF firmware files"
+msgstr ""
+
+msgid "SOF kernel modules"
+msgstr ""
+
+msgid "Save"
+msgstr ""
+
+msgid "Saved settings differ from this boot."
+msgstr ""
+
+msgid "Scan again"
+msgstr ""
+
+msgid ""
+"Scan again and allow the read-only inspection. If checks still fail, repair "
+"the Driver Center installation and its disk utilities."
+msgstr ""
+
+msgid "Scanning for drivers"
+msgstr ""
+
+msgid "Scheduling firmware update…"
+msgstr ""
+
+msgid "Secure Boot"
+msgstr ""
+
+msgid "Secure Boot Configuration"
+msgstr ""
+
+msgid "Secure Boot is disabled"
+msgstr ""
+
+msgid ""
+"Secure Boot is disabled. You can still prepare certificates, drivers and the "
+"bootloader."
+msgstr ""
+
+msgid "Secure Boot is not available in the current firmware or boot mode."
+msgstr ""
+
+msgid "Secure Boot state could not be determined"
+msgstr ""
+
+msgid ""
+"Secure Boot state could not be determined. Check again before changing trust."
+msgstr ""
+
+msgid ""
+"Secure Boot status or trust must be resolved before installing a third-party "
+"driver."
+msgstr ""
+
+msgid "Select Enroll MOK, Continue, Yes, and enter password 123456 on restart."
+msgstr ""
+
+msgid "Select another driver to apply changes."
+msgstr ""
+
+msgid ""
+"Settings affect all GPUs using this driver. Disabling power-saving features "
+"may increase power consumption."
+msgstr ""
+
+msgid "Settings saved. Restart to apply them."
+msgstr ""
+
+msgid "Shell theme"
+msgstr ""
+
+msgid "Show detailed specifications"
+msgstr ""
+
+msgid "Shrink swap partition and create recovery partition"
+msgstr ""
+
+msgid "Shut Down Now"
+msgstr ""
+
+msgid "Shutdown Required"
+msgstr ""
+
+msgid "Shutdown required after installation"
+msgstr ""
+
+msgid "Snapshot Recovery Environment"
+msgstr ""
+
+msgid "Some DKMS modules need to be re-signed"
+msgstr ""
+
+msgid "Some queues are paused"
+msgstr ""
+
+msgid "Standing by"
+msgstr ""
+
+msgid "Start at boot"
+msgstr ""
+
+msgid "Stopped"
+msgstr ""
+
+msgid "Storage"
+msgstr ""
+
+msgid "Submit Enrollment Request"
+msgstr ""
+
+msgid "Success"
+msgstr ""
+
+msgid "Support needs attention"
+msgstr ""
+
+msgid "Support packages"
+msgstr ""
+
+msgid "Supported devices"
+msgstr ""
+
+msgid ""
+"Swap will be temporarily disabled. Back up your data and keep the computer "
+"powered on until this operation finishes."
+msgstr ""
+
+msgid "System"
+msgstr ""
+
+msgid "System Trust Status"
+msgstr ""
+
+msgid "System and desktop"
+msgstr ""
+
+msgid "System default"
+msgstr ""
+
+msgid "System disk"
+msgstr ""
+
+msgid "System files"
+msgstr ""
+
+msgid "System installation date"
+msgstr ""
+
+msgid "System recovery"
+msgstr ""
+
+msgid "System status"
+msgstr ""
+
+msgid ""
+"The AnduinOS automatic signing configuration will be backed up and reset to "
+"use your enrolled certificate. Other custom DKMS settings will not be "
+"changed. No certificate enrollment is needed."
+msgstr ""
+
+msgid "The AnduinOS bootloader is not installed. Installing it is recommended."
+msgstr ""
+
+msgid ""
+"The AnduinOS bootloader needs signing or its signature could not be verified."
+msgstr ""
+
+msgid ""
+"The UEFI bootloader operation is not available in the current boot mode."
+msgstr ""
+
+msgid ""
+"The automatic signing configuration has not been verified. Check again "
+"before installing the bootloader."
+msgstr ""
+
+msgid ""
+"The automatic signing configuration needs attention. Another certificate "
+"enrollment is not needed."
+msgstr ""
+
+msgid ""
+"The boot log reports a GPU hang or reset. Export diagnostics before changing "
+"more settings."
+msgstr ""
+
+msgid ""
+"The boot log reports a firmware error. Check system and firmware updates."
+msgstr ""
+
+msgid ""
+"The boot log reports a panel refresh error. Try disabling PSR and restart."
+msgstr ""
+
+msgid "The bootloader is signed, but its certificate is not enrolled."
+msgstr ""
+
+msgid ""
+"The bootloader operation finished. The installed files will now be checked "
+"again."
+msgstr ""
+
+msgid ""
+"The bootloader update could not be completed. Review the details before "
+"restarting."
+msgstr ""
+
+msgid ""
+"The bootloader will be signed with your enrolled certificate and deployed. "
+"Existing EFI files are backed up. Keep the computer running until the "
+"operation finishes."
+msgstr ""
+
+msgid ""
+"The certificate does not permit the required signing. Create and enroll a "
+"replacement."
+msgstr ""
+
+msgid ""
+"The certificate has expired. Create and enroll a replacement for future "
+"signing."
+msgstr ""
+
+msgid ""
+"The credential operation did not finish. Keep your old and new credentials, "
+"then try again using your disk password or emergency recovery key."
+msgstr ""
+
+msgid "The current disk password is incorrect. No credential was changed."
+msgstr ""
+
+msgid "The disk configuration changed. Stop other disk tools and try again."
+msgstr ""
+
+msgid ""
+"The emergency recovery key is generated by the system. Like your disk "
+"password, it unlocks the disk. Use your password normally; use the key in an "
+"emergency. Keep it outside this computer."
+msgstr ""
+
+msgid "The emergency recovery key is incorrect. No credential was changed."
+msgstr ""
+
+msgid "The firmware service did not report any manageable devices."
+msgstr ""
+
+msgid ""
+"The firmware update has been prepared. Save your work and restart the "
+"computer to finish installing it."
+msgstr ""
+
+msgid ""
+"The firmware update has been prepared. Save your work and shut down the "
+"computer to finish installing it."
+msgstr ""
+
+msgid ""
+"The installed EFI boot chain could not be verified as trusted. Restore a "
+"trusted boot path before restarting."
+msgstr ""
+
+msgid "The installed bootloader could not be checked."
+msgstr ""
+
+msgid ""
+"The internal startup credential could not be verified. Use Rescue Center "
+"from the Live USB."
+msgstr ""
+
+msgid ""
+"The internal startup credential stays unchanged. The old credential stops "
+"working after success."
+msgstr ""
+
+msgid ""
+"The new credential could not be verified. Keep your existing credentials and "
+"try again."
+msgstr ""
+
+msgid "The signed bootloader needs deployment to this system's EFI partition."
+msgstr ""
+
+msgid "The signing certificate and private key are valid and match."
+msgstr ""
+
+msgid ""
+"The signing certificate is valid. Complete enrollment first; automatic "
+"signing will be checked afterward."
+msgstr ""
+
+msgid ""
+"The signing certificate must be enrolled first. Complete the certificate "
+"enrollment step above."
+msgstr ""
+
+msgid ""
+"The signing identity could not be checked. Existing certificates have not "
+"been replaced."
+msgstr ""
+
+msgid ""
+"The signing key is missing, unreadable or does not match its certificate. "
+"Existing signatures are unchanged."
+msgstr ""
+
+msgid "The system will now be checked again."
+msgstr ""
+
+msgid ""
+"There is no free credential slot. Existing credentials remain available."
+msgstr ""
+
+msgid "Third-party Drivers"
+msgstr ""
+
+msgid ""
+"Third-party drivers could not be checked. This does not mean no drivers are "
+"installed."
+msgstr ""
+
+msgid "This certificate can sign both the bootloader and kernel modules."
+msgstr ""
+
+msgid ""
+"This certificate can sign drivers only. A new certificate is needed for the "
+"AnduinOS bootloader."
+msgstr ""
+
+msgid "This certificate is enrolled in MOK."
+msgstr ""
+
+msgid "This certificate is not enrolled. Submit an enrollment request."
+msgstr ""
+
+msgid ""
+"This credential layout cannot be managed automatically. No existing "
+"credential was removed."
+msgstr ""
+
+msgid ""
+"This earlier preview needs the current emergency recovery key once to "
+"identify its credential roles."
+msgstr ""
+
+msgid ""
+"This update may invalidate full-disk encryption secrets. Make sure you have "
+"the volume recovery key before continuing."
+msgstr ""
+
+msgid ""
+"This updates the selected signing configuration. Creating or replacing a "
+"certificate preserves existing boot and driver trust. A new certificate "
+"requires confirmation in MOKManager after restart."
+msgstr ""
+
+msgid "Trust established"
+msgstr ""
+
+msgid "Trusted"
+msgstr ""
+
+msgid "UCM configuration files"
+msgstr ""
+
+msgid ""
+"USB IPP, administrative authorization, legacy drivers, and network scanning."
+msgstr ""
+
+msgid ""
+"Unable to continue: no ordinary swap partition was found on the system disk."
+msgstr ""
+
+msgid "Unable to continue: the swap partition is smaller than 512 MiB."
+msgstr ""
+
+msgid "Unable to read the GRUB menu"
+msgstr ""
+
+msgid "Unencrypted disk swap is active"
+msgstr ""
+
+msgid "Unencrypted swap can store personal data from memory."
+msgstr ""
+
+msgid "Unknown"
+msgstr ""
+
+msgid "Unknown time"
+msgstr ""
+
+msgid "Unlock credentials"
+msgstr ""
+
+msgid "Up to date"
+msgstr ""
+
+msgid "Update"
+msgstr ""
+
+msgid "Update All"
+msgstr ""
+
+msgid "Update All Firmware"
+msgstr ""
+
+msgid "Update available"
+msgstr ""
+
+msgid "Update urgency"
+msgstr ""
+
+msgid "Updating firmware…"
+msgstr ""
+
+msgid "Updating the disk credential. Keep the computer powered on."
+msgstr ""
+
+msgid "Uptime"
+msgstr ""
+
+msgid "Usable by the system"
+msgstr ""
+
+msgid ""
+"Use 8 to 128 printable ASCII characters. The boot screen uses a US keyboard "
+"layout."
+msgstr ""
+
+msgid "Values from the latest scan. Use Scan again to refresh."
+msgstr ""
+
+msgid "Verifying firmware…"
+msgstr ""
+
+msgid "Waiting for authentication…"
+msgstr ""
+
+msgid "Waiting for user action…"
+msgstr ""
+
+msgid "Window manager"
+msgstr ""
+
+msgid "Working…"
+msgstr ""
+
+msgid "Xbox Controller"
+msgstr ""
+
+msgid "Xbox Controller Support"
+msgstr ""
+
+msgid "built in"
+msgstr ""
+
+#. Desktop Entry keywords
+msgid "driver;firmware;fwupd;nvidia;graphics;xbox;secure boot;hardware;"
+msgstr ""
+
+msgid "open source"
+msgstr ""
+
+msgid "proprietary"
+msgstr ""
+
+msgid "unknown error"
+msgstr ""
+
+msgid ""
+"xpadneo improves Bluetooth mapping, rumble, battery reporting and "
+"compatibility for modern Xbox controllers."
+msgstr ""
+
+msgid "xpadneo installed"
+msgstr ""

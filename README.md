@@ -9,13 +9,22 @@ control-panel/
   deploy.sh
   hr_HR.po
   run.py
+driver-center/
+  anduinos-driver-center.pot
+  anduinos-driver-center.sh
+  deploy.sh
+  hr_HR.po
+  run.py
 ```
 
 The POT file is the message template; the PO file contains the Croatian
 translation. The Control Panel and Welcome templates were extracted from the
-locally installed versions; the Swap Control template was taken from the
-maintainers' `po/swapcontrol-gtk.pot`. Before contributing upstream, compare
-each template with the current source code and the maintainers' templates.
+locally installed versions; the Driver Center template was extracted from its
+installed Python sources and the Secure Boot toolkit UI, with desktop-entry
+and PolicyKit messages included for upstream contribution. The Swap Control
+template was taken from the maintainers' `po/swapcontrol-gtk.pot`. Before
+contributing upstream, compare each template with the current source code and
+the maintainers' templates.
 
 `swap-control/` follows the same layout but has no `run.py`: Swap Control is a
 compiled GTK application, so its launcher only selects the language and points
@@ -88,6 +97,21 @@ The ordinary desktop and automatic first-run launchers remain unchanged and do
 not use the user-local catalog. Close any running Welcome instance before
 testing; the application may otherwise reuse it. As with Control Panel, set
 `LANGUAGE=hr_HR` when launching to select Croatian for a test.
+
+## Testing AnduinOS Driver Center
+
+```bash
+bash driver-center/deploy.sh
+LANGUAGE=hr_HR bash driver-center/anduinos-driver-center.sh
+```
+
+The launcher redirects the Driver Center gettext domain to the user-local
+catalog because the installed application normally binds that domain to
+`/usr/share/locale`. Deployment and testing do not modify system files. Close
+any running Driver Center instance before testing; the application may
+otherwise reuse it. Desktop-entry and PolicyKit strings are included in the
+catalog for upstream use; this user-local launcher does not change the
+system-installed desktop entry or authentication prompts.
 
 For each new component, provide its own `deploy.sh` and
 `<application>.sh` test launcher. Adapt deployment and launch to the
