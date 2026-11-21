@@ -5,21 +5,33 @@
             "label": "Translation: update PO from POT",
             "type": "process",
             "command": "bash",
-            "args": ["${workspaceFolder}/scripts/translate.sh", "update", "${input:package}"],
+            "args": [
+                "${workspaceFolder}/scripts/translate.sh",
+                "update",
+                "${input:package}"
+            ],
             "problemMatcher": []
         },
         {
             "label": "Translation: check",
             "type": "process",
             "command": "bash",
-            "args": ["${workspaceFolder}/scripts/translate.sh", "check", "${input:package}"],
+            "args": [
+                "${workspaceFolder}/scripts/translate.sh",
+                "check",
+                "${input:package}"
+            ],
             "problemMatcher": []
         },
         {
             "label": "Translation: build MO",
             "type": "process",
             "command": "bash",
-            "args": ["${workspaceFolder}/scripts/translate.sh", "build", "${input:package}"],
+            "args": [
+                "${workspaceFolder}/scripts/translate.sh",
+                "build",
+                "${input:package}"
+            ],
             "group": "build",
             "problemMatcher": []
         },
