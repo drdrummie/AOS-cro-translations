@@ -1,0 +1,1996 @@
+# Croatian translations for arcmenu@arcmenu.com package
+# Hrvatski prijevod za paket arcmenu@arcmenu.com.
+# Copyright (C) 2026 THE arcmenu@arcmenu.com'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the arcmenu@arcmenu.com
+# package.
+# Automatically generated, 2026.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version:  arcmenu@arcmenu.com\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-11-21 19:01+0100\n"
+"PO-Revision-Date: 2026-11-21 19:01+0100\n"
+"Last-Translator: AnduinOS Croatian translation contributors\n"
+"Language: hr_HR\n"
+"Language-Team: Croatian <https://hosted.weblate.org/projects/arcmenu/arcmenu/hr/>\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.17.0\n"
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/appMenu.js:170
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/appMenu.js:376
+msgid "Pin to Start menu"
+msgstr "Zakači na izbornik Start"
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/appMenu.js:173
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/appMenu.js:342
+msgid "Create Desktop Shortcut"
+msgstr "Izradi prečac na radnoj površini"
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/appMenu.js:341
+msgid "Delete Desktop Shortcut"
+msgstr "Izbriši prečac na radnoj površini"
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/appMenu.js:351
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/appMenu.js:375
+msgid "Unpin from Start menu"
+msgstr "Otkači iz izbornika Start"
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/appMenu.js:375
+msgid "Unpin from Folder"
+msgstr "Otkači iz mape"
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/appMenu.js:415
+msgid "Open Folder Location"
+msgstr "Otvori lokaciju mape"
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/constants.js:85
+msgid "Favorites"
+msgstr "Omiljeno"
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/constants.js:86
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/menulayouts/runner.js:187
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/menulayouts/windows.js:341
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuSettings/layoutTweaksPage.js:273
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuSettings/layoutTweaksPage.js:575
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuSettings/layoutTweaksPage.js:845
+msgid "Frequent Apps"
+msgstr "Često korištene aplikacije"
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/constants.js:87
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/menuWidgets.js:1283
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/menulayouts/az.js:68
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/menulayouts/az.js:77
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/menulayouts/eleven.js:55
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/menulayouts/eleven.js:64
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/menulayouts/redmond.js:78
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/menulayouts/redmond.js:81
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/menulayouts/redmond.js:85
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/menulayouts/sleek.js:71
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/menulayouts/sleek.js:74
+msgid "All Apps"
+msgstr "Sve aplikacije"
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/constants.js:88
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/menulayouts/insider.js:289
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/menulayouts/runner.js:174
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuPage.js:104
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuSettings/layoutTweaksPage.js:272
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuSettings/layoutTweaksPage.js:574
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuSettings/layoutTweaksPage.js:733
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuSettings/layoutTweaksPage.js:843
+msgid "Pinned Apps"
+msgstr "Zakačene aplikacije"
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/constants.js:89
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/menulayouts/raven.js:296
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/menulayouts/unity.js:365
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/searchProviders/recentFiles.js:29
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/searchProviders/recentFiles.js:30
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/searchProviders/recentFiles.js:106
+msgid "Recent Files"
+msgstr "Nedavne datoteke"
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/constants.js:240
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/menuButton.js:941
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuSettings/listPinnedPage.js:396
+msgid "Log Out..."
+msgstr "Odjavi se…"
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/constants.js:241
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/menuButton.js:940
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuSettings/listPinnedPage.js:395
+msgid "Lock"
+msgstr "Zaključaj"
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/constants.js:242
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/menuButton.js:935
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuSettings/listPinnedPage.js:398
+msgid "Restart..."
+msgstr "Ponovno pokreni…"
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/constants.js:243
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/menuButton.js:936
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuSettings/listPinnedPage.js:397
+msgid "Power Off..."
+msgstr "Isključi…"
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/constants.js:244
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/menuButton.js:932
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuSettings/listPinnedPage.js:399
+msgid "Suspend"
+msgstr "Obustavi"
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/constants.js:245
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuSettings/listPinnedPage.js:400
+msgid "Hybrid Sleep"
+msgstr "Hibridno mirovanje"
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/constants.js:246
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuSettings/listPinnedPage.js:402
+msgid "Hibernate"
+msgstr "Hiberniraj"
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/constants.js:247
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/menuButton.js:942
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuSettings/listPinnedPage.js:403
+msgid "Switch User"
+msgstr "Promijeni korisnika"
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/constants.js:251
+msgid "Traditional"
+msgstr "Klasični"
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/constants.js:252
+msgid "Modern"
+msgstr "Moderni"
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/constants.js:253
+msgid "Touch"
+msgstr "Dodirni"
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/constants.js:254
+msgid "Launcher"
+msgstr "Pokretač"
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/constants.js:255
+msgid "Alternative"
+msgstr "Alternativni"
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/constants.js:259
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/aboutPage.js:33
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/donatePage.js:17
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/generalPage.js:644
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuButtonPage.js:212
+msgid "ArcMenu"
+msgstr "ArcMenu"
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/constants.js:260
+msgid "Brisk"
+msgstr "Brisk"
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/constants.js:261
+msgid "Budgie"
+msgstr "Budgie"
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/constants.js:262
+msgid "GNOME Menu"
+msgstr "Izbornik GNOME-a"
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/constants.js:263
+msgid "Mint"
+msgstr "Mint"
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/constants.js:264
+msgid "Whisker"
+msgstr "Whisker"
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/constants.js:265
+msgid "11"
+msgstr "11"
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/constants.js:266
+msgid "a.z."
+msgstr "a.z."
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/constants.js:267
+msgid "Enterprise"
+msgstr "Enterprise"
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/constants.js:268
+msgid "Insider"
+msgstr "Insider"
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/constants.js:269
+msgid "Plasma"
+msgstr "Plasma"
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/constants.js:270
+msgid "Pop"
+msgstr "Pop"
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/constants.js:271
+msgid "Redmond"
+msgstr "Redmond"
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/constants.js:272
+msgid "Sleek"
+msgstr "Sleek"
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/constants.js:273
+msgid "tognee"
+msgstr "tognee"
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/constants.js:274
+msgid "Unity"
+msgstr "Unity"
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/constants.js:275
+msgid "Windows"
+msgstr "Windows"
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/constants.js:276
+msgid "Zest"
+msgstr "Zest"
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/constants.js:277
+msgid "Chromebook"
+msgstr "Chromebook"
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/constants.js:278
+msgid "Elementary"
+msgstr "Elementary"
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/constants.js:279
+msgid "GNOME Overview"
+msgstr "Pregled aktivnosti GNOME-a"
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/constants.js:280
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/generalPage.js:234
+msgid "Runner"
+msgstr "Pokretač"
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/constants.js:281
+msgid "Raven"
+msgstr "Raven"
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/constants.js:287
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/placeDisplay.js:119
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/placeDisplay.js:340
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuSettings/layoutTweaksPage.js:598
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuSettings/layoutTweaksPage.js:625
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuSettings/listPinnedPage.js:411
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/utils.js:284
+msgid "Home"
+msgstr "Početna"
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/constants.js:287
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuSettings/listPinnedPage.js:412
+msgid "Documents"
+msgstr "Dokumenti"
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/constants.js:287
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuSettings/listPinnedPage.js:416
+msgid "Music"
+msgstr "Glazba"
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/constants.js:287
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuSettings/listPinnedPage.js:417
+msgid "Pictures"
+msgstr "Slike"
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/constants.js:287
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuSettings/listPinnedPage.js:418
+msgid "Videos"
+msgstr "Videozapisi"
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/constants.js:287
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuSettings/listPinnedPage.js:414
+msgid "Downloads"
+msgstr "Preuzimanja"
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/constants.js:288
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/menulayouts/plasma.js:129
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/placeDisplay.js:133
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/placeDisplay.js:156
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuSettings/listPinnedPage.js:419
+msgid "Computer"
+msgstr "Računalo"
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/constants.js:288
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/menulayouts/plasma.js:297
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/menulayouts/windows.js:213
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuSettings/listPinnedPage.js:420
+msgid "Network"
+msgstr "Mreža"
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/constants.js:288
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuSettings/listPinnedPage.js:421
+msgid "Recent"
+msgstr "Nedavno"
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/constants.js:288
+msgid "Software"
+msgstr "Softver"
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/constants.js:288
+msgid "Settings"
+msgstr "Postavke"
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/constants.js:288
+msgid "Tweaks"
+msgstr "Podešavanja"
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/constants.js:288
+msgid "Terminal"
+msgstr "Terminal"
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/constants.js:289
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/menuButton.js:885
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/menuWidgets.js:602
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuSettings/listPinnedPage.js:363
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuSettings/listPinnedPage.js:385
+msgid "Activities Overview"
+msgstr "Pregled aktivnosti"
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/constants.js:289
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/menuButton.js:871
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuSettings/listPinnedPage.js:349
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuSettings/listPinnedPage.js:360
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuSettings/listPinnedPage.js:372
+msgid "ArcMenu Settings"
+msgstr "Postavke ArcMenua"
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/constants.js:289
+msgid "Files"
+msgstr "Datoteke"
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/menuButton.js:50
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/menulayouts/plasma.js:125
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/menulayouts/plasma.js:571
+msgid "Apps"
+msgstr "Aplikacije"
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/menuButton.js:244
+msgid "Loading Menu Layout..."
+msgstr "Učitavanje rasporeda izbornika…"
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/menuButton.js:916
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuSettings/listPinnedPage.js:388
+msgid "Show Desktop"
+msgstr "Prikaži radnu površinu"
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/menuButton.js:930
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/menuWidgets.js:903
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/menuWidgets.js:920
+msgid "Power Off"
+msgstr "Isključi"
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/menuButton.js:970
+msgid "Dash to Panel Settings"
+msgstr "Postavke proširenja Dash to Panel"
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/menuButton.js:974
+msgid "App Icons Taskbar Settings"
+msgstr "Postavke proširenja App Icons Taskbar"
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/menuWidgets.js:1206
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/menuWidgets.js:1227
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/menulayouts/az.js:69
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/menulayouts/eleven.js:56
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/menulayouts/redmond.js:79
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/menulayouts/redmond.js:84
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/menulayouts/sleek.js:72
+msgid "Back"
+msgstr "Natrag"
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/menuWidgets.js:3364
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/menulayouts/az.js:76
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/menulayouts/az.js:230
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/menulayouts/eleven.js:63
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/menulayouts/insider.js:187
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/menulayouts/plasma.js:120
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/menulayouts/raven.js:62
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/menulayouts/raven.js:233
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/menulayouts/raven.js:274
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/menulayouts/redmond.js:80
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/menulayouts/redmond.js:83
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/menulayouts/redmond.js:86
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/menulayouts/sleek.js:73
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/menulayouts/unity.js:39
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/menulayouts/unity.js:273
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/menulayouts/unity.js:343
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/menulayouts/windows.js:419
+msgid "Pinned"
+msgstr "Zakačene"
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/menulayouts/az.js:233
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/menulayouts/eleven.js:71
+msgid "Frequent"
+msgstr "Često korištene"
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/menulayouts/baseMenuLayout.js:513
+msgid "More Recent Files..."
+msgstr "Više nedavnih datoteka…"
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/menulayouts/plasma.js:133
+msgid "Leave"
+msgstr "Izlaz"
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/menulayouts/plasma.js:273
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/menulayouts/windows.js:276
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuPage.js:126
+msgid "Application Shortcuts"
+msgstr "Prečaci za aplikacije"
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/menulayouts/plasma.js:278
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/menulayouts/windows.js:280
+msgid "Places"
+msgstr "Mjesta"
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/menulayouts/plasma.js:293
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/menulayouts/windows.js:209
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuSettings/layoutTweaksPage.js:779
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuSettings/layoutTweaksPage.js:932
+msgid "Bookmarks"
+msgstr "Zabilješke"
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/menulayouts/plasma.js:295
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/menulayouts/windows.js:211
+msgid "Devices"
+msgstr "Uređaji"
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/menuWidgets.js:978
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/menulayouts/plasma.js:325
+msgid "Session"
+msgstr "Sesija"
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/menuWidgets.js:982
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/menulayouts/plasma.js:329
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/iconChooserDialog.js:192
+msgid "System"
+msgstr "Sustav"
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/menulayouts/pop.js:259
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/menulayouts/pop.js:762
+msgid "Library Home"
+msgstr "Početna mapa biblioteke"
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/menuWidgets.js:2556
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/menulayouts/pop.js:363
+msgid "Unnamed Folder"
+msgstr "Neimenovana mapa"
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/menulayouts/pop.js:852
+msgid "New Folder"
+msgstr "Nova mapa"
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/menulayouts/pop.js:940
+msgid "Rename Folder"
+msgstr "Preimenuj mapu"
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/menulayouts/pop.js:941
+msgid "Delete Folder"
+msgstr "Izbriši mapu"
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/menulayouts/pop.js:951
+#, javascript-format, python-format
+msgid "Permanently delete %s folder?"
+msgstr "Trajno izbrisati mapu %s?"
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/menulayouts/pop.js:956
+msgid "No"
+msgstr "Ne"
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/menulayouts/pop.js:964
+msgid "Yes"
+msgstr "Da"
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/menulayouts/pop.js:979
+#, javascript-format, python-format
+msgid "Rename %s folder"
+msgstr "Preimenuj mapu %s"
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/menulayouts/pop.js:1013
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/prefsWidgets.js:94
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/aboutPage.js:404
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/generalPage.js:321
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/iconChooserDialog.js:265
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuSettings/themingDialog.js:269
+msgid "Cancel"
+msgstr "Odustani"
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/menulayouts/pop.js:1021
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/prefsWidgets.js:82
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/generalPage.js:307
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuSettings/listPinnedPage.js:580
+msgid "Apply"
+msgstr "Primijeni"
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/menuWidgets.js:2655
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/menulayouts/pop.js:1089
+msgid "New"
+msgstr "Novo"
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/menulayouts/raven.js:62
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/menulayouts/raven.js:239
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/menulayouts/unity.js:39
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/menulayouts/unity.js:277
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuSettings/layoutTweaksPage.js:599
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuSettings/layoutTweaksPage.js:626
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuSettings/layoutTweaksPage.js:732
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuSettings/layoutTweaksPage.js:821
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuSettings/layoutTweaksPage.js:846
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuSettings/layoutTweaksPage.js:887
+msgid "All Programs"
+msgstr "Svi programi"
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/menulayouts/raven.js:280
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/menulayouts/unity.js:348
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuSettings/visualSettings.js:273
+msgid "Shortcuts"
+msgstr "Prečaci"
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/menulayouts/runner.js:295
+msgid "Configure Runner"
+msgstr "Podesi pokretač"
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/menulayouts/unity.js:418
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuSettings/visualSettings.js:280
+msgid "Categories"
+msgstr "Kategorije"
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/menulayouts/windows.js:444
+msgid "Extras"
+msgstr "Dodaci"
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/menuWidgets.js:3534
+msgid "Unmount Drive"
+msgstr "Odmontiraj pogon"
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/menuWidgets.js:3536
+msgid "Eject Drive"
+msgstr "Izbaci pogon"
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/menuWidgets.js:3614
+msgid "Remove from Recent"
+msgstr "Ukloni s popisa nedavnih stavki"
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/menuWidgets.js:3692
+msgid "Search…"
+msgstr "Pretraži…"
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/placeDisplay.js:56
+#, javascript-format, python-format
+msgid "Failed to launch “%s”"
+msgstr "Pokretanje aplikacije „%s” nije uspjelo"
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/placeDisplay.js:71
+#, javascript-format, python-format
+msgid "Failed to mount volume for “%s”"
+msgstr "Montiranje volumena za „%s” nije uspjelo"
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/placeDisplay.js:223
+#, javascript-format, python-format
+msgid "Ejecting drive “%s” failed:"
+msgstr "Izbacivanje pogona „%s” nije uspjelo:"
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/prefsWidgets.js:352
+msgid "Modify"
+msgstr "Izmijeni"
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/prefsWidgets.js:367
+msgid "Move Up"
+msgstr "Pomakni gore"
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/prefsWidgets.js:374
+msgid "Move Down"
+msgstr "Pomakni dolje"
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/prefsWidgets.js:381
+msgid "Remove"
+msgstr "Ukloni"
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/search.js:484
+msgid "Try a different search"
+msgstr "Pokušajte s drukčijim upitom"
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/search.js:796
+msgid "Searching"
+msgstr "Pretraživanje"
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/search.js:796
+msgid "No Results Found"
+msgstr "Nema rezultata pretraživanja"
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/search.js:883
+#, javascript-format, python-format
+msgid "%d more"
+msgstr "još %d"
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/searchProviders/openWindows.js:31
+msgid "List of open windows across all workspaces"
+msgstr "Popis otvorenih prozora na svim radnim prostorima"
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/searchProviders/openWindows.js:32
+msgid "Open Windows"
+msgstr "Otvoreni prozori"
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/searchProviders/openWindows.js:46
+#, javascript-format, python-format
+msgid "'%s' on Workspace %d"
+msgstr "„%s” na radnom prostoru %d"
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/searchProviders/recentFiles.js:90
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/searchProviders/recentFiles.js:106
+#, javascript-format, python-format
+msgid "Failed to open “%s”"
+msgstr "Otvaranje „%s” nije uspjelo"
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/aboutPage.js:28
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuSettings/listPinnedPage.js:382
+msgid "About"
+msgstr "O programu"
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/aboutPage.js:34
+msgid "Application Menu Extension for GNOME"
+msgstr "Proširenje izbornika aplikacija za GNOME"
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/aboutPage.js:79
+#, javascript-format, python-format
+msgid "%s Version"
+msgstr "Inačica %s"
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/aboutPage.js:88
+#, javascript-format, python-format
+msgid "%s - Release Notes"
+msgstr "%s – Napomene o izdavanju"
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/aboutPage.js:90
+msgid "What's New"
+msgstr "Što je novo"
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/aboutPage.js:139
+msgid "Message Tray Update Notification"
+msgstr "Obavijest o ažuriranju ladice poruka"
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/aboutPage.js:140
+#, javascript-format, python-format
+msgid "Show a notification when %s receives an update."
+msgstr "Prikaži obavijest kada %s primi ažuriranje."
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/aboutPage.js:148
+msgid "Git Commit"
+msgstr "Gitova predaja"
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/aboutPage.js:158
+msgid "GNOME Version"
+msgstr "Inačica GNOME-a"
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/aboutPage.js:167
+msgid "OS Name"
+msgstr "Naziv operacijskog sustava"
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/aboutPage.js:180
+msgid "Windowing System"
+msgstr "Sustav upravljanja prozorima"
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/aboutPage.js:191
+#, javascript-format, python-format
+msgid "%s on GitLab"
+msgstr "%s na GitLabu"
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/aboutPage.js:194
+msgid "Report an Issue"
+msgstr "Prijavi problem"
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/aboutPage.js:204
+#, javascript-format, python-format
+msgid "%s Settings"
+msgstr "Postavke: %s"
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/aboutPage.js:207
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuSettings/themingDialog.js:70
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuSettings/themingDialog.js:75
+msgid "Load"
+msgstr "Učitaj"
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/aboutPage.js:212
+msgid "Load Settings"
+msgstr "Učitaj postavke"
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/aboutPage.js:214
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuSettings/themingDialog.js:77
+msgid "Open"
+msgstr "Otvori"
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/aboutPage.js:237
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/aboutPage.js:244
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuSettings/themingDialog.js:128
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuSettings/themingDialog.js:141
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuSettings/themingDialog.js:143
+msgid "Save"
+msgstr "Spremi"
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/aboutPage.js:242
+msgid "Save Settings"
+msgstr "Spremi postavke"
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/aboutPage.js:264
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/aboutPage.js:265
+msgid "Credits"
+msgstr "Zasluge"
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/aboutPage.js:269
+msgid "Brought to you by"
+msgstr "Autori:"
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/aboutPage.js:280
+msgid "History"
+msgstr "Povijest"
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/aboutPage.js:298
+msgid "Contributions by"
+msgstr "Doprinosi:"
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/aboutPage.js:301
+msgid "Contributors"
+msgstr "Suradnici"
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/aboutPage.js:303
+msgid "Translators"
+msgstr "Prevoditelji"
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/aboutPage.js:307
+msgid "Artwork by"
+msgstr "Grafičko oblikovanje:"
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/aboutPage.js:315
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/aboutPage.js:316
+msgid "Legal"
+msgstr "Pravne informacije"
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/aboutPage.js:322
+msgid "This program comes with absolutely no warranty."
+msgstr "Ovaj program dolazi bez ikakvog jamstva."
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/aboutPage.js:324
+#, javascript-format, python-format
+msgid "See the <a href=\"%s\">%s</a> for details."
+msgstr "Pojedinosti potražite u dokumentu <a href=\"%s\">%s</a>."
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/aboutPage.js:324
+msgid "GNU General Public License, version 2 or later"
+msgstr "GNU-ova Opća javna licenca, inačica 2 ili novija"
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/donatePage.js:12
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/updateNotifier.js:87
+msgid "Donate"
+msgstr "Donirajte"
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/donatePage.js:22
+#, javascript-format, python-format
+msgid "Help Support %s"
+msgstr "Podržite %s"
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/donatePage.js:23
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/updateNotifier.js:75
+#, javascript-format, python-format
+msgid ""
+"Thank you for using %s! If you enjoy it and would like to help support "
+"its continued development, please consider making a donation."
+msgstr ""
+"Hvala vam što koristite %s! Ako vam se sviđa i želite podržati njegov "
+"daljnji razvoj, razmislite o donaciji."
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/donatePage.js:27
+msgid "Donate via PayPal"
+msgstr "Donirajte putem PayPala"
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/donatePage.js:30
+msgid "Donate via Buy Me a Coffee"
+msgstr "Donirajte putem platforme Buy Me a Coffee"
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/donatePage.js:42
+#, javascript-format, python-format
+msgid ""
+"A huge thank you to everyone who has supported %s! Your support helps "
+"keep %s going. It is truly appreciated!"
+msgstr ""
+"Od srca hvala svima koji su podržali %s! Vaša podrška omogućuje nastavak "
+"rada na projektu %s. Iskreno smo vam zahvalni!"
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/generalPage.js:33
+msgid "General"
+msgstr "Općenito"
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/generalPage.js:42
+msgid "Panel Display Options"
+msgstr "Mogućnosti prikaza na ploči"
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/generalPage.js:55
+msgid "Show Activities Button"
+msgstr "Prikaži gumb Aktivnosti"
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/generalPage.js:56
+msgid "Dash to Panel may conflict with this setting"
+msgstr "Ova postavka možda nije kompatibilna s proširenjem Dash to Panel"
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/generalPage.js:64
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/generalPage.js:90
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuSettings/layoutTweaksPage.js:653
+msgid "Left"
+msgstr "Lijevo"
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/generalPage.js:65
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/generalPage.js:91
+msgid "Center"
+msgstr "Sredina"
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/generalPage.js:66
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/generalPage.js:92
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuSettings/layoutTweaksPage.js:654
+msgid "Right"
+msgstr "Desno"
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/generalPage.js:68
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuButtonPage.js:124
+msgid "Position in Panel"
+msgstr "Položaj na ploči"
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/generalPage.js:98
+msgid "Menu Alignment"
+msgstr "Poravnanje izbornika"
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/generalPage.js:116
+msgid "Display ArcMenu on all Panels"
+msgstr "Prikaži ArcMenu na svim pločama"
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/generalPage.js:117
+msgid "Dash to Panel or App Icons Taskbar extension required"
+msgstr "Potrebno je proširenje Dash to Panel ili App Icons Taskbar"
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/generalPage.js:133
+msgid "Always Prefer Top Panel"
+msgstr "Uvijek daj prednost gornjoj ploči"
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/generalPage.js:134
+msgid "Useful with Dash to Panel setting 'Keep original gnome-shell top panel'"
+msgstr "Korisno uz postavku „Zadrži izvornu gornju ploču GNOME Shella” u proširenju Dash to Panel"
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/generalPage.js:148
+msgid "General Settings"
+msgstr "Opće postavke"
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/generalPage.js:152
+msgid "ArcMenu Hotkey"
+msgstr "Tipkovnički prečac za ArcMenu"
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/generalPage.js:153
+msgid "Standalone Runner Menu"
+msgstr "Samostalni izbornik pokretača"
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/generalPage.js:166
+msgid "Hide Overview on Startup"
+msgstr "Sakrij pregled pri pokretanju"
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/generalPage.js:180
+msgid "Hide Overview when ArcMenu Opens"
+msgstr "Sakrij pregled kada se ArcMenu otvori"
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/generalPage.js:234
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuPage.js:51
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuPage.js:94
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuSettings/layoutTweaksPage.js:28
+#, javascript-format, python-format
+msgid "%s Layout Tweaks"
+msgstr "Podešavanje rasporeda: %s"
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/generalPage.js:248
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/generalPage.js:409
+msgid "Disabled"
+msgstr "Onemogućeno"
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/generalPage.js:269
+msgid "ArcMenu Hotkeys"
+msgstr "Tipkovnički prečaci ArcMenua"
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/generalPage.js:269
+msgid "Standalone Runner Hotkeys"
+msgstr "Tipkovnički prečaci samostalnog pokretača"
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/generalPage.js:342
+msgid "Active Hotkeys"
+msgstr "Aktivni tipkovnički prečaci"
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/generalPage.js:348
+msgid "Hotkey Options"
+msgstr "Mogućnosti tipkovničkih prečaca"
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/generalPage.js:361
+msgid "Super Hotkeys Override GNOME Overview Hotkey"
+msgstr "Prečaci tipke Super zamjenjuju prečac za pregled aktivnosti GNOME-a"
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/generalPage.js:375
+msgid "Open on Primary Monitor"
+msgstr "Otvori na primarnom monitoru"
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/generalPage.js:386
+msgid "Type on your keyboard to add a new hotkey."
+msgstr "Pritisnite željene tipke za dodavanje novog prečaca."
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/generalPage.js:421
+msgid "Add Hotkey"
+msgstr "Dodaj tipkovnički prečac"
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/generalPage.js:492
+#, javascript-format, python-format
+msgid "Conflict with <b>%s</b> hotkey"
+msgstr "Sukob s tipkovničkim prečacem <b>%s</b>"
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/generalPage.js:640
+msgid "Standlone Runner"
+msgstr "Samostalni pokretač"
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/iconChooserDialog.js:43
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/iconChooserDialog.js:260
+msgid "Select an Icon"
+msgstr "Odaberite ikonu"
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/iconChooserDialog.js:43
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/iconChooserDialog.js:266
+msgid "Select"
+msgstr "Odaberi"
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/iconChooserDialog.js:58
+msgid "Search icons…"
+msgstr "Pretraži ikone…"
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/iconChooserDialog.js:102
+msgid "Browse Files..."
+msgstr "Pregledaj datoteke…"
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/iconChooserDialog.js:183
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/iconChooserDialog.js:189
+msgid "All"
+msgstr "Sve"
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/iconChooserDialog.js:184
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuSettings/fineTunePage.js:91
+msgid "Symbolic"
+msgstr "Simboličke"
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/iconChooserDialog.js:185
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuSettings/fineTunePage.js:90
+msgid "Full Color"
+msgstr "U boji"
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/iconChooserDialog.js:186
+msgid "Type"
+msgstr "Vrsta"
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/iconChooserDialog.js:190
+msgid "Extension"
+msgstr "Proširenje"
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/iconChooserDialog.js:191
+msgid "Distros"
+msgstr "Distribucije"
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/iconChooserDialog.js:193
+msgid "Category"
+msgstr "Kategorija"
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/iconChooserDialog.js:207
+msgid "Filter"
+msgstr "Filtar"
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuButtonPage.js:16
+msgid "Menu Button"
+msgstr "Gumb izbornika"
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuButtonPage.js:27
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuSettings/subPage.js:45
+msgid "Reset settings"
+msgstr "Vrati zadane postavke"
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuButtonPage.js:35
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuSettings/subPage.js:50
+#, javascript-format, python-format
+msgid "Reset all %s settings?"
+msgstr "Želite li vratiti sve postavke za %s na zadane vrijednosti?"
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuButtonPage.js:36
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuSettings/subPage.js:51
+#, javascript-format, python-format
+msgid "All %s settings will be reset to the default value."
+msgstr "Sve će se postavke za %s vratiti na zadane vrijednosti."
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuButtonPage.js:52
+msgid "Appearance"
+msgstr "Izgled"
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuButtonPage.js:57
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuButtonPage.js:154
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuSettings/listPinnedPage.js:599
+msgid "Icon"
+msgstr "Ikona"
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuButtonPage.js:58
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuButtonPage.js:141
+msgid "Text"
+msgstr "Tekst"
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuButtonPage.js:59
+msgid "Icon and Text"
+msgstr "Ikona i tekst"
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuButtonPage.js:60
+msgid "Text and Icon"
+msgstr "Tekst i ikona"
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuButtonPage.js:61
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuSettings/visualSettings.js:379
+msgid "Hidden"
+msgstr "Skriveno"
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuButtonPage.js:63
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuSettings/listOtherPage.js:38
+msgid "Display Style"
+msgstr "Stil prikaza"
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuButtonPage.js:100
+msgid "Padding"
+msgstr "Razmak"
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuButtonPage.js:101
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuSettings/layoutTweaksPage.js:563
+#, javascript-format, python-format
+msgid "%d Default Theme Value"
+msgstr "Zadana vrijednost teme: %d"
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuButtonPage.js:157
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuSettings/listPinnedPage.js:606
+msgid "Browse..."
+msgstr "Pregledaj…"
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuButtonPage.js:171
+msgid "Choose a New Icon"
+msgstr "Odaberite novu ikonu"
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuButtonPage.js:194
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuSettings/visualSettings.js:383
+msgid "Icon Size"
+msgstr "Veličina ikone"
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuButtonPage.js:207
+msgid "Click Options"
+msgstr "Mogućnosti klika"
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuButtonPage.js:213
+msgid "Context Menu"
+msgstr "Kontekstni izbornik"
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuButtonPage.js:214
+msgid "None"
+msgstr "Ništa"
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuButtonPage.js:217
+msgid "Left Click"
+msgstr "Lijevi klik"
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuButtonPage.js:227
+msgid "Right Click"
+msgstr "Desni klik"
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuButtonPage.js:237
+msgid "Middle Click"
+msgstr "Srednji klik"
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuButtonPage.js:249
+msgid "Styling"
+msgstr "Oblikovanje"
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuButtonPage.js:250
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuSettings/themePage.js:40
+msgid "Results may vary with third party themes"
+msgstr "Rezultati se mogu razlikovati ovisno o temama drugih autora."
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuButtonPage.js:254
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuButtonPage.js:263
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuButtonPage.js:269
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuSettings/themePage.js:185
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuSettings/themePage.js:211
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuSettings/themePage.js:217
+msgid "Foreground Color"
+msgstr "Boja prednjeg plana"
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuButtonPage.js:257
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuButtonPage.js:260
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuButtonPage.js:266
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuSettings/themePage.js:182
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuSettings/themePage.js:208
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuSettings/themePage.js:214
+msgid "Background Color"
+msgstr "Boja pozadine"
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuButtonPage.js:260
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuButtonPage.js:263
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuSettings/themePage.js:208
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuSettings/themePage.js:211
+msgid "Hover"
+msgstr "Pokazivač iznad stavke"
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuButtonPage.js:266
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuButtonPage.js:269
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuSettings/themePage.js:214
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuSettings/themePage.js:217
+msgid "Active"
+msgstr "Aktivno"
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuButtonPage.js:272
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuSettings/themePage.js:194
+msgid "Border Radius"
+msgstr "Polumjer zaobljenja obruba"
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuButtonPage.js:276
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuSettings/themePage.js:191
+msgid "Border Width"
+msgstr "Širina obruba"
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuButtonPage.js:277
+msgid "Background colors required if set to 0"
+msgstr "Ako je vrijednost 0, potrebno je postaviti boje pozadine."
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuButtonPage.js:280
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuSettings/themePage.js:188
+msgid "Border Color"
+msgstr "Boja obruba"
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuPage.js:24
+msgid "Menu"
+msgstr "Izbornik"
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuPage.js:33
+msgid "How should the menu look?"
+msgstr "Kako bi izbornik trebao izgledati?"
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuPage.js:40
+msgid "Menu Layout"
+msgstr "Raspored izbornika"
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuPage.js:41
+msgid "Choose a layout style for the menu"
+msgstr "Odaberite stil rasporeda izbornika."
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuPage.js:57
+msgid "Menu Theme"
+msgstr "Tema izbornika"
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuPage.js:58
+msgid "Modify menu colors, font size, and border"
+msgstr "Izmijenite boje izbornika, veličinu fonta i obrub"
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuPage.js:67
+msgid "Menu Visual Appearance"
+msgstr "Vizualni izgled izbornika"
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuPage.js:68
+msgid "Change menu height, width, location, and icon sizes"
+msgstr "Promijenite visinu, širinu i položaj izbornika te veličinu ikona."
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuPage.js:77
+msgid "Fine Tune"
+msgstr "Fino podešavanje"
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuPage.js:78
+msgid "Adjust less commonly used settings"
+msgstr "Prilagodite rjeđe korištene postavke"
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuPage.js:87
+msgid "What should show on the menu?"
+msgstr "Što treba biti prikazano u izborniku?"
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuPage.js:95
+msgid "Settings specific to the current menu layout"
+msgstr "Postavke za trenutačni raspored izbornika"
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuPage.js:115
+msgid "Directory Shortcuts"
+msgstr "Prečaci do mapa"
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuPage.js:137
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuSettings/searchOptionsPage.js:16
+msgid "Search Options"
+msgstr "Mogućnosti pretraživanja"
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuPage.js:147
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuSettings/listPinnedPage.js:387
+msgid "Power Options"
+msgstr "Mogućnosti napajanja"
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuPage.js:148
+msgid "Choose which power options to show and the display style"
+msgstr "Odaberite koje mogućnosti napajanja prikazati i njihov stil prikaza."
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuPage.js:159
+msgid "Extra Categories"
+msgstr "Dodatne kategorije"
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuPage.js:161
+msgid "Add or remove additional custom categories"
+msgstr "Dodajte ili uklonite dodatne prilagođene kategorije."
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuPage.js:171
+msgid "What should show on the context menu?"
+msgstr "Što prikazati u kontekstnom izborniku?"
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuPage.js:176
+msgid "Modify ArcMenu Context Menu"
+msgstr "Uredite kontekstni izbornik ArcMenua"
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuSettings/fineTunePage.js:29
+msgid "Show Category Sub Menus"
+msgstr "Prikaži podizbornike kategorija"
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuSettings/fineTunePage.js:32
+msgid "Show Application Descriptions"
+msgstr "Prikaži opise aplikacija"
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuSettings/fineTunePage.js:35
+msgid "Show Generic Application Names"
+msgstr "Prikaži generičke nazive aplikacija"
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuSettings/fineTunePage.js:38
+msgid "Show Hidden Recent Files"
+msgstr "Prikaži skrivene nedavne datoteke"
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuSettings/fineTunePage.js:42
+msgid "Show Multi Lined Labels"
+msgstr "Prikaži višeredne nazive"
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuSettings/fineTunePage.js:42
+msgid "Allow application labels to span multiple lines on grid style layouts"
+msgstr "Dopusti prikaz naziva aplikacija u više redaka u rasporedima s mrežnim prikazom."
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuSettings/fineTunePage.js:45
+msgid "Show Tooltips"
+msgstr "Prikaži opise alata"
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuSettings/fineTunePage.js:49
+msgid "Group Apps Alphabetically on List Views"
+msgstr "Grupiraj aplikacije abecednim redom u prikazu popisa"
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuSettings/fineTunePage.js:49
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuSettings/fineTunePage.js:53
+msgid "For All Apps sections"
+msgstr "Za odjeljke „Sve aplikacije”"
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuSettings/fineTunePage.js:53
+msgid "Group Apps Alphabetically on Grid Views"
+msgstr "Grupiraj aplikacije abecednim redom u mrežnom prikazu"
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuSettings/fineTunePage.js:56
+msgid "Activate App Window on Launch"
+msgstr "Aktiviraj postojeći prozor aplikacije pri pokretanju"
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuSettings/fineTunePage.js:57
+msgid ""
+"Launching an app activates its existing window if one is open; otherwise,"
+" it launches a new instance. Hold Ctrl while launching or middle-click to"
+" open a new window."
+msgstr ""
+"Ako je prozor aplikacije već otvoren, aktivirat će se pri pokretanju; u "
+"suprotnom će se pokrenuti novi primjerak. Držite Ctrl tijekom pokretanja "
+"ili kliknite srednjom tipkom miša da biste otvorili novi prozor."
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuSettings/fineTunePage.js:60
+msgid "Keep ArcMenu Open on Ctrl+Click"
+msgstr "Zadrži ArcMenu otvorenim pri kliku uz Ctrl"
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuSettings/fineTunePage.js:61
+msgid "Prevents the menu from closing when activating items while holding Ctrl."
+msgstr "Sprječava zatvaranje izbornika pri aktiviranju stavki dok držite Ctrl."
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuSettings/fineTunePage.js:65
+msgid "Scrollview Options"
+msgstr "Mogućnosti pomičnog prikaza"
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuSettings/fineTunePage.js:69
+msgid "Scrollview Fade Effects"
+msgstr "Efekti postupnog nestajanja u pomičnom prikazu"
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuSettings/fineTunePage.js:74
+msgid "Show Scrollbars"
+msgstr "Prikaži klizače"
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuSettings/fineTunePage.js:81
+msgid "Overlay Scrollbars"
+msgstr "Prekrivajući klizači"
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuSettings/fineTunePage.js:85
+msgid "Icon Style"
+msgstr "Stil ikona"
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuSettings/fineTunePage.js:93
+msgid "Category Icons"
+msgstr "Ikone kategorija"
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuSettings/fineTunePage.js:108
+msgid "Shortcut Icons"
+msgstr "Ikone prečaca"
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuSettings/fineTunePage.js:123
+msgid "Button Icons"
+msgstr "Ikone gumba"
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuSettings/fineTunePage.js:138
+msgid "New Apps Tracker"
+msgstr "Praćenje novih aplikacija"
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuSettings/fineTunePage.js:142
+msgid "Enable"
+msgstr "Omogući"
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuSettings/fineTunePage.js:147
+msgid "Clear All"
+msgstr "Očisti sve"
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuSettings/layoutsPage.js:24
+msgid "Current Menu Layout"
+msgstr "Trenutačni raspored izbornika"
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuSettings/layoutsPage.js:37
+msgid "Choose a new menu layout?"
+msgstr "Želite li odabrati novi raspored izbornika?"
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuSettings/layoutsPage.js:45
+#, javascript-format, python-format
+msgid "%s Menu Layouts"
+msgstr "Rasporedi izbornika: %s"
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuSettings/layoutTweaksPage.js:54
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuSettings/layoutTweaksPage.js:59
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuSettings/layoutTweaksPage.js:753
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuSettings/layoutTweaksPage.js:907
+msgid "Extra Shortcuts"
+msgstr "Dodatni prečaci"
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuSettings/layoutTweaksPage.js:79
+msgid "Vertical Separator"
+msgstr "Okomiti razdjelnik"
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuSettings/layoutTweaksPage.js:88
+msgid "Mouse Click"
+msgstr "Klik mišem"
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuSettings/layoutTweaksPage.js:89
+msgid "Mouse Hover"
+msgstr "Pokazivač iznad stavke"
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuSettings/layoutTweaksPage.js:92
+msgid "Category Activation"
+msgstr "Aktiviranje kategorije"
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuSettings/layoutTweaksPage.js:115
+msgid "Round"
+msgstr "Okrugli"
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuSettings/layoutTweaksPage.js:116
+msgid "Square"
+msgstr "Kvadratni"
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuSettings/layoutTweaksPage.js:118
+msgid "Avatar Shape"
+msgstr "Oblik avatara"
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuSettings/layoutTweaksPage.js:134
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuSettings/layoutTweaksPage.js:476
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuSettings/layoutTweaksPage.js:952
+msgid "Bottom"
+msgstr "Dolje"
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuSettings/layoutTweaksPage.js:135
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuSettings/layoutTweaksPage.js:448
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuSettings/layoutTweaksPage.js:477
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuSettings/layoutTweaksPage.js:953
+msgid "Top"
+msgstr "Gore"
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuSettings/layoutTweaksPage.js:138
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuSettings/layoutTweaksPage.js:480
+msgid "Searchbar Location"
+msgstr "Položaj trake za pretraživanje"
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuSettings/layoutTweaksPage.js:159
+msgid "Flip Layout Horizontally"
+msgstr "Preokreni raspored vodoravno"
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuSettings/layoutTweaksPage.js:168
+msgid "Show User Avatar"
+msgstr "Prikaži avatar korisnika"
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuSettings/layoutTweaksPage.js:212
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuSettings/layoutTweaksPage.js:276
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuSettings/layoutTweaksPage.js:577
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuSettings/layoutTweaksPage.js:601
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuSettings/layoutTweaksPage.js:628
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuSettings/layoutTweaksPage.js:736
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuSettings/layoutTweaksPage.js:823
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuSettings/layoutTweaksPage.js:849
+msgid "Default View"
+msgstr "Zadani prikaz"
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuSettings/layoutTweaksPage.js:239
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuSettings/layoutTweaksPage.js:345
+msgid "Show Frequent Apps"
+msgstr "Prikaži često korištene aplikacije"
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuSettings/layoutTweaksPage.js:265
+msgid "Merge Top and Bottom Panels"
+msgstr "Spoji gornju i donju ploču"
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuSettings/layoutTweaksPage.js:303
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuSettings/layoutTweaksPage.js:876
+msgid "Max Frequent Apps"
+msgstr "Najveći broj često korištenih aplikacija"
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuSettings/layoutTweaksPage.js:326
+msgid "Show Apps Grid"
+msgstr "Prikaži mrežu aplikacija"
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuSettings/layoutTweaksPage.js:359
+msgid "Show Pinned Apps"
+msgstr "Prikaži zakačene aplikacije"
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuSettings/layoutTweaksPage.js:385
+msgid "Activate on Hover"
+msgstr "Aktiviraj kad je pokazivač iznad stavke"
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuSettings/layoutTweaksPage.js:435
+msgid "Enable Activities Overview Shortcut"
+msgstr "Omogući prečac za pregled aktivnosti"
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuSettings/layoutTweaksPage.js:449
+msgid "Centered"
+msgstr "Centrirano"
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuSettings/layoutTweaksPage.js:451
+msgid "Position"
+msgstr "Položaj"
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuSettings/layoutTweaksPage.js:462
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuSettings/layoutTweaksPage.js:639
+msgid "List"
+msgstr "Popis"
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuSettings/layoutTweaksPage.js:463
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuSettings/layoutTweaksPage.js:640
+msgid "Grid"
+msgstr "Mreža"
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuSettings/layoutTweaksPage.js:465
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuSettings/layoutTweaksPage.js:642
+msgid "Search Results Display Style"
+msgstr "Stil prikaza rezultata pretraživanja"
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuSettings/layoutTweaksPage.js:510
+msgid "Width"
+msgstr "Širina"
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuSettings/layoutTweaksPage.js:533
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuSettings/visualSettings.js:39
+msgid "Height"
+msgstr "Visina"
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuSettings/layoutTweaksPage.js:541
+msgid "Static Height"
+msgstr "Fiksna visina"
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuSettings/layoutTweaksPage.js:562
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuSettings/themePage.js:197
+msgid "Font Size"
+msgstr "Veličina fonta"
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuSettings/layoutTweaksPage.js:573
+msgid "Default"
+msgstr "Zadano"
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuSettings/layoutTweaksPage.js:588
+msgid "Show Configure Runner Button"
+msgstr "Prikaži gumb za konfiguriranje pokretača"
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuSettings/layoutTweaksPage.js:656
+msgid "Position on Monitor"
+msgstr "Položaj na monitoru"
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuSettings/layoutTweaksPage.js:718
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuSettings/layoutTweaksPage.js:993
+msgid "Extra Shortcuts Panel Width"
+msgstr "Širina ploče s dodatnim prečacima"
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuSettings/layoutTweaksPage.js:765
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuSettings/layoutTweaksPage.js:918
+msgid "External Devices"
+msgstr "Vanjski uređaji"
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuSettings/layoutTweaksPage.js:810
+msgid "Nothing Yet!"
+msgstr "Još nema stavki!"
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuSettings/layoutTweaksPage.js:820
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuSettings/layoutTweaksPage.js:844
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuSettings/layoutTweaksPage.js:886
+msgid "Categories List"
+msgstr "Popis kategorija"
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuSettings/layoutTweaksPage.js:847
+msgid "Pinned and Frequent Apps"
+msgstr "Zakačene i često korištene aplikacije"
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuSettings/layoutTweaksPage.js:877
+msgid "0 = unlimited"
+msgstr "0 = neograničeno"
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuSettings/layoutTweaksPage.js:890
+msgid "'All Apps' Button Action"
+msgstr "Radnja gumba „Sve aplikacije”"
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuSettings/layoutTweaksPage.js:940
+msgid "Category Quick Links"
+msgstr "Brze poveznice kategorija"
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuSettings/layoutTweaksPage.js:941
+msgid ""
+"Display a category on the default menu view. Category must be enabled in "
+"ArcMenu Settings -> Menu -> Extra Categories section."
+msgstr ""
+"Prikaži kategoriju u zadanom prikazu izbornika. Kategorija mora biti "
+"omogućena u odjeljku Postavke ArcMenua → Izbornik → Dodatne kategorije."
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuSettings/layoutTweaksPage.js:955
+msgid "Quick Links Location"
+msgstr "Položaj brzih poveznica"
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuSettings/layoutTweaksPage.js:1017
+msgid "Enable Weather Widget"
+msgstr "Omogući vremenski dodatak"
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuSettings/layoutTweaksPage.js:1031
+msgid "Enable Clock Widget"
+msgstr "Omogući dodatak sata"
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuSettings/listOtherPage.js:34
+msgid "Actions will be hidden from ArcMenu if not available on your system."
+msgstr "Radnje koje nisu dostupne na vašem sustavu neće se prikazivati u ArcMenuu."
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuSettings/listOtherPage.js:41
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuSettings/visualSettings.js:87
+msgid "Off"
+msgstr "Isključeno"
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuSettings/listOtherPage.js:42
+msgid "Power Buttons"
+msgstr "Gumbi za napajanje"
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuSettings/listOtherPage.js:43
+msgid "Power Menu"
+msgstr "Izbornik napajanja"
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuSettings/listOtherPage.js:45
+msgid "Override Display Style"
+msgstr "Nadjačaj stil prikaza"
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuSettings/listPinnedPage.js:75
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuSettings/listPinnedPage.js:78
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuSettings/listPinnedPage.js:84
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuSettings/listPinnedPage.js:89
+msgid "Add More Apps"
+msgstr "Dodaj još aplikacija"
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuSettings/listPinnedPage.js:81
+msgid "Add Default User Directories"
+msgstr "Dodaj zadane korisničke mape"
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuSettings/listPinnedPage.js:87
+msgid "Add More Shortcuts"
+msgstr "Dodaj još prečaca"
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuSettings/listPinnedPage.js:153
+msgid "Add Custom Shortcut"
+msgstr "Dodaj prilagođeni prečac"
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuSettings/listPinnedPage.js:243
+msgid "Invalid Shortcut"
+msgstr "Nevaljan prečac"
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuSettings/listPinnedPage.js:335
+msgid "Add to your Pinned Apps"
+msgstr "Dodaj među zakačene aplikacije"
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuSettings/listPinnedPage.js:337
+msgid "Add to your Extra Shortcuts"
+msgstr "Dodaj među dodatne prečace"
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuSettings/listPinnedPage.js:339
+msgid "Select Application Shortcuts"
+msgstr "Odaberi prečace za aplikacije"
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuSettings/listPinnedPage.js:341
+msgid "Select Directory Shortcuts"
+msgstr "Odaberi prečace do mapa"
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuSettings/listPinnedPage.js:343
+msgid "Add to the Context Menu"
+msgstr "Dodaj u kontekstni izbornik"
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuSettings/listPinnedPage.js:355
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuSettings/listPinnedPage.js:366
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuSettings/listPinnedPage.js:389
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuSettings/listPinnedPage.js:394
+msgid "Separator"
+msgstr "Razdjelnik"
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuSettings/listPinnedPage.js:356
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuSettings/listPinnedPage.js:367
+msgid "Spacer"
+msgstr "Razmak"
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuSettings/listPinnedPage.js:362
+msgid "Run Command..."
+msgstr "Pokreni naredbu…"
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuSettings/listPinnedPage.js:365
+msgid "Show All Apps"
+msgstr "Prikaži sve aplikacije"
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuSettings/listPinnedPage.js:374
+msgid "Menu Settings"
+msgstr "Postavke izbornika"
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuSettings/listPinnedPage.js:376
+msgid "Menu Theming"
+msgstr "Prilagodba izgleda izbornika"
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuSettings/listPinnedPage.js:378
+msgid "Change Menu Layout"
+msgstr "Promijeni raspored izbornika"
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuSettings/listPinnedPage.js:380
+msgid "Menu Button Settings"
+msgstr "Postavke gumba izbornika"
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuSettings/listPinnedPage.js:383
+msgid "Panel Extension Settings"
+msgstr "Postavke proširenja ploče"
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuSettings/listPinnedPage.js:448
+msgid "Dash to Panel or App Icons Taskbar"
+msgstr "Dash to Panel ili App Icons Taskbar"
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuSettings/listPinnedPage.js:529
+#, javascript-format, python-format
+msgid "%s has been added"
+msgstr "Dodano: %s"
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuSettings/listPinnedPage.js:540
+#, javascript-format, python-format
+msgid "%s has been removed"
+msgstr "Uklonjeno: %s"
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuSettings/listPinnedPage.js:564
+msgid "Add a Custom Shortcut"
+msgstr "Dodaj prilagođeni prečac"
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuSettings/listPinnedPage.js:574
+msgid "Edit Pinned App"
+msgstr "Uredi zakačenu aplikaciju"
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuSettings/listPinnedPage.js:576
+msgid "Edit Shortcut"
+msgstr "Uredi prečac"
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuSettings/listPinnedPage.js:580
+msgid "Add"
+msgstr "Dodaj"
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuSettings/listPinnedPage.js:588
+msgid "Title"
+msgstr "Naslov"
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuSettings/listPinnedPage.js:616
+msgid "Clear Icon"
+msgstr "Ukloni ikonu"
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuSettings/listPinnedPage.js:633
+msgid "Directory"
+msgstr "Mapa"
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuSettings/listPinnedPage.js:633
+msgid "Command"
+msgstr "Naredba"
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuSettings/searchOptionsPage.js:27
+msgid "Hide Search Bar"
+msgstr "Sakrij traku za pretraživanje"
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuSettings/searchOptionsPage.js:28
+msgid "The search bar hides when empty and appears when typing."
+msgstr "Traka za pretraživanje skrivena je kada je prazna, a prikazuje se tijekom unosa teksta."
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuSettings/searchOptionsPage.js:42
+msgid "Show Search Result Descriptions"
+msgstr "Prikaži opise rezultata pretraživanja"
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuSettings/searchOptionsPage.js:57
+msgid "Highlight search result terms"
+msgstr "Istakni pojmove u rezultatima pretraživanja"
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuSettings/searchOptionsPage.js:76
+msgid "Max Search Results"
+msgstr "Najveći broj rezultata pretraživanja"
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuSettings/searchOptionsPage.js:120
+msgid "Search Box Border Radius"
+msgstr "Polumjer zaobljenja okvira pretraživanja"
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuSettings/searchOptionsPage.js:134
+msgid "Extra Search Providers"
+msgstr "Dodatni izvori pretraživanja"
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuSettings/searchOptionsPage.js:145
+msgid "Search for open windows across all workspaces"
+msgstr "Pretraži otvorene prozore na svim radnim prostorima"
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuSettings/searchOptionsPage.js:159
+msgid "Search for recent files"
+msgstr "Pretraži nedavne datoteke"
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuSettings/themePage.js:39
+msgid "Override Theme"
+msgstr "Nadjačaj temu"
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuSettings/themePage.js:47
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuSettings/themingDialog.js:67
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuSettings/themingDialog.js:75
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuSettings/themingDialog.js:141
+msgid "Menu Themes"
+msgstr "Teme izbornika"
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuSettings/themePage.js:119
+msgid "Current Theme"
+msgstr "Trenutna tema"
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuSettings/themePage.js:147
+msgid "Save as Theme"
+msgstr "Spremi kao temu"
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuSettings/themePage.js:177
+msgid "Menu Styling"
+msgstr "Stil izbornika"
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuSettings/themePage.js:200
+msgid "Separator Color"
+msgstr "Boja razdjelnika"
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuSettings/themePage.js:204
+msgid "Menu Items Styling"
+msgstr "Stil stavki izbornika"
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuSettings/themingDialog.js:15
+msgid "Save Theme As..."
+msgstr "Spremi temu kao…"
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuSettings/themingDialog.js:27
+msgid "Theme Name"
+msgstr "Naziv teme"
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuSettings/themingDialog.js:44
+msgid "Save Theme"
+msgstr "Spremi temu"
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuSettings/themingDialog.js:60
+msgid "Manage Themes"
+msgstr "Upravljaj temama"
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuSettings/themingDialog.js:322
+msgid "Save Themes"
+msgstr "Spremi teme"
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuSettings/themingDialog.js:324
+msgid "Load Themes"
+msgstr "Učitaj teme"
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuSettings/themingDialog.js:377
+#, javascript-format, python-format
+msgid "%s has been selected"
+msgstr "Odabrano: %s"
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuSettings/themingDialog.js:389
+#, javascript-format, python-format
+msgid "%s has been unselected"
+msgstr "Poništen odabir: %s"
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuSettings/visualSettings.js:30
+msgid "Menu Size"
+msgstr "Veličina izbornika"
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuSettings/visualSettings.js:50
+msgid "Left-Panel Width"
+msgstr "Širina lijevog panela"
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuSettings/visualSettings.js:51
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuSettings/visualSettings.js:63
+msgid "Traditional Layouts"
+msgstr "Klasični rasporedi"
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuSettings/visualSettings.js:62
+msgid "Right-Panel Width"
+msgstr "Širina desnog panela"
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuSettings/visualSettings.js:74
+msgid "Width Offset"
+msgstr "Pomak širine"
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuSettings/visualSettings.js:75
+msgid "Non-Traditional Layouts"
+msgstr "Netradicionalni rasporedi"
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuSettings/visualSettings.js:82
+msgid "Menu Location"
+msgstr "Položaj izbornika"
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuSettings/visualSettings.js:88
+msgid "Top Centered"
+msgstr "Gore u sredini"
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuSettings/visualSettings.js:89
+msgid "Top Left"
+msgstr "Gore lijevo"
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuSettings/visualSettings.js:90
+msgid "Top Right"
+msgstr "Gore desno"
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuSettings/visualSettings.js:91
+msgid "Bottom Centered"
+msgstr "Dolje u sredini"
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuSettings/visualSettings.js:92
+msgid "Bottom Left"
+msgstr "Dolje lijevo"
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuSettings/visualSettings.js:93
+msgid "Bottom Right"
+msgstr "Dolje desno"
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuSettings/visualSettings.js:94
+msgid "Left Centered"
+msgstr "Lijevo u sredini"
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuSettings/visualSettings.js:95
+msgid "Right Centered"
+msgstr "Desno u sredini"
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuSettings/visualSettings.js:96
+msgid "Monitor Centered"
+msgstr "Na sredini monitora"
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuSettings/visualSettings.js:98
+msgid "Override Menu Location"
+msgstr "Nadjačaj položaj izbornika"
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuSettings/visualSettings.js:129
+msgid "Override Menu Rise"
+msgstr "Nadjačaj dizanje izbornika"
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuSettings/visualSettings.js:130
+msgid "Menu Distance from Panel and Screen Edge"
+msgstr "Udaljenost izbornika od ploče i ruba zaslona"
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuSettings/visualSettings.js:144
+msgid "Override Menu Item Icon Sizes"
+msgstr "Nadjačaj veličine ikona stavki izbornika"
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuSettings/visualSettings.js:149
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuSettings/visualSettings.js:318
+msgid "Small"
+msgstr "Mala"
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuSettings/visualSettings.js:150
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuSettings/visualSettings.js:319
+msgid "Medium"
+msgstr "Srednja"
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuSettings/visualSettings.js:151
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuSettings/visualSettings.js:320
+msgid "Large"
+msgstr "Velika"
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuSettings/visualSettings.js:152
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuSettings/visualSettings.js:321
+msgid "Extra Large"
+msgstr "Vrlo velika"
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuSettings/visualSettings.js:153
+msgid "Small Wide"
+msgstr "Mala široka"
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuSettings/visualSettings.js:154
+msgid "Medium Wide"
+msgstr "Srednja široka"
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuSettings/visualSettings.js:155
+msgid "Large Wide"
+msgstr "Velika široka"
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuSettings/visualSettings.js:182
+msgid "Grid Menu Items"
+msgstr "Mrežni prikaz stavki izbornika"
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuSettings/visualSettings.js:183
+msgid "Menu items displayed in grid style"
+msgstr "Stavke izbornika prikazuju se u obliku mreže."
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuSettings/visualSettings.js:220
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuSettings/visualSettings.js:367
+msgid "Presets"
+msgstr "Predlošci"
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuSettings/visualSettings.js:227
+msgid "Grid Icon Size"
+msgstr "Veličina ikona u mreži"
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuSettings/visualSettings.js:228
+msgid "Width, Height, Icon Size"
+msgstr "Širina, visina i veličina ikona"
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuSettings/visualSettings.js:266
+msgid "Applications"
+msgstr "Aplikacije"
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuSettings/visualSettings.js:267
+msgid "Applications, pinned apps, and search results"
+msgstr "Aplikacije, zakačene aplikacije i rezultati pretraživanja"
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuSettings/visualSettings.js:274
+msgid "Menu items found in side panels on various layouts"
+msgstr "Stavke izbornika na bočnim pločama različitih rasporeda"
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuSettings/visualSettings.js:286
+msgid "Buttons"
+msgstr "Gumbi"
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuSettings/visualSettings.js:292
+msgid "Miscellaneous"
+msgstr "Razno"
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuSettings/visualSettings.js:293
+msgid "Avatar, search icons, navigation icons"
+msgstr "Avatar te ikone pretraživanja i navigacije"
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuSettings/visualSettings.js:393
+msgid "Hide Icon"
+msgstr "Sakrij ikonu"
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/updateNotifier.js:70
+#, javascript-format, python-format
+msgid "%s v%s Released!"
+msgstr "Objavljena je nova verzija %s v%s!"
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/updateNotifier.js:73
+msgid "Check out what's new."
+msgstr "Pogledajte novosti."
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/updateNotifier.js:90
+msgid "What's new?"
+msgstr "Što je novo?"
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/updateNotifier.js:91
+msgid "Dismiss"
+msgstr "Odbaci"
+

@@ -1,0 +1,1973 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the arcmenu@arcmenu.com package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: arcmenu@arcmenu.com\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-11-21 19:01+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/appMenu.js:170
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/appMenu.js:376
+msgid "Pin to Start menu"
+msgstr ""
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/appMenu.js:173
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/appMenu.js:342
+msgid "Create Desktop Shortcut"
+msgstr ""
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/appMenu.js:341
+msgid "Delete Desktop Shortcut"
+msgstr ""
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/appMenu.js:351
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/appMenu.js:375
+msgid "Unpin from Start menu"
+msgstr ""
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/appMenu.js:375
+msgid "Unpin from Folder"
+msgstr ""
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/appMenu.js:415
+msgid "Open Folder Location"
+msgstr ""
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/constants.js:85
+msgid "Favorites"
+msgstr ""
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/constants.js:86
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/menulayouts/runner.js:187
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/menulayouts/windows.js:341
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuSettings/layoutTweaksPage.js:273
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuSettings/layoutTweaksPage.js:575
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuSettings/layoutTweaksPage.js:845
+msgid "Frequent Apps"
+msgstr ""
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/constants.js:87
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/menulayouts/az.js:68
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/menulayouts/az.js:77
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/menulayouts/eleven.js:55
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/menulayouts/eleven.js:64
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/menulayouts/redmond.js:78
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/menulayouts/redmond.js:81
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/menulayouts/redmond.js:85
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/menulayouts/sleek.js:71
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/menulayouts/sleek.js:74
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/menuWidgets.js:1283
+msgid "All Apps"
+msgstr ""
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/constants.js:88
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/menulayouts/insider.js:289
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/menulayouts/runner.js:174
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuPage.js:104
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuSettings/layoutTweaksPage.js:272
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuSettings/layoutTweaksPage.js:574
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuSettings/layoutTweaksPage.js:733
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuSettings/layoutTweaksPage.js:843
+msgid "Pinned Apps"
+msgstr ""
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/constants.js:89
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/menulayouts/raven.js:296
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/menulayouts/unity.js:365
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/searchProviders/recentFiles.js:29
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/searchProviders/recentFiles.js:30
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/searchProviders/recentFiles.js:106
+msgid "Recent Files"
+msgstr ""
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/constants.js:240
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/menuButton.js:941
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuSettings/listPinnedPage.js:396
+msgid "Log Out..."
+msgstr ""
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/constants.js:241
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/menuButton.js:940
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuSettings/listPinnedPage.js:395
+msgid "Lock"
+msgstr ""
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/constants.js:242
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/menuButton.js:935
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuSettings/listPinnedPage.js:398
+msgid "Restart..."
+msgstr ""
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/constants.js:243
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/menuButton.js:936
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuSettings/listPinnedPage.js:397
+msgid "Power Off..."
+msgstr ""
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/constants.js:244
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/menuButton.js:932
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuSettings/listPinnedPage.js:399
+msgid "Suspend"
+msgstr ""
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/constants.js:245
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuSettings/listPinnedPage.js:400
+msgid "Hybrid Sleep"
+msgstr ""
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/constants.js:246
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuSettings/listPinnedPage.js:402
+msgid "Hibernate"
+msgstr ""
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/constants.js:247
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/menuButton.js:942
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuSettings/listPinnedPage.js:403
+msgid "Switch User"
+msgstr ""
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/constants.js:251
+msgid "Traditional"
+msgstr ""
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/constants.js:252
+msgid "Modern"
+msgstr ""
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/constants.js:253
+msgid "Touch"
+msgstr ""
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/constants.js:254
+msgid "Launcher"
+msgstr ""
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/constants.js:255
+msgid "Alternative"
+msgstr ""
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/constants.js:259
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/aboutPage.js:33
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/donatePage.js:17
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/generalPage.js:644
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuButtonPage.js:212
+msgid "ArcMenu"
+msgstr ""
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/constants.js:260
+msgid "Brisk"
+msgstr ""
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/constants.js:261
+msgid "Budgie"
+msgstr ""
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/constants.js:262
+msgid "GNOME Menu"
+msgstr ""
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/constants.js:263
+msgid "Mint"
+msgstr ""
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/constants.js:264
+msgid "Whisker"
+msgstr ""
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/constants.js:265
+msgid "11"
+msgstr ""
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/constants.js:266
+msgid "a.z."
+msgstr ""
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/constants.js:267
+msgid "Enterprise"
+msgstr ""
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/constants.js:268
+msgid "Insider"
+msgstr ""
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/constants.js:269
+msgid "Plasma"
+msgstr ""
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/constants.js:270
+msgid "Pop"
+msgstr ""
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/constants.js:271
+msgid "Redmond"
+msgstr ""
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/constants.js:272
+msgid "Sleek"
+msgstr ""
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/constants.js:273
+msgid "tognee"
+msgstr ""
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/constants.js:274
+msgid "Unity"
+msgstr ""
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/constants.js:275
+msgid "Windows"
+msgstr ""
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/constants.js:276
+msgid "Zest"
+msgstr ""
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/constants.js:277
+msgid "Chromebook"
+msgstr ""
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/constants.js:278
+msgid "Elementary"
+msgstr ""
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/constants.js:279
+msgid "GNOME Overview"
+msgstr ""
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/constants.js:280
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/generalPage.js:234
+msgid "Runner"
+msgstr ""
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/constants.js:281
+msgid "Raven"
+msgstr ""
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/constants.js:287
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/placeDisplay.js:119
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/placeDisplay.js:340
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuSettings/layoutTweaksPage.js:598
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuSettings/layoutTweaksPage.js:625
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuSettings/listPinnedPage.js:411
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/utils.js:284
+msgid "Home"
+msgstr ""
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/constants.js:287
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuSettings/listPinnedPage.js:412
+msgid "Documents"
+msgstr ""
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/constants.js:287
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuSettings/listPinnedPage.js:416
+msgid "Music"
+msgstr ""
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/constants.js:287
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuSettings/listPinnedPage.js:417
+msgid "Pictures"
+msgstr ""
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/constants.js:287
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuSettings/listPinnedPage.js:418
+msgid "Videos"
+msgstr ""
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/constants.js:287
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuSettings/listPinnedPage.js:414
+msgid "Downloads"
+msgstr ""
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/constants.js:288
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/menulayouts/plasma.js:129
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/placeDisplay.js:133
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/placeDisplay.js:156
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuSettings/listPinnedPage.js:419
+msgid "Computer"
+msgstr ""
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/constants.js:288
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/menulayouts/plasma.js:297
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/menulayouts/windows.js:213
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuSettings/listPinnedPage.js:420
+msgid "Network"
+msgstr ""
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/constants.js:288
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuSettings/listPinnedPage.js:421
+msgid "Recent"
+msgstr ""
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/constants.js:288
+msgid "Software"
+msgstr ""
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/constants.js:288
+msgid "Settings"
+msgstr ""
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/constants.js:288
+msgid "Tweaks"
+msgstr ""
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/constants.js:288
+msgid "Terminal"
+msgstr ""
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/constants.js:289
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/menuButton.js:885
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/menuWidgets.js:602
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuSettings/listPinnedPage.js:363
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuSettings/listPinnedPage.js:385
+msgid "Activities Overview"
+msgstr ""
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/constants.js:289
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/menuButton.js:871
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuSettings/listPinnedPage.js:349
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuSettings/listPinnedPage.js:360
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuSettings/listPinnedPage.js:372
+msgid "ArcMenu Settings"
+msgstr ""
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/constants.js:289
+msgid "Files"
+msgstr ""
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/menuButton.js:50
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/menulayouts/plasma.js:125
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/menulayouts/plasma.js:571
+msgid "Apps"
+msgstr ""
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/menuButton.js:244
+msgid "Loading Menu Layout..."
+msgstr ""
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/menuButton.js:916
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuSettings/listPinnedPage.js:388
+msgid "Show Desktop"
+msgstr ""
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/menuButton.js:930
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/menuWidgets.js:903
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/menuWidgets.js:920
+msgid "Power Off"
+msgstr ""
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/menuButton.js:970
+msgid "Dash to Panel Settings"
+msgstr ""
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/menuButton.js:974
+msgid "App Icons Taskbar Settings"
+msgstr ""
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/menulayouts/az.js:69
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/menulayouts/eleven.js:56
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/menulayouts/redmond.js:79
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/menulayouts/redmond.js:84
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/menulayouts/sleek.js:72
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/menuWidgets.js:1206
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/menuWidgets.js:1227
+msgid "Back"
+msgstr ""
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/menulayouts/az.js:76
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/menulayouts/az.js:230
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/menulayouts/eleven.js:63
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/menulayouts/insider.js:187
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/menulayouts/plasma.js:120
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/menulayouts/raven.js:62
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/menulayouts/raven.js:233
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/menulayouts/raven.js:274
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/menulayouts/redmond.js:80
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/menulayouts/redmond.js:83
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/menulayouts/redmond.js:86
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/menulayouts/sleek.js:73
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/menulayouts/unity.js:39
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/menulayouts/unity.js:273
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/menulayouts/unity.js:343
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/menulayouts/windows.js:419
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/menuWidgets.js:3364
+msgid "Pinned"
+msgstr ""
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/menulayouts/az.js:233
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/menulayouts/eleven.js:71
+msgid "Frequent"
+msgstr ""
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/menulayouts/baseMenuLayout.js:513
+msgid "More Recent Files..."
+msgstr ""
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/menulayouts/plasma.js:133
+msgid "Leave"
+msgstr ""
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/menulayouts/plasma.js:273
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/menulayouts/windows.js:276
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuPage.js:126
+msgid "Application Shortcuts"
+msgstr ""
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/menulayouts/plasma.js:278
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/menulayouts/windows.js:280
+msgid "Places"
+msgstr ""
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/menulayouts/plasma.js:293
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/menulayouts/windows.js:209
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuSettings/layoutTweaksPage.js:779
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuSettings/layoutTweaksPage.js:932
+msgid "Bookmarks"
+msgstr ""
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/menulayouts/plasma.js:295
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/menulayouts/windows.js:211
+msgid "Devices"
+msgstr ""
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/menulayouts/plasma.js:325
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/menuWidgets.js:978
+msgid "Session"
+msgstr ""
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/menulayouts/plasma.js:329
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/menuWidgets.js:982
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/iconChooserDialog.js:192
+msgid "System"
+msgstr ""
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/menulayouts/pop.js:259
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/menulayouts/pop.js:762
+msgid "Library Home"
+msgstr ""
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/menulayouts/pop.js:363
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/menuWidgets.js:2556
+msgid "Unnamed Folder"
+msgstr ""
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/menulayouts/pop.js:852
+msgid "New Folder"
+msgstr ""
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/menulayouts/pop.js:940
+msgid "Rename Folder"
+msgstr ""
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/menulayouts/pop.js:941
+msgid "Delete Folder"
+msgstr ""
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/menulayouts/pop.js:951
+#, javascript-format
+msgid "Permanently delete %s folder?"
+msgstr ""
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/menulayouts/pop.js:956
+msgid "No"
+msgstr ""
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/menulayouts/pop.js:964
+msgid "Yes"
+msgstr ""
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/menulayouts/pop.js:979
+#, javascript-format
+msgid "Rename %s folder"
+msgstr ""
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/menulayouts/pop.js:1013
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/prefsWidgets.js:94
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/aboutPage.js:404
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/generalPage.js:321
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/iconChooserDialog.js:265
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuSettings/themingDialog.js:269
+msgid "Cancel"
+msgstr ""
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/menulayouts/pop.js:1021
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/prefsWidgets.js:82
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/generalPage.js:307
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuSettings/listPinnedPage.js:580
+msgid "Apply"
+msgstr ""
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/menulayouts/pop.js:1089
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/menuWidgets.js:2655
+msgid "New"
+msgstr ""
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/menulayouts/raven.js:62
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/menulayouts/raven.js:239
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/menulayouts/unity.js:39
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/menulayouts/unity.js:277
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuSettings/layoutTweaksPage.js:599
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuSettings/layoutTweaksPage.js:626
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuSettings/layoutTweaksPage.js:732
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuSettings/layoutTweaksPage.js:821
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuSettings/layoutTweaksPage.js:846
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuSettings/layoutTweaksPage.js:887
+msgid "All Programs"
+msgstr ""
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/menulayouts/raven.js:280
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/menulayouts/unity.js:348
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuSettings/visualSettings.js:273
+msgid "Shortcuts"
+msgstr ""
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/menulayouts/runner.js:295
+msgid "Configure Runner"
+msgstr ""
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/menulayouts/unity.js:418
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuSettings/visualSettings.js:280
+msgid "Categories"
+msgstr ""
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/menulayouts/windows.js:444
+msgid "Extras"
+msgstr ""
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/menuWidgets.js:3534
+msgid "Unmount Drive"
+msgstr ""
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/menuWidgets.js:3536
+msgid "Eject Drive"
+msgstr ""
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/menuWidgets.js:3614
+msgid "Remove from Recent"
+msgstr ""
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/menuWidgets.js:3692
+msgid "Search…"
+msgstr ""
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/placeDisplay.js:56
+#, javascript-format
+msgid "Failed to launch “%s”"
+msgstr ""
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/placeDisplay.js:71
+#, javascript-format
+msgid "Failed to mount volume for “%s”"
+msgstr ""
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/placeDisplay.js:223
+#, javascript-format
+msgid "Ejecting drive “%s” failed:"
+msgstr ""
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/prefsWidgets.js:352
+msgid "Modify"
+msgstr ""
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/prefsWidgets.js:367
+msgid "Move Up"
+msgstr ""
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/prefsWidgets.js:374
+msgid "Move Down"
+msgstr ""
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/prefsWidgets.js:381
+msgid "Remove"
+msgstr ""
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/search.js:484
+msgid "Try a different search"
+msgstr ""
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/search.js:796
+msgid "Searching"
+msgstr ""
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/search.js:796
+msgid "No Results Found"
+msgstr ""
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/search.js:883
+#, javascript-format
+msgid "%d more"
+msgstr ""
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/searchProviders/openWindows.js:31
+msgid "List of open windows across all workspaces"
+msgstr ""
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/searchProviders/openWindows.js:32
+msgid "Open Windows"
+msgstr ""
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/searchProviders/openWindows.js:46
+#, javascript-format
+msgid "'%s' on Workspace %d"
+msgstr ""
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/searchProviders/recentFiles.js:90
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/searchProviders/recentFiles.js:106
+#, javascript-format
+msgid "Failed to open “%s”"
+msgstr ""
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/aboutPage.js:28
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuSettings/listPinnedPage.js:382
+msgid "About"
+msgstr ""
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/aboutPage.js:34
+msgid "Application Menu Extension for GNOME"
+msgstr ""
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/aboutPage.js:79
+#, javascript-format
+msgid "%s Version"
+msgstr ""
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/aboutPage.js:88
+#, javascript-format
+msgid "%s - Release Notes"
+msgstr ""
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/aboutPage.js:90
+msgid "What's New"
+msgstr ""
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/aboutPage.js:139
+msgid "Message Tray Update Notification"
+msgstr ""
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/aboutPage.js:140
+#, javascript-format
+msgid "Show a notification when %s receives an update."
+msgstr ""
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/aboutPage.js:148
+msgid "Git Commit"
+msgstr ""
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/aboutPage.js:158
+msgid "GNOME Version"
+msgstr ""
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/aboutPage.js:167
+msgid "OS Name"
+msgstr ""
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/aboutPage.js:180
+msgid "Windowing System"
+msgstr ""
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/aboutPage.js:191
+#, javascript-format
+msgid "%s on GitLab"
+msgstr ""
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/aboutPage.js:194
+msgid "Report an Issue"
+msgstr ""
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/aboutPage.js:204
+#, javascript-format
+msgid "%s Settings"
+msgstr ""
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/aboutPage.js:207
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuSettings/themingDialog.js:70
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuSettings/themingDialog.js:75
+msgid "Load"
+msgstr ""
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/aboutPage.js:212
+msgid "Load Settings"
+msgstr ""
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/aboutPage.js:214
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuSettings/themingDialog.js:77
+msgid "Open"
+msgstr ""
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/aboutPage.js:237
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/aboutPage.js:244
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuSettings/themingDialog.js:128
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuSettings/themingDialog.js:141
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuSettings/themingDialog.js:143
+msgid "Save"
+msgstr ""
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/aboutPage.js:242
+msgid "Save Settings"
+msgstr ""
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/aboutPage.js:264
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/aboutPage.js:265
+msgid "Credits"
+msgstr ""
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/aboutPage.js:269
+msgid "Brought to you by"
+msgstr ""
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/aboutPage.js:280
+msgid "History"
+msgstr ""
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/aboutPage.js:298
+msgid "Contributions by"
+msgstr ""
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/aboutPage.js:301
+msgid "Contributors"
+msgstr ""
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/aboutPage.js:303
+msgid "Translators"
+msgstr ""
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/aboutPage.js:307
+msgid "Artwork by"
+msgstr ""
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/aboutPage.js:315
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/aboutPage.js:316
+msgid "Legal"
+msgstr ""
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/aboutPage.js:322
+msgid "This program comes with absolutely no warranty."
+msgstr ""
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/aboutPage.js:324
+#, javascript-format
+msgid "See the <a href=\"%s\">%s</a> for details."
+msgstr ""
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/aboutPage.js:324
+msgid "GNU General Public License, version 2 or later"
+msgstr ""
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/donatePage.js:12
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/updateNotifier.js:87
+msgid "Donate"
+msgstr ""
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/donatePage.js:22
+#, javascript-format
+msgid "Help Support %s"
+msgstr ""
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/donatePage.js:23
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/updateNotifier.js:75
+#, javascript-format
+msgid "Thank you for using %s! If you enjoy it and would like to help support its continued development, please consider making a donation."
+msgstr ""
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/donatePage.js:27
+msgid "Donate via PayPal"
+msgstr ""
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/donatePage.js:30
+msgid "Donate via Buy Me a Coffee"
+msgstr ""
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/donatePage.js:42
+#, javascript-format
+msgid "A huge thank you to everyone who has supported %s! Your support helps keep %s going. It is truly appreciated!"
+msgstr ""
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/generalPage.js:33
+msgid "General"
+msgstr ""
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/generalPage.js:42
+msgid "Panel Display Options"
+msgstr ""
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/generalPage.js:55
+msgid "Show Activities Button"
+msgstr ""
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/generalPage.js:56
+msgid "Dash to Panel may conflict with this setting"
+msgstr ""
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/generalPage.js:64
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/generalPage.js:90
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuSettings/layoutTweaksPage.js:653
+msgid "Left"
+msgstr ""
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/generalPage.js:65
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/generalPage.js:91
+msgid "Center"
+msgstr ""
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/generalPage.js:66
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/generalPage.js:92
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuSettings/layoutTweaksPage.js:654
+msgid "Right"
+msgstr ""
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/generalPage.js:68
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuButtonPage.js:124
+msgid "Position in Panel"
+msgstr ""
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/generalPage.js:98
+msgid "Menu Alignment"
+msgstr ""
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/generalPage.js:116
+msgid "Display ArcMenu on all Panels"
+msgstr ""
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/generalPage.js:117
+msgid "Dash to Panel or App Icons Taskbar extension required"
+msgstr ""
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/generalPage.js:133
+msgid "Always Prefer Top Panel"
+msgstr ""
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/generalPage.js:134
+msgid "Useful with Dash to Panel setting 'Keep original gnome-shell top panel'"
+msgstr ""
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/generalPage.js:148
+msgid "General Settings"
+msgstr ""
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/generalPage.js:152
+msgid "ArcMenu Hotkey"
+msgstr ""
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/generalPage.js:153
+msgid "Standalone Runner Menu"
+msgstr ""
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/generalPage.js:166
+msgid "Hide Overview on Startup"
+msgstr ""
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/generalPage.js:180
+msgid "Hide Overview when ArcMenu Opens"
+msgstr ""
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/generalPage.js:234
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuPage.js:51
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuPage.js:94
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuSettings/layoutTweaksPage.js:28
+#, javascript-format
+msgid "%s Layout Tweaks"
+msgstr ""
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/generalPage.js:248
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/generalPage.js:409
+msgid "Disabled"
+msgstr ""
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/generalPage.js:269
+msgid "ArcMenu Hotkeys"
+msgstr ""
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/generalPage.js:269
+msgid "Standalone Runner Hotkeys"
+msgstr ""
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/generalPage.js:342
+msgid "Active Hotkeys"
+msgstr ""
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/generalPage.js:348
+msgid "Hotkey Options"
+msgstr ""
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/generalPage.js:361
+msgid "Super Hotkeys Override GNOME Overview Hotkey"
+msgstr ""
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/generalPage.js:375
+msgid "Open on Primary Monitor"
+msgstr ""
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/generalPage.js:386
+msgid "Type on your keyboard to add a new hotkey."
+msgstr ""
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/generalPage.js:421
+msgid "Add Hotkey"
+msgstr ""
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/generalPage.js:492
+#, javascript-format
+msgid "Conflict with <b>%s</b> hotkey"
+msgstr ""
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/generalPage.js:640
+msgid "Standlone Runner"
+msgstr ""
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/iconChooserDialog.js:43
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/iconChooserDialog.js:260
+msgid "Select an Icon"
+msgstr ""
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/iconChooserDialog.js:43
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/iconChooserDialog.js:266
+msgid "Select"
+msgstr ""
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/iconChooserDialog.js:58
+msgid "Search icons…"
+msgstr ""
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/iconChooserDialog.js:102
+msgid "Browse Files..."
+msgstr ""
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/iconChooserDialog.js:183
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/iconChooserDialog.js:189
+msgid "All"
+msgstr ""
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/iconChooserDialog.js:184
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuSettings/fineTunePage.js:91
+msgid "Symbolic"
+msgstr ""
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/iconChooserDialog.js:185
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuSettings/fineTunePage.js:90
+msgid "Full Color"
+msgstr ""
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/iconChooserDialog.js:186
+msgid "Type"
+msgstr ""
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/iconChooserDialog.js:190
+msgid "Extension"
+msgstr ""
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/iconChooserDialog.js:191
+msgid "Distros"
+msgstr ""
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/iconChooserDialog.js:193
+msgid "Category"
+msgstr ""
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/iconChooserDialog.js:207
+msgid "Filter"
+msgstr ""
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuButtonPage.js:16
+msgid "Menu Button"
+msgstr ""
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuButtonPage.js:27
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuSettings/subPage.js:45
+msgid "Reset settings"
+msgstr ""
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuButtonPage.js:35
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuSettings/subPage.js:50
+#, javascript-format
+msgid "Reset all %s settings?"
+msgstr ""
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuButtonPage.js:36
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuSettings/subPage.js:51
+#, javascript-format
+msgid "All %s settings will be reset to the default value."
+msgstr ""
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuButtonPage.js:52
+msgid "Appearance"
+msgstr ""
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuButtonPage.js:57
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuButtonPage.js:154
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuSettings/listPinnedPage.js:599
+msgid "Icon"
+msgstr ""
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuButtonPage.js:58
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuButtonPage.js:141
+msgid "Text"
+msgstr ""
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuButtonPage.js:59
+msgid "Icon and Text"
+msgstr ""
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuButtonPage.js:60
+msgid "Text and Icon"
+msgstr ""
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuButtonPage.js:61
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuSettings/visualSettings.js:379
+msgid "Hidden"
+msgstr ""
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuButtonPage.js:63
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuSettings/listOtherPage.js:38
+msgid "Display Style"
+msgstr ""
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuButtonPage.js:100
+msgid "Padding"
+msgstr ""
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuButtonPage.js:101
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuSettings/layoutTweaksPage.js:563
+#, javascript-format
+msgid "%d Default Theme Value"
+msgstr ""
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuButtonPage.js:157
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuSettings/listPinnedPage.js:606
+msgid "Browse..."
+msgstr ""
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuButtonPage.js:171
+msgid "Choose a New Icon"
+msgstr ""
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuButtonPage.js:194
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuSettings/visualSettings.js:383
+msgid "Icon Size"
+msgstr ""
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuButtonPage.js:207
+msgid "Click Options"
+msgstr ""
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuButtonPage.js:213
+msgid "Context Menu"
+msgstr ""
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuButtonPage.js:214
+msgid "None"
+msgstr ""
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuButtonPage.js:217
+msgid "Left Click"
+msgstr ""
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuButtonPage.js:227
+msgid "Right Click"
+msgstr ""
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuButtonPage.js:237
+msgid "Middle Click"
+msgstr ""
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuButtonPage.js:249
+msgid "Styling"
+msgstr ""
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuButtonPage.js:250
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuSettings/themePage.js:40
+msgid "Results may vary with third party themes"
+msgstr ""
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuButtonPage.js:254
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuButtonPage.js:263
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuButtonPage.js:269
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuSettings/themePage.js:185
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuSettings/themePage.js:211
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuSettings/themePage.js:217
+msgid "Foreground Color"
+msgstr ""
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuButtonPage.js:257
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuButtonPage.js:260
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuButtonPage.js:266
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuSettings/themePage.js:182
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuSettings/themePage.js:208
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuSettings/themePage.js:214
+msgid "Background Color"
+msgstr ""
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuButtonPage.js:260
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuButtonPage.js:263
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuSettings/themePage.js:208
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuSettings/themePage.js:211
+msgid "Hover"
+msgstr ""
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuButtonPage.js:266
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuButtonPage.js:269
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuSettings/themePage.js:214
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuSettings/themePage.js:217
+msgid "Active"
+msgstr ""
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuButtonPage.js:272
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuSettings/themePage.js:194
+msgid "Border Radius"
+msgstr ""
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuButtonPage.js:276
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuSettings/themePage.js:191
+msgid "Border Width"
+msgstr ""
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuButtonPage.js:277
+msgid "Background colors required if set to 0"
+msgstr ""
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuButtonPage.js:280
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuSettings/themePage.js:188
+msgid "Border Color"
+msgstr ""
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuPage.js:24
+msgid "Menu"
+msgstr ""
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuPage.js:33
+msgid "How should the menu look?"
+msgstr ""
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuPage.js:40
+msgid "Menu Layout"
+msgstr ""
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuPage.js:41
+msgid "Choose a layout style for the menu"
+msgstr ""
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuPage.js:57
+msgid "Menu Theme"
+msgstr ""
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuPage.js:58
+msgid "Modify menu colors, font size, and border"
+msgstr ""
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuPage.js:67
+msgid "Menu Visual Appearance"
+msgstr ""
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuPage.js:68
+msgid "Change menu height, width, location, and icon sizes"
+msgstr ""
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuPage.js:77
+msgid "Fine Tune"
+msgstr ""
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuPage.js:78
+msgid "Adjust less commonly used settings"
+msgstr ""
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuPage.js:87
+msgid "What should show on the menu?"
+msgstr ""
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuPage.js:95
+msgid "Settings specific to the current menu layout"
+msgstr ""
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuPage.js:115
+msgid "Directory Shortcuts"
+msgstr ""
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuPage.js:137
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuSettings/searchOptionsPage.js:16
+msgid "Search Options"
+msgstr ""
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuPage.js:147
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuSettings/listPinnedPage.js:387
+msgid "Power Options"
+msgstr ""
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuPage.js:148
+msgid "Choose which power options to show and the display style"
+msgstr ""
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuPage.js:159
+msgid "Extra Categories"
+msgstr ""
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuPage.js:161
+msgid "Add or remove additional custom categories"
+msgstr ""
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuPage.js:171
+msgid "What should show on the context menu?"
+msgstr ""
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuPage.js:176
+msgid "Modify ArcMenu Context Menu"
+msgstr ""
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuSettings/fineTunePage.js:29
+msgid "Show Category Sub Menus"
+msgstr ""
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuSettings/fineTunePage.js:32
+msgid "Show Application Descriptions"
+msgstr ""
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuSettings/fineTunePage.js:35
+msgid "Show Generic Application Names"
+msgstr ""
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuSettings/fineTunePage.js:38
+msgid "Show Hidden Recent Files"
+msgstr ""
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuSettings/fineTunePage.js:42
+msgid "Show Multi Lined Labels"
+msgstr ""
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuSettings/fineTunePage.js:42
+msgid "Allow application labels to span multiple lines on grid style layouts"
+msgstr ""
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuSettings/fineTunePage.js:45
+msgid "Show Tooltips"
+msgstr ""
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuSettings/fineTunePage.js:49
+msgid "Group Apps Alphabetically on List Views"
+msgstr ""
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuSettings/fineTunePage.js:49
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuSettings/fineTunePage.js:53
+msgid "For All Apps sections"
+msgstr ""
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuSettings/fineTunePage.js:53
+msgid "Group Apps Alphabetically on Grid Views"
+msgstr ""
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuSettings/fineTunePage.js:56
+msgid "Activate App Window on Launch"
+msgstr ""
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuSettings/fineTunePage.js:57
+msgid "Launching an app activates its existing window if one is open; otherwise, it launches a new instance. Hold Ctrl while launching or middle-click to open a new window."
+msgstr ""
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuSettings/fineTunePage.js:60
+msgid "Keep ArcMenu Open on Ctrl+Click"
+msgstr ""
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuSettings/fineTunePage.js:61
+msgid "Prevents the menu from closing when activating items while holding Ctrl."
+msgstr ""
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuSettings/fineTunePage.js:65
+msgid "Scrollview Options"
+msgstr ""
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuSettings/fineTunePage.js:69
+msgid "Scrollview Fade Effects"
+msgstr ""
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuSettings/fineTunePage.js:74
+msgid "Show Scrollbars"
+msgstr ""
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuSettings/fineTunePage.js:81
+msgid "Overlay Scrollbars"
+msgstr ""
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuSettings/fineTunePage.js:85
+msgid "Icon Style"
+msgstr ""
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuSettings/fineTunePage.js:93
+msgid "Category Icons"
+msgstr ""
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuSettings/fineTunePage.js:108
+msgid "Shortcut Icons"
+msgstr ""
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuSettings/fineTunePage.js:123
+msgid "Button Icons"
+msgstr ""
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuSettings/fineTunePage.js:138
+msgid "New Apps Tracker"
+msgstr ""
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuSettings/fineTunePage.js:142
+msgid "Enable"
+msgstr ""
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuSettings/fineTunePage.js:147
+msgid "Clear All"
+msgstr ""
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuSettings/layoutsPage.js:24
+msgid "Current Menu Layout"
+msgstr ""
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuSettings/layoutsPage.js:37
+msgid "Choose a new menu layout?"
+msgstr ""
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuSettings/layoutsPage.js:45
+#, javascript-format
+msgid "%s Menu Layouts"
+msgstr ""
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuSettings/layoutTweaksPage.js:54
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuSettings/layoutTweaksPage.js:59
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuSettings/layoutTweaksPage.js:753
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuSettings/layoutTweaksPage.js:907
+msgid "Extra Shortcuts"
+msgstr ""
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuSettings/layoutTweaksPage.js:79
+msgid "Vertical Separator"
+msgstr ""
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuSettings/layoutTweaksPage.js:88
+msgid "Mouse Click"
+msgstr ""
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuSettings/layoutTweaksPage.js:89
+msgid "Mouse Hover"
+msgstr ""
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuSettings/layoutTweaksPage.js:92
+msgid "Category Activation"
+msgstr ""
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuSettings/layoutTweaksPage.js:115
+msgid "Round"
+msgstr ""
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuSettings/layoutTweaksPage.js:116
+msgid "Square"
+msgstr ""
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuSettings/layoutTweaksPage.js:118
+msgid "Avatar Shape"
+msgstr ""
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuSettings/layoutTweaksPage.js:134
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuSettings/layoutTweaksPage.js:476
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuSettings/layoutTweaksPage.js:952
+msgid "Bottom"
+msgstr ""
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuSettings/layoutTweaksPage.js:135
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuSettings/layoutTweaksPage.js:448
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuSettings/layoutTweaksPage.js:477
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuSettings/layoutTweaksPage.js:953
+msgid "Top"
+msgstr ""
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuSettings/layoutTweaksPage.js:138
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuSettings/layoutTweaksPage.js:480
+msgid "Searchbar Location"
+msgstr ""
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuSettings/layoutTweaksPage.js:159
+msgid "Flip Layout Horizontally"
+msgstr ""
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuSettings/layoutTweaksPage.js:168
+msgid "Show User Avatar"
+msgstr ""
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuSettings/layoutTweaksPage.js:212
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuSettings/layoutTweaksPage.js:276
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuSettings/layoutTweaksPage.js:577
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuSettings/layoutTweaksPage.js:601
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuSettings/layoutTweaksPage.js:628
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuSettings/layoutTweaksPage.js:736
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuSettings/layoutTweaksPage.js:823
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuSettings/layoutTweaksPage.js:849
+msgid "Default View"
+msgstr ""
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuSettings/layoutTweaksPage.js:239
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuSettings/layoutTweaksPage.js:345
+msgid "Show Frequent Apps"
+msgstr ""
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuSettings/layoutTweaksPage.js:265
+msgid "Merge Top and Bottom Panels"
+msgstr ""
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuSettings/layoutTweaksPage.js:303
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuSettings/layoutTweaksPage.js:876
+msgid "Max Frequent Apps"
+msgstr ""
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuSettings/layoutTweaksPage.js:326
+msgid "Show Apps Grid"
+msgstr ""
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuSettings/layoutTweaksPage.js:359
+msgid "Show Pinned Apps"
+msgstr ""
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuSettings/layoutTweaksPage.js:385
+msgid "Activate on Hover"
+msgstr ""
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuSettings/layoutTweaksPage.js:435
+msgid "Enable Activities Overview Shortcut"
+msgstr ""
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuSettings/layoutTweaksPage.js:449
+msgid "Centered"
+msgstr ""
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuSettings/layoutTweaksPage.js:451
+msgid "Position"
+msgstr ""
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuSettings/layoutTweaksPage.js:462
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuSettings/layoutTweaksPage.js:639
+msgid "List"
+msgstr ""
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuSettings/layoutTweaksPage.js:463
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuSettings/layoutTweaksPage.js:640
+msgid "Grid"
+msgstr ""
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuSettings/layoutTweaksPage.js:465
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuSettings/layoutTweaksPage.js:642
+msgid "Search Results Display Style"
+msgstr ""
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuSettings/layoutTweaksPage.js:510
+msgid "Width"
+msgstr ""
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuSettings/layoutTweaksPage.js:533
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuSettings/visualSettings.js:39
+msgid "Height"
+msgstr ""
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuSettings/layoutTweaksPage.js:541
+msgid "Static Height"
+msgstr ""
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuSettings/layoutTweaksPage.js:562
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuSettings/themePage.js:197
+msgid "Font Size"
+msgstr ""
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuSettings/layoutTweaksPage.js:573
+msgid "Default"
+msgstr ""
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuSettings/layoutTweaksPage.js:588
+msgid "Show Configure Runner Button"
+msgstr ""
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuSettings/layoutTweaksPage.js:656
+msgid "Position on Monitor"
+msgstr ""
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuSettings/layoutTweaksPage.js:718
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuSettings/layoutTweaksPage.js:993
+msgid "Extra Shortcuts Panel Width"
+msgstr ""
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuSettings/layoutTweaksPage.js:765
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuSettings/layoutTweaksPage.js:918
+msgid "External Devices"
+msgstr ""
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuSettings/layoutTweaksPage.js:810
+msgid "Nothing Yet!"
+msgstr ""
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuSettings/layoutTweaksPage.js:820
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuSettings/layoutTweaksPage.js:844
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuSettings/layoutTweaksPage.js:886
+msgid "Categories List"
+msgstr ""
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuSettings/layoutTweaksPage.js:847
+msgid "Pinned and Frequent Apps"
+msgstr ""
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuSettings/layoutTweaksPage.js:877
+msgid "0 = unlimited"
+msgstr ""
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuSettings/layoutTweaksPage.js:890
+msgid "'All Apps' Button Action"
+msgstr ""
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuSettings/layoutTweaksPage.js:940
+msgid "Category Quick Links"
+msgstr ""
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuSettings/layoutTweaksPage.js:941
+msgid "Display a category on the default menu view. Category must be enabled in ArcMenu Settings -> Menu -> Extra Categories section."
+msgstr ""
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuSettings/layoutTweaksPage.js:955
+msgid "Quick Links Location"
+msgstr ""
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuSettings/layoutTweaksPage.js:1017
+msgid "Enable Weather Widget"
+msgstr ""
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuSettings/layoutTweaksPage.js:1031
+msgid "Enable Clock Widget"
+msgstr ""
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuSettings/listOtherPage.js:34
+msgid "Actions will be hidden from ArcMenu if not available on your system."
+msgstr ""
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuSettings/listOtherPage.js:41
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuSettings/visualSettings.js:87
+msgid "Off"
+msgstr ""
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuSettings/listOtherPage.js:42
+msgid "Power Buttons"
+msgstr ""
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuSettings/listOtherPage.js:43
+msgid "Power Menu"
+msgstr ""
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuSettings/listOtherPage.js:45
+msgid "Override Display Style"
+msgstr ""
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuSettings/listPinnedPage.js:75
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuSettings/listPinnedPage.js:78
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuSettings/listPinnedPage.js:84
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuSettings/listPinnedPage.js:89
+msgid "Add More Apps"
+msgstr ""
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuSettings/listPinnedPage.js:81
+msgid "Add Default User Directories"
+msgstr ""
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuSettings/listPinnedPage.js:87
+msgid "Add More Shortcuts"
+msgstr ""
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuSettings/listPinnedPage.js:153
+msgid "Add Custom Shortcut"
+msgstr ""
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuSettings/listPinnedPage.js:243
+msgid "Invalid Shortcut"
+msgstr ""
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuSettings/listPinnedPage.js:335
+msgid "Add to your Pinned Apps"
+msgstr ""
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuSettings/listPinnedPage.js:337
+msgid "Add to your Extra Shortcuts"
+msgstr ""
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuSettings/listPinnedPage.js:339
+msgid "Select Application Shortcuts"
+msgstr ""
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuSettings/listPinnedPage.js:341
+msgid "Select Directory Shortcuts"
+msgstr ""
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuSettings/listPinnedPage.js:343
+msgid "Add to the Context Menu"
+msgstr ""
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuSettings/listPinnedPage.js:355
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuSettings/listPinnedPage.js:366
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuSettings/listPinnedPage.js:389
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuSettings/listPinnedPage.js:394
+msgid "Separator"
+msgstr ""
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuSettings/listPinnedPage.js:356
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuSettings/listPinnedPage.js:367
+msgid "Spacer"
+msgstr ""
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuSettings/listPinnedPage.js:362
+msgid "Run Command..."
+msgstr ""
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuSettings/listPinnedPage.js:365
+msgid "Show All Apps"
+msgstr ""
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuSettings/listPinnedPage.js:374
+msgid "Menu Settings"
+msgstr ""
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuSettings/listPinnedPage.js:376
+msgid "Menu Theming"
+msgstr ""
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuSettings/listPinnedPage.js:378
+msgid "Change Menu Layout"
+msgstr ""
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuSettings/listPinnedPage.js:380
+msgid "Menu Button Settings"
+msgstr ""
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuSettings/listPinnedPage.js:383
+msgid "Panel Extension Settings"
+msgstr ""
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuSettings/listPinnedPage.js:448
+msgid "Dash to Panel or App Icons Taskbar"
+msgstr ""
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuSettings/listPinnedPage.js:529
+#, javascript-format
+msgid "%s has been added"
+msgstr ""
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuSettings/listPinnedPage.js:540
+#, javascript-format
+msgid "%s has been removed"
+msgstr ""
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuSettings/listPinnedPage.js:564
+msgid "Add a Custom Shortcut"
+msgstr ""
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuSettings/listPinnedPage.js:574
+msgid "Edit Pinned App"
+msgstr ""
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuSettings/listPinnedPage.js:576
+msgid "Edit Shortcut"
+msgstr ""
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuSettings/listPinnedPage.js:580
+msgid "Add"
+msgstr ""
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuSettings/listPinnedPage.js:588
+msgid "Title"
+msgstr ""
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuSettings/listPinnedPage.js:616
+msgid "Clear Icon"
+msgstr ""
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuSettings/listPinnedPage.js:633
+msgid "Directory"
+msgstr ""
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuSettings/listPinnedPage.js:633
+msgid "Command"
+msgstr ""
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuSettings/searchOptionsPage.js:27
+msgid "Hide Search Bar"
+msgstr ""
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuSettings/searchOptionsPage.js:28
+msgid "The search bar hides when empty and appears when typing."
+msgstr ""
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuSettings/searchOptionsPage.js:42
+msgid "Show Search Result Descriptions"
+msgstr ""
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuSettings/searchOptionsPage.js:57
+msgid "Highlight search result terms"
+msgstr ""
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuSettings/searchOptionsPage.js:76
+msgid "Max Search Results"
+msgstr ""
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuSettings/searchOptionsPage.js:120
+msgid "Search Box Border Radius"
+msgstr ""
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuSettings/searchOptionsPage.js:134
+msgid "Extra Search Providers"
+msgstr ""
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuSettings/searchOptionsPage.js:145
+msgid "Search for open windows across all workspaces"
+msgstr ""
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuSettings/searchOptionsPage.js:159
+msgid "Search for recent files"
+msgstr ""
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuSettings/themePage.js:39
+msgid "Override Theme"
+msgstr ""
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuSettings/themePage.js:47
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuSettings/themingDialog.js:67
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuSettings/themingDialog.js:75
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuSettings/themingDialog.js:141
+msgid "Menu Themes"
+msgstr ""
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuSettings/themePage.js:119
+msgid "Current Theme"
+msgstr ""
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuSettings/themePage.js:147
+msgid "Save as Theme"
+msgstr ""
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuSettings/themePage.js:177
+msgid "Menu Styling"
+msgstr ""
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuSettings/themePage.js:200
+msgid "Separator Color"
+msgstr ""
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuSettings/themePage.js:204
+msgid "Menu Items Styling"
+msgstr ""
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuSettings/themingDialog.js:15
+msgid "Save Theme As..."
+msgstr ""
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuSettings/themingDialog.js:27
+msgid "Theme Name"
+msgstr ""
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuSettings/themingDialog.js:44
+msgid "Save Theme"
+msgstr ""
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuSettings/themingDialog.js:60
+msgid "Manage Themes"
+msgstr ""
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuSettings/themingDialog.js:322
+msgid "Save Themes"
+msgstr ""
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuSettings/themingDialog.js:324
+msgid "Load Themes"
+msgstr ""
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuSettings/themingDialog.js:377
+#, javascript-format
+msgid "%s has been selected"
+msgstr ""
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuSettings/themingDialog.js:389
+#, javascript-format
+msgid "%s has been unselected"
+msgstr ""
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuSettings/visualSettings.js:30
+msgid "Menu Size"
+msgstr ""
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuSettings/visualSettings.js:50
+msgid "Left-Panel Width"
+msgstr ""
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuSettings/visualSettings.js:51
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuSettings/visualSettings.js:63
+msgid "Traditional Layouts"
+msgstr ""
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuSettings/visualSettings.js:62
+msgid "Right-Panel Width"
+msgstr ""
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuSettings/visualSettings.js:74
+msgid "Width Offset"
+msgstr ""
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuSettings/visualSettings.js:75
+msgid "Non-Traditional Layouts"
+msgstr ""
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuSettings/visualSettings.js:82
+msgid "Menu Location"
+msgstr ""
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuSettings/visualSettings.js:88
+msgid "Top Centered"
+msgstr ""
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuSettings/visualSettings.js:89
+msgid "Top Left"
+msgstr ""
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuSettings/visualSettings.js:90
+msgid "Top Right"
+msgstr ""
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuSettings/visualSettings.js:91
+msgid "Bottom Centered"
+msgstr ""
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuSettings/visualSettings.js:92
+msgid "Bottom Left"
+msgstr ""
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuSettings/visualSettings.js:93
+msgid "Bottom Right"
+msgstr ""
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuSettings/visualSettings.js:94
+msgid "Left Centered"
+msgstr ""
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuSettings/visualSettings.js:95
+msgid "Right Centered"
+msgstr ""
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuSettings/visualSettings.js:96
+msgid "Monitor Centered"
+msgstr ""
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuSettings/visualSettings.js:98
+msgid "Override Menu Location"
+msgstr ""
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuSettings/visualSettings.js:129
+msgid "Override Menu Rise"
+msgstr ""
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuSettings/visualSettings.js:130
+msgid "Menu Distance from Panel and Screen Edge"
+msgstr ""
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuSettings/visualSettings.js:144
+msgid "Override Menu Item Icon Sizes"
+msgstr ""
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuSettings/visualSettings.js:149
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuSettings/visualSettings.js:318
+msgid "Small"
+msgstr ""
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuSettings/visualSettings.js:150
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuSettings/visualSettings.js:319
+msgid "Medium"
+msgstr ""
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuSettings/visualSettings.js:151
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuSettings/visualSettings.js:320
+msgid "Large"
+msgstr ""
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuSettings/visualSettings.js:152
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuSettings/visualSettings.js:321
+msgid "Extra Large"
+msgstr ""
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuSettings/visualSettings.js:153
+msgid "Small Wide"
+msgstr ""
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuSettings/visualSettings.js:154
+msgid "Medium Wide"
+msgstr ""
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuSettings/visualSettings.js:155
+msgid "Large Wide"
+msgstr ""
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuSettings/visualSettings.js:182
+msgid "Grid Menu Items"
+msgstr ""
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuSettings/visualSettings.js:183
+msgid "Menu items displayed in grid style"
+msgstr ""
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuSettings/visualSettings.js:220
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuSettings/visualSettings.js:367
+msgid "Presets"
+msgstr ""
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuSettings/visualSettings.js:227
+msgid "Grid Icon Size"
+msgstr ""
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuSettings/visualSettings.js:228
+msgid "Width, Height, Icon Size"
+msgstr ""
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuSettings/visualSettings.js:266
+msgid "Applications"
+msgstr ""
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuSettings/visualSettings.js:267
+msgid "Applications, pinned apps, and search results"
+msgstr ""
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuSettings/visualSettings.js:274
+msgid "Menu items found in side panels on various layouts"
+msgstr ""
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuSettings/visualSettings.js:286
+msgid "Buttons"
+msgstr ""
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuSettings/visualSettings.js:292
+msgid "Miscellaneous"
+msgstr ""
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuSettings/visualSettings.js:293
+msgid "Avatar, search icons, navigation icons"
+msgstr ""
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuSettings/visualSettings.js:393
+msgid "Hide Icon"
+msgstr ""
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/updateNotifier.js:70
+#, javascript-format
+msgid "%s v%s Released!"
+msgstr ""
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/updateNotifier.js:73
+msgid "Check out what's new."
+msgstr ""
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/updateNotifier.js:90
+msgid "What's new?"
+msgstr ""
+
+#: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/updateNotifier.js:91
+msgid "Dismiss"
+msgstr ""
