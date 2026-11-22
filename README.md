@@ -5,6 +5,21 @@ them. This repository is intended to improve the UI experience for Croatian
 users and to provide a foundation for AnduinOS developers if Croatian is added
 in the future.
 
+## License
+
+Original Croatian translation contributions in this repository are available
+under the
+[GNU General Public License, version 3 (GPL-3.0-only)](https://www.gnu.org/licenses/gpl-3.0.html).
+You may reuse, modify, and redistribute those contributions under that
+license.
+
+This applies only to the Croatian translation text contributed here. It does
+not change the license or ownership of upstream source messages (`msgid`),
+application or extension code, or other third-party materials. Those remain
+with their respective rights holders and under their applicable licenses.
+Check the relevant component's upstream license when reusing a complete
+catalog.
+
 ## Translated component versions
 
 The Croatian catalogs were extracted from the following inspected versions:
