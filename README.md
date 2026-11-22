@@ -18,6 +18,7 @@ The Croatian catalogs were extracted from the following inspected versions:
 | Firewall | Application | 2.0.5 |
 | Driver Center | Application | 2.1.0 |
 | Control Panel | Application | 2.1.0-4+resolute |
+| Voice Typing | Application | 2.1.0-4+resolute |
 | Welcome | Application | 2.1.0-7+resolute |
 | Exe Runner | Application | 2.1.0-1+resolute |
 | Swap Control | Application | 2.0.5-3+resolute |
@@ -65,6 +66,11 @@ control-panel/
   deploy.sh
   hr_HR.po
   run.py
+voice-typing/
+  anduinos-whisper-gtk.pot
+  anduinos-whisper-gtk.sh
+  deploy.sh
+  hr_HR.po
 driver-center/
   anduinos-driver-center.pot
   anduinos-driver-center.sh
@@ -96,6 +102,11 @@ The Firewall template was extracted from the installed AnduinOS Firewall
 strings already present in the application's catalog for upstream contribution.
 The Appearance template was extracted from the installed AnduinOS Appearance
 2.1.0 Python UI and desktop entry.
+The Voice Typing template was extracted from the installed AnduinOS Voice
+Typing 2.1.0-4+resolute GTK settings UI and GNOME Shell extension. Its gettext domain is
+`anduinos-whisper-gtk`; the test launcher redirects that domain to the
+user-local catalog without changing the system installation. Model labels and
+descriptions are included from the matching Whisper framework metadata.
 The Offline Updater template was extracted from its installed Python UI,
 desktop entry, and PolicyKit action. The desktop-entry and PolicyKit messages
 are included for upstream contribution.
@@ -365,6 +376,21 @@ LANGUAGE=hr_HR bash control-panel/anduinos-control-panel.sh
 Close any running Control Panel instance first: the application may otherwise
 reuse it. The existing user desktop launcher also uses this deployed catalog,
 but GNOME search results may start the system application instead.
+
+## Testing AnduinOS Voice Typing
+
+```bash
+bash voice-typing/deploy.sh
+bash voice-typing/anduinos-whisper-gtk.sh
+```
+
+The settings UI binds `anduinos-whisper-gtk` directly to
+`/usr/share/locale`. The test launcher redirects that domain to
+`~/.local/share/anduinos-whisper-gtk/locale/` for its process and selects
+Croatian, so the system catalog and other launch paths remain unchanged.
+Deployment validates and builds the catalog before placing it in the
+user-local directory. Close any running Voice Typing settings window before
+testing, because the application may otherwise reuse it.
 
 ## Testing Flatseal
 

@@ -22,6 +22,7 @@ components=(
     offline-updater
     swap-control
     welcome
+    voice-typing
     yubikey-security-center
 )
 
@@ -35,6 +36,7 @@ declare -A app_packages=(
     [offline-updater]="anduinos-offline-updater"
     [swap-control]="anduinos-swapcontrol-gtk"
     [welcome]="anduinos-oobe"
+    [voice-typing]="anduinos-whisper-gtk"
     [yubikey-security-center]="anduinos-yubikey-manager"
 )
 

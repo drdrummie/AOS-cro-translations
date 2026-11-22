@@ -16,6 +16,7 @@ DOMAINS = (
     "flatseal",
     "anduinos-offline-updater",
     "anduinos-oobe",
+    "anduinos-whisper-gtk",
     "anduinos-yubikey-manager",
     "swapcontrol-gtk",
     "ufwall-gtk",
@@ -31,6 +32,7 @@ APP_PACKAGES = {
     "offline-updater": "anduinos-offline-updater",
     "swap-control": "anduinos-swapcontrol-gtk",
     "welcome": "anduinos-oobe",
+    "voice-typing": "anduinos-whisper-gtk",
     "yubikey-security-center": "anduinos-yubikey-manager",
 }
 
@@ -141,6 +143,26 @@ class SystemInstallTest(unittest.TestCase):
 
         self.assertEqual(result.returncode, 0, result.stderr)
         self.assertTrue((self.locale_dir / "flatseal.mo").is_file())
+
+    def test_installs_voice_typing_catalog_when_debian_package_is_present(self):
+        result = self.run_script("--package", "voice-typing")
+
+        self.assertEqual(result.returncode, 0, result.stderr)
+        catalog_path = self.locale_dir / "anduinos-whisper-gtk.mo"
+        self.assertTrue(catalog_path.is_file())
+        with catalog_path.open("rb") as stream:
+            catalog = gettext.GNUTranslations(stream)
+        self.assertEqual(catalog.gettext("Settings"), "Postavke")
+        self.assertEqual(
+            catalog.gettext("Loading speech model…"),
+            "Učitavanje modela govora…",
+        )
+        self.assertEqual(
+            catalog.gettext(
+                "Balanced — included and recommended for most computers"
+            ),
+            "Uravnotežen — uključen i preporučen za većinu računala",
+        )
 
     def test_skips_flatseal_when_not_installed_as_debian_package(self):
         packages = self.installed_packages.read_text(encoding="utf-8")
