@@ -28,6 +28,7 @@ The Croatian catalogs were extracted from the following inspected versions:
 | --- | --- | --- |
 | AnduinOS | Distribution | 2.0.6 |
 | Flatseal | Application | 2.4.1 |
+| Resources | Application | 1.10.2-0ubuntu3.1 |
 | Appearance | Application | 2.1.0 |
 | Offline Updater | Application | 2.1.0-14 |
 | Firewall | Application | 2.0.5 |
@@ -58,6 +59,13 @@ flatseal/
   flatseal.sh
   deploy.sh
   hr_HR.po
+resources/
+  resources.pot
+  resources.sh
+  deploy.sh
+  hr_HR.po
+  upstream/
+    resources.main.pot
 appearance/
   anduinos-appearance.pot
   anduinos-appearance.sh
@@ -133,6 +141,18 @@ catalog and desktop entry.
 The Flatseal template is the upstream
 [`flatseal.pot` from Flatseal 2.4.1](https://raw.githubusercontent.com/tchx84/Flatseal/v2.4.1/po/flatseal.pot),
 matching the inspected Flathub installation. Its gettext domain is `flatseal`.
+The Damned Lies `main`-branch template can be newer than the Resources 1.10.2
+version packaged in the inspected AnduinOS installation, so it may contain
+messages that version does not display. `resources/upstream/resources.main.pot`
+preserves the Damned Lies template as a reference when refining the Croatian
+translation for submission to Damned Lies. The working `resources/resources.pot`
+combines that template and its supplied Croatian PO with messages from the
+[Resources 1.10.2 release template](https://github.com/nokyan/resources/blob/v1.10.2/po/resources.pot),
+so the catalog also covers the installed application's GTK UI. The installed
+UI messages were checked against this combined catalog. Because it is not an
+unmodified Damned Lies template, do not submit the combined template as-is;
+align the PO with the current Damned Lies branch before contributing. The
+gettext domain is `resources`.
 
 `swap-control/` follows the same layout but has no `run.py`: Swap Control is a
 compiled GTK application, so its launcher only selects the language and points
@@ -430,6 +450,35 @@ Close any running Flatseal instance before testing, because Flatpak may forward
 the launch to the already-running application. The template includes desktop
 and AppStream messages for upstream use; the local test deployment does not
 replace Flatseal's installed desktop entry.
+
+## Testing Resources
+
+```bash
+bash resources/deploy.sh
+bash resources/resources.sh
+```
+
+Resources 1.10.2 binds its `resources` gettext domain directly to
+`/usr/share/locale`, so `XDG_DATA_DIRS` alone cannot redirect it. Deployment
+validates and builds the catalog in `~/.local/share/resources/locale/`. The
+launcher uses `bubblewrap` and a temporary mount namespace to overlay only
+the Croatian locale catalog directory, preserving the other installed
+catalogs and substituting the user-local `resources.mo`. It does not modify
+the system locale directory. The host `/dev` is also made accessible so that
+Resources can launch its helper commands and access devices. It requires
+bubblewrap, a working user namespace,
+the Croatian locale, and `/usr/share/locale/hr/LC_MESSAGES`.
+This is a translation test, not a sandbox for untrusted applications; running
+inside a user namespace can prevent privilege escalation for process controls.
+
+Close any running Resources instance first, since the application may forward
+the launch to it. Desktop-entry, AppStream, and PolicyKit translations are
+not installed by this test launcher. To check catalog lookup without opening
+the application:
+
+```bash
+bash resources/resources.sh --check-translation
+```
 
 ## Testing AnduinOS Appearance
 

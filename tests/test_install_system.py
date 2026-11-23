@@ -18,6 +18,7 @@ DOMAINS = (
     "anduinos-oobe",
     "anduinos-whisper-gtk",
     "anduinos-yubikey-manager",
+    "resources",
     "swapcontrol-gtk",
     "ufwall-gtk",
 )
@@ -30,6 +31,7 @@ APP_PACKAGES = {
     "flatseal": "flatseal",
     "firewall": "anduinos-ufwall-gtk",
     "offline-updater": "anduinos-offline-updater",
+    "resources": "resources",
     "swap-control": "anduinos-swapcontrol-gtk",
     "welcome": "anduinos-oobe",
     "voice-typing": "anduinos-whisper-gtk",
@@ -143,6 +145,13 @@ class SystemInstallTest(unittest.TestCase):
 
         self.assertEqual(result.returncode, 0, result.stderr)
         self.assertTrue((self.locale_dir / "flatseal.mo").is_file())
+
+    def test_installs_resources_catalog_when_debian_package_is_present(self):
+        result = self.run_script("--package", "resources")
+        self.assertEqual(result.returncode, 0, result.stderr)
+        with (self.locale_dir / "resources.mo").open("rb") as stream:
+            catalog = gettext.GNUTranslations(stream)
+        self.assertEqual(catalog.gettext("Drive Read"), "Čitanje s diska")
 
     def test_installs_voice_typing_catalog_when_debian_package_is_present(self):
         result = self.run_script("--package", "voice-typing")

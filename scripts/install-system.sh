@@ -20,6 +20,7 @@ components=(
     flatseal
     firewall
     offline-updater
+    resources
     swap-control
     welcome
     voice-typing
@@ -34,6 +35,7 @@ declare -A app_packages=(
     [flatseal]="flatseal"
     [firewall]="anduinos-ufwall-gtk"
     [offline-updater]="anduinos-offline-updater"
+    [resources]="resources"
     [swap-control]="anduinos-swapcontrol-gtk"
     [welcome]="anduinos-oobe"
     [voice-typing]="anduinos-whisper-gtk"
