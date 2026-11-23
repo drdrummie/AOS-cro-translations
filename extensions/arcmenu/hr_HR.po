@@ -24,7 +24,7 @@ msgstr ""
 #: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/appMenu.js:170
 #: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/appMenu.js:376
 msgid "Pin to Start menu"
-msgstr "Zakači na izbornik Start"
+msgstr "Prikvači na izbornik Start"
 
 #: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/appMenu.js:173
 #: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/appMenu.js:342
@@ -38,11 +38,11 @@ msgstr "Izbriši prečac na radnoj površini"
 #: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/appMenu.js:351
 #: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/appMenu.js:375
 msgid "Unpin from Start menu"
-msgstr "Otkači iz izbornika Start"
+msgstr "Otkvači iz izbornika Start"
 
 #: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/appMenu.js:375
 msgid "Unpin from Folder"
-msgstr "Otkači iz mape"
+msgstr "Otkvači iz mape"
 
 #: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/appMenu.js:415
 msgid "Open Folder Location"
@@ -84,7 +84,7 @@ msgstr "Sve aplikacije"
 #: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuSettings/layoutTweaksPage.js:733
 #: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuSettings/layoutTweaksPage.js:843
 msgid "Pinned Apps"
-msgstr "Zakačene aplikacije"
+msgstr "Prikvačene aplikacije"
 
 #: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/constants.js:89
 #: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/menulayouts/raven.js:296
@@ -406,7 +406,7 @@ msgstr "Natrag"
 #: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/menulayouts/unity.js:343
 #: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/menulayouts/windows.js:419
 msgid "Pinned"
-msgstr "Zakačene"
+msgstr "Prikvačene"
 
 #: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/menulayouts/az.js:233
 #: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/menulayouts/eleven.js:71
@@ -1445,7 +1445,7 @@ msgstr "Prikaži mrežu aplikacija"
 
 #: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuSettings/layoutTweaksPage.js:359
 msgid "Show Pinned Apps"
-msgstr "Prikaži zakačene aplikacije"
+msgstr "Prikaži prikvačene aplikacije"
 
 #: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuSettings/layoutTweaksPage.js:385
 msgid "Activate on Hover"
@@ -1530,7 +1530,7 @@ msgstr "Popis kategorija"
 
 #: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuSettings/layoutTweaksPage.js:847
 msgid "Pinned and Frequent Apps"
-msgstr "Zakačene i često korištene aplikacije"
+msgstr "Prikvačene i često korištene aplikacije"
 
 #: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuSettings/layoutTweaksPage.js:877
 msgid "0 = unlimited"
@@ -1610,7 +1610,7 @@ msgstr "Nevaljan prečac"
 
 #: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuSettings/listPinnedPage.js:335
 msgid "Add to your Pinned Apps"
-msgstr "Dodaj među zakačene aplikacije"
+msgstr "Dodaj među prikvačene aplikacije"
 
 #: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuSettings/listPinnedPage.js:337
 msgid "Add to your Extra Shortcuts"
@@ -1688,7 +1688,7 @@ msgstr "Dodaj prilagođeni prečac"
 
 #: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuSettings/listPinnedPage.js:574
 msgid "Edit Pinned App"
-msgstr "Uredi zakačenu aplikaciju"
+msgstr "Uredi prikvačenu aplikaciju"
 
 #: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuSettings/listPinnedPage.js:576
 msgid "Edit Shortcut"
@@ -1955,7 +1955,7 @@ msgstr "Aplikacije"
 
 #: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuSettings/visualSettings.js:267
 msgid "Applications, pinned apps, and search results"
-msgstr "Aplikacije, zakačene aplikacije i rezultati pretraživanja"
+msgstr "Aplikacije, prikvačene aplikacije i rezultati pretraživanja"
 
 #: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuSettings/visualSettings.js:274
 msgid "Menu items found in side panels on various layouts"

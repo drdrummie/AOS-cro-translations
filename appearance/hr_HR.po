@@ -39,15 +39,15 @@ msgstr "Ponašanje"
 
 #: /usr/bin/anduinos-appearance:115
 msgid "Automatically hide the taskbar"
-msgstr "Automatski sakrij traku zadataka"
+msgstr "Automatski sakrij programsku traku"
 
 #: /usr/bin/anduinos-appearance:116
 msgid "Show taskbar when pointer reaches screen edge"
-msgstr "Prikaži traku zadataka kada pokazivač dođe do ruba zaslona"
+msgstr "Prikaži programsku traku kada pokazivač dođe do ruba zaslona"
 
 #: /usr/bin/anduinos-appearance:142
 msgid "Taskbar Style"
-msgstr "Traka zadataka"
+msgstr "Stil programske trake"
 
 #: /usr/bin/anduinos-appearance:147
 msgid "Preview"
@@ -55,7 +55,7 @@ msgstr "Pregled"
 
 #: /usr/bin/anduinos-appearance:148
 msgid "Choose the visual style of your taskbar."
-msgstr "Odaberite izgled trake zadataka."
+msgstr "Odaberite izgled programske trake."
 
 #: /usr/bin/anduinos-appearance:161
 msgid "Layout"
@@ -91,7 +91,7 @@ msgstr "Omogući grupiranje"
 
 #: /usr/bin/anduinos-appearance:217
 msgid "Use Vista taskbar behavior"
-msgstr "Koristi ponašanje trake zadataka iz sustava Vista"
+msgstr "Koristi ponašanje programske trake iz sustava Vista"
 
 #: /usr/bin/anduinos-appearance:218
 msgid "Keep launchers separate from running apps"
@@ -148,7 +148,7 @@ msgstr "Ažuriraj približnu lokaciju za vremensku prognozu"
 
 #: /usr/bin/anduinos-appearance:409
 msgid "Taskbar Elements"
-msgstr "Elementi trake zadataka"
+msgstr "Elementi programske trake"
 
 #: /usr/bin/anduinos-appearance:410
 msgid "Show or hide built-in panel elements."
@@ -160,7 +160,7 @@ msgstr "Prikaži gumb Aktivnosti"
 
 #: /usr/bin/anduinos-appearance:414
 msgid "Display the Activities button on the taskbar"
-msgstr "Prikaži gumb Aktivnosti na traci zadataka"
+msgstr "Prikaži gumb Aktivnosti na programskoj traci"
 
 #: /usr/bin/anduinos-appearance:421
 msgid "Window Tiling"
@@ -572,8 +572,8 @@ msgstr "Tim AnduinOS"
 
 #: /usr/share/applications/anduinos-appearance.desktop:74
 msgid "Switch between Centered and Classic taskbar layouts"
-msgstr "Prebacujte se između centriranog i klasičnog rasporeda trake zadataka"
+msgstr "Prebacujte se između centriranog i klasičnog rasporeda programske trake"
 
 #: /usr/share/applications/anduinos-appearance.desktop:106
 msgid "taskbar;panel;layout;style;windows;appearance;"
-msgstr "traka zadataka;ploča;raspored;stil;prozori;izgled;"
+msgstr "programska traka;ploča;raspored;stil;prozori;izgled;"
