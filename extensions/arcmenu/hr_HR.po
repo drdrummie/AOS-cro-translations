@@ -151,7 +151,7 @@ msgstr "Moderni"
 
 #: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/constants.js:253
 msgid "Touch"
-msgstr "Dodirni"
+msgstr "Za dodirne zaslone"
 
 #: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/constants.js:254
 msgid "Launcher"
@@ -648,7 +648,7 @@ msgstr "Inačica %s"
 #: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/aboutPage.js:88
 #, javascript-format, python-format
 msgid "%s - Release Notes"
-msgstr "%s – Napomene o izdavanju"
+msgstr "%s – Napomene o izdanju"
 
 #: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/aboutPage.js:90
 msgid "What's New"
@@ -656,7 +656,7 @@ msgstr "Što je novo"
 
 #: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/aboutPage.js:139
 msgid "Message Tray Update Notification"
-msgstr "Obavijest o ažuriranju ladice poruka"
+msgstr "Obavijesti o ažuriranjima"
 
 #: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/aboutPage.js:140
 #, javascript-format, python-format
@@ -1135,7 +1135,7 @@ msgstr "Aktivno"
 #: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuButtonPage.js:272
 #: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuSettings/themePage.js:194
 msgid "Border Radius"
-msgstr "Polumjer zaobljenja obruba"
+msgstr "Zaobljenje obruba"
 
 #: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuButtonPage.js:276
 #: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuSettings/themePage.js:191
@@ -1558,11 +1558,11 @@ msgstr "Položaj brzih poveznica"
 
 #: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuSettings/layoutTweaksPage.js:1017
 msgid "Enable Weather Widget"
-msgstr "Omogući vremenski dodatak"
+msgstr "Omogući prikaz vremenske prognoze"
 
 #: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuSettings/layoutTweaksPage.js:1031
 msgid "Enable Clock Widget"
-msgstr "Omogući dodatak sata"
+msgstr "Omogući prikaz sata"
 
 #: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuSettings/listOtherPage.js:34
 msgid "Actions will be hidden from ArcMenu if not available on your system."
@@ -1838,7 +1838,7 @@ msgstr "Pomak širine"
 
 #: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuSettings/visualSettings.js:75
 msgid "Non-Traditional Layouts"
-msgstr "Netradicionalni rasporedi"
+msgstr "Ostali rasporedi"
 
 #: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuSettings/visualSettings.js:82
 msgid "Menu Location"
@@ -1980,7 +1980,7 @@ msgstr "Sakrij ikonu"
 #: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/updateNotifier.js:70
 #, javascript-format, python-format
 msgid "%s v%s Released!"
-msgstr "Objavljena je nova verzija %s v%s!"
+msgstr "Novo izdanje: %s v%s!"
 
 #: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/updateNotifier.js:73
 msgid "Check out what's new."
