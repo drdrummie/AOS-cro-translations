@@ -5,11 +5,11 @@ msgid ""
 msgstr ""
 "Project-Id-Version: flatseal\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-05-15 08:52-0300\n"
+"POT-Creation-Date: 2026-09-26 08:09-0300\n"
 "PO-Revision-Date: 2026-11-21 21:00+0100\n"
-"Last-Translator: Local translation\n"
+"Last-Translator: AnduinOS Croatian translation contributors\n"
 "Language-Team: Croatian\n"
-"Language: hr_HR\n"
+"Language: hr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -61,8 +61,8 @@ msgstr "Martin Abente Lahaye"
 msgid "Application ID that was last selected"
 msgstr "ID posljednje odabrane aplikacije"
 
-#: src/models/applications.js:237 src/models/applications.js:298
-#: src/models/applications.js:299 src/models/applications.js:300
+#: src/models/applications.js:243 src/models/applications.js:310
+#: src/models/applications.js:311 src/models/applications.js:312
 #: src/widgets/globalInfoViewer.ui:105 src/widgets/globalInfoViewer.ui:119
 #: src/widgets/globalInfoViewer.ui:133
 msgid "Unknown"
@@ -174,7 +174,8 @@ msgstr "npr. .thunderbird"
 
 #: src/models/persistent.js:62
 msgid "List of homedir-relative paths created in the sandbox"
-msgstr "Popis putanja relativnih na korisničku mapu stvorenih u izoliranom okruženju"
+msgstr ""
+"Popis putanja relativnih u odnosu na korisničku mapu stvorenih u izoliranom okruženju"
 
 #: src/models/portals.js:118
 msgid "Background"
@@ -301,6 +302,22 @@ msgstr "Naslijedi utičnicu sustava Wayland"
 msgid "List of well-known sockets available in the sandbox"
 msgstr "Popis poznatih utičnica dostupnih u izoliranom okruženju"
 
+#: src/models/usb.js:39
+msgid "Allowed devices"
+msgstr "Dopušteni uređaji"
+
+#: src/models/usb.js:42 src/models/usb.js:49
+msgid "e.g. vnd:0123+dev:4567"
+msgstr "npr. vnd:0123+dev:4567"
+
+#: src/models/usb.js:46
+msgid "Blocked devices"
+msgstr "Blokirani uređaji"
+
+#: src/models/usb.js:79
+msgid "List of USB devices accessible through the portal"
+msgstr "Popis USB uređaja dostupnih putem portala"
+
 #: src/models/variables.js:40
 msgid "Variables"
 msgstr "Varijable"
@@ -335,7 +352,8 @@ msgid "Runtime"
 msgstr "Izvršno okruženje"
 
 #: src/widgets/busNameRow.js:35 src/widgets/pathRow.js:73
-#: src/widgets/relativePathRow.js:33 src/widgets/variableRow.js:33
+#: src/widgets/relativePathRow.js:33 src/widgets/usbRow.js:38
+#: src/widgets/variableRow.js:33
 msgid "This is not a valid option"
 msgstr "Ova opcija nije valjana"
 
@@ -506,7 +524,7 @@ msgid "Default paths can't be removed"
 msgstr "Zadane se putanje ne mogu ukloniti"
 
 #: src/widgets/resetButton.js:37 src/widgets/resetButton.js:55
-#: src/widgets/resetButton.js:62 src/widgets/window.js:106
+#: src/widgets/resetButton.js:62 src/widgets/window.js:107
 msgid "_Reset"
 msgstr "_Vrati na početno"
 
@@ -594,19 +612,19 @@ msgstr "Traži sljedeće"
 msgid "Find previous"
 msgstr "Traži prethodno"
 
-#: src/widgets/window.js:98
+#: src/widgets/window.js:99
 msgid "Permissions have been reset"
 msgstr "Dopuštenja su vraćena na zadane vrijednosti"
 
-#: src/widgets/window.js:99
+#: src/widgets/window.js:100
 msgid "_Undo"
 msgstr "_Poništi"
 
-#: src/widgets/window.js:105
+#: src/widgets/window.js:106
 msgid "Cannot load overrides due to incorrect contents"
 msgstr "Nije moguće učitati nadjačavanja zbog neispravnog sadržaja"
 
-#: src/widgets/window.js:112
+#: src/widgets/window.js:113
 msgid "Refreshed due to changes in Flatpak installations"
 msgstr "Osvježeno zbog promjena u instalacijama Flatpaka"
 
