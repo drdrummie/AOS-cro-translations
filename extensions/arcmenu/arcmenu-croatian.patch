@@ -1,0 +1,1880 @@
+diff --git a/po/hr.po b/po/hr.po
+new file mode 100644
+index 0000000000000000000000000000000000000000..3531ab1a1b2f264cee1bdccd7b2e4038bcd71ac1
+--- /dev/null
++++ b/po/hr.po
+@@ -0,0 +1,1874 @@
++# Croatian translations for arcmenu@arcmenu.com package
++# Hrvatski prijevod za paket arcmenu@arcmenu.com.
++# Copyright (C) 2026 THE arcmenu@arcmenu.com'S COPYRIGHT HOLDER
++# This file is distributed under the same license as the arcmenu@arcmenu.com
++# package.
++# Automatically generated, 2026.
++#
++msgid ""
++msgstr ""
++"Project-Id-Version: ArcMenu\n"
++"Report-Msgid-Bugs-To: \n"
++"POT-Creation-Date: 2026-09-14 09:34-0400\n"
++"PO-Revision-Date: 2026-11-21 19:01+0100\n"
++"Last-Translator: AnduinOS Croatian translation contributors\n"
++"Language-Team: Croatian <https://hosted.weblate.org/projects/arcmenu/arcmenu/hr/>\n"
++"Language: hr\n"
++"MIME-Version: 1.0\n"
++"Content-Type: text/plain; charset=UTF-8\n"
++"Content-Transfer-Encoding: 8bit\n"
++"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
++
++#: src/appMenu.js:170 src/appMenu.js:376
++msgid "Pin to ArcMenu"
++msgstr "Prikvači na ArcMenu"
++
++#: src/appMenu.js:173 src/appMenu.js:342
++msgid "Create Desktop Shortcut"
++msgstr "Izradi prečac na radnoj površini"
++
++#: src/appMenu.js:341
++msgid "Delete Desktop Shortcut"
++msgstr "Izbriši prečac na radnoj površini"
++
++#: src/appMenu.js:351 src/appMenu.js:375
++msgid "Unpin from ArcMenu"
++msgstr "Otkvači iz ArcMenua"
++
++#: src/appMenu.js:375
++msgid "Unpin from Folder"
++msgstr "Otkvači iz mape"
++
++#: src/appMenu.js:415
++msgid "Open Folder Location"
++msgstr "Otvori lokaciju mape"
++
++#: src/constants.js:83
++msgid "Favorites"
++msgstr "Omiljeno"
++
++#: src/constants.js:84 src/menulayouts/runner.js:187
++#: src/menulayouts/windows.js:341
++#: src/settings/menuSettings/layoutTweaksPage.js:273
++#: src/settings/menuSettings/layoutTweaksPage.js:575
++#: src/settings/menuSettings/layoutTweaksPage.js:845
++msgid "Frequent Apps"
++msgstr "Često korištene aplikacije"
++
++#: src/constants.js:85 src/menuWidgets.js:1281 src/menulayouts/az.js:68
++#: src/menulayouts/az.js:77 src/menulayouts/eleven.js:55
++#: src/menulayouts/eleven.js:64 src/menulayouts/redmond.js:78
++#: src/menulayouts/redmond.js:81 src/menulayouts/redmond.js:85
++#: src/menulayouts/sleek.js:71 src/menulayouts/sleek.js:74
++msgid "All Apps"
++msgstr "Sve aplikacije"
++
++#: src/constants.js:86 src/menulayouts/insider.js:289
++#: src/menulayouts/runner.js:174 src/settings/menuPage.js:104
++#: src/settings/menuSettings/layoutTweaksPage.js:272
++#: src/settings/menuSettings/layoutTweaksPage.js:574
++#: src/settings/menuSettings/layoutTweaksPage.js:733
++#: src/settings/menuSettings/layoutTweaksPage.js:843
++msgid "Pinned Apps"
++msgstr "Prikvačene aplikacije"
++
++#: src/constants.js:87 src/menulayouts/raven.js:296
++#: src/menulayouts/unity.js:364 src/searchProviders/recentFiles.js:29
++#: src/searchProviders/recentFiles.js:30 src/searchProviders/recentFiles.js:106
++msgid "Recent Files"
++msgstr "Nedavne datoteke"
++
++#: src/constants.js:238 src/menuButton.js:911
++#: src/settings/menuSettings/listPinnedPage.js:396
++msgid "Log Out..."
++msgstr "Odjavi se…"
++
++#: src/constants.js:239 src/menuButton.js:910
++#: src/settings/menuSettings/listPinnedPage.js:395
++msgid "Lock"
++msgstr "Zaključaj"
++
++#: src/constants.js:240 src/menuButton.js:905
++#: src/settings/menuSettings/listPinnedPage.js:398
++msgid "Restart..."
++msgstr "Ponovno pokreni…"
++
++#: src/constants.js:241 src/menuButton.js:906
++#: src/settings/menuSettings/listPinnedPage.js:397
++msgid "Power Off..."
++msgstr "Isključi…"
++
++#: src/constants.js:242 src/menuButton.js:902
++#: src/settings/menuSettings/listPinnedPage.js:399
++msgid "Suspend"
++msgstr "Suspendiraj"
++
++#: src/constants.js:243 src/settings/menuSettings/listPinnedPage.js:400
++msgid "Hybrid Sleep"
++msgstr "Hibridno mirovanje"
++
++#: src/constants.js:244 src/settings/menuSettings/listPinnedPage.js:402
++msgid "Hibernate"
++msgstr "Hiberniraj"
++
++#: src/constants.js:245 src/menuButton.js:912
++#: src/settings/menuSettings/listPinnedPage.js:403
++msgid "Switch User"
++msgstr "Promijeni korisnika"
++
++#: src/constants.js:249
++msgid "Traditional"
++msgstr "Klasični"
++
++#: src/constants.js:250
++msgid "Modern"
++msgstr "Moderni"
++
++#: src/constants.js:251
++msgid "Touch"
++msgstr "Za dodirne zaslone"
++
++#: src/constants.js:252
++msgid "Launcher"
++msgstr "Pokretač"
++
++#: src/constants.js:253
++msgid "Alternative"
++msgstr "Alternativni"
++
++#: src/constants.js:257 src/settings/aboutPage.js:33
++#: src/settings/donatePage.js:17 src/settings/generalPage.js:644
++#: src/settings/menuButtonPage.js:212
++msgid "ArcMenu"
++msgstr "ArcMenu"
++
++#: src/constants.js:258
++msgid "Brisk"
++msgstr "Brisk"
++
++#: src/constants.js:259
++msgid "Budgie"
++msgstr "Budgie"
++
++#: src/constants.js:260
++msgid "GNOME Menu"
++msgstr "Izbornik GNOME-a"
++
++#: src/constants.js:261
++msgid "Mint"
++msgstr "Mint"
++
++#: src/constants.js:262
++msgid "Whisker"
++msgstr "Whisker"
++
++#: src/constants.js:263
++msgid "11"
++msgstr "11"
++
++#: src/constants.js:264
++msgid "a.z."
++msgstr "a.z."
++
++#: src/constants.js:265
++msgid "Enterprise"
++msgstr "Enterprise"
++
++#: src/constants.js:266
++msgid "Insider"
++msgstr "Insider"
++
++#: src/constants.js:267
++msgid "Plasma"
++msgstr "Plasma"
++
++#: src/constants.js:268
++msgid "Pop"
++msgstr "Pop"
++
++#: src/constants.js:269
++msgid "Redmond"
++msgstr "Redmond"
++
++#: src/constants.js:270
++msgid "Sleek"
++msgstr "Sleek"
++
++#: src/constants.js:271
++msgid "tognee"
++msgstr "tognee"
++
++#: src/constants.js:272
++msgid "Unity"
++msgstr "Unity"
++
++#: src/constants.js:273
++msgid "Windows"
++msgstr "Windows"
++
++#: src/constants.js:274
++msgid "Zest"
++msgstr "Zest"
++
++#: src/constants.js:275
++msgid "Chromebook"
++msgstr "Chromebook"
++
++#: src/constants.js:276
++msgid "Elementary"
++msgstr "Elementary"
++
++#: src/constants.js:277
++msgid "GNOME Overview"
++msgstr "Pregled aktivnosti GNOME-a"
++
++#: src/constants.js:278 src/settings/generalPage.js:234
++msgid "Runner"
++msgstr "Pokretač"
++
++#: src/constants.js:279
++msgid "Raven"
++msgstr "Raven"
++
++#: src/constants.js:284
++msgid "Settings"
++msgstr "Postavke"
++
++#: src/constants.js:284
++msgid "Software"
++msgstr "Softver"
++
++#: src/constants.js:284
++msgid "Terminal"
++msgstr "Terminal"
++
++#: src/constants.js:284
++msgid "Tweaks"
++msgstr "Podešavanja"
++
++#: src/constants.js:285 src/menuButton.js:855 src/menuWidgets.js:600
++#: src/settings/menuSettings/listPinnedPage.js:363
++#: src/settings/menuSettings/listPinnedPage.js:385
++msgid "Activities Overview"
++msgstr "Pregled aktivnosti"
++
++#: src/constants.js:285 src/menuButton.js:841
++#: src/settings/menuSettings/listPinnedPage.js:349
++#: src/settings/menuSettings/listPinnedPage.js:360
++#: src/settings/menuSettings/listPinnedPage.js:372
++msgid "ArcMenu Settings"
++msgstr "Postavke ArcMenua"
++
++#: src/constants.js:285
++msgid "Files"
++msgstr "Datoteke"
++
++#: src/menuButton.js:49 src/menulayouts/plasma.js:125
++#: src/menulayouts/plasma.js:573
++msgid "Apps"
++msgstr "Aplikacije"
++
++#: src/menuButton.js:243
++msgid "Loading Menu Layout..."
++msgstr "Učitavanje rasporeda izbornika…"
++
++#: src/menuButton.js:886 src/settings/menuSettings/listPinnedPage.js:388
++msgid "Show Desktop"
++msgstr "Prikaži radnu površinu"
++
++#: src/menuButton.js:900 src/menuWidgets.js:901 src/menuWidgets.js:918
++msgid "Power Off"
++msgstr "Isključi"
++
++#: src/menuButton.js:941
++msgid "Dash to Panel Settings"
++msgstr "Postavke proširenja Dash to Panel"
++
++#: src/menuButton.js:945
++msgid "App Icons Taskbar Settings"
++msgstr "Postavke proširenja App Icons Taskbar"
++
++#: src/menuWidgets.js:976 src/menulayouts/plasma.js:325
++msgid "Session"
++msgstr "Sesija"
++
++#: src/menuWidgets.js:980 src/menulayouts/plasma.js:329
++#: src/settings/iconChooserDialog.js:192
++msgid "System"
++msgstr "Sustav"
++
++#: src/menuWidgets.js:1204 src/menuWidgets.js:1225 src/menulayouts/az.js:69
++#: src/menulayouts/eleven.js:56 src/menulayouts/redmond.js:79
++#: src/menulayouts/redmond.js:84 src/menulayouts/sleek.js:72
++msgid "Back"
++msgstr "Natrag"
++
++#: src/menuWidgets.js:2549 src/menulayouts/pop.js:363
++msgid "Unnamed Folder"
++msgstr "Neimenovana mapa"
++
++#: src/menuWidgets.js:2648 src/menulayouts/pop.js:1089
++msgid "New"
++msgstr "Novo"
++
++#: src/menuWidgets.js:3383 src/menulayouts/az.js:76 src/menulayouts/az.js:230
++#: src/menulayouts/eleven.js:63 src/menulayouts/insider.js:187
++#: src/menulayouts/plasma.js:120 src/menulayouts/raven.js:62
++#: src/menulayouts/raven.js:233 src/menulayouts/raven.js:274
++#: src/menulayouts/redmond.js:80 src/menulayouts/redmond.js:83
++#: src/menulayouts/redmond.js:86 src/menulayouts/sleek.js:73
++#: src/menulayouts/unity.js:39 src/menulayouts/unity.js:272
++#: src/menulayouts/unity.js:342 src/menulayouts/windows.js:419
++msgid "Pinned"
++msgstr "Prikvačene"
++
++#: src/menuWidgets.js:3553
++msgid "Unmount Drive"
++msgstr "Odmontiraj pogon"
++
++#: src/menuWidgets.js:3555
++msgid "Eject Drive"
++msgstr "Izbaci pogon"
++
++#: src/menuWidgets.js:3628
++msgid "Remove from Recent"
++msgstr "Ukloni s popisa nedavnih stavki"
++
++#: src/menuWidgets.js:3706
++msgid "Search…"
++msgstr "Pretraži…"
++
++#: src/menulayouts/az.js:233 src/menulayouts/eleven.js:71
++msgid "Frequent"
++msgstr "Često korištene"
++
++#: src/menulayouts/baseMenuLayout.js:513
++msgid "More Recent Files..."
++msgstr "Više nedavnih datoteka…"
++
++#: src/menulayouts/plasma.js:129 src/placeDisplay.js:133
++#: src/placeDisplay.js:156 src/settings/menuSettings/listPinnedPage.js:419
++msgid "Computer"
++msgstr "Računalo"
++
++#: src/menulayouts/plasma.js:133
++msgid "Leave"
++msgstr "Izlaz"
++
++#: src/menulayouts/plasma.js:273 src/menulayouts/windows.js:276
++#: src/settings/menuPage.js:126
++msgid "Application Shortcuts"
++msgstr "Prečaci za aplikacije"
++
++#: src/menulayouts/plasma.js:278 src/menulayouts/windows.js:280
++msgid "Places"
++msgstr "Mjesta"
++
++#: src/menulayouts/plasma.js:293 src/menulayouts/windows.js:209
++#: src/settings/menuSettings/layoutTweaksPage.js:779
++#: src/settings/menuSettings/layoutTweaksPage.js:932
++msgid "Bookmarks"
++msgstr "Zabilješke"
++
++#: src/menulayouts/plasma.js:295 src/menulayouts/windows.js:211
++msgid "Devices"
++msgstr "Uređaji"
++
++#: src/menulayouts/plasma.js:297 src/menulayouts/windows.js:213
++#: src/settings/menuSettings/listPinnedPage.js:420
++msgid "Network"
++msgstr "Mreža"
++
++#: src/menulayouts/pop.js:259 src/menulayouts/pop.js:762
++msgid "Library Home"
++msgstr "Početna mapa biblioteke"
++
++#: src/menulayouts/pop.js:852
++msgid "New Folder"
++msgstr "Nova mapa"
++
++#: src/menulayouts/pop.js:940
++msgid "Rename Folder"
++msgstr "Preimenuj mapu"
++
++#: src/menulayouts/pop.js:941
++msgid "Delete Folder"
++msgstr "Izbriši mapu"
++
++#: src/menulayouts/pop.js:951
++#, javascript-format
++msgid "Permanently delete %s folder?"
++msgstr "Trajno izbrisati mapu %s?"
++
++#: src/menulayouts/pop.js:956
++msgid "No"
++msgstr "Ne"
++
++#: src/menulayouts/pop.js:964
++msgid "Yes"
++msgstr "Da"
++
++#: src/menulayouts/pop.js:979
++#, javascript-format
++msgid "Rename %s folder"
++msgstr "Preimenuj mapu %s"
++
++#: src/menulayouts/pop.js:1013 src/prefsWidgets.js:94
++#: src/settings/aboutPage.js:404 src/settings/generalPage.js:321
++#: src/settings/iconChooserDialog.js:265
++#: src/settings/menuSettings/themingDialog.js:269
++msgid "Cancel"
++msgstr "Odustani"
++
++#: src/menulayouts/pop.js:1021 src/prefsWidgets.js:82
++#: src/settings/generalPage.js:307
++#: src/settings/menuSettings/listPinnedPage.js:580
++msgid "Apply"
++msgstr "Primijeni"
++
++#: src/menulayouts/raven.js:62 src/menulayouts/raven.js:239
++#: src/menulayouts/unity.js:39 src/menulayouts/unity.js:276
++#: src/settings/menuSettings/layoutTweaksPage.js:599
++#: src/settings/menuSettings/layoutTweaksPage.js:626
++#: src/settings/menuSettings/layoutTweaksPage.js:732
++#: src/settings/menuSettings/layoutTweaksPage.js:821
++#: src/settings/menuSettings/layoutTweaksPage.js:846
++#: src/settings/menuSettings/layoutTweaksPage.js:887
++msgid "All Programs"
++msgstr "Svi programi"
++
++#: src/menulayouts/raven.js:280 src/menulayouts/unity.js:347
++#: src/settings/menuSettings/visualSettings.js:273
++msgid "Shortcuts"
++msgstr "Prečaci"
++
++#: src/menulayouts/runner.js:295
++msgid "Configure Runner"
++msgstr "Podesi pokretač"
++
++#: src/menulayouts/unity.js:417 src/settings/menuSettings/visualSettings.js:280
++msgid "Categories"
++msgstr "Kategorije"
++
++#: src/menulayouts/windows.js:444
++msgid "Extras"
++msgstr "Dodaci"
++
++#: src/placeDisplay.js:56
++#, javascript-format
++msgid "Failed to launch “%s”"
++msgstr "Pokretanje aplikacije „%s” nije uspjelo"
++
++#: src/placeDisplay.js:71
++#, javascript-format
++msgid "Failed to mount volume for “%s”"
++msgstr "Montiranje volumena za „%s” nije uspjelo"
++
++#: src/placeDisplay.js:119 src/placeDisplay.js:340
++#: src/settings/menuSettings/layoutTweaksPage.js:598
++#: src/settings/menuSettings/layoutTweaksPage.js:625
++#: src/settings/menuSettings/listPinnedPage.js:411 src/utils.js:284
++msgid "Home"
++msgstr "Početna"
++
++#: src/placeDisplay.js:223
++#, javascript-format
++msgid "Ejecting drive “%s” failed:"
++msgstr "Izbacivanje pogona „%s” nije uspjelo:"
++
++#: src/prefsWidgets.js:352
++msgid "Modify"
++msgstr "Izmijeni"
++
++#: src/prefsWidgets.js:367
++msgid "Move Up"
++msgstr "Pomakni gore"
++
++#: src/prefsWidgets.js:374
++msgid "Move Down"
++msgstr "Pomakni dolje"
++
++#: src/prefsWidgets.js:381
++msgid "Remove"
++msgstr "Ukloni"
++
++#: src/search.js:484
++msgid "Try a different search"
++msgstr "Pokušajte s drukčijim upitom"
++
++#: src/search.js:794
++msgid "No Results Found"
++msgstr "Nema rezultata pretraživanja"
++
++#: src/search.js:794
++msgid "Searching"
++msgstr "Pretraživanje"
++
++#: src/search.js:881
++#, javascript-format
++msgid "%d more"
++msgstr "još %d"
++
++#: src/searchProviders/openWindows.js:31
++msgid "List of open windows across all workspaces"
++msgstr "Popis otvorenih prozora na svim radnim prostorima"
++
++#: src/searchProviders/openWindows.js:32
++msgid "Open Windows"
++msgstr "Otvoreni prozori"
++
++#: src/searchProviders/openWindows.js:46
++#, javascript-format
++msgid "'%s' on Workspace %d"
++msgstr "„%s” na radnom prostoru %d"
++
++#: src/searchProviders/recentFiles.js:90 src/searchProviders/recentFiles.js:106
++#, javascript-format
++msgid "Failed to open “%s”"
++msgstr "Otvaranje „%s” nije uspjelo"
++
++#: src/settings/aboutPage.js:28 src/settings/menuSettings/listPinnedPage.js:382
++msgid "About"
++msgstr "O programu"
++
++#: src/settings/aboutPage.js:34
++msgid "Application Menu Extension for GNOME"
++msgstr "Proširenje izbornika aplikacija za GNOME"
++
++#. TRANSLATORS: 'PROJECT_NAME' Version
++#: src/settings/aboutPage.js:79
++#, javascript-format
++msgid "%s Version"
++msgstr "Inačica %s"
++
++#. TRANSLATORS: 'PROJECT_NAME' - Release Notes
++#: src/settings/aboutPage.js:88
++#, javascript-format
++msgid "%s - Release Notes"
++msgstr "%s – Napomene o izdanju"
++
++#: src/settings/aboutPage.js:90
++msgid "What's New"
++msgstr "Što je novo"
++
++#: src/settings/aboutPage.js:139
++msgid "Message Tray Update Notification"
++msgstr "Obavijesti o ažuriranjima"
++
++#: src/settings/aboutPage.js:140
++#, javascript-format
++msgid "Show a notification when %s receives an update."
++msgstr "Prikaži obavijest kada %s primi ažuriranje."
++
++#: src/settings/aboutPage.js:148
++msgid "Git Commit"
++msgstr "Gitova predaja"
++
++#: src/settings/aboutPage.js:158
++msgid "GNOME Version"
++msgstr "Inačica GNOME-a"
++
++#: src/settings/aboutPage.js:167
++msgid "OS Name"
++msgstr "Naziv operacijskog sustava"
++
++#: src/settings/aboutPage.js:180
++msgid "Windowing System"
++msgstr "Sustav upravljanja prozorima"
++
++#. TRANSLATORS: 'PROJECT_NAME' on GitLab
++#: src/settings/aboutPage.js:191
++#, javascript-format
++msgid "%s on GitLab"
++msgstr "%s na GitLabu"
++
++#: src/settings/aboutPage.js:194
++msgid "Report an Issue"
++msgstr "Prijavi problem"
++
++#. TRANSLATORS: 'PROJECT_NAME' Settings
++#: src/settings/aboutPage.js:204
++#, javascript-format
++msgid "%s Settings"
++msgstr "Postavke: %s"
++
++#: src/settings/aboutPage.js:207 src/settings/menuSettings/themingDialog.js:70
++#: src/settings/menuSettings/themingDialog.js:75
++msgid "Load"
++msgstr "Učitaj"
++
++#: src/settings/aboutPage.js:212
++msgid "Load Settings"
++msgstr "Učitaj postavke"
++
++#: src/settings/aboutPage.js:214 src/settings/menuSettings/themingDialog.js:77
++msgid "Open"
++msgstr "Otvori"
++
++#: src/settings/aboutPage.js:237 src/settings/aboutPage.js:244
++#: src/settings/menuSettings/themingDialog.js:128
++#: src/settings/menuSettings/themingDialog.js:141
++#: src/settings/menuSettings/themingDialog.js:143
++msgid "Save"
++msgstr "Spremi"
++
++#: src/settings/aboutPage.js:242
++msgid "Save Settings"
++msgstr "Spremi postavke"
++
++#: src/settings/aboutPage.js:264 src/settings/aboutPage.js:265
++msgid "Credits"
++msgstr "Zasluge"
++
++#: src/settings/aboutPage.js:269
++msgid "Brought to you by"
++msgstr "Autori:"
++
++#: src/settings/aboutPage.js:280
++msgid "History"
++msgstr "Povijest"
++
++#: src/settings/aboutPage.js:298
++msgid "Contributions by"
++msgstr "Doprinosi:"
++
++#: src/settings/aboutPage.js:301
++msgid "Contributors"
++msgstr "Suradnici"
++
++#: src/settings/aboutPage.js:303
++msgid "Translators"
++msgstr "Prevoditelji"
++
++#: src/settings/aboutPage.js:307
++msgid "Artwork by"
++msgstr "Grafičko oblikovanje:"
++
++#: src/settings/aboutPage.js:315 src/settings/aboutPage.js:316
++msgid "Legal"
++msgstr "Pravne informacije"
++
++#: src/settings/aboutPage.js:322
++msgid "This program comes with absolutely no warranty."
++msgstr "Ovaj program dolazi bez ikakvog jamstva."
++
++#: src/settings/aboutPage.js:324
++msgid "GNU General Public License, version 2 or later"
++msgstr "GNU-ova Opća javna licenca, inačica 2 ili novija"
++
++#. TRANSLATORS: this is the program license url; the string contains the name of the license as link text.
++#: src/settings/aboutPage.js:324
++#, javascript-format
++msgid "See the <a href=\"%s\">%s</a> for details."
++msgstr "Pojedinosti potražite u dokumentu <a href=\"%s\">%s</a>."
++
++#: src/settings/donatePage.js:12 src/updateNotifier.js:87
++msgid "Donate"
++msgstr "Donirajte"
++
++#: src/settings/donatePage.js:22
++#, javascript-format
++msgid "Help Support %s"
++msgstr "Podržite %s"
++
++#: src/settings/donatePage.js:23 src/updateNotifier.js:75
++#, javascript-format
++msgid "Thank you for using %s! If you enjoy it and would like to help support its continued development, please consider making a donation."
++msgstr "Hvala vam što koristite %s! Ako vam se sviđa i želite podržati njegov daljnji razvoj, razmislite o donaciji."
++
++#: src/settings/donatePage.js:27
++msgid "Donate via PayPal"
++msgstr "Donirajte putem PayPala"
++
++#: src/settings/donatePage.js:30
++msgid "Donate via Buy Me a Coffee"
++msgstr "Donirajte putem platforme Buy Me a Coffee"
++
++#: src/settings/donatePage.js:42
++#, javascript-format
++msgid "A huge thank you to everyone who has supported %s! Your support helps keep %s going. It is truly appreciated!"
++msgstr "Od srca hvala svima koji su podržali %s! Vaša podrška omogućuje nastavak rada na projektu %s. Iskreno smo vam zahvalni!"
++
++#: src/settings/generalPage.js:33
++msgid "General"
++msgstr "Općenito"
++
++#: src/settings/generalPage.js:42
++msgid "Panel Display Options"
++msgstr "Mogućnosti prikaza na ploči"
++
++#: src/settings/generalPage.js:55
++msgid "Show Activities Button"
++msgstr "Prikaži gumb Aktivnosti"
++
++#: src/settings/generalPage.js:56
++msgid "Dash to Panel may conflict with this setting"
++msgstr "Ova postavka možda nije kompatibilna s proširenjem Dash to Panel"
++
++#: src/settings/generalPage.js:64 src/settings/generalPage.js:90
++#: src/settings/menuSettings/layoutTweaksPage.js:653
++msgid "Left"
++msgstr "Lijevo"
++
++#: src/settings/generalPage.js:65 src/settings/generalPage.js:91
++msgid "Center"
++msgstr "Sredina"
++
++#: src/settings/generalPage.js:66 src/settings/generalPage.js:92
++#: src/settings/menuSettings/layoutTweaksPage.js:654
++msgid "Right"
++msgstr "Desno"
++
++#: src/settings/generalPage.js:68 src/settings/menuButtonPage.js:124
++msgid "Position in Panel"
++msgstr "Položaj na ploči"
++
++#: src/settings/generalPage.js:98
++msgid "Menu Alignment"
++msgstr "Poravnanje izbornika"
++
++#: src/settings/generalPage.js:116
++msgid "Display ArcMenu on all Panels"
++msgstr "Prikaži ArcMenu na svim pločama"
++
++#: src/settings/generalPage.js:117
++msgid "Dash to Panel or App Icons Taskbar extension required"
++msgstr "Potrebno je proširenje Dash to Panel ili App Icons Taskbar"
++
++#: src/settings/generalPage.js:133
++msgid "Always Prefer Top Panel"
++msgstr "Uvijek daj prednost gornjoj ploči"
++
++#: src/settings/generalPage.js:134
++msgid "Useful with Dash to Panel setting 'Keep original gnome-shell top panel'"
++msgstr "Korisno uz postavku „Zadrži izvornu gornju ploču GNOME Shella” u proširenju Dash to Panel"
++
++#: src/settings/generalPage.js:148
++msgid "General Settings"
++msgstr "Opće postavke"
++
++#: src/settings/generalPage.js:152
++msgid "ArcMenu Hotkey"
++msgstr "Tipkovnički prečac za ArcMenu"
++
++#: src/settings/generalPage.js:153
++msgid "Standalone Runner Menu"
++msgstr "Samostalni izbornik pokretača"
++
++#: src/settings/generalPage.js:166
++msgid "Hide Overview on Startup"
++msgstr "Sakrij pregled pri pokretanju"
++
++#: src/settings/generalPage.js:180
++msgid "Hide Overview when ArcMenu Opens"
++msgstr "Sakrij pregled kada se ArcMenu otvori"
++
++#: src/settings/generalPage.js:234 src/settings/menuPage.js:51
++#: src/settings/menuPage.js:94 src/settings/menuSettings/layoutTweaksPage.js:28
++#, javascript-format
++msgid "%s Layout Tweaks"
++msgstr "Podešavanje rasporeda: %s"
++
++#: src/settings/generalPage.js:248 src/settings/generalPage.js:409
++msgid "Disabled"
++msgstr "Onemogućeno"
++
++#: src/settings/generalPage.js:269
++msgid "ArcMenu Hotkeys"
++msgstr "Tipkovnički prečaci ArcMenua"
++
++#: src/settings/generalPage.js:269
++msgid "Standalone Runner Hotkeys"
++msgstr "Tipkovnički prečaci samostalnog pokretača"
++
++#: src/settings/generalPage.js:342
++msgid "Active Hotkeys"
++msgstr "Aktivni tipkovnički prečaci"
++
++#: src/settings/generalPage.js:348
++msgid "Hotkey Options"
++msgstr "Mogućnosti tipkovničkih prečaca"
++
++#: src/settings/generalPage.js:361
++msgid "Super Hotkeys Override GNOME Overview Hotkey"
++msgstr "Prečaci tipke Super zamjenjuju prečac za pregled aktivnosti GNOME-a"
++
++#: src/settings/generalPage.js:375
++msgid "Open on Primary Monitor"
++msgstr "Otvori na primarnom monitoru"
++
++#: src/settings/generalPage.js:386
++msgid "Type on your keyboard to add a new hotkey."
++msgstr "Pritisnite željene tipke za dodavanje novog prečaca."
++
++#: src/settings/generalPage.js:421
++msgid "Add Hotkey"
++msgstr "Dodaj tipkovnički prečac"
++
++#: src/settings/generalPage.js:492
++#, javascript-format
++msgid "Conflict with <b>%s</b> hotkey"
++msgstr "Sukob s tipkovničkim prečacem <b>%s</b>"
++
++#: src/settings/generalPage.js:640
++msgid "Standlone Runner"
++msgstr "Samostalni pokretač"
++
++#: src/settings/iconChooserDialog.js:43 src/settings/iconChooserDialog.js:266
++msgid "Select"
++msgstr "Odaberi"
++
++#: src/settings/iconChooserDialog.js:43 src/settings/iconChooserDialog.js:260
++msgid "Select an Icon"
++msgstr "Odaberite ikonu"
++
++#: src/settings/iconChooserDialog.js:58
++msgid "Search icons…"
++msgstr "Pretraži ikone…"
++
++#: src/settings/iconChooserDialog.js:102
++msgid "Browse Files..."
++msgstr "Pregledaj datoteke…"
++
++#: src/settings/iconChooserDialog.js:183 src/settings/iconChooserDialog.js:189
++msgid "All"
++msgstr "Sve"
++
++#: src/settings/iconChooserDialog.js:184
++#: src/settings/menuSettings/fineTunePage.js:91
++msgid "Symbolic"
++msgstr "Simboličke"
++
++#: src/settings/iconChooserDialog.js:185
++#: src/settings/menuSettings/fineTunePage.js:90
++msgid "Full Color"
++msgstr "U boji"
++
++#: src/settings/iconChooserDialog.js:186
++msgid "Type"
++msgstr "Vrsta"
++
++#: src/settings/iconChooserDialog.js:190
++msgid "Extension"
++msgstr "Proširenje"
++
++#: src/settings/iconChooserDialog.js:191
++msgid "Distros"
++msgstr "Distribucije"
++
++#: src/settings/iconChooserDialog.js:193
++msgid "Category"
++msgstr "Kategorija"
++
++#: src/settings/iconChooserDialog.js:207
++msgid "Filter"
++msgstr "Filtar"
++
++#: src/settings/menuButtonPage.js:16
++msgid "Menu Button"
++msgstr "Gumb izbornika"
++
++#: src/settings/menuButtonPage.js:27 src/settings/menuSettings/subPage.js:45
++msgid "Reset settings"
++msgstr "Vrati zadane postavke"
++
++#: src/settings/menuButtonPage.js:35 src/settings/menuSettings/subPage.js:50
++#, javascript-format
++msgid "Reset all %s settings?"
++msgstr "Želite li vratiti sve postavke za %s na zadane vrijednosti?"
++
++#: src/settings/menuButtonPage.js:36 src/settings/menuSettings/subPage.js:51
++#, javascript-format
++msgid "All %s settings will be reset to the default value."
++msgstr "Sve će se postavke za %s vratiti na zadane vrijednosti."
++
++#: src/settings/menuButtonPage.js:52
++msgid "Appearance"
++msgstr "Izgled"
++
++#: src/settings/menuButtonPage.js:57 src/settings/menuButtonPage.js:154
++#: src/settings/menuSettings/listPinnedPage.js:599
++msgid "Icon"
++msgstr "Ikona"
++
++#: src/settings/menuButtonPage.js:58 src/settings/menuButtonPage.js:141
++msgid "Text"
++msgstr "Tekst"
++
++#: src/settings/menuButtonPage.js:59
++msgid "Icon and Text"
++msgstr "Ikona i tekst"
++
++#: src/settings/menuButtonPage.js:60
++msgid "Text and Icon"
++msgstr "Tekst i ikona"
++
++#: src/settings/menuButtonPage.js:61
++#: src/settings/menuSettings/visualSettings.js:379
++msgid "Hidden"
++msgstr "Skriveno"
++
++#: src/settings/menuButtonPage.js:63
++#: src/settings/menuSettings/listOtherPage.js:38
++msgid "Display Style"
++msgstr "Stil prikaza"
++
++#: src/settings/menuButtonPage.js:100
++msgid "Padding"
++msgstr "Razmak"
++
++#: src/settings/menuButtonPage.js:101
++#: src/settings/menuSettings/layoutTweaksPage.js:563
++#, javascript-format
++msgid "%d Default Theme Value"
++msgstr "Zadana vrijednost teme: %d"
++
++#: src/settings/menuButtonPage.js:157
++#: src/settings/menuSettings/listPinnedPage.js:606
++msgid "Browse..."
++msgstr "Pregledaj…"
++
++#: src/settings/menuButtonPage.js:171
++msgid "Choose a New Icon"
++msgstr "Odaberite novu ikonu"
++
++#: src/settings/menuButtonPage.js:194
++#: src/settings/menuSettings/visualSettings.js:383
++msgid "Icon Size"
++msgstr "Veličina ikone"
++
++#: src/settings/menuButtonPage.js:207
++msgid "Click Options"
++msgstr "Mogućnosti klika"
++
++#: src/settings/menuButtonPage.js:213
++msgid "Context Menu"
++msgstr "Kontekstni izbornik"
++
++#: src/settings/menuButtonPage.js:214
++msgid "None"
++msgstr "Ništa"
++
++#: src/settings/menuButtonPage.js:217
++msgid "Left Click"
++msgstr "Lijevi klik"
++
++#: src/settings/menuButtonPage.js:227
++msgid "Right Click"
++msgstr "Desni klik"
++
++#: src/settings/menuButtonPage.js:237
++msgid "Middle Click"
++msgstr "Srednji klik"
++
++#: src/settings/menuButtonPage.js:249
++msgid "Styling"
++msgstr "Oblikovanje"
++
++#: src/settings/menuButtonPage.js:250 src/settings/menuSettings/themePage.js:40
++msgid "Results may vary with third party themes"
++msgstr "Rezultati se mogu razlikovati ovisno o temama drugih autora."
++
++#: src/settings/menuButtonPage.js:254 src/settings/menuButtonPage.js:263
++#: src/settings/menuButtonPage.js:269
++#: src/settings/menuSettings/themePage.js:185
++#: src/settings/menuSettings/themePage.js:211
++#: src/settings/menuSettings/themePage.js:217
++msgid "Foreground Color"
++msgstr "Boja prednjeg plana"
++
++#: src/settings/menuButtonPage.js:257 src/settings/menuButtonPage.js:260
++#: src/settings/menuButtonPage.js:266
++#: src/settings/menuSettings/themePage.js:182
++#: src/settings/menuSettings/themePage.js:208
++#: src/settings/menuSettings/themePage.js:214
++msgid "Background Color"
++msgstr "Boja pozadine"
++
++#: src/settings/menuButtonPage.js:260 src/settings/menuButtonPage.js:263
++#: src/settings/menuSettings/themePage.js:208
++#: src/settings/menuSettings/themePage.js:211
++msgid "Hover"
++msgstr "Pokazivač iznad stavke"
++
++#: src/settings/menuButtonPage.js:266 src/settings/menuButtonPage.js:269
++#: src/settings/menuSettings/themePage.js:214
++#: src/settings/menuSettings/themePage.js:217
++msgid "Active"
++msgstr "Aktivno"
++
++#: src/settings/menuButtonPage.js:272
++#: src/settings/menuSettings/themePage.js:194
++msgid "Border Radius"
++msgstr "Zaobljenje obruba"
++
++#: src/settings/menuButtonPage.js:276
++#: src/settings/menuSettings/themePage.js:191
++msgid "Border Width"
++msgstr "Širina obruba"
++
++#: src/settings/menuButtonPage.js:277
++msgid "Background colors required if set to 0"
++msgstr "Ako je vrijednost 0, potrebno je postaviti boje pozadine."
++
++#: src/settings/menuButtonPage.js:280
++#: src/settings/menuSettings/themePage.js:188
++msgid "Border Color"
++msgstr "Boja obruba"
++
++#: src/settings/menuPage.js:24
++msgid "Menu"
++msgstr "Izbornik"
++
++#: src/settings/menuPage.js:33
++msgid "How should the menu look?"
++msgstr "Kako bi izbornik trebao izgledati?"
++
++#: src/settings/menuPage.js:40
++msgid "Menu Layout"
++msgstr "Raspored izbornika"
++
++#: src/settings/menuPage.js:41
++msgid "Choose a layout style for the menu"
++msgstr "Odaberite stil rasporeda izbornika."
++
++#: src/settings/menuPage.js:57
++msgid "Menu Theme"
++msgstr "Tema izbornika"
++
++#: src/settings/menuPage.js:58
++msgid "Modify menu colors, font size, and border"
++msgstr "Izmijenite boje izbornika, veličinu fonta i obrub"
++
++#: src/settings/menuPage.js:67
++msgid "Menu Visual Appearance"
++msgstr "Vizualni izgled izbornika"
++
++#: src/settings/menuPage.js:68
++msgid "Change menu height, width, location, and icon sizes"
++msgstr "Promijenite visinu, širinu i položaj izbornika te veličinu ikona."
++
++#: src/settings/menuPage.js:77
++msgid "Fine Tune"
++msgstr "Fino podešavanje"
++
++#: src/settings/menuPage.js:78
++msgid "Adjust less commonly used settings"
++msgstr "Prilagodite rjeđe korištene postavke"
++
++#: src/settings/menuPage.js:87
++msgid "What should show on the menu?"
++msgstr "Što treba biti prikazano u izborniku?"
++
++#: src/settings/menuPage.js:95
++msgid "Settings specific to the current menu layout"
++msgstr "Postavke za trenutačni raspored izbornika"
++
++#: src/settings/menuPage.js:115
++msgid "Directory Shortcuts"
++msgstr "Prečaci do mapa"
++
++#: src/settings/menuPage.js:137
++#: src/settings/menuSettings/searchOptionsPage.js:16
++msgid "Search Options"
++msgstr "Mogućnosti pretraživanja"
++
++#: src/settings/menuPage.js:147 src/settings/menuSettings/listPinnedPage.js:387
++msgid "Power Options"
++msgstr "Mogućnosti napajanja"
++
++#: src/settings/menuPage.js:148
++msgid "Choose which power options to show and the display style"
++msgstr "Odaberite koje mogućnosti napajanja prikazati i njihov stil prikaza."
++
++#: src/settings/menuPage.js:159
++msgid "Extra Categories"
++msgstr "Dodatne kategorije"
++
++#: src/settings/menuPage.js:161
++msgid "Add or remove additional custom categories"
++msgstr "Dodajte ili uklonite dodatne prilagođene kategorije."
++
++#: src/settings/menuPage.js:171
++msgid "What should show on the context menu?"
++msgstr "Što prikazati u kontekstnom izborniku?"
++
++#: src/settings/menuPage.js:176
++msgid "Modify ArcMenu Context Menu"
++msgstr "Uredite kontekstni izbornik ArcMenua"
++
++#: src/settings/menuSettings/fineTunePage.js:29
++msgid "Show Category Sub Menus"
++msgstr "Prikaži podizbornike kategorija"
++
++#: src/settings/menuSettings/fineTunePage.js:32
++msgid "Show Application Descriptions"
++msgstr "Prikaži opise aplikacija"
++
++#: src/settings/menuSettings/fineTunePage.js:35
++msgid "Show Generic Application Names"
++msgstr "Prikaži generičke nazive aplikacija"
++
++#: src/settings/menuSettings/fineTunePage.js:38
++msgid "Show Hidden Recent Files"
++msgstr "Prikaži skrivene nedavne datoteke"
++
++#: src/settings/menuSettings/fineTunePage.js:42
++msgid "Allow application labels to span multiple lines on grid style layouts"
++msgstr "Dopusti prikaz naziva aplikacija u više redaka u rasporedima s mrežnim prikazom."
++
++#: src/settings/menuSettings/fineTunePage.js:42
++msgid "Show Multi Lined Labels"
++msgstr "Prikaži višeredne nazive"
++
++#: src/settings/menuSettings/fineTunePage.js:45
++msgid "Show Tooltips"
++msgstr "Prikaži opise alata"
++
++#: src/settings/menuSettings/fineTunePage.js:49
++#: src/settings/menuSettings/fineTunePage.js:53
++msgid "For All Apps sections"
++msgstr "Za odjeljke „Sve aplikacije”"
++
++#: src/settings/menuSettings/fineTunePage.js:49
++msgid "Group Apps Alphabetically on List Views"
++msgstr "Grupiraj aplikacije abecednim redom u prikazu popisa"
++
++#: src/settings/menuSettings/fineTunePage.js:53
++msgid "Group Apps Alphabetically on Grid Views"
++msgstr "Grupiraj aplikacije abecednim redom u mrežnom prikazu"
++
++#: src/settings/menuSettings/fineTunePage.js:56
++msgid "Activate App Window on Launch"
++msgstr "Aktiviraj postojeći prozor aplikacije pri pokretanju"
++
++#: src/settings/menuSettings/fineTunePage.js:57
++msgid "Launching an app activates its existing window if one is open; otherwise, it launches a new instance. Hold Ctrl while launching or middle-click to open a new window."
++msgstr "Ako je prozor aplikacije već otvoren, aktivirat će se pri pokretanju; u suprotnom će se pokrenuti nova instanca. Držite Ctrl tijekom pokretanja ili kliknite srednjom tipkom miša da biste otvorili novi prozor."
++
++#: src/settings/menuSettings/fineTunePage.js:60
++msgid "Keep ArcMenu Open on Ctrl+Click"
++msgstr "Zadrži ArcMenu otvorenim pri kliku uz Ctrl"
++
++#: src/settings/menuSettings/fineTunePage.js:61
++msgid "Prevents the menu from closing when activating items while holding Ctrl."
++msgstr "Sprječava zatvaranje izbornika pri aktiviranju stavki dok držite Ctrl."
++
++#: src/settings/menuSettings/fineTunePage.js:65
++msgid "Scrollview Options"
++msgstr "Mogućnosti pomičnog prikaza"
++
++#: src/settings/menuSettings/fineTunePage.js:69
++msgid "Scrollview Fade Effects"
++msgstr "Efekti postupnog nestajanja u pomičnom prikazu"
++
++#: src/settings/menuSettings/fineTunePage.js:74
++msgid "Show Scrollbars"
++msgstr "Prikaži klizače"
++
++#: src/settings/menuSettings/fineTunePage.js:81
++msgid "Overlay Scrollbars"
++msgstr "Prekrivajući klizači"
++
++#: src/settings/menuSettings/fineTunePage.js:85
++msgid "Icon Style"
++msgstr "Stil ikona"
++
++#: src/settings/menuSettings/fineTunePage.js:93
++msgid "Category Icons"
++msgstr "Ikone kategorija"
++
++#: src/settings/menuSettings/fineTunePage.js:108
++msgid "Shortcut Icons"
++msgstr "Ikone prečaca"
++
++#: src/settings/menuSettings/fineTunePage.js:123
++msgid "Button Icons"
++msgstr "Ikone gumba"
++
++#: src/settings/menuSettings/fineTunePage.js:138
++msgid "New Apps Tracker"
++msgstr "Praćenje novih aplikacija"
++
++#: src/settings/menuSettings/fineTunePage.js:142
++msgid "Enable"
++msgstr "Omogući"
++
++#: src/settings/menuSettings/fineTunePage.js:147
++msgid "Clear All"
++msgstr "Očisti sve"
++
++#: src/settings/menuSettings/layoutTweaksPage.js:54
++#: src/settings/menuSettings/layoutTweaksPage.js:59
++#: src/settings/menuSettings/layoutTweaksPage.js:753
++#: src/settings/menuSettings/layoutTweaksPage.js:907
++msgid "Extra Shortcuts"
++msgstr "Dodatni prečaci"
++
++#: src/settings/menuSettings/layoutTweaksPage.js:79
++msgid "Vertical Separator"
++msgstr "Okomiti razdjelnik"
++
++#: src/settings/menuSettings/layoutTweaksPage.js:88
++msgid "Mouse Click"
++msgstr "Klik mišem"
++
++#: src/settings/menuSettings/layoutTweaksPage.js:89
++msgid "Mouse Hover"
++msgstr "Pokazivač iznad stavke"
++
++#: src/settings/menuSettings/layoutTweaksPage.js:92
++msgid "Category Activation"
++msgstr "Aktiviranje kategorije"
++
++#: src/settings/menuSettings/layoutTweaksPage.js:115
++msgid "Round"
++msgstr "Okrugli"
++
++#: src/settings/menuSettings/layoutTweaksPage.js:116
++msgid "Square"
++msgstr "Kvadratni"
++
++#: src/settings/menuSettings/layoutTweaksPage.js:118
++msgid "Avatar Shape"
++msgstr "Oblik avatara"
++
++#: src/settings/menuSettings/layoutTweaksPage.js:134
++#: src/settings/menuSettings/layoutTweaksPage.js:476
++#: src/settings/menuSettings/layoutTweaksPage.js:952
++msgid "Bottom"
++msgstr "Dolje"
++
++#: src/settings/menuSettings/layoutTweaksPage.js:135
++#: src/settings/menuSettings/layoutTweaksPage.js:448
++#: src/settings/menuSettings/layoutTweaksPage.js:477
++#: src/settings/menuSettings/layoutTweaksPage.js:953
++msgid "Top"
++msgstr "Gore"
++
++#: src/settings/menuSettings/layoutTweaksPage.js:138
++#: src/settings/menuSettings/layoutTweaksPage.js:480
++msgid "Searchbar Location"
++msgstr "Položaj trake za pretraživanje"
++
++#: src/settings/menuSettings/layoutTweaksPage.js:159
++msgid "Flip Layout Horizontally"
++msgstr "Preokreni raspored vodoravno"
++
++#: src/settings/menuSettings/layoutTweaksPage.js:168
++msgid "Show User Avatar"
++msgstr "Prikaži avatar korisnika"
++
++#: src/settings/menuSettings/layoutTweaksPage.js:212
++#: src/settings/menuSettings/layoutTweaksPage.js:276
++#: src/settings/menuSettings/layoutTweaksPage.js:577
++#: src/settings/menuSettings/layoutTweaksPage.js:601
++#: src/settings/menuSettings/layoutTweaksPage.js:628
++#: src/settings/menuSettings/layoutTweaksPage.js:736
++#: src/settings/menuSettings/layoutTweaksPage.js:823
++#: src/settings/menuSettings/layoutTweaksPage.js:849
++msgid "Default View"
++msgstr "Zadani prikaz"
++
++#: src/settings/menuSettings/layoutTweaksPage.js:239
++#: src/settings/menuSettings/layoutTweaksPage.js:345
++msgid "Show Frequent Apps"
++msgstr "Prikaži često korištene aplikacije"
++
++#: src/settings/menuSettings/layoutTweaksPage.js:265
++msgid "Merge Top and Bottom Panels"
++msgstr "Spoji gornju i donju ploču"
++
++#: src/settings/menuSettings/layoutTweaksPage.js:303
++#: src/settings/menuSettings/layoutTweaksPage.js:876
++msgid "Max Frequent Apps"
++msgstr "Najveći broj često korištenih aplikacija"
++
++#: src/settings/menuSettings/layoutTweaksPage.js:326
++msgid "Show Apps Grid"
++msgstr "Prikaži mrežu aplikacija"
++
++#: src/settings/menuSettings/layoutTweaksPage.js:359
++msgid "Show Pinned Apps"
++msgstr "Prikaži prikvačene aplikacije"
++
++#: src/settings/menuSettings/layoutTweaksPage.js:385
++msgid "Activate on Hover"
++msgstr "Aktiviraj kad je pokazivač iznad stavke"
++
++#: src/settings/menuSettings/layoutTweaksPage.js:435
++msgid "Enable Activities Overview Shortcut"
++msgstr "Omogući prečac za pregled aktivnosti"
++
++#: src/settings/menuSettings/layoutTweaksPage.js:449
++msgid "Centered"
++msgstr "Centrirano"
++
++#: src/settings/menuSettings/layoutTweaksPage.js:451
++msgid "Position"
++msgstr "Položaj"
++
++#: src/settings/menuSettings/layoutTweaksPage.js:462
++#: src/settings/menuSettings/layoutTweaksPage.js:639
++msgid "List"
++msgstr "Popis"
++
++#: src/settings/menuSettings/layoutTweaksPage.js:463
++#: src/settings/menuSettings/layoutTweaksPage.js:640
++msgid "Grid"
++msgstr "Mreža"
++
++#: src/settings/menuSettings/layoutTweaksPage.js:465
++#: src/settings/menuSettings/layoutTweaksPage.js:642
++msgid "Search Results Display Style"
++msgstr "Stil prikaza rezultata pretraživanja"
++
++#: src/settings/menuSettings/layoutTweaksPage.js:510
++msgid "Width"
++msgstr "Širina"
++
++#: src/settings/menuSettings/layoutTweaksPage.js:533
++#: src/settings/menuSettings/visualSettings.js:39
++msgid "Height"
++msgstr "Visina"
++
++#: src/settings/menuSettings/layoutTweaksPage.js:541
++msgid "Static Height"
++msgstr "Fiksna visina"
++
++#: src/settings/menuSettings/layoutTweaksPage.js:562
++#: src/settings/menuSettings/themePage.js:197
++msgid "Font Size"
++msgstr "Veličina fonta"
++
++#: src/settings/menuSettings/layoutTweaksPage.js:573
++msgid "Default"
++msgstr "Zadano"
++
++#: src/settings/menuSettings/layoutTweaksPage.js:588
++msgid "Show Configure Runner Button"
++msgstr "Prikaži gumb za konfiguriranje pokretača"
++
++#: src/settings/menuSettings/layoutTweaksPage.js:656
++msgid "Position on Monitor"
++msgstr "Položaj na monitoru"
++
++#: src/settings/menuSettings/layoutTweaksPage.js:718
++#: src/settings/menuSettings/layoutTweaksPage.js:993
++msgid "Extra Shortcuts Panel Width"
++msgstr "Širina ploče s dodatnim prečacima"
++
++#: src/settings/menuSettings/layoutTweaksPage.js:765
++#: src/settings/menuSettings/layoutTweaksPage.js:918
++msgid "External Devices"
++msgstr "Vanjski uređaji"
++
++#: src/settings/menuSettings/layoutTweaksPage.js:810
++msgid "Nothing Yet!"
++msgstr "Još nema stavki!"
++
++#: src/settings/menuSettings/layoutTweaksPage.js:820
++#: src/settings/menuSettings/layoutTweaksPage.js:844
++#: src/settings/menuSettings/layoutTweaksPage.js:886
++msgid "Categories List"
++msgstr "Popis kategorija"
++
++#: src/settings/menuSettings/layoutTweaksPage.js:847
++msgid "Pinned and Frequent Apps"
++msgstr "Prikvačene i često korištene aplikacije"
++
++#: src/settings/menuSettings/layoutTweaksPage.js:877
++msgid "0 = unlimited"
++msgstr "0 = neograničeno"
++
++#: src/settings/menuSettings/layoutTweaksPage.js:890
++msgid "'All Apps' Button Action"
++msgstr "Radnja gumba „Sve aplikacije”"
++
++#: src/settings/menuSettings/layoutTweaksPage.js:940
++msgid "Category Quick Links"
++msgstr "Brze poveznice kategorija"
++
++#: src/settings/menuSettings/layoutTweaksPage.js:941
++msgid "Display a category on the default menu view. Category must be enabled in ArcMenu Settings -> Menu -> Extra Categories section."
++msgstr "Prikaži kategoriju u zadanom prikazu izbornika. Kategorija mora biti omogućena u odjeljku Postavke ArcMenua → Izbornik → Dodatne kategorije."
++
++#: src/settings/menuSettings/layoutTweaksPage.js:955
++msgid "Quick Links Location"
++msgstr "Položaj brzih poveznica"
++
++#: src/settings/menuSettings/layoutTweaksPage.js:1017
++msgid "Enable Weather Widget"
++msgstr "Omogući prikaz vremenske prognoze"
++
++#: src/settings/menuSettings/layoutTweaksPage.js:1031
++msgid "Enable Clock Widget"
++msgstr "Omogući prikaz sata"
++
++#: src/settings/menuSettings/layoutsPage.js:24
++msgid "Current Menu Layout"
++msgstr "Trenutačni raspored izbornika"
++
++#: src/settings/menuSettings/layoutsPage.js:37
++msgid "Choose a new menu layout?"
++msgstr "Želite li odabrati novi raspored izbornika?"
++
++#: src/settings/menuSettings/layoutsPage.js:45
++#, javascript-format
++msgid "%s Menu Layouts"
++msgstr "Rasporedi izbornika: %s"
++
++#: src/settings/menuSettings/listOtherPage.js:34
++msgid "Actions will be hidden from ArcMenu if not available on your system."
++msgstr "Radnje koje nisu dostupne na vašem sustavu neće se prikazivati u ArcMenuu."
++
++#: src/settings/menuSettings/listOtherPage.js:41
++#: src/settings/menuSettings/visualSettings.js:87
++msgid "Off"
++msgstr "Isključeno"
++
++#: src/settings/menuSettings/listOtherPage.js:42
++msgid "Power Buttons"
++msgstr "Gumbi za napajanje"
++
++#: src/settings/menuSettings/listOtherPage.js:43
++msgid "Power Menu"
++msgstr "Izbornik napajanja"
++
++#: src/settings/menuSettings/listOtherPage.js:45
++msgid "Override Display Style"
++msgstr "Nadjačaj stil prikaza"
++
++#: src/settings/menuSettings/listPinnedPage.js:75
++#: src/settings/menuSettings/listPinnedPage.js:78
++#: src/settings/menuSettings/listPinnedPage.js:84
++#: src/settings/menuSettings/listPinnedPage.js:89
++msgid "Add More Apps"
++msgstr "Dodaj još aplikacija"
++
++#: src/settings/menuSettings/listPinnedPage.js:81
++msgid "Add Default User Directories"
++msgstr "Dodaj zadane korisničke mape"
++
++#: src/settings/menuSettings/listPinnedPage.js:87
++msgid "Add More Shortcuts"
++msgstr "Dodaj još prečaca"
++
++#: src/settings/menuSettings/listPinnedPage.js:153
++msgid "Add Custom Shortcut"
++msgstr "Dodaj prilagođeni prečac"
++
++#: src/settings/menuSettings/listPinnedPage.js:243
++msgid "Invalid Shortcut"
++msgstr "Nevaljan prečac"
++
++#: src/settings/menuSettings/listPinnedPage.js:335
++msgid "Add to your Pinned Apps"
++msgstr "Dodaj među prikvačene aplikacije"
++
++#: src/settings/menuSettings/listPinnedPage.js:337
++msgid "Add to your Extra Shortcuts"
++msgstr "Dodaj među dodatne prečace"
++
++#: src/settings/menuSettings/listPinnedPage.js:339
++msgid "Select Application Shortcuts"
++msgstr "Odaberi prečace za aplikacije"
++
++#: src/settings/menuSettings/listPinnedPage.js:341
++msgid "Select Directory Shortcuts"
++msgstr "Odaberi prečace do mapa"
++
++#: src/settings/menuSettings/listPinnedPage.js:343
++msgid "Add to the Context Menu"
++msgstr "Dodaj u kontekstni izbornik"
++
++#: src/settings/menuSettings/listPinnedPage.js:355
++#: src/settings/menuSettings/listPinnedPage.js:366
++#: src/settings/menuSettings/listPinnedPage.js:389
++#: src/settings/menuSettings/listPinnedPage.js:394
++msgid "Separator"
++msgstr "Razdjelnik"
++
++#: src/settings/menuSettings/listPinnedPage.js:356
++#: src/settings/menuSettings/listPinnedPage.js:367
++msgid "Spacer"
++msgstr "Razmak"
++
++#: src/settings/menuSettings/listPinnedPage.js:362
++msgid "Run Command..."
++msgstr "Pokreni naredbu…"
++
++#: src/settings/menuSettings/listPinnedPage.js:365
++msgid "Show All Apps"
++msgstr "Prikaži sve aplikacije"
++
++#: src/settings/menuSettings/listPinnedPage.js:374
++msgid "Menu Settings"
++msgstr "Postavke izbornika"
++
++#: src/settings/menuSettings/listPinnedPage.js:376
++msgid "Menu Theming"
++msgstr "Prilagodba izgleda izbornika"
++
++#: src/settings/menuSettings/listPinnedPage.js:378
++msgid "Change Menu Layout"
++msgstr "Promijeni raspored izbornika"
++
++#: src/settings/menuSettings/listPinnedPage.js:380
++msgid "Menu Button Settings"
++msgstr "Postavke gumba izbornika"
++
++#: src/settings/menuSettings/listPinnedPage.js:383
++msgid "Panel Extension Settings"
++msgstr "Postavke proširenja ploče"
++
++#: src/settings/menuSettings/listPinnedPage.js:412
++msgid "Documents"
++msgstr "Dokumenti"
++
++#: src/settings/menuSettings/listPinnedPage.js:414
++msgid "Downloads"
++msgstr "Preuzimanja"
++
++#: src/settings/menuSettings/listPinnedPage.js:416
++msgid "Music"
++msgstr "Glazba"
++
++#: src/settings/menuSettings/listPinnedPage.js:417
++msgid "Pictures"
++msgstr "Slike"
++
++#: src/settings/menuSettings/listPinnedPage.js:418
++msgid "Videos"
++msgstr "Videozapisi"
++
++#: src/settings/menuSettings/listPinnedPage.js:421
++msgid "Recent"
++msgstr "Nedavno"
++
++#: src/settings/menuSettings/listPinnedPage.js:448
++msgid "Dash to Panel or App Icons Taskbar"
++msgstr "Dash to Panel ili App Icons Taskbar"
++
++#: src/settings/menuSettings/listPinnedPage.js:529
++#, javascript-format
++msgid "%s has been added"
++msgstr "Dodano: %s"
++
++#: src/settings/menuSettings/listPinnedPage.js:540
++#, javascript-format
++msgid "%s has been removed"
++msgstr "Uklonjeno: %s"
++
++#: src/settings/menuSettings/listPinnedPage.js:564
++msgid "Add a Custom Shortcut"
++msgstr "Dodaj prilagođeni prečac"
++
++#: src/settings/menuSettings/listPinnedPage.js:574
++msgid "Edit Pinned App"
++msgstr "Uredi prikvačenu aplikaciju"
++
++#: src/settings/menuSettings/listPinnedPage.js:576
++msgid "Edit Shortcut"
++msgstr "Uredi prečac"
++
++#: src/settings/menuSettings/listPinnedPage.js:580
++msgid "Add"
++msgstr "Dodaj"
++
++#: src/settings/menuSettings/listPinnedPage.js:588
++msgid "Title"
++msgstr "Naslov"
++
++#: src/settings/menuSettings/listPinnedPage.js:616
++msgid "Clear Icon"
++msgstr "Ukloni ikonu"
++
++#: src/settings/menuSettings/listPinnedPage.js:633
++msgid "Command"
++msgstr "Naredba"
++
++#: src/settings/menuSettings/listPinnedPage.js:633
++msgid "Directory"
++msgstr "Mapa"
++
++#: src/settings/menuSettings/searchOptionsPage.js:27
++msgid "Hide Search Bar"
++msgstr "Sakrij traku za pretraživanje"
++
++#: src/settings/menuSettings/searchOptionsPage.js:28
++msgid "The search bar hides when empty and appears when typing."
++msgstr "Traka za pretraživanje skrivena je kada je prazna, a prikazuje se tijekom unosa teksta."
++
++#: src/settings/menuSettings/searchOptionsPage.js:42
++msgid "Show Search Result Descriptions"
++msgstr "Prikaži opise rezultata pretraživanja"
++
++#: src/settings/menuSettings/searchOptionsPage.js:57
++msgid "Highlight search result terms"
++msgstr "Istakni pojmove u rezultatima pretraživanja"
++
++#: src/settings/menuSettings/searchOptionsPage.js:76
++msgid "Max Search Results"
++msgstr "Najveći broj rezultata pretraživanja"
++
++#: src/settings/menuSettings/searchOptionsPage.js:120
++msgid "Search Box Border Radius"
++msgstr "Polumjer zaobljenja okvira pretraživanja"
++
++#: src/settings/menuSettings/searchOptionsPage.js:134
++msgid "Extra Search Providers"
++msgstr "Dodatni izvori pretraživanja"
++
++#: src/settings/menuSettings/searchOptionsPage.js:145
++msgid "Search for open windows across all workspaces"
++msgstr "Pretraži otvorene prozore na svim radnim prostorima"
++
++#: src/settings/menuSettings/searchOptionsPage.js:159
++msgid "Search for recent files"
++msgstr "Pretraži nedavne datoteke"
++
++#: src/settings/menuSettings/themePage.js:39
++msgid "Override Theme"
++msgstr "Nadjačaj temu"
++
++#: src/settings/menuSettings/themePage.js:47
++#: src/settings/menuSettings/themingDialog.js:67
++#: src/settings/menuSettings/themingDialog.js:75
++#: src/settings/menuSettings/themingDialog.js:141
++msgid "Menu Themes"
++msgstr "Teme izbornika"
++
++#: src/settings/menuSettings/themePage.js:119
++msgid "Current Theme"
++msgstr "Trenutna tema"
++
++#: src/settings/menuSettings/themePage.js:147
++msgid "Save as Theme"
++msgstr "Spremi kao temu"
++
++#: src/settings/menuSettings/themePage.js:177
++msgid "Menu Styling"
++msgstr "Stil izbornika"
++
++#: src/settings/menuSettings/themePage.js:200
++msgid "Separator Color"
++msgstr "Boja razdjelnika"
++
++#: src/settings/menuSettings/themePage.js:204
++msgid "Menu Items Styling"
++msgstr "Stil stavki izbornika"
++
++#: src/settings/menuSettings/themingDialog.js:15
++msgid "Save Theme As..."
++msgstr "Spremi temu kao…"
++
++#: src/settings/menuSettings/themingDialog.js:27
++msgid "Theme Name"
++msgstr "Naziv teme"
++
++#: src/settings/menuSettings/themingDialog.js:44
++msgid "Save Theme"
++msgstr "Spremi temu"
++
++#: src/settings/menuSettings/themingDialog.js:60
++msgid "Manage Themes"
++msgstr "Upravljaj temama"
++
++#: src/settings/menuSettings/themingDialog.js:322
++msgid "Save Themes"
++msgstr "Spremi teme"
++
++#: src/settings/menuSettings/themingDialog.js:324
++msgid "Load Themes"
++msgstr "Učitaj teme"
++
++#: src/settings/menuSettings/themingDialog.js:377
++#, javascript-format
++msgid "%s has been selected"
++msgstr "Odabrano: %s"
++
++#: src/settings/menuSettings/themingDialog.js:389
++#, javascript-format
++msgid "%s has been unselected"
++msgstr "Poništen odabir: %s"
++
++#: src/settings/menuSettings/visualSettings.js:30
++msgid "Menu Size"
++msgstr "Veličina izbornika"
++
++#: src/settings/menuSettings/visualSettings.js:50
++msgid "Left-Panel Width"
++msgstr "Širina lijevog panela"
++
++#: src/settings/menuSettings/visualSettings.js:51
++#: src/settings/menuSettings/visualSettings.js:63
++msgid "Traditional Layouts"
++msgstr "Klasični rasporedi"
++
++#: src/settings/menuSettings/visualSettings.js:62
++msgid "Right-Panel Width"
++msgstr "Širina desnog panela"
++
++#: src/settings/menuSettings/visualSettings.js:74
++msgid "Width Offset"
++msgstr "Pomak širine"
++
++#: src/settings/menuSettings/visualSettings.js:75
++msgid "Non-Traditional Layouts"
++msgstr "Ostali rasporedi"
++
++#: src/settings/menuSettings/visualSettings.js:82
++msgid "Menu Location"
++msgstr "Položaj izbornika"
++
++#: src/settings/menuSettings/visualSettings.js:88
++msgid "Top Centered"
++msgstr "Gore u sredini"
++
++#: src/settings/menuSettings/visualSettings.js:89
++msgid "Top Left"
++msgstr "Gore lijevo"
++
++#: src/settings/menuSettings/visualSettings.js:90
++msgid "Top Right"
++msgstr "Gore desno"
++
++#: src/settings/menuSettings/visualSettings.js:91
++msgid "Bottom Centered"
++msgstr "Dolje u sredini"
++
++#: src/settings/menuSettings/visualSettings.js:92
++msgid "Bottom Left"
++msgstr "Dolje lijevo"
++
++#: src/settings/menuSettings/visualSettings.js:93
++msgid "Bottom Right"
++msgstr "Dolje desno"
++
++#: src/settings/menuSettings/visualSettings.js:94
++msgid "Left Centered"
++msgstr "Lijevo u sredini"
++
++#: src/settings/menuSettings/visualSettings.js:95
++msgid "Right Centered"
++msgstr "Desno u sredini"
++
++#: src/settings/menuSettings/visualSettings.js:96
++msgid "Monitor Centered"
++msgstr "Na sredini monitora"
++
++#: src/settings/menuSettings/visualSettings.js:98
++msgid "Override Menu Location"
++msgstr "Nadjačaj položaj izbornika"
++
++#: src/settings/menuSettings/visualSettings.js:129
++msgid "Override Menu Rise"
++msgstr "Nadjačaj dizanje izbornika"
++
++#: src/settings/menuSettings/visualSettings.js:130
++msgid "Menu Distance from Panel and Screen Edge"
++msgstr "Udaljenost izbornika od ploče i ruba zaslona"
++
++#: src/settings/menuSettings/visualSettings.js:144
++msgid "Override Menu Item Icon Sizes"
++msgstr "Nadjačaj veličine ikona stavki izbornika"
++
++#: src/settings/menuSettings/visualSettings.js:149
++#: src/settings/menuSettings/visualSettings.js:318
++msgid "Small"
++msgstr "Mala"
++
++#: src/settings/menuSettings/visualSettings.js:150
++#: src/settings/menuSettings/visualSettings.js:319
++msgid "Medium"
++msgstr "Srednja"
++
++#: src/settings/menuSettings/visualSettings.js:151
++#: src/settings/menuSettings/visualSettings.js:320
++msgid "Large"
++msgstr "Velika"
++
++#: src/settings/menuSettings/visualSettings.js:152
++#: src/settings/menuSettings/visualSettings.js:321
++msgid "Extra Large"
++msgstr "Vrlo velika"
++
++#: src/settings/menuSettings/visualSettings.js:153
++msgid "Small Wide"
++msgstr "Mala široka"
++
++#: src/settings/menuSettings/visualSettings.js:154
++msgid "Medium Wide"
++msgstr "Srednja široka"
++
++#: src/settings/menuSettings/visualSettings.js:155
++msgid "Large Wide"
++msgstr "Velika široka"
++
++#: src/settings/menuSettings/visualSettings.js:182
++msgid "Grid Menu Items"
++msgstr "Mrežni prikaz stavki izbornika"
++
++#: src/settings/menuSettings/visualSettings.js:183
++msgid "Menu items displayed in grid style"
++msgstr "Stavke izbornika prikazuju se u obliku mreže."
++
++#: src/settings/menuSettings/visualSettings.js:220
++#: src/settings/menuSettings/visualSettings.js:367
++msgid "Presets"
++msgstr "Predlošci"
++
++#: src/settings/menuSettings/visualSettings.js:227
++msgid "Grid Icon Size"
++msgstr "Veličina ikona u mreži"
++
++#: src/settings/menuSettings/visualSettings.js:228
++msgid "Width, Height, Icon Size"
++msgstr "Širina, visina i veličina ikona"
++
++#: src/settings/menuSettings/visualSettings.js:266
++msgid "Applications"
++msgstr "Aplikacije"
++
++#: src/settings/menuSettings/visualSettings.js:267
++msgid "Applications, pinned apps, and search results"
++msgstr "Aplikacije, prikvačene aplikacije i rezultati pretraživanja"
++
++#: src/settings/menuSettings/visualSettings.js:274
++msgid "Menu items found in side panels on various layouts"
++msgstr "Stavke izbornika na bočnim pločama različitih rasporeda"
++
++#: src/settings/menuSettings/visualSettings.js:286
++msgid "Buttons"
++msgstr "Gumbi"
++
++#: src/settings/menuSettings/visualSettings.js:292
++msgid "Miscellaneous"
++msgstr "Razno"
++
++#: src/settings/menuSettings/visualSettings.js:293
++msgid "Avatar, search icons, navigation icons"
++msgstr "Avatar te ikone pretraživanja i navigacije"
++
++#: src/settings/menuSettings/visualSettings.js:393
++msgid "Hide Icon"
++msgstr "Sakrij ikonu"
++
++#. TRANSLATORS: This will display as "ProjectName v21 Released!" as an example.
++#: src/updateNotifier.js:70
++#, javascript-format
++msgid "%s v%s Released!"
++msgstr "Novo izdanje: %s v%s!"
++
++#: src/updateNotifier.js:73
++msgid "Check out what's new."
++msgstr "Pogledajte novosti."
++
++#: src/updateNotifier.js:90
++msgid "What's new?"
++msgstr "Što je novo?"
++
++#: src/updateNotifier.js:91
++msgid "Dismiss"
++msgstr "Odbaci"

@@ -123,7 +123,7 @@ msgstr "Isključi…"
 #: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/menuButton.js:932
 #: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuSettings/listPinnedPage.js:399
 msgid "Suspend"
-msgstr "Obustavi"
+msgstr "Suspendiraj"
 
 #: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/constants.js:245
 #: /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/settings/menuSettings/listPinnedPage.js:400
